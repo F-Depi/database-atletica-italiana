@@ -1,0 +1,76 @@
+## Regole per ottenere l'url di una pagina delle graduatorie FIDAL dal sito https://www.fidal.it/graduatorie.php
+    # anno = '2005'
+    # 2005, 2006, 2007, ...
+
+    # tipo_att = 'P'
+    # P = pista/outdoor, S = strada, I = indoor
+
+    # sesso = 'M'
+    # M = maschile, F = femminile
+
+    # cat = 'A' 
+    # X = Assoluti, R = Ragazzi, C = Cadetti, A = Allievi, J = Junior, P = promesse, S = Senior, S35, S40, S50 = per i master
+
+    # gara = '03'
+    # Sotto è possibile trovare i codici delle varie gare
+
+    # tip_estr = '1'
+    # 1 = Lista, 2 = Graduatorie
+
+    # vento = '2'
+    # 0 = vento regolare, 1 = solo ventosi , 2 = tutti
+
+    # regione = '0'
+    # 0 = tutte le regioni, VEN = Veneto, LOM = Lombardia, ... (casi particolari FVG = Friuli Friuli Venezia Giulia, EMI = Emilia Romagna VAO = Valle d'Aosta, TN = Trentino, BZ = Alto Adige)
+
+    # naz = '2'
+    # 1 = tutte le nazionalità, 2 = solo italiani, 3 = solo stranieri
+
+    # limite = '0'
+    # 0 = tutti, 10, 100, 101 = numero di risultati. Attenzione, se si mette 0 senza specificare la disciplina il massimo è 100 
+
+    # societa = ''
+    # Niente per tutte le società, BL012 = ANA Feltre, ...
+
+## Database Eventi
+60m             01
+60HS 106		HB
+60HS 100		HC
+60HS 91-9.14	HD
+400m			06
+800m			08
+1500m			11
+3000m			13
+alto			26
+asta			27
+lungo			28
+triplo			29
+Peso 5kg		P5
+Peso 6kg		P6
+Peso 7kg		P7
+5000m marcia	45
+4x200			60
+4x400			48
+eptathlon		19
+
+
+50m			    56
+50HS 84			L5
+50HS 91			L6
+50HS 100		L7
+50HS 106		L8
+60HS 91-8.50	HE
+60HS 84-8.50	HF
+60HS 84-8.00	HG
+60HS 76-8.50	HH
+60HS 76-8.00	HJ
+60HS 76-7.00	HK
+60HS 68.6-7.00	HL
+200m			04
+1000m			09
+1miglio			63
+3000m marcia	43
+4x160			84
+pentathlon		38
+Peso 3kg		P3
+Peso 4kg		P*
