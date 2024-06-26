@@ -7,8 +7,9 @@ Viene utilizzata la pagina con le [graduatorie online](http://www.fidal.it/risul
 I risultati purtroppo sono solo quelli dal 2005 in poi.
 
 ## Utilizzo
-Tutti i risultati sono raccolti in un unico file CSV che è possibile scaricare [QUI](https://github.com/F-Depi/ 
-Il file è strutturato in questo modo:
+I risultati sono raccolti in diversi file CSV che è possibile scaricare [QUI](https://github.com/F-Depi/database).
+
+_Buone Statistiche!_
 
 
 
