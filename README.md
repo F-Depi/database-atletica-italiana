@@ -26,7 +26,7 @@ Ogni csv ha 13 colonne
 - ***link_atleta*** link al profilo fidal dell'atleta
 - ***link_società*** link alla pagina fidal della società dell'atleta
 
-## Attezione
+## Attenzione
 Il database è pieno di errori. Ho provato ad arginare questa cosa nella comversione del dato della colonna ***tempo*** a quello della colonna ***prestazione*** mettendo -1 dove il tempo non era stato inserito correttamente. Nonostante ciò ci somo comunque alcune prestazione che sfuggono al filtro ma che sono ovviamente sbagliate (es. il 10.01 nei 400m registrato a Cagliari che compare in cima al file csv. Il tempo è stato inserito come 10.007 quando probabilmente era 1:00.07 e lo script lo arrotonda a 10.01).
 
 Alcuni file csv sono molto grossi, aspettatevi che qualunque programma usiate ci metta qualche secondo ad aprirli.
