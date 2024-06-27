@@ -33,5 +33,8 @@ Alcuni file csv sono molto grossi, aspettatevi che qualunque programma usiate ci
 
 Oltre agli errori nel database della Fidal è molto provabile che ci siano errori nei meii script, quindi per favore segnalatemi eventuali incongruenze con quello che vi aspettate!
 
+Per discipline poco comuni (es. 24h) i dati hanno spesso errori e sono gestiti male dagli script. Non ho intenzione di perderci tempo, ma mi sono comunque preoccupato di scaricare tutto. Consiglio di fare riferimento alla colonna ***tempi*** che ha i dati grezzi.
+
+A volte ci sono anche errori sulla data di nascita che impediscono al sistema di rinoscere correttamente la categoria.
 
 _Buone Statistiche!_

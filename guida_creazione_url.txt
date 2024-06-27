@@ -70,6 +70,16 @@ triplo              29
 100Hs h84-8.00      H3          (SM60 SM65)
 100Hs h76-8.50      H4          (AF)
 
+300Hs h76           KG
+400Hs h91           KQ
+400Hs h84           KR
+400Hs h76           KS
+
+peso 4kg            p4
+peso 5kg            p5
+peso 6kg            p6
+peso 7kg            p7
+
 
 
 ## OLD
