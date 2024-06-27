@@ -5,8 +5,8 @@ from my_functions import *
 tipo_att = 'P'
 sesso = 'M'
 #cat = 'C'
-cod_gara = '01'
-gara = '60m'
+cod_gara = 'KB'
+gara = 'asta'
 tip_estr = '1'
 vento = '2'
 regione = '0'
@@ -14,12 +14,12 @@ naz = '2'
 lim = '0'
 societa = ''
 
-file = 'database/'+gara+'_2005_2024-06-25.csv'
+file = 'database/outdoor/'+gara+'_2005_2024-06-25.csv'
 
 # Write the header
 
 with open(file, 'w') as f:
-    f.write('Prestazione,Vento,Atleta,Anno,Categoria,Società,Posizione,Luogo,Data,Link Atleta,Link Società\n')
+    f.write('prestazione,vento,tempo,cronometraggio,atleta,anno,categoria,società,posizione,luogo,data,link_atleta,link_società\n')
 
 for anno in range(2005, 2025):
     anno = str(anno)

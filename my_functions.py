@@ -31,11 +31,12 @@ def get_data_FIDAL(anno, tipo_att, sesso, cat, gara, tip_estr, vento, regione, n
         data_row = data_row[:-1]
     
     # La tabella ha sempre le stesse 8 colonne, quindi mi fido a creare il data frame e mettere dentro i dari di data_row uno alla volta. Aggiungo 2 colonne per i link
-    df_data = pd.DataFrame(index = range(len(data_row)), columns=['Prestazione', 'Vento', 'Atleta', 'Anno', 'Società', 'Posizione', 'Luogo', 'Data', 'Link Atleta', 'Link Società', 'Categoria'])
+    df_data = pd.DataFrame(index = range(len(data_row)), columns=['tempo', 'vento', 'atleta', 'anno', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società', 'categoria', 'prestazione', 'cronometraggio'])
 
     for i, row in enumerate(data_row):
     
         j = 0
+        # Inserimento di tempo, vento, atleta, anno, società, posizione, luogo, data
         for cell in row.find_all('td'):
             cell = cell.text.strip()
             if j == 3: cell = check_anno(cell, i)
@@ -43,13 +44,15 @@ def get_data_FIDAL(anno, tipo_att, sesso, cat, gara, tip_estr, vento, regione, n
             df_data.iat[i, j] = cell
             j += 1
     
+        # Inserimento di link_atleta, link_società, categoria, prestazione, cronometraggio
         data_a = row.find_all('a')
         if len(data_a) > 1:
-            df_data.iat[i, j] = data_a[0].get('href')
-            df_data.iat[i, j+1] = data_a[1].get('href')
-        df_data.iat[i, j+2] = assegna_categoria(df_data.at[i, 'Anno'], df_data.at[i, 'Data'], sesso, cat)
+            df_data.at[i, 'link_atleta'] = data_a[0].get('href')
+            df_data.at[i, 'link_società'] = data_a[1].get('href')
+        df_data.at[i, 'categoria'] = assegna_categoria(df_data.at[i, 'anno'], df_data.at[i, 'data'], sesso, cat)
+        df_data.at[i, 'prestazione'], df_data.at[i, 'cronometraggio'] = conversione_manuale_elettrico(df_data.at[i, 'tempo'])
 
-    df_data = df_data[['Prestazione', 'Vento', 'Atleta', 'Anno', 'Categoria', 'Società', 'Posizione', 'Luogo', 'Data', 'Link Atleta', 'Link Società']]
+    df_data = df_data[['prestazione', 'vento', 'tempo', 'cronometraggio', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
 
     return df_data
 
@@ -77,7 +80,7 @@ def check_data(cell, anno, i):
         return anno + '-' + data[1] + '-' + data[0]
 
 
-## 
+## Calcola l'età dell'atleta per assegnare la categoria
 def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria):
     if anno_atleta == '': return categoria
     if data_prestazione == '': return categoria
@@ -97,10 +100,9 @@ def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria):
     else: return 'S' + sesso
 
 
-def conversione_manuale_elettrico(row):
+## Converte i tempi manuali in tempi elettrici. Se è una misura (lanci o salti, queste hanno sempre 2 cifre decimali quindi non dovrebbe toccarle)
+def conversione_manuale_elettrico(tempo):
     ## Restituisce il tempo convertito e un codice (0, 1, 2) se il tempo è elettrico, manuale o sconosciuto
-
-    tempo = row['tempo']
 
     # Se non è un tempo
     if '.' not in tempo:
