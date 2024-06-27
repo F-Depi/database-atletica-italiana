@@ -75,6 +75,14 @@ triplo              29
 400Hs h84           KR
 400Hs h76           KS
 
+2000st h76          S2          (AF SMXX)
+3000st h91          S3          (XM)
+3000st h76          S4          (XF)
+1200st h76 SV       S5          (CM CF)
+2000st h84          S6          (AM)
+
+
+
 peso 4kg            P4
 peso 5kg            P5
 peso 6kg            P6
