@@ -88,3 +88,12 @@ Peso 4kg		P*
 5000m           14
 10000m          15
 24h             16
+
+alto            26
+asta            27
+lungo           28
+triplo          29
+
+110HS h106          KB
+100 Hs H 84-8.50    H2
+100 Hs h 76-8.50    H4
