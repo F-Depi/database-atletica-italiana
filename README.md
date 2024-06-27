@@ -37,4 +37,9 @@ Per discipline poco comuni (es. 24h) i dati hanno spesso errori e sono gestiti m
 
 A volte ci sono anche errori sulla data di nascita che impediscono al sistema di rinoscere correttamente la categoria.
 
+Gare non ancora scaricate: marcia, prove multiple, staffette, tutte le gare indoor e su strada.
+
+Ultimo aggiornamento 2024-06-26. Il sistema di aggiornamento non è ancora stato implementato, quindi le prime gare scaricate (100m, 200m) hanno il database aggiornato al 2024-06-25.
+
+
 _Buone Statistiche!_
