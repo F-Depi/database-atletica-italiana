@@ -75,22 +75,34 @@ triplo              29
 400Hs h84           KR
 400Hs h76           KS
 
-peso 4kg            p4
-peso 5kg            p5
-peso 6kg            p6
-peso 7kg            p7
+peso 4kg            P4
+peso 5kg            P5
+peso 6kg            P6
+peso 7kg            P7
 
+disco 1kg           D1
+disco 1.5kg         D2
+disco 1.75kg        D3
+disco 2kg           D4
+
+martello 3kg        M3
+martello 4kg        M4
+martello 5kg        M5
+martello 6kg        M6
+martello 7kg        M7
+
+giavellotto 400g    G4
+giavellotto 500g    G5
+giavellotto 600g    G6
+giavellotto 700g    G7
+giavellotto 800g    G8
 
 
 ## OLD
 
-60m             01
 60HS 106		HB
 60HS 100		HC
 60HS 91-9.14	HD
-Peso 5kg		P5
-Peso 6kg		P6
-Peso 7kg		P7
 5000m marcia	45
 4x200			60
 4x400			48
@@ -113,5 +125,3 @@ eptathlon		19
 3000m marcia	43
 4x160			84
 pentathlon		38
-Peso 3kg		P3
-Peso 4kg		P*
