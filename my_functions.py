@@ -97,7 +97,52 @@ def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria):
     else: return 'S' + sesso
 
 
+def conversione_manuale_elettrico(row):
+    ## Restituisce il tempo convertito e un codice (0, 1, 2) se il tempo è elettrico, manuale o sconosciuto
 
+    tempo = row['tempo']
+
+    # Se non è un tempo
+    if '.' not in tempo:
+        print('Questo tempo non ha un punto decimale: ' + tempo)
+        return -1, 2
+
+    # Se non è un tempo
+    if len(tempo.split('.')) > 2:
+        print('Questo tempo ha più di un punto decimale: ' + tempo)
+        return -1, 2
+
+    # Se hanno usato la notazione 1h23:45.67
+    if 'h' in tempo:
+        tempo = tempo.replace('h', ':')
+
+    # Se è un tempo sopra il minuto
+    hh_mm_in_seconds = 0
+    if ':' in tempo:
+        hh_mm_SS = tempo.split(':')
+        if len(hh_mm_SS) == 2:
+            hh_mm_in_seconds = int(hh_mm_SS[0]) * 60
+            tempo = hh_mm_SS[1]
+        elif len(hh_mm_SS) == 3:
+            hh_mm_in_seconds = int(hh_mm_SS[0]) * 3600 + int(hh_mm_SS[1]) * 60
+            tempo = hh_mm_SS[2]
+        elif len(hh_mm_SS) > 3:
+            print('Questo tempo ha più di due \':\' ' + tempo)
+            return -1, 2
+
+    # Conversione da possibile tempo manuale a tempo elettrico (+0.25 secondi)
+    if len(tempo.split('.')[-1]) == 1:
+        return hh_mm_in_seconds + float(tempo) + 0.25, 1
+    elif len(tempo.split('.')[-1]) == 2:
+        return hh_mm_in_seconds + float(tempo), 0
+    elif len(tempo.split('.')[-1]) == 3:
+        print('Questo tempo ha più di due cifre dopo il punto decimale: ' + tempo)
+        # la fidal arrotonda i millesimi per super eccesso, quindi 10.231 diventa 10.24. Solo 10.230 rimane 10.23
+        tempo = math.ceil(float(tempo) * 100) / 100
+        return hh_mm_in_seconds + tempo, 0
+    else:
+        print('Questo tempo ha più di 3 cifre decimali: ' + tempo)
+        return -1, 2
 
 
 
