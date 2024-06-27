@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import math
 
 
 ## Scarica una pagina e mette i dati in un DataFrame
