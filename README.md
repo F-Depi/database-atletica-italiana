@@ -44,7 +44,11 @@ Ultimo aggiornamento 2024-06-26. Il sistema di aggiornamento non è ancora stato
 
 ## Errori su marcia e gare più lunghe di 1 minuto
 
-Viene spesso erroneamente usato il punto per separare i minuti dai secondi. Questa cosa ha contaminato tantissimi risultati. Ad esempio nelle graduatorie dei [10km di marcia su strada del 2012](https://www.fidal.it/graduatorie.php?anno=2012&tipo_attivita=S&sesso=M&categoria=XM&gara=49&tipologia_estrazione=2&vento=0&regione=0&nazionalita=2&limite=0&societa=&submit=Invia) il miglior tempo stagionale sarebbe di Alex Schwazer con 39:06 (ovvero 39 minuti e 6 secondi) che però è solo 21°, visti gli strabilianti tempi sotto al minuto (tutti inseriti erroneamente nella gara di Bressanone del 6 luglio 2021).
+Viene spesso erroneamente usato il punto per separare i minuti dai secondi. Questa cosa ha contaminato tantissimi risultati.
+
+![image](https://github.com/F-Depi/database-atletica-italiana/assets/120582465/5535fc56-5779-44b3-9b3f-74ede643c6ec)
+
+Ad esempio nelle graduatorie dei [10km di marcia su strada del 2012](https://www.fidal.it/graduatorie.php?anno=2012&tipo_attivita=S&sesso=M&categoria=XM&gara=49&tipologia_estrazione=2&vento=0&regione=0&nazionalita=2&limite=0&societa=&submit=Invia) il miglior tempo stagionale sarebbe di Alex Schwazer con 39:06 (ovvero 39 minuti e 6 secondi) che però è solo 21°, visti gli strabilianti tempi sotto al minuto (tutti inseriti erroneamente nella gara di Bressanone del 6 luglio 2012).
 
 Al momento non ho intenzione di correggere questi errori, ma se qualcuno volesse farlo è il benvenuto.
 
