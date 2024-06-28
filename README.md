@@ -32,7 +32,7 @@ Il database è pieno di errori. Ho provato ad arginare questa cosa nella convers
 
 Alcuni file csv sono molto grossi, aspettatevi che qualunque programma usiate ci metta qualche secondo ad aprirli.
 
-Oltre agli errori nel database della Fidal è molto provabile che ci siano errori nei meii script, quindi per favore segnalatemi eventuali incongruenze con quello che vi aspettate!
+Oltre agli errori nel database della Fidal è molto provabile che ci siano errori nei mei script, quindi per favore segnalatemi eventuali incongruenze con quello che vi aspettate!
 
 Per discipline poco comuni (es. 24h) i dati hanno spesso errori e sono gestiti male dagli script. Non ho intenzione di perderci tempo, ma mi sono comunque preoccupato di scaricare tutto. Consiglio di fare riferimento alla colonna ***tempi*** che ha i dati grezzi.
 
