@@ -1,4 +1,5 @@
 ## Introduzione
+Questa repository non è ufficiale e non ha alcun legame con la FIDAL.
 L'obbiettivo è raccogliere tutti i risultati online dell'Atletica Italiana, in quanto non esiste un database scaricabile.
 Sito ufficiale della FIDAL (Federazione Italiana di Atletica Leggera) [fidal.it](http://www.fidal.it/).
 
@@ -40,6 +41,12 @@ A volte ci sono anche errori sulla data di nascita che impediscono al sistema di
 Gare non ancora scaricate: marcia, prove multiple, staffette, tutte le gare indoor e su strada.
 
 Ultimo aggiornamento 2024-06-26. Il sistema di aggiornamento non è ancora stato implementato, quindi le prime gare scaricate (100m, 200m) hanno il database aggiornato al 2024-06-25.
+
+## Errori su marcia e gare più lunghe di 1 minuto
+
+Viene spesso erroneamente usato il punto per separare i minuti dai secondi. Questa cosa ha contaminato tantissimi risultati. Ad esempio nelle graduatorie dei [10km di marcia su strada del 2012](https://www.fidal.it/graduatorie.php?anno=2012&tipo_attivita=S&sesso=M&categoria=XM&gara=49&tipologia_estrazione=2&vento=0&regione=0&nazionalita=2&limite=0&societa=&submit=Invia) il miglior tempo stagionale sarebbe di Alex Schwazer con 39:06 (ovvero 39 minuti e 6 secondi) che però è solo 21°, visti gli strabilianti tempi sotto al minuto (tutti inseriti erroneamente nella gara di Bressanone del 6 luglio 2021).
+
+Al momento non ho intenzione di correggere questi errori, ma se qualcuno volesse farlo è il benvenuto.
 
 
 _Buone Statistiche!_
