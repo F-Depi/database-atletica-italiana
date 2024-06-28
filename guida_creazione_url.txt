@@ -105,6 +105,11 @@ giavellotto 600g    G6
 giavellotto 700g    G7
 giavellotto 800g    G8
 
+marcia 5km          21              (AM AF CM)
+marcia 3000m        43              (CF)
+marcia 5000m        45              (AM AF)
+marcia 10000m       46              (XM XF)
+marcia 10km         49              (XM XF)
 
 ## OLD
 

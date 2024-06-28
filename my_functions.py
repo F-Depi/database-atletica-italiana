@@ -105,19 +105,34 @@ def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria):
 def conversione_manuale_elettrico(tempo):
     ## Restituisce il tempo convertito e un codice (0, 1, 2) se il tempo è elettrico, manuale o sconosciuto
 
-    # Se non è un tempo
-    if '.' not in tempo:
-        print('Questo tempo non ha un punto decimale: ' + tempo)
-        return -1, 2
-
-    # Se non è un tempo
-    if len(tempo.split('.')) > 2:
-        print('Questo tempo ha più di un punto decimale: ' + tempo)
-        return -1, 2
-
     # Se hanno usato la notazione 1h23:45.67
     if 'h' in tempo:
         tempo = tempo.replace('h', ':')
+
+    # Se non è un tempo elettrico (o non è proprio un tempo)
+    if '.' not in tempo:
+        if ':' in tempo:
+            hh_mm_SS = tempo.split(':')
+            if len(hh_mm_SS) == 2:
+                mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1])
+                return mm_SS, 2
+            elif len(hh_mm_SS) == 3:
+                hh_mm_SS = int(hh_mm_SS[0]) * 3600 + int(hh_mm_SS[1]) * 60 + int(hh_mm_SS[2])
+                return hh_mm_SS, 2
+        else:
+            print('Questo tempo non ha un punto decimale: ' + tempo)
+            return -1, 2
+
+    # Se non è un tempo
+    if len(tempo.split('.')) == 3:
+        print('Questo tempo ha 3 punti decimali: ' + tempo + '. Immagino il 1° punto sia per i minuti')
+        hh_mm_SS = tempo.split('.')
+        mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1])
+        return mm_SS, 2
+
+    if len(tempo.split('.')) > 3:
+        print('Questo tempo ha più di 2 punti decimali: ' + tempo)
+        return -1, 2
 
     # Se è un tempo sopra il minuto
     hh_mm_in_seconds = 0
