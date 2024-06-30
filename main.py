@@ -2,7 +2,7 @@ import pandas as pd
 from my_functions import *
 
 #anno = '2024'
-tipo_att = 'P'
+ambiente = 'P'
 sesso = 'M'
 #cat = 'C'
 cod_gara = '43'
@@ -28,7 +28,7 @@ for anno in range(2005, 2025):
 
             print(anno, cat, sesso)
 
-            df = get_data_FIDAL(anno, tipo_att, sesso, cat, cod_gara, tip_estr, vento, regione, naz, lim, societa)
+            df = get_data_FIDAL(anno, ambiente, sesso, cat, cod_gara, tip_estr, vento, regione, naz, lim, societa)
             df.to_csv(file, index=False, mode='a', header=False)
 
 
