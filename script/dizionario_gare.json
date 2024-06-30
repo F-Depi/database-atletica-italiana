@@ -1,0 +1,669 @@
+{
+    "50m": {
+        "codice": "56",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "sì"
+    },
+    "60m": {
+        "codice": "01",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "sì"
+    },
+    "80m": {
+        "codice": "02",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "sì"
+    },
+    "100m": {
+        "codice": "03",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "sì"
+    },
+    "200m": {
+        "codice": "04",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "sì"
+    },
+    "300m": {
+        "codice": "05",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "400m": {
+        "codice": "06",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "600m": {
+        "codice": "07",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "800m": {
+        "codice": "08",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "1000m": {
+        "codice": "09",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "1500m": {
+        "codice": "11",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "1miglio": {
+        "codice": "63",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "2000m": {
+        "codice": "12",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "3000m": {
+        "codice": "13",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "5000m": {
+        "codice": "14",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "10000m": {
+        "codice": "15",
+        "tipo": "Corse Piane",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "24h": {
+        "codice": "16",
+        "tipo": "Corse Piane",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "alto": {
+        "codice": "26",
+        "tipo": "Salti",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "asta": {
+        "codice": "27",
+        "tipo": "Salti",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "lungo": {
+        "codice": "28",
+        "tipo": "Salti",
+        "classifica": "distanza",
+        "vento": "sì"
+    },
+    "triplo": {
+        "codice": "29",
+        "tipo": "Salti",
+        "classifica": "distanza",
+        "vento": "sì"
+    },
+    "50Hs h76-8.00": {
+        "codice": "L3",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "CF"
+    },
+    "50Hs h76-8.50": {
+        "codice": "L4",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "AF"
+    },
+    "50Hs h84-8.50": {
+        "codice": "L5",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "CM JF PF SF"
+    },
+    "50Hs h91-9.14": {
+        "codice": "L6",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "AM"
+    },
+    "50Hs h100-9.14": {
+        "codice": "L7",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "CF"
+    },
+    "50Hs h106-9.14": {
+        "codice": "L8",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "CF"
+    },
+    "60Hs h106-9.14": {
+        "codice": "HB",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "PM SM"
+    },
+    "60Hs h100-9.14": {
+        "codice": "HC",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "JM SM35 SM40 SM45"
+    },
+    "60Hs h91-9.14": {
+        "codice": "HD",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "AM"
+    },
+    "60Hs h91-8.50": {
+        "codice": "HE",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "SM50 SM55"
+    },
+    "60Hs h84-8.50": {
+        "codice": "HF",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "CM JF PF SF SF35"
+    },
+    "60Hs h84-8.00": {
+        "codice": "HG",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "SM60 SM65"
+    },
+    "60Hs h76-8.50": {
+        "codice": "HH",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "AF"
+    },
+    "60Hs h76-8.00": {
+        "codice": "HI",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "CF",
+        "note": "funziona solo per CF"
+    },
+    "60Hs h76-8.00": {
+        "codice": "HJ",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "SF40 SF45",
+        "note": "funziona solo per SF"
+    },
+    "60Hs h76-7.00": {
+        "codice": "HK",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "SF50 SF55 SM70 SM75"
+    },
+    "60Hs h68.6-7.00": {
+        "codice": "HL",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "SF60 SF65 SF70 SF75 SF80 SF85 SF90 SF95 SM80 SM85 SM90 SM95"
+    },
+    "80Hs h76-8.00": {
+        "codice": "K1",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "CF",
+        "note": "funziona solo per CF"
+    },
+    "80Hs h76-8.00": {
+        "codice": "K2",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "SF40 SF45",
+        "note": "funziona solo per XF"
+    },
+    "80Hs h76-7.00": {
+        "codice": "K3",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "SM70 SM75"
+    },
+    "80Hs h68.6-7.00": {
+        "codice": "K4",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "SM80 SM86 SM90 SM95"
+    },
+    "110Hs h106-9.14": {
+        "codice": "KB",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "PM, SM"
+    },
+    "110Hs h100-9.14": {
+        "codice": "KC",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "JM SM35 SM40 SM45"
+    },
+    "110Hs h91-9.14": {
+        "codice": "KD",
+        "tipo": "Corse Piane",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "AM"
+    },
+    "100Hs h91-8.50": {
+        "codice": "H1",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "SM50, SM55"
+    },
+    "100Hs h84-8.50": {
+        "codice": "H2",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "CM JF PF SF SF35 studenteschi maschili"
+    },
+    "100Hs h84-8.00": {
+        "codice": "H3",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "SM60 SM65"
+    },
+    "100Hs h76-8.50": {
+        "codice": "H4",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "AF"
+    },
+    "100Hs h76-8.00": {
+        "codice": "H5",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "sì",
+        "categoria": "studenteschi femminili"
+    },
+    "300Hs h76": {
+        "codice": "KG",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "400Hs h91": {
+        "codice": "KQ",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "400Hs h84": {
+        "codice": "KR",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "400Hs h76": {
+        "codice": "KS",
+        "tipo": "Ostacoli",
+        "classifica": "tempo",
+        "vento": "no",
+        "categoria": "AF"
+    },
+    "2000st h91": {
+        "codice": "S1",
+        "tipo": "Siepi",
+        "classifica": "tempo",
+        "vento": "no",
+        "categoria": "SM60 SM65 SM70 SM75 SM80 SM86 SM90 SM95"
+    },
+    "2000st h76": {
+        "codice": "S2",
+        "tipo": "Siepi",
+        "classifica": "tempo",
+        "vento": "no",
+        "categoria": "AF SF35 SF40 SF45 SF50 SF55 SF60 SF65 SF70 SF75 SF80 SF86 SF90 SF95"
+    },
+    "3000st h91": {
+        "codice": "S3",
+        "tipo": "Siepi",
+        "classifica": "tempo",
+        "vento": "no",
+        "categoria": "JM PM SM SM35 SM40 SM45 SM50 SM55"
+    },
+    "3000st h76": {
+        "codice": "S4",
+        "tipo": "Siepi",
+        "classifica": "tempo",
+        "vento": "no",
+        "categoria": "JF PF SF"
+    },
+    "1200st h76 SV": {
+        "codice": "S5",
+        "tipo": "Siepi",
+        "classifica": "tempo",
+        "vento": "no",
+        "categoria": "CM CF"
+    },
+    "2000st h84": {
+        "codice": "S6",
+        "tipo": "Siepi",
+        "classifica": "tempo",
+        "vento": "no",
+        "categoria": "AM"
+    },
+    "peso 4kg": {
+        "codice": "P4",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "peso 5kg": {
+        "codice": "P5",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "peso 6kg": {
+        "codice": "P6",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "peso 7kg": {
+        "codice": "P7",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "disco 1kg": {
+        "codice": "D1",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "disco 1.5kg": {
+        "codice": "D2",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "disco 1.75kg": {
+        "codice": "D3",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "disco 2kg": {
+        "codice": "D4",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "martello 3kg": {
+        "codice": "M3",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "martello 4kg": {
+        "codice": "M4",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "martello 5kg": {
+        "codice": "M5",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "martello 6kg": {
+        "codice": "M6",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "martello 7kg": {
+        "codice": "M7",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "giavellotto 400g": {
+        "codice": "G4",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "giavellotto 500g": {
+        "codice": "G5",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "giavellotto 600g": {
+        "codice": "G6",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "giavellotto 700g": {
+        "codice": "G7",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "giavellotto 800g": {
+        "codice": "G8",
+        "tipo": "Lanci",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "Marcia 5km": {
+        "codice": "21",
+        "tipo": "Marcia",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "Marcia 3000m": {
+        "codice": "43",
+        "tipo": "Marcia",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "Marcia 5000m": {
+        "codice": "45",
+        "tipo": "Marcia",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "Marcia 10000m": {
+        "codice": "46",
+        "tipo": "Marcia",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+    "Marcia 10km": {
+        "codice": "49",
+        "tipo": "Marcia",
+        "classifica": "tempo",
+        "vento": "no"
+    },
+
+    "Decathlon PM SM": {
+        "codice": "41",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "sì"
+    },
+    "Decathlon JM": {
+        "codice": "20",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "sì"
+    },
+    "Decathlon AM": {
+        "codice": "91",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "sì"
+    },
+    "Esathlon CM (disco)": {
+        "codice": "O1",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "sì"
+    },
+    "Esathlon CM (asta)": {
+        "codice": "O2",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "sì"
+    },
+    "Eptathlon JF PF SF": {
+        "codice": "O4",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "sì"
+    },
+    "Eptathlon AF": {
+        "codice": "81",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "sì"
+    },
+    "Pentathlon CF": {
+        "codice": "O3",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "sì"
+    },
+    "Eptathlon PM SM": {
+        "codice": "I5",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "Eptathlon I/O PM SM": {
+        "codice": "IE",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "Eptathlon JM": {
+        "codice": "19",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "Eptathlon I/O JM": {
+        "codice": "ID",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "Pentathlon AM": {
+        "codice": "I3",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "Pentathlon I/O AM": {
+        "codice": "IC",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "Pentathlon JF PF SF": {
+        "codice": "I2",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "Pentathlon I/O JF PF SF": {
+        "codice": "IB",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "Pentathlon AF": {
+        "codice": "I6",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "no"
+    },
+    "Pentathlon I/O AF": {
+        "codice": "IG",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "no"
+    }
+
+}
+
