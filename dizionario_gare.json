@@ -1,0 +1,344 @@
+{
+    "60m": {
+        "codice": "01",
+        "tipo": "corsa",
+        "vento": "sì"
+    },
+    "80m": {
+        "codice": "02",
+        "tipo": "corsa",
+        "vento": "sì"
+    },
+    "100m": {
+        "codice": "03",
+        "tipo": "corsa",
+        "vento": "sì"
+    },
+    "200m": {
+        "codice": "04",
+        "tipo": "corsa",
+        "vento": "sì"
+    },
+    "300m": {
+        "codice": "05",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "400m": {
+        "codice": "06",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "600m": {
+        "codice": "07",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "800m": {
+        "codice": "08",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "1000m": {
+        "codice": "09",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "1500m": {
+        "codice": "11",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "2000m": {
+        "codice": "12",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "3000m": {
+        "codice": "13",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "5000m": {
+        "codice": "14",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "10000m": {
+        "codice": "15",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "24h": {
+        "codice": "16",
+        "tipo": "corsa a distanza",
+        "vento": "no"
+    },
+    "alto": {
+        "codice": "26",
+        "tipo": "salto",
+        "vento": "no"
+    },
+    "asta": {
+        "codice": "27",
+        "tipo": "salto",
+        "vento": "no"
+    },
+    "lungo": {
+        "codice": "28",
+        "tipo": "salto",
+        "vento": "sì"
+    },
+    "triplo": {
+        "codice": "29",
+        "tipo": "salto",
+        "vento": "sì"
+    },
+    "80Hs h76-8.00": {
+        "codice": "K1",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "CF",
+        "note": "funziona solo per CF"
+    },
+    "80Hs h76-8.00": {
+        "codice": "K2",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "SF40 SF45",
+        "note": "funziona solo per XF"
+    },
+    "80Hs h76-7.00": {
+        "codice": "K3",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "SM70 SM75"
+    },
+    "80Hs h68.6-7.00": {
+        "codice": "K4",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "SM80 SM86 SM90 SM95"
+    },
+    "110HS h106-9.14": {
+        "codice": "KB",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "PM, SM"
+    },
+    "110Hs h100-9.14": {
+        "codice": "KC",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "JM SM35 SM40 SM45"
+    },
+    "110Hs h91-9.14": {
+        "codice": "KD",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "AM"
+    },
+    "100Hs h91-8.50": {
+        "codice": "H1",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "SM50, SM55"
+    },
+    "100Hs h84-8.50": {
+        "codice": "H2",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "JF PF SF CM studenteschi maschili"
+    },
+    "100Hs h84-8.00": {
+        "codice": "H3",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "SM60 SM65"
+    },
+    "100Hs h76-8.50": {
+        "codice": "H4",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "AF"
+    },
+    "100Hs h76-8.00": {
+        "codice": "H5",
+        "tipo": "corsa",
+        "vento": "sì",
+        "categoria": "studenteschi femminili"
+    },
+    "300Hs h76": {
+        "codice": "KG",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "400Hs h91": {
+        "codice": "KQ",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "400Hs h84": {
+        "codice": "KR",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "400Hs h76": {
+        "codice": "KS",
+        "tipo": "corsa",
+        "vento": "no",
+        "categoria": "AF"
+    },
+    "2000st h91": {
+        "codice": "S1",
+        "tipo": "corsa",
+        "vento": "no",
+        "categoria": "SM60 SM65 SM70 SM75 SM80 SM86 SM90 SM95"
+    },
+    "2000st h76": {
+        "codice": "S2",
+        "tipo": "corsa",
+        "vento": "no",
+        "categoria": "AF SF35 SF40 SF45 SF50 SF55 SF60 SF65 SF70 SF75 SF80 SF86 SF90 SF95"
+    },
+    "3000st h91": {
+        "codice": "S3",
+        "tipo": "corsa",
+        "vento": "no",
+        "categoria": "JM PM SM SM35 SM40 SM45 SM50 SM55"
+    },
+    "3000st h76": {
+        "codice": "S4",
+        "tipo": "corsa",
+        "vento": "no",
+        "categoria": "JF PF SF"
+    },
+    "1200st h76 SV": {
+        "codice": "S5",
+        "tipo": "corsa",
+        "vento": "no",
+        "categoria": "CM CF"
+    },
+    "2000st h84": {
+        "codice": "S6",
+        "tipo": "corsa",
+        "vento": "no",
+        "categoria": "AM"
+    },
+    "peso 4kg": {
+        "codice": "P4",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "peso 5kg": {
+        "codice": "P5",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "peso 6kg": {
+        "codice": "P6",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "peso 7kg": {
+        "codice": "P7",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "disco 1kg": {
+        "codice": "D1",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "disco 1.5kg": {
+        "codice": "D2",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "disco 1.75kg": {
+        "codice": "D3",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "disco 2kg": {
+        "codice": "D4",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "martello 3kg": {
+        "codice": "M3",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "martello 4kg": {
+        "codice": "M4",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "martello 5kg": {
+        "codice": "M5",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "martello 6kg": {
+        "codice": "M6",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "martello 7kg": {
+        "codice": "M7",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "giavellotto 400g": {
+        "codice": "G4",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "giavellotto 500g": {
+        "codice": "G5",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "giavellotto 600g": {
+        "codice": "G6",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "giavellotto 700g": {
+        "codice": "G7",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "giavellotto 800g": {
+        "codice": "G8",
+        "tipo": "lancio",
+        "vento": "no"
+    },
+    "marcia 5km": {
+        "codice": "21",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "marcia 3000m": {
+        "codice": "43",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "marcia 5000m": {
+        "codice": "45",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "marcia 10000m": {
+        "codice": "46",
+        "tipo": "corsa",
+        "vento": "no"
+    },
+    "marcia 10km": {
+        "codice": "49",
+        "tipo": "corsa",
+        "vento": "no"
+    }
+}
+
