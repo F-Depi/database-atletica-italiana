@@ -69,19 +69,19 @@ triplo              29
 100Hs h84-8.50      H2          (XF CM e studenteschi maschili)
 100Hs h84-8.00      H3          (SM60 SM65)
 100Hs h76-8.50      H4          (AF)
+100Hs h76-8.00      H5          (studenteschi femminili)
 
 300Hs h76           KG
 400Hs h91           KQ
 400Hs h84           KR
 400Hs h76           KS
 
+2000st h91          S1          (SM60+)
 2000st h76          S2          (AF SMXX)
 3000st h91          S3          (XM)
 3000st h76          S4          (XF)
 1200st h76 SV       S5          (CM CF)
 2000st h84          S6          (AM)
-
-
 
 peso 4kg            P4
 peso 5kg            P5
@@ -111,12 +111,13 @@ marcia 5000m        45              (AM AF)
 marcia 10000m       46              (XM XF)
 marcia 10km         49              (XM XF)
 
+
+
 ## OLD
 
 60HS 106		HB
 60HS 100		HC
 60HS 91-9.14	HD
-5000m marcia	45
 4x200			60
 4x400			48
 eptathlon		19
@@ -135,6 +136,5 @@ eptathlon		19
 60HS 76-7.00	HK
 60HS 68.6-7.00	HL
 1miglio			63
-3000m marcia	43
 4x160			84
 pentathlon		38
