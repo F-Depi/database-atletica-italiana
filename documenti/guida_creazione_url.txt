@@ -1,0 +1,169 @@
+## Regole per ottenere l'url di una pagina delle graduatorie FIDAL dal sito https://www.fidal.it/graduatorie.php
+## Corrispondono agli input della funzione get_data_FIDAL() definita in my_functions.py 
+anno = '2005'
+2005, 2006, 2007, ...
+
+tipo_att = 'P'
+P = pista/outdoor, S = strada, I = indoor
+
+sesso = 'M'
+M = maschile, F = femminile
+
+cat = 'A' 
+X = Assoluti, R = Ragazzi, C = Cadetti, A = Allievi, J = Junior, P = promesse, S = Senior, S35, S40, S50 = per i master
+
+gara = '03'
+Sotto è possibile trovare i codici delle varie gare
+
+tip_estr = '1'
+1 = Lista, 2 = Graduatorie
+
+vento = '2'
+0 = vento regolare, 1 = solo ventosi , 2 = tutti
+
+regione = '0'
+0 = tutte le regioni, VEN = Veneto, LOM = Lombardia, ... (casi particolari FVG = Friuli Friuli Venezia Giulia, EMI = Emilia Romagna VAO = Valle d'Aosta, TN = Trentino, BZ = Alto Adige)
+
+naz = '2'
+1 = tutte le nazionalità, 2 = solo italiani, 3 = solo stranieri
+
+limite = '0'
+0 = tutti, 10, 100, 101 = numero di risultati. Attenzione, se si mette 0 senza specificare la disciplina il massimo è 100 
+
+societa = ''
+Niente per tutte le società, BL012 = ANA Feltre, ...
+
+
+## Database Eventi
+Per fare la ricerca della graduatorie all'interno del link compare un codice che corrisponde a una gara specifica. I codici sono gli stessi per le gare indoor e outdoor, ma le graduatorie contengono risultati diversi!
+
+Gara            Codice Gara     Categorie                           
+
+50m			        56
+60m                 01
+80m                 02
+100m                03
+200m                04
+300m                05
+400m                06
+600m                07
+800m                08
+1000m               09
+1500m               11
+2000m               12
+3000m               13
+5000m               14
+10000m              15
+24h                 16
+
+alto                26
+asta                27
+lungo               28
+triplo              29
+
+50Hs h76-8.00       L3
+50Hs h76-8.50       L4
+50Hs h84-8.50	    L5
+50hs h91-9.14	    L6
+50hs h100-9.14	    L7
+50hs h106-9.14	    L8
+60hs h106-9.14      HB
+60Hs h100-9.14      HC
+60Hs h91-9.14       HD
+60HS h91-8.50	    HE
+60HS h84-8.50	    HF
+60HS h84-8.00	    HG
+60HS h76-8.50	    HH
+60Hs h76-8.00       HI          (solo CF)
+60HS h76-8.00	    HJ          (solo SF)
+60HS h76-7.00	    HK
+60HS h68.6-7.00	    HL
+80Hs h76-8.00       K1          (CF, funziona solo per questa categoria)
+80Hs h76-8.00       K2          (MF40 MF45, funziona solo per XF)
+80Hs h76-7.00       K3          (SM70 SM75)
+80Hs h68.6-7.00     K4          (SM80 SM85 SM90 SM95)
+???                 KA          (???)
+110HS h106          KB          (XM)
+110Hs h100-9.14     KC          (JM SM35 SM40 SM45)
+110Hs h91-9.14      KD          (AM)
+100Hs h91-8.50      H1          (Gara per SM50 SM55)
+100Hs h84-8.50      H2          (XF CM e studenteschi maschili)
+100Hs h84-8.00      H3          (SM60 SM65)
+100Hs h76-8.50      H4          (AF)
+100Hs h76-8.00      H5          (studenteschi femminili)
+
+300Hs h76           KG
+400Hs h91           KQ
+400Hs h84           KR
+400Hs h76           KS
+
+2000st h91          S1          (SM60+)
+2000st h76          S2          (AF SMXX)
+3000st h91          S3          (XM)
+3000st h76          S4          (XF)
+1200st h76 SV       S5          (CM CF)
+2000st h84          S6          (AM)
+
+peso 4kg            P4
+peso 5kg            P5
+peso 6kg            P6
+peso 7kg            P7
+
+disco 1kg           D1
+disco 1.5kg         D2
+disco 1.75kg        D3
+disco 2kg           D4
+
+martello 3kg        M3
+martello 4kg        M4
+martello 5kg        M5
+martello 6kg        M6
+martello 7kg        M7
+
+giavellotto 400g    G4
+giavellotto 500g    G5
+giavellotto 600g    G6
+giavellotto 700g    G7
+giavellotto 800g    G8
+
+marcia 5km          21              (AM AF CM)
+marcia 3000m        43              (CF)
+marcia 5000m        45              (AM AF)
+marcia 10000m       46              (XM XF)
+marcia 10km         49              (XM XF)
+
+# Prove multiple outdoor
+decathlon P/SM      41
+dHecathlon JM        20
+decathlon AM        91
+esathlon CM (disco) O1
+esathlon CM (asta)  O2
+eptathlon J/P/SF    O4
+eptathlon AF        81
+pentathlon CF       O3
+
+# Prove multiple indoor
+eptathlon P/SM      I5
+eptathlon I/O P/SM  IE
+eptathlon JM        19
+eptathlon I/O JM    ID
+pentathlon AM       I3
+pentathlon I/O AM   IC
+pentathlon P/SF     I2
+pentathlon I/O P/SF IB
+pentathlon AF       I6
+pentathlon I/O AF   IG
+
+
+pentathlon master non specificato 38. Sembra essere comune a uomini e donne. Mi rifiuto di indagare oltre.
+
+
+
+
+
+
+## OLD
+
+4x200			60
+4x400			48
+4x160			84
