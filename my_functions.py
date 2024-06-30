@@ -2,14 +2,14 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import math
+import json
 
-
-## Scarica una pagina e mette i dati in un DataFrame
-def get_data_FIDAL(anno, tipo_att, sesso, cat, gara, tip_estr, vento, regione, naz, limite, societa):
+## Scarica una pagina e mette i dati in un DataFrame del tipo 'tempo', 'vento', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società'
+def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, naz, limite, societa):
     
     cat = cat[0] + sesso + cat[1:]
 
-    url_FIDAL = 'https://www.fidal.it/graduatorie.php?anno='+anno+'&tipo_attivita='+tipo_att+'&sesso='+sesso+'&categoria='+cat+'&gara='+gara+'&tipologia_estrazione='+tip_estr+'&vento='+vento+'&regione='+regione+'&nazionalita='+naz+'&limite='+limite+'&societa='+societa+'&submit=Invia'
+    url_FIDAL = 'https://www.fidal.it/graduatorie.php?anno='+anno+'&tipo_attivita='+ambiente+'&sesso='+sesso+'&categoria='+cat+'&gara='+gara+'&tipologia_estrazione='+tip_estr+'&vento='+vento+'&regione='+regione+'&nazionalita='+naz+'&limite='+limite+'&societa='+societa+'&submit=Invia'
 
     print(url_FIDAL)
 
@@ -32,7 +32,7 @@ def get_data_FIDAL(anno, tipo_att, sesso, cat, gara, tip_estr, vento, regione, n
         data_row = data_row[:-1]
     
     # La tabella ha sempre le stesse 8 colonne, quindi mi fido a creare il data frame e mettere dentro i dari di data_row uno alla volta. Aggiungo 2 colonne per i link
-    df_data = pd.DataFrame(index = range(len(data_row)), columns=['tempo', 'vento', 'atleta', 'anno', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società', 'categoria', 'prestazione', 'cronometraggio'])
+    df_data = pd.DataFrame(index = range(len(data_row)), columns=['tempo', 'vento', 'atleta', 'anno', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società', 'categoria'])
 
     for i, row in enumerate(data_row):
     
@@ -51,11 +51,53 @@ def get_data_FIDAL(anno, tipo_att, sesso, cat, gara, tip_estr, vento, regione, n
             df_data.at[i, 'link_atleta'] = data_a[0].get('href')
             df_data.at[i, 'link_società'] = data_a[1].get('href')
         df_data.at[i, 'categoria'] = assegna_categoria(df_data.at[i, 'anno'], df_data.at[i, 'data'], sesso, cat)
-        df_data.at[i, 'prestazione'], df_data.at[i, 'cronometraggio'] = conversione_manuale_elettrico(df_data.at[i, 'tempo'])
 
-    df_data = df_data[['prestazione', 'vento', 'tempo', 'cronometraggio', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
+    df_data = df_data[['tempo', 'vento', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
 
     return df_data
+
+
+## Formatta i dati scaricati dalla FIDAL con la funzione get_data_FIDAL()
+def format_data_FIDAL(df, gara, ambiente):
+
+    if len(df) == 0:
+        print('Nessun dato da formattare')
+        return None
+
+    dict_gare = json.load(open('dizionario_gare.json'))
+    if gara not in dict_gare:
+        print('Gara non presente nel dizionario: ' + gara + '. Le gare sono:\n')
+        for key in dict_gare.keys():
+            print(key)
+        return None
+
+    if ambiente not in ['I', 'P', 'S']:
+        print('Ambiente non valido: ' + ambiente + '. I possibili valori sono I (indoor), P (pista), S (strada)')
+        return None
+
+    # A questo punto in base al tipo di gara formatto i dati
+    classifica_gara = dict_gare[gara]['classifica']
+
+    vento = dict_gare[gara]['vento']
+    if ambiente == 'I': vento = 'no'
+
+    # Salti, lanci e 24h di corsa sono gare in cui la classifica è data dalla misura.
+    if classifica_gara == 'distanza':
+        df = df.rename(columns={'tempo': 'prestazione'})
+        if vento == 'no':
+            del df['vento']
+        return df
+
+    # Le gare di corsa hanno come prestazione un tempo, che va anche convertito in base al cronometraggio
+    if classifica_gara == 'tempo':
+        df['prestazione'], df['cronometraggio'] = zip(*df['tempo'].map(conversione_manuale_elettrico))
+        df = df[['prestazione', 'vento', 'tempo', 'cronometraggio', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
+        if vento == 'no':
+            del df['vento']
+        return df
+
+    print('Tipo di gara non riconosciuto. classifica_gara:', classifica_gara)
+    return None
 
 
 ## Alla Fidal non piace scrive l'anno con 4 cifre, quindi scrivono solo le ultime due. Questa funzione aggiunge il 19 o il 20 davanti.
