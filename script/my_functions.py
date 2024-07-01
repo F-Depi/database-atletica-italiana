@@ -6,13 +6,13 @@ import json
 import re
 
 ## Scarica una pagina e mette i dati in un DataFrame del tipo 'tempo', 'vento', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società'
-def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, naz, limite, societa):
+def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, naz, limite, societa, f_log):
     
     cat = cat[0] + sesso + cat[1:]
 
     url_FIDAL = 'https://www.fidal.it/graduatorie.php?anno='+anno+'&tipo_attivita='+ambiente+'&sesso='+sesso+'&categoria='+cat+'&gara='+gara+'&tipologia_estrazione='+tip_estr+'&vento='+vento+'&regione='+regione+'&nazionalita='+naz+'&limite='+limite+'&societa='+societa+'&submit=Invia'
 
-    print(url_FIDAL)
+    print(url_FIDAL, file=f_log)
 
     # Scarico la pagina
     page = requests.get(url_FIDAL)
@@ -26,7 +26,7 @@ def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, n
     data_row = [row for i, row in enumerate(data_row) if (i+1) % 11 != 0]
 
     if len(data_row) == 0:
-        print('Nessun dato trovato')
+        print('Nessun dato trovato', file=f_log)
         return pd.DataFrame()
 
     if 'colspan="8"' in str(data_row[-1]):
@@ -41,8 +41,8 @@ def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, n
         # Inserimento di tempo, vento, atleta, anno, società, posizione, luogo, data
         for cell in row.find_all('td'):
             cell = cell.text.strip()
-            if j == 3: cell = check_anno(cell, i)
-            if j == 7: cell = check_data(cell, anno, i)
+            if j == 3: cell = check_anno(cell, i, f_log)
+            if j == 7: cell = check_data(cell, anno, i, f_log)
             df_data.iat[i, j] = cell
             j += 1
     
@@ -51,7 +51,7 @@ def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, n
         if len(data_a) > 1:
             df_data.at[i, 'link_atleta'] = data_a[0].get('href')
             df_data.at[i, 'link_società'] = data_a[1].get('href')
-        df_data.at[i, 'categoria'] = assegna_categoria(df_data.at[i, 'anno'], df_data.at[i, 'data'], sesso, cat)
+        df_data.at[i, 'categoria'] = assegna_categoria(df_data.at[i, 'anno'], df_data.at[i, 'data'], sesso, cat, f_log)
 
     df_data = df_data[['tempo', 'vento', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
 
@@ -59,21 +59,21 @@ def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, n
 
 
 ## Formatta i dati scaricati dalla FIDAL con la funzione get_data_FIDAL()
-def format_data_FIDAL(df, gara, ambiente):
+def format_data_FIDAL(df, gara, ambiente, f_log):
 
     if len(df) == 0:
-        print('Nessun dato da formattare')
+        print('Nessun dato da formattare', file=f_log)
         return None
 
     dict_gare = json.load(open('dizionario_gare.json'))
     if gara not in dict_gare:
-        print('Gara non presente nel dizionario: ' + gara + '. Le gare sono:\n')
+        print('Gara non presente nel dizionario: ' + gara + '. Le gare sono:\n', file=f_log)
         for key in dict_gare.keys():
             print(key)
         return None
 
     if ambiente not in ['I', 'P', 'S']:
-        print('Ambiente non valido: ' + ambiente + '. I possibili valori sono I (indoor), P (pista), S (strada)')
+        print('Ambiente non valido: ' + ambiente + '. I possibili valori sono I (indoor), P (pista), S (strada)', file=f_log)
         return None
 
     # A questo punto in base al tipo di gara formatto i dati
@@ -91,20 +91,21 @@ def format_data_FIDAL(df, gara, ambiente):
 
     # Le gare di corsa hanno come prestazione un tempo, che va anche convertito in base al cronometraggio
     if classifica_gara == 'tempo':
-        df['prestazione'], df['cronometraggio'] = zip(*df['tempo'].map(conversione_manuale_elettrico))
+        #df['prestazione'], df['cronometraggio'] = zip(*df['tempo'].map(conversione_manuale_elettrico)
+        df[['prestazione', 'cronometraggio']] = df.apply(lambda row: conversione_manuale_elettrico(row['tempo'], f_log), axis=1, result_type='expand')
         df = df[['prestazione', 'vento', 'tempo', 'cronometraggio', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
         if vento == 'no':
             del df['vento']
         return df
 
-    print('Tipo di gara non riconosciuto. classifica_gara:', classifica_gara)
+    print('Tipo di gara non riconosciuto. classifica_gara:', classifica_gara, file=f_log)
     return None
 
 
 ## Alla Fidal non piace scrive l'anno con 4 cifre, quindi scrivono solo le ultime due. Questa funzione aggiunge il 19 o il 20 davanti.
-def check_anno(cell, i):
+def check_anno(cell, i, f_log):
     if cell == '':
-        print('Anno non disponibile in riga', i)
+        print('Anno non disponibile in riga', i, file=f_log)
         return cell
     else:
         anno = int(cell)
@@ -115,9 +116,9 @@ def check_anno(cell, i):
 
 
 ## Alla Fidal non piace scrivere la data in formato standard, quindi la scrivono in modo strano e senza l'anno. Questa funzione la mette in formato standard.
-def check_data(cell, anno, i):
+def check_data(cell, anno, i, f_log):
     if cell == '':
-        print('Data non disponibile in riga', i)
+        print('Data non disponibile in riga', i, file=f_log)
         return cell
     else:
         data = cell.split('/')
@@ -125,12 +126,12 @@ def check_data(cell, anno, i):
 
 
 ## Calcola l'età dell'atleta per assegnare la categoria
-def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria):
+def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria, f_log):
     if anno_atleta == '': return categoria
     if data_prestazione == '': return categoria
     eta = int(data_prestazione[:4]) - int(anno_atleta)
     if eta < 6:
-        print('Atleta troppo giovane, età:', eta)
+        print('Atleta troppo giovane, età:', eta, file=f_log)
         return ''
     elif eta < 12: return 'E' + sesso
     elif eta < 14: return 'R' + sesso
@@ -145,8 +146,9 @@ def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria):
 
 
 ## Converte i tempi manuali in tempi elettrici. Se è una misura (lanci o salti, queste hanno sempre 2 cifre decimali quindi non dovrebbe toccarle)
-def conversione_manuale_elettrico(tempo):
+def conversione_manuale_elettrico(tempo, f_log):
     ## Restituisce il tempo convertito e un codice (0, 1, 2) se il tempo è elettrico, manuale o sconosciuto
+
 
     # Se hanno usato la notazione 1h23:45.67
     if 'h' in tempo:
@@ -163,18 +165,18 @@ def conversione_manuale_elettrico(tempo):
                 hh_mm_SS = int(hh_mm_SS[0]) * 3600 + int(hh_mm_SS[1]) * 60 + int(hh_mm_SS[2])
                 return hh_mm_SS, 2
         else:
-            print('Questo tempo non ha un punto decimale: ' + tempo)
+            print('Questo tempo non ha un punto decimale: ' + tempo, file=f_log)
             return -1, 2
 
     # Se non è un tempo
     if len(tempo.split('.')) == 3:
-        print('Questo tempo ha 3 punti decimali: ' + tempo + '. Immagino il 1° punto sia per i minuti')
+        print('Questo tempo ha 3 punti decimali: ' + tempo + '. Immagino il 1° punto sia per i minuti', file=f_log)
         hh_mm_SS = tempo.split('.')
         mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1])
         return mm_SS, 2
 
     if len(tempo.split('.')) > 3:
-        print('Questo tempo ha più di 2 punti decimali: ' + tempo)
+        print('Questo tempo ha più di 2 punti decimali: ' + tempo, file=f_log)
         return -1, 2
 
     # Se è un tempo sopra il minuto
@@ -188,7 +190,7 @@ def conversione_manuale_elettrico(tempo):
             hh_mm_in_seconds = int(hh_mm_SS[0]) * 3600 + int(hh_mm_SS[1]) * 60
             tempo = hh_mm_SS[2]
         elif len(hh_mm_SS) > 3:
-            print('Questo tempo ha più di due \':\' ' + tempo)
+            print('Questo tempo ha più di due \':\' ' + tempo, file=f_log)
             return -1, 2
 
     # Conversione da possibile tempo manuale a tempo elettrico (+0.25 secondi)
@@ -197,17 +199,17 @@ def conversione_manuale_elettrico(tempo):
     elif len(tempo.split('.')[-1]) == 2:
         return hh_mm_in_seconds + float(tempo), 0
     elif len(tempo.split('.')[-1]) == 3:
-        print('Questo tempo ha più di due cifre dopo il punto decimale: ' + tempo)
+        print('Questo tempo ha più di due cifre dopo il punto decimale: ' + tempo, file=f_log)
         # la fidal arrotonda i millesimi per super eccesso, quindi 10.231 diventa 10.24. Solo 10.230 rimane 10.23
         tempo = math.ceil(float(tempo) * 100) / 100
         return hh_mm_in_seconds + tempo, 0
     else:
-        print('Questo tempo ha più di 3 cifre decimali: ' + tempo)
+        print('Questo tempo ha più di 3 cifre decimali: ' + tempo, file=f_log)
         return -1, 2
 
 
 ## Controlla l'ultimo aggiornamento delle graduatorie
-def ultimo_aggiornamento_FIDAL():
+def ultimo_aggiornamento_FIDAL(f_log):
     url_FIDAL = 'https://www.fidal.it/graduatorie.php'
     page = requests.get(url_FIDAL)
     data = re.search(r'aggiornati dal 2005 al \d{2}-\d{2}-\d{4}', page.text)
@@ -216,7 +218,7 @@ def ultimo_aggiornamento_FIDAL():
         data = data.split('-')
         return data[2] + '-' + data[1] + '-' + data[0]
     else:
-        print('Nessuna data trovata')
+        print('Nessuna data trovata', file=f_log)
         return None
 
 

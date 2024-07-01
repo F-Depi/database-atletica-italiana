@@ -1,6 +1,6 @@
 import json
 import os
-from my_functions import get_data_FIDAL, ultimo_aggiornamento_FIDAL
+from my_functions import get_data_FIDAL, format_data_FIDAL, ultimo_aggiornamento_FIDAL
 
 '''
 Questo script scarica tutte le graduatorie outdoor di tutte le categorie e tutti gli anni
@@ -10,44 +10,81 @@ ma è uno script che basta runnare 1 volta e poi non serve più)
 Per aggiornare il database si usa il file 'aggiorna_database.py'
 '''
 
-data_agg = ultimo_aggiornamento_FIDAL()
+with open('nottata.log', 'w') as f_log:
 
-#anno = '2024'
-ambiente = 'P'
-#sesso = 'M'
-#cat = 'C'
-#gara = '100m'
-tip_estr = '1'
-vento = '2'
-regione = '0'
-naz = '2'
-lim = '0'
-societa = ''
+    data_agg = ultimo_aggiornamento_FIDAL(f_log)
 
-dict_gare = json.load(open('dizionario_gare.json'))
+    #anno = '2024'
+    ambiente = 'P'
+    #sesso = 'M'
+    #cat = 'C'
+    #gara = '100m'
+    tip_estr = '1'
+    vento = '2'
+    regione = '0'
+    naz = '2'
+    lim = '0'
+    societa = ''
 
-for gara in dict_gare.keys():
-    print('-'*90)
-    print(gara)
-    
-    cod_gara = dict_gare[gara]['codice']
-    tipo_gara = dict_gare[gara]['tipo']
-    
-    folder = '../database/outdoor/' + tipo_gara + '/'
-    if not os.path.exists(folder): os.makedirs(folder)
-    file = folder + gara.replace(' ','_') + '_2005_' + data_agg + '.csv'
-    
-    write_header = True
-    for anno in range(2005, 2025):
-        anno = str(anno)
-        for cat in ['E', 'R', 'C', 'X']:
-            for sesso in ['M', 'F']:
-    
-                print(anno, cat, sesso)
-    
-                df = get_data_FIDAL(anno, ambiente, sesso, cat, cod_gara, tip_estr, vento, regione, naz, lim, societa)
-                df.to_csv(file, index=False, mode='a', header=write_header)
-                write_header = False
-    
-    
-    
+    dict_gare = json.load(open('dizionario_gare.json'))
+
+    for gara in dict_gare.keys():
+        print('-'*90, file=f_log)
+        print(gara, file=f_log)
+        
+        cod_gara = dict_gare[gara]['codice']
+        tipo_gara = dict_gare[gara]['tipo']
+        
+        folder = '../database/outdoor/' + tipo_gara + '/'
+        if not os.path.exists(folder): os.makedirs(folder)
+        file = folder + gara.replace(' ','_') + '_2005_' + data_agg + '.csv'
+        
+        write_header = True
+        for anno in range(2005, 2025):
+            anno = str(anno)
+            for cat in ['E', 'R', 'C', 'X']:
+                for sesso in ['M', 'F']:
+        
+                    print(anno, cat, sesso, file=f_log)
+        
+                    df = get_data_FIDAL(anno, ambiente, sesso, cat, cod_gara, tip_estr, vento, regione, naz, lim, societa, f_log)
+                    df = format_data_FIDAL(df, gara, ambiente, f_log) 
+                    if df is not None:
+                        df.to_csv(file, index=False, mode='a', header=write_header)
+                        write_header = False
+        
+        
+
+    ambiente = 'I'    
+
+    for gara in dict_gare.keys():
+        print('-'*90, file=f_log)
+        print(gara, file=f_log)
+        
+        cod_gara = dict_gare[gara]['codice']
+        tipo_gara = dict_gare[gara]['tipo']
+        
+        folder = '../database/indoor/' + tipo_gara + '/'
+        if not os.path.exists(folder): os.makedirs(folder)
+        file = folder + gara.replace(' ','_') + '_2005_' + data_agg + '.csv'
+        
+        write_header = True
+        for anno in range(2005, 2025):
+            anno = str(anno)
+            for cat in ['E', 'R', 'C', 'X']:
+                for sesso in ['M', 'F']:
+        
+                    print(anno, cat, sesso, f_log)
+        
+                    df = get_data_FIDAL(anno, ambiente, sesso, cat, cod_gara, tip_estr, vento, regione, naz, lim, societa, f_log)
+                    df = format_data_FIDAL(df, gara, ambiente, f_log) 
+                    if df is not None:
+                        df.to_csv(file, index=False, mode='a', header=write_header)
+                        write_header = False
+
+
+
+
+
+
+
