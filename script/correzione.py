@@ -1,8 +1,7 @@
 import pandas as pd
 import os
 
-folder = '../database/indoor/'
-log_file = folder + 'errori.txt'
+folder = '../database/outdoor/'
 write_header = True
 
 for sub_folder in os.listdir(folder):
