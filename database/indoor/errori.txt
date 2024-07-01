@@ -1,0 +1,6 @@
+gara,prestazione,tempo,cronometraggio,atleta,anno,categoria,società,posizione,luogo,data,link_atleta,link_società
+60m,-1.0,7.4316,2.0,PASQUETTO Leonardo,1997,JM,ATHLETIC CLUB 96 AE SPA,1 ba- 4,Pergine Valsugana,2016-01-30,https://www.fidal.it/atleta/PASQUETTO-Leonardo/iaiRk5KfaGM%3D,https://www.fidal.it/societa/ATHLETIC-CLUB-96-AE-SPA/BZ066
+60m,-1.0,7.4318,2.0,CORRADINI Carlo,1998,JM,G.S. TRILACUM,2 ba- 1,Pergine Valsugana,2016-01-30,https://www.fidal.it/atleta/CORRADINI-Carlo/d6iRk5qlbWo%3D,https://www.fidal.it/societa/G-S--TRILACUM/TN524
+1500m,21001.0,5:50:01,2.0,ZAMBELLI Beatrice,1999,AF,ATL. BERGAMO 1959 CREBERG,10 su- 1,Padova,2015-01-18,https://www.fidal.it/atleta/ZAMBELLI-Beatrice/dqmRl5qnamk%3D,https://www.fidal.it/societa/ATL--BERGAMO-1959-CREBERG/BG003
+Marcia_3000m,67740.0,18:49:00,2.0,MENEGHELLO Angelica,2002,CF,FONDAZIONE M. BENTEGODI,4 su- 1,Padova,2016-02-07,https://www.fidal.it/atleta/MENEGHELLO-Angelica/eKAAARk5Ojb2Q%3D,https://www.fidal.it/societa/FONDAZIONE-M--BENTEGODI/VR784
+Marcia_3000m,78789.0,21:53:09,2.0,BONARETTI Gaia,2004,JF,G.S.SELF ATL. MONTANARI GRUZZA,18 su- 1,Padova,2022-02-06,https://www.fidal.it/atleta/BONARETTI-Gaia/erGRkpemcGY%3D,https://www.fidal.it/societa/G-S-SELF-ATL--MONTANARI-GRUZZA/RE105
