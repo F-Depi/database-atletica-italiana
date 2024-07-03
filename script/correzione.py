@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from my_functions import *
 
-'''
+''' Trova gli errori e li aggiunge al file di log
 folder = '../database/outdoor/'
 log_file = folder + 'errori_now.csv'
 write_header = True
@@ -26,6 +26,15 @@ for sub_folder in os.listdir(folder):
                 write_header = False
 '''
 
+
+
+
+
+
+
+
+
+exit()
 with open('log', 'w') as f_log:
     file = '../database/outdoor/Marcia/Marcia_10km_2005_2024-06-29.csv'
     df = pd.read_csv(file, sep=',', header=0, dtype=str)
