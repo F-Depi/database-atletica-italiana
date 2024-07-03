@@ -147,37 +147,40 @@ def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria, f_log):
 
 ## Converte i tempi manuali in tempi elettrici. Se è una misura (lanci o salti, queste hanno sempre 2 cifre decimali quindi non dovrebbe toccarle)
 def conversione_manuale_elettrico(tempo, f_log):
-    ## Restituisce il tempo convertito e un codice (0, 1, 2) se il tempo è elettrico, manuale o sconosciuto
+    ## Restituisce il tempo convertito e un codice (e, m, x) se il tempo è elettrico, manuale o sconosciuto
 
+    # Se non è un tempo
+    if '.' not in tempo and ':' not in tempo:
+        print('Questo tempo non ha né punto decimale né \':\': ' + tempo, file=f_log)
+        return -1, 'x'
 
     # Se hanno usato la notazione 1h23:45.67
     if 'h' in tempo:
         tempo = tempo.replace('h', ':')
 
-    # Se non è un tempo elettrico (o non è proprio un tempo)
+    # Se non è un tempo misurato solo in muti (gare su strada), per correttezza aggiungo anche qui 0.25 secondi
     if '.' not in tempo:
-        if ':' in tempo:
-            hh_mm_SS = tempo.split(':')
-            if len(hh_mm_SS) == 2:
-                mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1])
-                return mm_SS, 2
-            elif len(hh_mm_SS) == 3:
-                hh_mm_SS = int(hh_mm_SS[0]) * 3600 + int(hh_mm_SS[1]) * 60 + int(hh_mm_SS[2])
-                return hh_mm_SS, 2
+        hh_mm_SS = tempo.split(':')
+        if len(hh_mm_SS) == 2:
+            mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1]) + 0.25
+            return mm_SS, 'm'
+        elif len(hh_mm_SS) == 3:
+            hh_mm_SS = int(hh_mm_SS[0]) * 3600 + int(hh_mm_SS[1]) * 60 + int(hh_mm_SS[2]) + 0.25
+            return hh_mm_SS, 'm'
         else:
-            print('Questo tempo non ha un punto decimale: ' + tempo, file=f_log)
-            return -1, 2
+            print('Questo tempo ha troppi \':\': ' + tempo, file=f_log)
 
-    # Se non è un tempo
+    # Se il tempo contiene un '.' allora ha anche i decimali
+    # Prima controlliamo che non ce ne siano troppi
     if len(tempo.split('.')) == 3:
         print('Questo tempo ha 3 punti decimali: ' + tempo + '. Immagino il 1° punto sia per i minuti', file=f_log)
         hh_mm_SS = tempo.split('.')
-        mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1])
-        return mm_SS, 2
+        mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1]) + int(hh_mm_SS[2]) / 100
+        return mm_SS, 'x'
 
     if len(tempo.split('.')) > 3:
         print('Questo tempo ha più di 2 punti decimali: ' + tempo, file=f_log)
-        return -1, 2
+        return -1, 'x'
 
     # Se è un tempo sopra il minuto
     hh_mm_in_seconds = 0
@@ -191,21 +194,19 @@ def conversione_manuale_elettrico(tempo, f_log):
             tempo = hh_mm_SS[2]
         elif len(hh_mm_SS) > 3:
             print('Questo tempo ha più di due \':\' ' + tempo, file=f_log)
-            return -1, 2
+            return -1, 'x'
 
     # Conversione da possibile tempo manuale a tempo elettrico (+0.25 secondi)
-    if len(tempo.split('.')[-1]) == 1:
-        return hh_mm_in_seconds + float(tempo) + 0.25, 1
-    elif len(tempo.split('.')[-1]) == 2:
-        return hh_mm_in_seconds + float(tempo), 0
+    if len(tempo.split('.')[-1]) == 1: return hh_mm_in_seconds + float(tempo) + 0.25, 'm'
+    elif len(tempo.split('.')[-1]) == 2: return hh_mm_in_seconds + float(tempo), 'e'
     elif len(tempo.split('.')[-1]) == 3:
         print('Questo tempo ha più di due cifre dopo il punto decimale: ' + tempo, file=f_log)
         # la fidal arrotonda i millesimi per super eccesso, quindi 10.231 diventa 10.24. Solo 10.230 rimane 10.23
         tempo = math.ceil(float(tempo) * 100) / 100
-        return hh_mm_in_seconds + tempo, 0
+        return hh_mm_in_seconds + tempo, 'e'
     else:
         print('Questo tempo ha più di 3 cifre decimali: ' + tempo, file=f_log)
-        return -1, 2
+        return -1, 'x'
 
 
 ## Controlla l'ultimo aggiornamento delle graduatorie
