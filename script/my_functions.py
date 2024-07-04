@@ -59,22 +59,22 @@ def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, n
 
 
 ## Formatta i dati scaricati dalla FIDAL con la funzione get_data_FIDAL()
-def format_data_FIDAL(df, gara, ambiente, f_log):
+def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
 
     if len(df) == 0:
         print('Nessun dato da formattare', file=f_log)
-        return None
+        return pd.DataFrame()
 
     dict_gare = json.load(open('dizionario_gare.json'))
     if gara not in dict_gare:
         print('Gara non presente nel dizionario: ' + gara + '. Le gare sono:\n', file=f_log)
         for key in dict_gare.keys():
             print(key)
-        return None
+        return pd.DataFrame()
 
     if ambiente not in ['I', 'P', 'S']:
         print('Ambiente non valido: ' + ambiente + '. I possibili valori sono I (indoor), P (pista), S (strada)', file=f_log)
-        return None
+        return pd.DataFrame()
 
     # A questo punto in base al tipo di gara formatto i dati
     classifica_gara = dict_gare[gara]['classifica']
@@ -99,11 +99,11 @@ def format_data_FIDAL(df, gara, ambiente, f_log):
         return df
 
     print('Tipo di gara non riconosciuto. classifica_gara:', classifica_gara, file=f_log)
-    return None
+    return pd.DataFrame()
 
 
 ## Alla Fidal non piace scrive l'anno con 4 cifre, quindi scrivono solo le ultime due. Questa funzione aggiunge il 19 o il 20 davanti.
-def check_anno(cell, i, f_log):
+def check_anno(cell, i, f_log) -> str:
     if cell == '':
         print('Anno non disponibile in riga', i, file=f_log)
         return cell
@@ -116,7 +116,7 @@ def check_anno(cell, i, f_log):
 
 
 ## Alla Fidal non piace scrivere la data in formato standard, quindi la scrivono in modo strano e senza l'anno. Questa funzione la mette in formato standard.
-def check_data(cell, anno, i, f_log):
+def check_data(cell, anno, i, f_log) -> str:
     if cell == '':
         print('Data non disponibile in riga', i, file=f_log)
         return cell
@@ -126,7 +126,7 @@ def check_data(cell, anno, i, f_log):
 
 
 ## Calcola l'età dell'atleta per assegnare la categoria
-def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria, f_log):
+def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria, f_log) -> str:
     if anno_atleta == '': return categoria
     if data_prestazione == '': return categoria
     eta = int(data_prestazione[:4]) - int(anno_atleta)
@@ -146,7 +146,7 @@ def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria, f_log):
 
 
 ## Converte i tempi manuali in tempi elettrici. Se è una misura (lanci o salti, queste hanno sempre 2 cifre decimali quindi non dovrebbe toccarle)
-def conversione_manuale_elettrico(tempo, f_log):
+def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
     ## Restituisce il tempo convertito e un codice (e, m, x) se il tempo è elettrico, manuale o sconosciuto
 
     # Se non è un tempo
@@ -210,7 +210,7 @@ def conversione_manuale_elettrico(tempo, f_log):
 
 
 ## Controlla l'ultimo aggiornamento delle graduatorie
-def ultimo_aggiornamento_FIDAL(f_log):
+def ultimo_aggiornamento_FIDAL(f_log) -> str:
     url_FIDAL = 'https://www.fidal.it/graduatorie.php'
     page = requests.get(url_FIDAL)
     data = re.search(r'aggiornati dal 2005 al \d{2}-\d{2}-\d{4}', page.text)
@@ -220,7 +220,7 @@ def ultimo_aggiornamento_FIDAL(f_log):
         return data[2] + '-' + data[1] + '-' + data[0]
     else:
         print('Nessuna data trovata', file=f_log)
-        return None
+        return ''
 
 
 
