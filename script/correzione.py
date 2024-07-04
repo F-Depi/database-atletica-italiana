@@ -33,7 +33,7 @@ for sub_folder in os.listdir(folder):
 dict_gare = json.load(open('dizionario_gare.json'))
 col_dtype = json.load(open('colonne_dtype.json'))
 
-folder = '../database/outdoor/Siepi/'
+folder = '../database/indoor/Siepi/'
 for file in os.listdir(folder):
 
     gara = file[:-20]
