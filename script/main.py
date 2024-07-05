@@ -37,7 +37,7 @@ with open('nottata.log', 'w') as f_log:
         
         folder = '../database/outdoor/' + tipo_gara + '/'
         if not os.path.exists(folder): os.makedirs(folder)
-        file = folder + gara.replace(' ','_') + '_2005_' + data_agg + '.csv'
+        file = folder + gara + '_' + data_agg + '.csv'
         
         write_header = True
         for anno in range(2005, 2025):
@@ -66,7 +66,7 @@ with open('nottata.log', 'w') as f_log:
         
         folder = '../database/indoor/' + tipo_gara + '/'
         if not os.path.exists(folder): os.makedirs(folder)
-        file = folder + gara.replace(' ','_') + '_2005_' + data_agg + '.csv'
+        file = folder + gara + '_' + data_agg + '.csv'
         
         write_header = True
         for anno in range(2005, 2025):
@@ -81,10 +81,4 @@ with open('nottata.log', 'w') as f_log:
                     if df is not None:
                         df.to_csv(file, index=False, mode='a', header=write_header)
                         write_header = False
-
-
-
-
-
-
 

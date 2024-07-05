@@ -1,8 +1,10 @@
-gara,prestazione,tempo,cronometraggio,atleta,anno,categoria,società,posizione,luogo,data,link_atleta,link_società
-60m,-1.0,7.4316,2.0,PASQUETTO Leonardo,1997,JM,ATHLETIC CLUB 96 AE SPA,1 ba- 4,Pergine Valsugana,2016-01-30,https://www.fidal.it/atleta/PASQUETTO-Leonardo/iaiRk5KfaGM%3D,https://www.fidal.it/societa/ATHLETIC-CLUB-96-AE-SPA/BZ066
-60m,-1.0,7.4318,2.0,CORRADINI Carlo,1998,JM,G.S. TRILACUM,2 ba- 1,Pergine Valsugana,2016-01-30,https://www.fidal.it/atleta/CORRADINI-Carlo/d6iRk5qlbWo%3D,https://www.fidal.it/societa/G-S--TRILACUM/TN524
-1500m,21001.0,5:50:01,2.0,ZAMBELLI Beatrice,1999,AF,ATL. BERGAMO 1959 CREBERG,10 su- 1,Padova,2015-01-18,https://www.fidal.it/atleta/ZAMBELLI-Beatrice/dqmRl5qnamk%3D,https://www.fidal.it/societa/ATL--BERGAMO-1959-CREBERG/BG003
-Marcia_3000m,67740.0,18:49:00,2.0,MENEGHELLO Angelica,2002,CF,FONDAZIONE M. BENTEGODI,4 su- 1,Padova,2016-02-07,https://www.fidal.it/atleta/MENEGHELLO-Angelica/eKAAARk5Ojb2Q%3D,https://www.fidal.it/societa/FONDAZIONE-M--BENTEGODI/VR784
-Marcia_3000m,78789.0,21:53:09,2.0,BONARETTI Gaia,2004,JF,G.S.SELF ATL. MONTANARI GRUZZA,18 su- 1,Padova,2022-02-06,https://www.fidal.it/atleta/BONARETTI-Gaia/erGRkpemcGY%3D,https://www.fidal.it/societa/G-S-SELF-ATL--MONTANARI-GRUZZA/RE105
-60Hs_h91-8.50,8.63,8.63,e,BESANA Veronica,2002,JF,ATL. LECCO-COLOMBO COSTRUZ.,6 se- 1,Ancona,2021-01-23,https://www.fidal.it/atleta/BESANA-Veronica/dquRkpmfamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
-60Hs_h91-8.50,9.27,9.27,e,ANDREINI Elisa,2002,JF,FIAMME GIALLE G. SIMONI,4 se- 1,Ancona,2021-01-16,https://www.fidal.it/atleta/ANDREINI-Elisa/f6yRk5qocWc%3D,https://www.fidal.it/societa/FIAMME-GIALLE-G--SIMONI/RM057
+gara,prestazione,atleta,anno,categoria,società,posizione,luogo,data,link_atleta,link_società
+60m,7.4316,PASQUETTO Leonardo,1997,JM,ATHLETIC CLUB 96 AE SPA,1 ba- 4,Pergine Valsugana,2016-01-30,https://www.fidal.it/atleta/PASQUETTO-Leonardo/iaiRk5KfaGM%3D,https://www.fidal.it/societa/ATHLETIC-CLUB-96-AE-SPA/BZ066
+60m,7.4318,CORRADINI Carlo,1998,JM,G.S. TRILACUM,2 ba- 1,Pergine Valsugana,2016-01-30,https://www.fidal.it/atleta/CORRADINI-Carlo/d6iRk5qlbWo%3D,https://www.fidal.it/societa/G-S--TRILACUM/TN524
+1500m,5:50:01,ZAMBELLI Beatrice,1999,AF,ATL. BERGAMO 1959 CREBERG,10 su- 1,Padova,2015-01-18,https://www.fidal.it/atleta/ZAMBELLI-Beatrice/dqmRl5qnamk%3D,https://www.fidal.it/societa/ATL--BERGAMO-1959-CREBERG/BG003
+Marcia_3000m,18:49:00,MENEGHELLO Angelica,2002,CF,FONDAZIONE M. BENTEGODI,4 su- 1,Padova,2016-02-07,https://www.fidal.it/atleta/MENEGHELLO-Angelica/eKAAARk5Ojb2Q%3D,https://www.fidal.it/societa/FONDAZIONE-M--BENTEGODI/VR784
+Marcia_3000m,21:53:09,BONARETTI Gaia,2004,JF,G.S.SELF ATL. MONTANARI GRUZZA,18 su- 1,Padova,2022-02-06,https://www.fidal.it/atleta/BONARETTI-Gaia/erGRkpemcGY%3D,https://www.fidal.it/societa/G-S-SELF-ATL--MONTANARI-GRUZZA/RE105
+60Hs_h91-8.50,8.63,BESANA Veronica,2002,JF,ATL. LECCO-COLOMBO COSTRUZ.,6 se- 1,Ancona,2021-01-23,https://www.fidal.it/atleta/BESANA-Veronica/dquRkpmfamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+60Hs_h91-8.50,9.27,ANDREINI Elisa,2002,JF,FIAMME GIALLE G. SIMONI,4 se- 1,Ancona,2021-01-16,https://www.fidal.it/atleta/ANDREINI-Elisa/f6yRk5qocWc%3D,https://www.fidal.it/societa/FIAMME-GIALLE-G--SIMONI/RM057
+lungo,-,SOTTILE Davide,1994,PM,ATLETICA VALSESIA,22 su- 1,Aosta,2015-02-07,https://www.fidal.it/atleta/SOTTILE-Davide/dKAAARk5qga2M%3D,https://www.fidal.it/societa/ATLETICA-VALSESIA/VC045
+triplo,-,PUDDU Michele,2007,AM,POL LIBERTAS CAMPIDANO,3 su- 1,Iglesias,2023-01-22,https://www.fidal.it/atleta/PUDDU-Michele/iKmRkpijcWM%3D,https://www.fidal.it/societa/POL-LIBERTAS-CAMPIDANO/CA036

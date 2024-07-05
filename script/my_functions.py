@@ -84,14 +84,14 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
 
     # Salti, lanci e 24h di corsa sono gare in cui la classifica è data dalla misura.
     if classifica_gara == 'distanza':
-        df = df.rename(columns={'tempo': 'prestazione'})
+        df['tempo'] = df['tempo'].apply(conversione_misure_FIDAL, args=(f_log,))
         if vento == 'no':
             del df['vento']
+        df = df.rename(columns={'tempo': 'prestazione'})
         return df
 
     # Le gare di corsa hanno come prestazione un tempo, che va anche convertito in base al cronometraggio
     if classifica_gara == 'tempo':
-        #df['prestazione'], df['cronometraggio'] = zip(*df['tempo'].map(conversione_manuale_elettrico)
         df[['prestazione', 'cronometraggio']] = df.apply(lambda row: conversione_manuale_elettrico(row['tempo'], f_log), axis=1, result_type='expand')
         df = df[['prestazione', 'vento', 'tempo', 'cronometraggio', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
         if vento == 'no':
@@ -208,6 +208,12 @@ def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
         print('Questo tempo ha più di 3 cifre decimali: ' + tempo, file=f_log)
         return -1, 'x'
 
+
+def conversione_misure_FIDAL(misura, f_log) -> float:
+    try: return float(misura)
+    except ValueError:
+        print('Misura non convertibile in float: ' + misura, file=f_log)
+        return -1
 
 ## Controlla l'ultimo aggiornamento delle graduatorie
 def ultimo_aggiornamento_FIDAL(f_log) -> str:
