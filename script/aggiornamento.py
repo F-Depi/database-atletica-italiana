@@ -50,7 +50,7 @@ for ambiente in ['I', 'P']:
             # L'aggiornamento verrà fatto scaricando tutti i dati dell'anno in corso (e di quelli mancanti)
             years = range(int(last_local_update[:4]), int(last_server_update[:4]) + 1)
 
-            gara = file[:-20]
+            gara = file[:-15]
             cod = dict_gare[gara]['codice']
 
             df_new = pd.DataFrame()
