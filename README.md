@@ -11,13 +11,13 @@ I risultati purtroppo sono solo quelli dal 2005 in poi.
 I risultati sono raccolti in diversi file CSV che è possibile scaricare qui [https://github.com/F-Depi/database](https://github.com/F-Depi/database-atletica-italiana/tree/master/database).
 Ogni csv ha 13 colonne
 
-<img width="1306" alt="image" src="https://github.com/F-Depi/database-atletica-italiana/assets/120582465/631a934e-170c-4105-8d61-e9a13d7844c6">
+![image](https://github.com/F-Depi/database-atletica-italiana/assets/120582465/d871b986-7b3b-426a-9568-91b316633563)
 
 
-- ***prestazione*** contiene il tempo utile per classificare i risultati. Tempi/misure scritte erroneamente vengono trasformati in -1, in questo caso la colonna ***cronometraggio*** avrà valore 2. Tempi del tipo hh:mm:SS.ss (es. 1h23:45.67 o 12:34.56) vengono convertiti in SS.ss (es. 1h23:45.67 -> 5025.67 s o 12:34.56 -> 754.56 s). Tempi con una sola cifra decimale (es. 10.3) vengono considerati ottenuti con cronometraggio manuale e convertiti aggiungendo 0.25 s (es. 10.3 -> 10.55 s), in questo caso la colonna ***cronometraggo*** avrà valore 1.
+- ***prestazione*** contiene il tempo utile per classificare i risultati. Tempi/misure scritte erroneamente vengono trasformati in -1, in questo caso la colonna ***cronometraggio*** avrà valore _x_. Tempi del tipo hh:mm:SS.ss (es. 1h23:45.67 o 12:34.56) vengono convertiti in SS.ss (es. 1h23:45.67 -> 5025.67 s o 12:34.56 -> 754.56 s). Tempi con una sola cifra decimale (es. 10.3) vengono considerati ottenuti con cronometraggio manuale e convertiti aggiungendo 0.25 s (es. 10.3 -> 10.55 s), in questo caso la colonna ***cronometraggo*** avrà valore m.
 - ***vento*** contiene il vento misurato durante la gara. È vuoto se non c'è nessun dato. La colonna c'è anche per gare in cui il vento non viene misurato (es. salto in alto, 1000m) ed è vuota.
 - ***tempo*** contiene il risultato così come comoare nei ranking, può essere anche la misura di un salto o un lancio
-- ***cronometraggio*** _e_ per cronometraggio elettrico o misura correttamente registrata. _m_ per cronometraggio manuale. _x_ per valori inseriti erroneamente nei risultati del sito della Fidal (es. 1.23.45)
+- ***cronometraggio*** _e_ per cronometraggio elettrico o misura correttamente registrata. _m_ per cronometraggio manuale. _x_ per valori inseriti erroneamente nei risultati del sito della Fidal (es. 1.23:45). Tempi errati del tipo 1.23.45 vengono segnalati con _x_, ma interpretati come 1:23.45 in quanto è l'errore più comune commesso. Il database viene poi controllato e corretto a mano, gli errori corretti sono salvati in [errori outdoor](https://github.com/F-Depi/database-atletica-italiana/blob/master/database/outdoor/errori.csv) ed [errori indoor](https://github.com/F-Depi/database-atletica-italiana/blob/master/database/indoor/errori.csv)
 - ***atleta*** nome dell'atleta
 - ***anno*** anno di nascita dell'atleta
 - ***categoria*** categoria dell'atleta al tempo della prestazione
