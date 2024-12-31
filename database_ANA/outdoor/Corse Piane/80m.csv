@@ -1,0 +1,687 @@
+punteggio,prestazione,vento,tempo,cronometraggio,atleta,anno,categoria,società,posizione,luogo,data,link_atleta,link_società
+,9.69,+0.7,9.69,e,MANISCALCHI Stefano,1990,CM,ANA ATL.FELTRE,2 se- 4,Fidenza,2005-06-19,https://www.fidal.it/atleta/MANISCALCHI-Stefano/eKiRlZKia2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.75,+0.0,9.5,m,MANISCALCHI Stefano,1990,CM,ANA ATL.FELTRE,6 se- 1,Tezze Sul Brenta,2005-09-17,https://www.fidal.it/atleta/MANISCALCHI-Stefano/eKiRlZKia2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.85,+0.0,9.6,m,MANISCALCHI Stefano,1990,CM,ANA ATL.FELTRE,2 se- 1,Abano Terme,2005-06-04,https://www.fidal.it/atleta/MANISCALCHI-Stefano/eKiRlZKia2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,+0.0,9.7,m,MANISCALCHI Stefano,1990,CM,ANA ATL.FELTRE,3 se- 1,Marostica,2005-05-15,https://www.fidal.it/atleta/MANISCALCHI-Stefano/eKiRlZKia2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,+0.0,9.7,m,MANISCALCHI Stefano,1990,CM,ANA ATL.FELTRE,1 su- 1,Feltre,2005-07-13,https://www.fidal.it/atleta/MANISCALCHI-Stefano/eKiRlZKia2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,+0.0,9.7,m,MANISCALCHI Stefano,1990,CM,ANA ATL.FELTRE,1 se- 1,Feltre,2005-08-28,https://www.fidal.it/atleta/MANISCALCHI-Stefano/eKiRlZKia2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,+0.0,9.7,m,MANISCALCHI Stefano,1990,CM,ANA ATL.FELTRE,3 se- 1,Marostica,2005-10-02,https://www.fidal.it/atleta/MANISCALCHI-Stefano/eKiRlZKia2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,+0.0,9.8,m,MANISCALCHI Stefano,1990,CM,ANA ATL.FELTRE,1 su- 1,Feltre,2005-06-18,https://www.fidal.it/atleta/MANISCALCHI-Stefano/eKiRlZKia2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,+0.0,9.9,m,MANISCALCHI Stefano,1990,CM,ANA ATL.FELTRE,1 su- 1,Conegliano,2005-04-02,https://www.fidal.it/atleta/MANISCALCHI-Stefano/eKiRlZKia2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,+0.0,10.2,m,SPECIA Simone,1990,CM,ANA ATL.FELTRE,3 se- 1,Feltre,2005-08-28,https://www.fidal.it/atleta/SPECIA-Simone/eKmRlJOgbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,+0.0,10.4,m,BIZZARINI Lorenzo,1991,CM,ANA ATL.FELTRE,3 se- 3,Marostica,2005-10-02,https://www.fidal.it/atleta/BIZZARINI-Lorenzo/eKmRlJOhbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.7,+0.0,10.70,e,BIZZARINI Lorenzo,1991,CM,ANA ATL.FELTRE,4 se- 1,Majano,2005-09-03,https://www.fidal.it/atleta/BIZZARINI-Lorenzo/eKmRlJOhbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.75,+0.0,10.5,m,CANOVA Luca,1991,CM,ANA ATL.FELTRE,2 su- 1,Feltre,2005-06-18,https://www.fidal.it/atleta/CANOVA-Luca/eKiRlZKia2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,+0.0,10.6,m,CANOVA Luca,1991,CM,ANA ATL.FELTRE,4 se- 1,Feltre,2005-08-28,https://www.fidal.it/atleta/CANOVA-Luca/eKiRlZKia2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,+0.0,10.7,m,FERRO Federico,1991,CM,ANA ATL.FELTRE,1 se- 2,Longarone,2005-05-07,https://www.fidal.it/atleta/FERRO-Federico/eKmRlJOgcGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,+0.0,10.7,m,ANGARAN Massimo,1990,CM,ANA ATL.FELTRE,2 se- 1,Longarone,2005-05-07,https://www.fidal.it/atleta/ANGARAN-Massimo/eKmRlJKmaGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,+0.0,10.8,m,FERRO Federico,1991,CM,ANA ATL.FELTRE,1 se- 2,Feltre,2005-08-28,https://www.fidal.it/atleta/FERRO-Federico/eKmRlJOgcGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,+0.0,10.9,m,CANOVA Luca,1991,CM,ANA ATL.FELTRE,12 su- 1,Conegliano,2005-04-02,https://www.fidal.it/atleta/CANOVA-Luca/eKiRlZKia2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,+0.0,11.0,m,FERRO Federico,1991,CM,ANA ATL.FELTRE,5 se- 3,Marostica,2005-10-02,https://www.fidal.it/atleta/FERRO-Federico/eKmRlJOgcGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,+0.0,10.0,m,DALLO Francesca,1990,CF,ANA ATL.FELTRE,1 se- 1,Longarone,2005-05-07,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,+0.0,10.0,m,DALLO Francesca,1990,CF,ANA ATL.FELTRE,1 se- 1,Marostica,2005-05-15,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,+0.0,10.0,m,DALLO Francesca,1990,CF,ANA ATL.FELTRE,2 se- 1,Tezze Sul Brenta,2005-09-17,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,+0.0,10.25,e,DALLO Francesca,1990,CF,ANA ATL.FELTRE,1 se- 3,Majano,2005-09-03,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.29,+0.0,10.29,e,DALLO Francesca,1990,CF,ANA ATL.FELTRE,1 se- 1,Rossano Veneto,2005-09-11,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.32,+0.0,10.32,e,DALLO Francesca,1990,CF,ANA ATL.FELTRE,1 se- 1,Trento,2005-08-27,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,+0.0,10.1,m,DALLO Francesca,1990,CF,ANA ATL.FELTRE,1 se- 1,Abano Terme,2005-06-04,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,+0.0,10.1,m,DALLO Francesca,1990,CF,ANA ATL.FELTRE,1 se- 2,Feltre,2005-06-18,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,+0.0,10.1,m,DALLO Francesca,1990,CF,ANA ATL.FELTRE,1 se- 1,Marostica,2005-10-02,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.46,+0.0,10.46,e,DALLO Francesca,1990,CF,ANA ATL.FELTRE,1 su- 1,Marcon,2005-05-08,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,+0.0,10.3,m,DALLO Francesca,1990,CF,ANA ATL.FELTRE,1 su- 1,Conegliano,2005-04-02,https://www.fidal.it/atleta/DALLO-Francesca/eKiRlZSfamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.75,+0.0,10.5,m,BERTONI Alessandra,1991,CF,ANA ATL.FELTRE,3 se- 2,Marostica,2005-05-15,https://www.fidal.it/atleta/BERTONI-Alessandra/eKmRlJKlamw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,+0.0,10.6,m,BERTONI Alessandra,1991,CF,ANA ATL.FELTRE,4 su- 1,Conegliano,2005-04-02,https://www.fidal.it/atleta/BERTONI-Alessandra/eKmRlJKlamw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,+0.0,10.6,m,BERTONI Alessandra,1991,CF,ANA ATL.FELTRE,2 se- 1,Verona,2005-06-02,https://www.fidal.it/atleta/BERTONI-Alessandra/eKmRlJKlamw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,+0.0,10.6,m,BERTONI Alessandra,1991,CF,ANA ATL.FELTRE,2 se- 2,Feltre,2005-06-18,https://www.fidal.it/atleta/BERTONI-Alessandra/eKmRlJKlamw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,+0.0,10.6,m,BERTONI Alessandra,1991,CF,ANA ATL.FELTRE,2 su- 1,Feltre,2005-07-13,https://www.fidal.it/atleta/BERTONI-Alessandra/eKmRlJKlamw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,+0.0,10.8,m,BERTONI Alessandra,1991,CF,ANA ATL.FELTRE,1 se- 1,Feltre,2005-08-28,https://www.fidal.it/atleta/BERTONI-Alessandra/eKmRlJKlamw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,+0.0,9.7,m,BIZZARINI Lorenzo,1991,CM,ANA ATL.FELTRE,1 se- 2,Pous D Alpago,2006-04-08,https://www.fidal.it/atleta/BIZZARINI-Lorenzo/eKmRlJOhbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.02,+0.0,10.02,e,BIZZARINI Lorenzo,1991,CM,ANA ATL.FELTRE,1 se- 4,Conegliano,2006-04-25,https://www.fidal.it/atleta/BIZZARINI-Lorenzo/eKmRlJOhbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,+0.0,9.8,m,BIZZARINI Lorenzo,1991,CM,ANA ATL.FELTRE,1 se- 2,Nove,2006-10-01,https://www.fidal.it/atleta/BIZZARINI-Lorenzo/eKmRlJOhbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.06,+0.0,10.06,e,BIZZARINI Lorenzo,1991,CM,ANA ATL.FELTRE,2 se- 2,Majano,2006-09-09,https://www.fidal.it/atleta/BIZZARINI-Lorenzo/eKmRlJOhbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,+0.0,9.9,m,BIZZARINI Lorenzo,1991,CM,ANA ATL.FELTRE,1 se- 1,Feltre,2006-08-22,https://www.fidal.it/atleta/BIZZARINI-Lorenzo/eKmRlJOhbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,+0.0,10.1,m,TURRA Andrea,1992,CM,ANA ATL.FELTRE,1 se- 1,Pous D Alpago,2006-04-08,https://www.fidal.it/atleta/TURRA-Andrea/eKmRlJOgbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,+0.0,10.1,m,CANOVA Luca,1991,CM,ANA ATL.FELTRE,3 se- 2,Pous D Alpago,2006-04-08,https://www.fidal.it/atleta/CANOVA-Luca/eKiRlZKia2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,+0.0,10.2,m,RECH Denis,1992,CM,ANA ATL.FELTRE,2 se- 1,Pous D Alpago,2006-04-08,https://www.fidal.it/atleta/RECH-Denis/eKmRlJKkcWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,+0.0,10.2,m,BIZZARINI Lorenzo,1991,CM,ANA ATL.FELTRE,3 se- 2,Marcon,2006-09-02,https://www.fidal.it/atleta/BIZZARINI-Lorenzo/eKmRlJOhbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,+0.0,10.55,e,DE GIACOMETTI Andrea,1992,CM,ANA ATL.FELTRE,2 se- 2,Conegliano,2006-04-25,https://www.fidal.it/atleta/DE-GIACOMETTI-Andrea/eKmRlJOhbWw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,+0.0,10.6,m,RIGA Stefano,1991,CM,ANA ATL.FELTRE,3 se- 1,Pous D Alpago,2006-04-08,https://www.fidal.it/atleta/RIGA-Stefano/eKmRlJOjaWM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,+0.0,10.7,m,RECH Denis,1992,CM,ANA ATL.FELTRE,6 se- 2,Abano Terme,2006-06-10,https://www.fidal.it/atleta/RECH-Denis/eKmRlJKkcWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.13,+0.0,11.13,e,RECH Denis,1992,CM,ANA ATL.FELTRE,3 se- 3,Conegliano,2006-04-25,https://www.fidal.it/atleta/RECH-Denis/eKmRlJKkcWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.51,+0.0,11.51,e,TOIGO Robin,1992,CM,ANA ATL.FELTRE,6 se- 4,Conegliano,2006-04-25,https://www.fidal.it/atleta/TOIGO-Robin/eKmRlJKoaGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,+0.0,10.7,m,BASSANI Hilary,1992,CF,ANA ATL.FELTRE,2 se- 2,Marostica,2006-05-21,https://www.fidal.it/atleta/BASSANI-Hilary/eKmRlJKmbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,+0.0,10.9,m,BASSANI Hilary,1992,CF,ANA ATL.FELTRE,5 se- 1,Nove,2006-10-01,https://www.fidal.it/atleta/BASSANI-Hilary/eKmRlJKmbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.2,+0.0,11.20,e,BERTONI Alessandra,1991,CF,ANA ATL.FELTRE,4 se- 5,Conegliano,2006-04-25,https://www.fidal.it/atleta/BERTONI-Alessandra/eKmRlJKlamw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,+0.0,11.4,m,BASSANI Hilary,1992,CF,ANA ATL.FELTRE,4 se- 2,Marcon,2006-09-02,https://www.fidal.it/atleta/BASSANI-Hilary/eKmRlJKmbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,,9.9,m,TIREL Enrico,1993,CM,ANA ATL.FELTRE,1 se- 1,Puos Alpago,2007-04-14,https://www.fidal.it/atleta/TIREL-Enrico/eKmRlJOjaGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,,10.0,m,TURRA Andrea,1992,CM,ANA ATL.FELTRE,2 se- 1,Puos Alpago,2007-04-14,https://www.fidal.it/atleta/TURRA-Andrea/eKmRlJOgbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,,10.0,m,DE GIACOMETTI Andrea,1992,CM,ANA ATL.FELTRE,1 se- 1,Longarone,2007-05-12,https://www.fidal.it/atleta/DE-GIACOMETTI-Andrea/eKmRlJOhbWw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.42,,10.42,e,TURRA Andrea,1992,CM,ANA ATL.FELTRE,4 se- 3,Verona,2007-06-02,https://www.fidal.it/atleta/TURRA-Andrea/eKmRlJOgbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,TURRA Andrea,1992,CM,ANA ATL.FELTRE,3 se- 1,Longarone,2007-05-12,https://www.fidal.it/atleta/TURRA-Andrea/eKmRlJOgbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.5,,10.50,e,TURRA Andrea,1992,CM,ANA ATL.FELTRE,3 se- 2,Mestre,2007-10-06,https://www.fidal.it/atleta/TURRA-Andrea/eKmRlJOgbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,,10.3,m,TURRA Andrea,1992,CM,ANA ATL.FELTRE,5 se- 2,Marostica,2007-05-20,https://www.fidal.it/atleta/TURRA-Andrea/eKmRlJOgbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,,10.3,m,TURRA Andrea,1992,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2007-10-20,https://www.fidal.it/atleta/TURRA-Andrea/eKmRlJOgbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,-0.2,10.55,e,TURRA Andrea,1992,CM,ANA ATL.FELTRE,5 se- 1,Majano,2007-09-08,https://www.fidal.it/atleta/TURRA-Andrea/eKmRlJOgbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.59,,10.59,e,TURRA Andrea,1992,CM,ANA ATL.FELTRE,4 se- 3,Pous D Alpago,2007-09-05,https://www.fidal.it/atleta/TURRA-Andrea/eKmRlJOgbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.61,,10.61,e,RECH Denis,1992,CM,ANA ATL.FELTRE,6 se- 2,Verona,2007-06-02,https://www.fidal.it/atleta/RECH-Denis/eKmRlJKkcWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.75,,10.5,m,TURRA Andrea,1992,CM,ANA ATL.FELTRE,1 su- 1,Belluno,2007-06-23,https://www.fidal.it/atleta/TURRA-Andrea/eKmRlJOgbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,FACCHIN Alessia,1993,CF,ANA ATL.FELTRE,1 se- 1,Puos Alpago,2007-04-14,https://www.fidal.it/atleta/FACCHIN-Alessia/eKmRlJKna2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,FACCHIN Alessia,1993,CF,ANA ATL.FELTRE,1 se- 1,Belluno,2007-10-20,https://www.fidal.it/atleta/FACCHIN-Alessia/eKmRlJKna2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.91,,10.91,e,BASSANI Hilary,1992,CF,ANA ATL.FELTRE,4 se- 1,Mogliano Veneto,2007-09-29,https://www.fidal.it/atleta/BASSANI-Hilary/eKmRlJKmbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,FACCHIN Alessia,1993,CF,ANA ATL.FELTRE,1 se- 1,Belluno,2007-08-29,https://www.fidal.it/atleta/FACCHIN-Alessia/eKmRlJKna2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.98,,10.98,e,FACCHIN Alessia,1993,CF,ANA ATL.FELTRE,2 se- 3,Conegliano,2007-04-25,https://www.fidal.it/atleta/FACCHIN-Alessia/eKmRlJKna2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,2 se- 2,Longarone,2007-05-12,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,11.05,e,BASSANI Hilary,1992,CF,ANA ATL.FELTRE,2 se- 5,Pous D Alpago,2007-09-05,https://www.fidal.it/atleta/BASSANI-Hilary/eKmRlJKmbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.1,,11.10,e,FACCHIN Alessia,1993,CF,ANA ATL.FELTRE,1 se- 1,Mestre,2007-10-06,https://www.fidal.it/atleta/FACCHIN-Alessia/eKmRlJKna2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.21,,11.21,e,FACCHIN Alessia,1993,CF,ANA ATL.FELTRE,4 se- 5,Pous D Alpago,2007-09-05,https://www.fidal.it/atleta/FACCHIN-Alessia/eKmRlJKna2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.29,,11.29,e,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,5 se- 2,Verona,2007-06-02,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,2 se- 1,Belluno,2007-10-20,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,FACCHIN Alessia,1993,CF,ANA ATL.FELTRE,2 se- 1,Belluno,2007-05-05,https://www.fidal.it/atleta/FACCHIN-Alessia/eKmRlJKna2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,ZATTA Anna,1993,CF,ANA ATL.FELTRE,1 se- 1,Longarone,2007-05-12,https://www.fidal.it/atleta/ZATTA-Anna/eKmRlJOncGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.44,,11.44,e,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,3 se- 3,Mogliano Veneto,2007-09-29,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,+1.1,11.55,e,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,4 se- 1,Majano,2007-09-08,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,REDETTI Lisa,1993,CF,ANA ATL.FELTRE,1 se- 2,Belluno,2007-10-20,https://www.fidal.it/atleta/REDETTI-Lisa/eKmRlJKlamk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.66,,11.66,e,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,1 se- 1,Conegliano,2007-04-25,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.71,,11.71,e,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,5 se- 4,Pous D Alpago,2007-09-05,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,DE BASTIANI Silvia,1992,CF,ANA ATL.FELTRE,3 se- 2,Belluno,2007-10-20,https://www.fidal.it/atleta/DE-BASTIANI-Silvia/eKmRlJOocWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,ZATTA Anna,1993,CF,ANA ATL.FELTRE,5 se- 1,Belluno,2007-10-20,https://www.fidal.it/atleta/ZATTA-Anna/eKmRlJOncGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,REDETTI Lisa,1993,CF,ANA ATL.FELTRE,3 se- 1,Belluno,2007-05-05,https://www.fidal.it/atleta/REDETTI-Lisa/eKmRlJKlamk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.09,,12.09,e,ZATTA Anna,1993,CF,ANA ATL.FELTRE,3 se- 3,Verona,2007-06-02,https://www.fidal.it/atleta/ZATTA-Anna/eKmRlJOncGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.11,,12.11,e,ZATTA Anna,1993,CF,ANA ATL.FELTRE,2 se- 1,Conegliano,2007-04-25,https://www.fidal.it/atleta/ZATTA-Anna/eKmRlJOncGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.84,,9.84,e,TIREL Enrico,1993,CM,ANA ATL.FELTRE,1 se- 2,Pordenone,2008-07-11,https://www.fidal.it/atleta/TIREL-Enrico/eKmRlJOjaGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,+1.2,10.15,e,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,1 se- 3,Verona,2008-06-01,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,,10.0,m,PARANI Aire,1994,CM,ANA ATL.FELTRE,1 se- 1,Longarone,2008-05-24,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,,10.0,m,PARANI Aire,1994,CM,ANA ATL.FELTRE,5 se- 2,Marostica,2008-09-14,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,-0.5,10.25,e,PARANI Aire,1994,CM,ANA ATL.FELTRE,3 se- 3,Rossano Veneto,2008-09-07,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.26,,10.26,e,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,4 se- 3,Majano,2008-09-06,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,SCOPEL Luca,1994,CM,ANA ATL.FELTRE,2 se- 1,Belluno,2008-04-12,https://www.fidal.it/atleta/SCOPEL-Luca/eKmRlJOmbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2008-05-04,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,BERTOLDIN Daniele,1994,CM,ANA ATL.FELTRE,2 se- 1,Belluno,2008-05-04,https://www.fidal.it/atleta/BERTOLDIN-Daniele/eKmRlJOoamg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,2 se- 1,Longarone,2008-05-24,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.38,+1.8,10.38,e,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,1 se- 2,Rossano Veneto,2008-09-07,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.44,+1.9,10.44,e,SOPPELSA Mattia,1994,CM,ANA ATL.FELTRE,5 se- 2,Verona,2008-06-01,https://www.fidal.it/atleta/SOPPELSA-Mattia/eKmRlJShbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,SCOPEL Luca,1994,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2008-10-04,https://www.fidal.it/atleta/SCOPEL-Luca/eKmRlJOmbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,-2.8,10.55,e,PARANI Aire,1994,CM,ANA ATL.FELTRE,6 se- 2,Mogliano Veneto,2008-09-27,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,SCOPEL Luca,1994,CM,ANA ATL.FELTRE,2 se- 3,Marostica,2008-09-14,https://www.fidal.it/atleta/SCOPEL-Luca/eKmRlJOmbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,,10.6,m,PARANI Aire,1994,CM,ANA ATL.FELTRE,3 se- 1,Belluno,2008-04-12,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,D'AGOSTINI Enrico,1994,CM,ANA ATL.FELTRE,3 se- 1,Belluno,2008-10-04,https://www.fidal.it/atleta/D-AGOSTINI-Enrico/eKmRlJSgaGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,PERCO Emilio,1994,CM,ANA ATL.FELTRE,4 se- 1,Belluno,2008-10-04,https://www.fidal.it/atleta/PERCO-Emilio/eKmRlJOjaGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,DILLI Thomas,1994,CM,ANA ATL.FELTRE,5 se- 1,Belluno,2008-10-04,https://www.fidal.it/atleta/DILLI-Thomas/eKmRlJOjbGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,PERENZIN Luca,1994,CM,ANA ATL.FELTRE,4 se- 1,Belluno,2008-04-12,https://www.fidal.it/atleta/PERENZIN-Luca/eKmRlJOgbWM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.03,-0.4,11.03,e,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,4 se- 2,Verona,2008-06-01,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,FONTANA Stefania,1994,CF,ANA ATL.FELTRE,1 se- 1,Belluno,2008-05-04,https://www.fidal.it/atleta/FONTANA-Stefania/eKmRlJKob2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,FACCHIN Alessia,1993,CF,ANA ATL.FELTRE,1 se- 1,Belluno,2008-06-21,https://www.fidal.it/atleta/FACCHIN-Alessia/eKmRlJKna2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,FONTANA Stefania,1994,CF,ANA ATL.FELTRE,2 se- 1,Belluno,2008-06-21,https://www.fidal.it/atleta/FONTANA-Stefania/eKmRlJKob2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,FACCHIN Alessia,1993,CF,ANA ATL.FELTRE,5 se- 1,Marostica,2008-09-14,https://www.fidal.it/atleta/FACCHIN-Alessia/eKmRlJKna2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,FONTANA Stefania,1994,CF,ANA ATL.FELTRE,1 se- 2,Belluno,2008-04-12,https://www.fidal.it/atleta/FONTANA-Stefania/eKmRlJKob2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,FACCHIN Alessia,1993,CF,ANA ATL.FELTRE,2 se- 1,Belluno,2008-04-12,https://www.fidal.it/atleta/FACCHIN-Alessia/eKmRlJKna2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,2 se- 1,Longarone,2008-05-24,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,FONTANA Stefania,1994,CF,ANA ATL.FELTRE,1 se- 2,Marostica,2008-09-14,https://www.fidal.it/atleta/FONTANA-Stefania/eKmRlJKob2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,3 se- 1,Belluno,2008-05-04,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.34,+1.4,11.34,e,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,5 se- 5,Rossano Veneto,2008-09-07,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.4,+1.4,11.40,e,FONTANA Stefania,1994,CF,ANA ATL.FELTRE,6 se- 5,Rossano Veneto,2008-09-07,https://www.fidal.it/atleta/FONTANA-Stefania/eKmRlJKob2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.43,-0.1,11.43,e,GOBBER Francesca,1994,CF,ANA ATL.FELTRE,3 se- 3,Verona,2008-06-01,https://www.fidal.it/atleta/GOBBER-Francesca/eKmRlJSfcWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.53,-0.1,11.53,e,ZATTA Anna,1993,CF,ANA ATL.FELTRE,5 se- 3,Verona,2008-06-01,https://www.fidal.it/atleta/ZATTA-Anna/eKmRlJOncGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,2 se- 2,Belluno,2008-04-12,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,REDETTI Lisa,1993,CF,ANA ATL.FELTRE,3 se- 2,Belluno,2008-04-12,https://www.fidal.it/atleta/REDETTI-Lisa/eKmRlJKlamk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.67,-1.3,11.67,e,ZATTA Alessia,1993,CF,ANA ATL.FELTRE,4 se- 2,Mogliano Veneto,2008-09-27,https://www.fidal.it/atleta/ZATTA-Alessia/eKmRlJOhbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,ZATTA Anna,1993,CF,ANA ATL.FELTRE,5 se- 1,Longarone,2008-05-24,https://www.fidal.it/atleta/ZATTA-Anna/eKmRlJOncGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,TONIN Francesca,1994,CF,ANA ATL.FELTRE,2 se- 2,Belluno,2008-10-04,https://www.fidal.it/atleta/TONIN-Francesca/eKmRlJOmbWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.25,,12.0,m,SOPPELSA Anna,1993,CF,ANA ATL.FELTRE,3 se- 2,Belluno,2008-10-04,https://www.fidal.it/atleta/SOPPELSA-Anna/eKmRlJKjbmU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.75,,12.5,m,DALLA ROSA Silvia,1993,CF,ANA ATL.FELTRE,2 se- 1,Belluno,2008-10-04,https://www.fidal.it/atleta/DALLA-ROSA-Silvia/eKmRlJKjaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.65,,9.4,m,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2009-08-22,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.66,,9.66,e,PARANI Aire,1994,CM,ANA ATL.FELTRE,1 se- 3,Majano,2009-09-05,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.8,,9.80,e,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,3 su- 1,Majano,2009-09-05,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.89,,9.89,e,PARANI Aire,1994,CM,ANA ATL.FELTRE,2 fi- 1,Feltre,2009-07-01,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.9,,9.90,e,PARANI Aire,1994,CM,ANA ATL.FELTRE,2 se- 1,Pergine E Borgo Valsugana,2009-09-13,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.97,,9.97,e,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,4 se- 1,Pergine E Borgo Valsugana,2009-09-13,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.98,,9.98,e,PARANI Aire,1994,CM,ANA ATL.FELTRE,1 se- 2,Conegliano,2009-04-25,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,PARANI Aire,1994,CM,ANA ATL.FELTRE,1 se- 1,Feltre,2009-06-20,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,D'AGOSTINI Enrico,1994,CM,ANA ATL.FELTRE,2 se- 1,Feltre,2009-06-20,https://www.fidal.it/atleta/D-AGOSTINI-Enrico/eKmRlJSgaGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,PARANI Aire,1994,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2009-10-17,https://www.fidal.it/atleta/PARANI-Aire/eKmRlJSgaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.09,+0.3,10.09,e,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,5 se- 2,Mogliano Veneto,2009-09-19,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.14,,10.14,e,D'AGOSTINI Enrico,1994,CM,ANA ATL.FELTRE,4 se- 2,Conegliano,2009-04-25,https://www.fidal.it/atleta/D-AGOSTINI-Enrico/eKmRlJSgaGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,,9.9,m,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,3 se- 1,Belluno,2009-10-17,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,-0.5,10.15,e,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,2 se- 3,Vicenza,2009-06-06,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,,10.0,m,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,1 se- 1,Longarone,2009-05-09,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.29,-0.3,10.29,e,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,3 se- 4,Mogliano Veneto,2009-09-19,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,ZINGALE Giacomo,1994,CM,ANA ATL.FELTRE,3 se- 1,Feltre,2009-06-20,https://www.fidal.it/atleta/ZINGALE-Giacomo/eKmRlJOnb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,+0.0,10.35,e,D'AGOSTINI Enrico,1994,CM,ANA ATL.FELTRE,3 se- 3,Mogliano Veneto,2009-09-19,https://www.fidal.it/atleta/D-AGOSTINI-Enrico/eKmRlJSgaGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.42,-0.5,10.42,e,BARBANTE Lorenzo,1995,CM,ANA ATL.FELTRE,5 se- 3,Vicenza,2009-06-06,https://www.fidal.it/atleta/BARBANTE-Lorenzo/eKmRlJOnbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,SOPPELSA Mattia,1994,CM,ANA ATL.FELTRE,2 se- 1,Longarone,2009-05-09,https://www.fidal.it/atleta/SOPPELSA-Mattia/eKmRlJShbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,BERTOLDIN Daniele,1994,CM,ANA ATL.FELTRE,1 se- 2,Feltre,2009-06-20,https://www.fidal.it/atleta/BERTOLDIN-Daniele/eKmRlJOoamg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.45,e,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,2 se- 4,Conegliano,2009-04-25,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.48,+0.1,10.48,e,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,1 se- 5,Vicenza,2009-06-06,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,,10.3,m,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,3 se- 1,Longarone,2009-05-09,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,D'AGOSTINI Enrico,1994,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2009-04-04,https://www.fidal.it/atleta/D-AGOSTINI-Enrico/eKmRlJSgaGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,BARBANTE Lorenzo,1995,CM,ANA ATL.FELTRE,5 se- 1,Longarone,2009-05-09,https://www.fidal.it/atleta/BARBANTE-Lorenzo/eKmRlJOnbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,SCOPEL Luca,1994,CM,ANA ATL.FELTRE,2 se- 2,Feltre,2009-06-20,https://www.fidal.it/atleta/SCOPEL-Luca/eKmRlJOmbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,3 se- 2,Feltre,2009-06-20,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,SCOPEL Luca,1994,CM,ANA ATL.FELTRE,4 se- 1,Belluno,2009-10-17,https://www.fidal.it/atleta/SCOPEL-Luca/eKmRlJOmbWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,2 se- 1,Belluno,2009-04-04,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,LIRA Riccardo,1995,CM,ANA ATL.FELTRE,5 se- 1,Belluno,2009-10-17,https://www.fidal.it/atleta/LIRA-Riccardo/eKmRlJOja2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.92,,10.92,e,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,3 se- 1,Pergine E Borgo Valsugana,2009-09-13,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.93,,10.93,e,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,3 fi- 1,Feltre,2009-07-01,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.94,,10.94,e,SPADA Silvia,1995,CF,ANA ATL.FELTRE,4 fi- 1,Feltre,2009-07-01,https://www.fidal.it/atleta/SPADA-Silvia/eKmRlJOkaWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,1 se- 1,Belluno,2009-08-22,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.11,,11.11,e,SPADA Silvia,1995,CF,ANA ATL.FELTRE,5 se- 1,Pergine E Borgo Valsugana,2009-09-13,https://www.fidal.it/atleta/SPADA-Silvia/eKmRlJOkaWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.11,-0.6,11.11,e,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,4 se- 2,Mogliano Veneto,2009-09-19,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,1 se- 2,Feltre,2009-06-20,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,SPADA Silvia,1995,CF,ANA ATL.FELTRE,2 se- 2,Feltre,2009-06-20,https://www.fidal.it/atleta/SPADA-Silvia/eKmRlJOkaWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,FONTANA Stefania,1994,CF,ANA ATL.FELTRE,3 se- 2,Feltre,2009-06-20,https://www.fidal.it/atleta/FONTANA-Stefania/eKmRlJKob2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.22,,11.22,e,SPADA Silvia,1995,CF,ANA ATL.FELTRE,2 su- 1,Majano,2009-09-05,https://www.fidal.it/atleta/SPADA-Silvia/eKmRlJOkaWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.24,,11.24,e,FONTANA Stefania,1994,CF,ANA ATL.FELTRE,6 se- 1,Pergine E Borgo Valsugana,2009-09-13,https://www.fidal.it/atleta/FONTANA-Stefania/eKmRlJKob2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,1 se- 1,Belluno,2009-10-17,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.3,+1.0,11.30,e,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,5 se- 4,Vicenza,2009-06-06,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.33,-1.3,11.33,e,SPADA Silvia,1995,CF,ANA ATL.FELTRE,2 se- 3,Mogliano Veneto,2009-09-19,https://www.fidal.it/atleta/SPADA-Silvia/eKmRlJOkaWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,GOBBER Francesca,1994,CF,ANA ATL.FELTRE,1 se- 1,Belluno,2009-04-04,https://www.fidal.it/atleta/GOBBER-Francesca/eKmRlJSfcWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,FONTANA Stefania,1994,CF,ANA ATL.FELTRE,3 se- 1,Belluno,2009-08-22,https://www.fidal.it/atleta/FONTANA-Stefania/eKmRlJKob2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,SPADA Silvia,1995,CF,ANA ATL.FELTRE,4 se- 1,Belluno,2009-08-22,https://www.fidal.it/atleta/SPADA-Silvia/eKmRlJOkaWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,SPADA Silvia,1995,CF,ANA ATL.FELTRE,2 se- 1,Belluno,2009-10-17,https://www.fidal.it/atleta/SPADA-Silvia/eKmRlJOkaWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.51,+0.2,11.51,e,GOBBER Francesca,1994,CF,ANA ATL.FELTRE,2 se- 5,Vicenza,2009-06-06,https://www.fidal.it/atleta/GOBBER-Francesca/eKmRlJSfcWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,CRIVELLER Ilaria,1995,CF,ANA ATL.FELTRE,4 se- 2,Feltre,2009-06-20,https://www.fidal.it/atleta/CRIVELLER-Ilaria/eKmRlJOmbGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.58,+0.2,11.58,e,CRIVELLER Ilaria,1995,CF,ANA ATL.FELTRE,2 se- 6,Vicenza,2009-06-06,https://www.fidal.it/atleta/CRIVELLER-Ilaria/eKmRlJOmbGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,CRIVELLER Ilaria,1995,CF,ANA ATL.FELTRE,3 se- 1,Longarone,2009-05-09,https://www.fidal.it/atleta/CRIVELLER-Ilaria/eKmRlJOmbGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,GOBBER Francesca,1994,CF,ANA ATL.FELTRE,1 se- 1,Feltre,2009-06-20,https://www.fidal.it/atleta/GOBBER-Francesca/eKmRlJSfcWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,DE MARCHI Veronica,1994,CF,ANA ATL.FELTRE,1 se- 2,Belluno,2009-10-17,https://www.fidal.it/atleta/DE-MARCHI-Veronica/eKmRlJOmbGs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,DE MARCHI Veronica,1994,CF,ANA ATL.FELTRE,2 se- 1,Feltre,2009-06-20,https://www.fidal.it/atleta/DE-MARCHI-Veronica/eKmRlJOmbGs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,CRIVELLER Ilaria,1995,CF,ANA ATL.FELTRE,3 se- 1,Belluno,2009-10-17,https://www.fidal.it/atleta/CRIVELLER-Ilaria/eKmRlJOmbGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.05,,12.8,m,STACH Marta,1995,CF,ANA ATL.FELTRE,3 se- 2,Belluno,2009-10-17,https://www.fidal.it/atleta/STACH-Marta/eKmRlJKna2Q%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.81,,9.81,e,BARBANTE Lorenzo,1995,CM,ANA ATL.FELTRE,1 se- 1,Feltre,2010-05-26,https://www.fidal.it/atleta/BARBANTE-Lorenzo/eKmRlJOnbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.9,,9.90,e,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,2 se- 1,Feltre,2010-05-26,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.94,-1.1,9.94,e,BARBANTE Lorenzo,1995,CM,ANA ATL.FELTRE,4 se- 1,Rovigo,2010-06-05,https://www.fidal.it/atleta/BARBANTE-Lorenzo/eKmRlJOnbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,,9.95,e,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,99 se- 1,Majano,2010-09-04,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.0,-2.4,10.00,e,BARBANTE Lorenzo,1995,CM,ANA ATL.FELTRE,2 se- 1,Feltre,2010-06-19,https://www.fidal.it/atleta/BARBANTE-Lorenzo/eKmRlJOnbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,2 se- 1,Feltre,2010-06-02,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,BARBANTE Lorenzo,1995,CM,ANA ATL.FELTRE,2 se- 1,Feltre,2010-08-25,https://www.fidal.it/atleta/BARBANTE-Lorenzo/eKmRlJOnbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,3 se- 1,Feltre,2010-08-25,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2010-10-02,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.09,,10.09,e,BARBANTE Lorenzo,1995,CM,ANA ATL.FELTRE,4 se- 2,Majano,2010-09-04,https://www.fidal.it/atleta/BARBANTE-Lorenzo/eKmRlJOnbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.12,-1.1,10.12,e,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,6 se- 1,Rovigo,2010-06-05,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,,9.9,m,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2010-05-08,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.16,,10.16,e,PAGNUSSAT Andrea,1995,CM,ANA ATL.FELTRE,4 se- 1,Feltre,2010-05-26,https://www.fidal.it/atleta/PAGNUSSAT-Andrea/eKmRlJShbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.21,-1.4,10.21,e,BARBANTE Lorenzo,1995,CM,ANA ATL.FELTRE,6 se- 1,Mogliano Veneto,2010-09-18,https://www.fidal.it/atleta/BARBANTE-Lorenzo/eKmRlJOnbms%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,,10.0,m,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2010-04-10,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.31,,10.31,e,COLLE Nicola,1996,CM,ANA ATL.FELTRE,1 se- 2,Feltre,2010-05-26,https://www.fidal.it/atleta/COLLE-Nicola/eKmRlJSla2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.32,-0.3,10.32,e,PAGNUSSAT Andrea,1995,CM,ANA ATL.FELTRE,1 se- 2,Feltre,2010-06-19,https://www.fidal.it/atleta/PAGNUSSAT-Andrea/eKmRlJShbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,COLLE Nicola,1996,CM,ANA ATL.FELTRE,1 se- 2,Feltre,2010-06-02,https://www.fidal.it/atleta/COLLE-Nicola/eKmRlJSla2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.57,,10.57,e,FACCINI Giovanni,1996,CM,ANA ATL.FELTRE,3 se- 2,Feltre,2010-05-26,https://www.fidal.it/atleta/FACCINI-Giovanni/eKmRlJSkcGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.69,-2.5,10.69,e,DALLA SEGA Andrea,1995,CM,ANA ATL.FELTRE,7 se- 2,Mogliano Veneto,2010-09-18,https://www.fidal.it/atleta/DALLA-SEGA-Andrea/eKmRlJSgaGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.75,,10.5,m,LIRA Riccardo,1995,CM,ANA ATL.FELTRE,4 se- 1,Belluno,2010-04-10,https://www.fidal.it/atleta/LIRA-Riccardo/eKmRlJOja2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,FACCINI Giovanni,1996,CM,ANA ATL.FELTRE,3 se- 1,Belluno,2010-05-08,https://www.fidal.it/atleta/FACCINI-Giovanni/eKmRlJSkcGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,TOLLARDO Federico,1996,CM,ANA ATL.FELTRE,4 se- 1,Feltre,2010-06-02,https://www.fidal.it/atleta/TOLLARDO-Federico/eKmRlJSnbGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.79,,10.79,e,SPADA Silvia,1995,CF,ANA ATL.FELTRE,1 se- 1,Feltre,2010-05-26,https://www.fidal.it/atleta/SPADA-Silvia/eKmRlJOkaWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.79,,10.79,e,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,1 se- 3,Majano,2010-09-04,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,,10.6,m,SPADA Silvia,1995,CF,ANA ATL.FELTRE,1 se- 2,Feltre,2010-06-02,https://www.fidal.it/atleta/SPADA-Silvia/eKmRlJOkaWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,1 se- 1,Belluno,2010-04-10,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,1 se- 2,Feltre,2010-08-25,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,-0.4,10.95,e,SPADA Silvia,1995,CF,ANA ATL.FELTRE,2 se- 1,Feltre,2010-06-19,https://www.fidal.it/atleta/SPADA-Silvia/eKmRlJOkaWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,-1.1,10.95,e,PAULETTI Alice,1995,CF,ANA ATL.FELTRE,1 se- 3,Mogliano Veneto,2010-09-18,https://www.fidal.it/atleta/PAULETTI-Alice/eKmRlJShbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.06,,11.06,e,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,3 se- 1,Feltre,2010-05-26,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,1 se- 1,Feltre,2010-06-02,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.24,,11.24,e,CRIVELLER Ilaria,1995,CF,ANA ATL.FELTRE,1 se- 2,Feltre,2010-05-26,https://www.fidal.it/atleta/CRIVELLER-Ilaria/eKmRlJOmbGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,3 se- 2,Feltre,2010-08-25,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.32,+0.4,11.32,e,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,1 se- 3,Feltre,2010-06-19,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,4 se- 3,Belluno,2010-05-08,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.48,-0.6,11.48,e,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,5 se- 6,Rossano Veneto,2010-09-05,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,CURIC Tea,1995,CF,ANA ATL.FELTRE,3 se- 1,Feltre,2010-06-02,https://www.fidal.it/atleta/CURIC-Tea/eKmRlJSnbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.73,-1.3,11.73,e,FIAMMENGO Angelica,1995,CF,ANA ATL.FELTRE,3 se- 7,Rovigo,2010-06-05,https://www.fidal.it/atleta/FIAMMENGO-Angelica/eKmRlJSocWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,CRIVELLER Ilaria,1995,CF,ANA ATL.FELTRE,4 se- 1,Belluno,2010-04-10,https://www.fidal.it/atleta/CRIVELLER-Ilaria/eKmRlJOmbGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,4 se- 1,Belluno,2010-04-10,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.81,+0.4,11.81,e,COLMANET Elena,1996,CF,ANA ATL.FELTRE,4 se- 3,Feltre,2010-06-19,https://www.fidal.it/atleta/COLMANET-Elena/eKmRlJSocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.14,-0.4,12.14,e,COLMANET Elena,1996,CF,ANA ATL.FELTRE,3 se- 9,Rovigo,2010-06-05,https://www.fidal.it/atleta/COLMANET-Elena/eKmRlJSocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.55,,12.3,m,FENT Laura,1996,CF,ANA ATL.FELTRE,3 se- 2,Belluno,2010-05-08,https://www.fidal.it/atleta/FENT-Laura/eKmRlJSha2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.68,+0.4,12.68,e,FENT Laura,1996,CF,ANA ATL.FELTRE,5 se- 3,Feltre,2010-06-19,https://www.fidal.it/atleta/FENT-Laura/eKmRlJSha2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.91,,9.91,e,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,3 se- 1,Majano,2011-09-10,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,,9.7,m,COLLE Nicola,1996,CM,ANA ATL.FELTRE,2 se- 1,Belluno,2011-04-09,https://www.fidal.it/atleta/COLLE-Nicola/eKmRlJSla2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.98,+0.2,9.98,e,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,3 se- 2,Montebelluna,2011-09-24,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,1 se- 1,Feltre,2011-08-27,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.2,,10.20,e,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,2 se- 7,Belluno,2011-06-04,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,,10.0,m,VELLO Michele,1997,CM,ANA ATL.FELTRE,3 se- 3,Longarone,2011-05-14,https://www.fidal.it/atleta/VELLO-Michele/eKmRlJSkb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.3,,10.30,e,VELLO Michele,1997,CM,ANA ATL.FELTRE,4 se- 3,Belluno,2011-06-04,https://www.fidal.it/atleta/VELLO-Michele/eKmRlJSkb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.34,-0.3,10.34,e,VELLO Michele,1997,CM,ANA ATL.FELTRE,2 se- 4,Montebelluna,2011-09-24,https://www.fidal.it/atleta/VELLO-Michele/eKmRlJSkb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,,10.3,m,VELLO Michele,1997,CM,ANA ATL.FELTRE,4 se- 1,Belluno,2011-04-09,https://www.fidal.it/atleta/VELLO-Michele/eKmRlJSkb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.67,-0.2,10.67,e,SALTAREL Riccardo,1997,CM,ANA ATL.FELTRE,3 se- 1,Montebelluna,2011-09-24,https://www.fidal.it/atleta/SALTAREL-Riccardo/eKmRlJWkbGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,VOICU Ioan alexandru,1997,CM,ANA ATL.FELTRE,5 se- 1,Belluno,2011-04-16,https://www.fidal.it/atleta/VOICU-Ioan-alexandru/eKmRlJWicWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,1 se- 4,Belluno,2011-04-09,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,3 se- 1,Belluno,2011-04-16,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,1 se- 3,Longarone,2011-05-14,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,4 se- 2,Feltre,2011-08-27,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,BASSANI Rossella,1996,CF,ANA ATL.FELTRE,2 se- 2,Belluno,2011-10-01,https://www.fidal.it/atleta/BASSANI-Rossella/eKmRlJSkcWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,DALLA BALLA Marta,1997,CF,ANA ATL.FELTRE,3 se- 2,Belluno,2011-10-01,https://www.fidal.it/atleta/DALLA-BALLA-Marta/eKmRlJSlbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,DALLA BALLA Marta,1997,CF,ANA ATL.FELTRE,4 se- 6,Belluno,2011-04-09,https://www.fidal.it/atleta/DALLA-BALLA-Marta/eKmRlJSlbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,BASSANI Margherita,1997,CF,ANA ATL.FELTRE,5 se- 2,Belluno,2011-10-01,https://www.fidal.it/atleta/BASSANI-Margherita/eKmRlJSlbGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.35,,12.1,m,BASSANI Margherita,1997,CF,ANA ATL.FELTRE,5 se- 2,Feltre,2011-08-27,https://www.fidal.it/atleta/BASSANI-Margherita/eKmRlJSlbGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.55,,12.3,m,SCOPEL Alessia,1997,CF,ANA ATL.FELTRE,5 se- 2,Belluno,2011-04-16,https://www.fidal.it/atleta/SCOPEL-Alessia/eKmRlJWicWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.65,,12.4,m,PELLINI Giulia,1996,CF,ANA ATL.FELTRE,2 se- 2,Longarone,2011-05-14,https://www.fidal.it/atleta/PELLINI-Giulia/eKmRlJSocWc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.85,,12.6,m,BASSANI Margherita,1997,CF,ANA ATL.FELTRE,2 se- 5,Longarone,2011-05-14,https://www.fidal.it/atleta/BASSANI-Margherita/eKmRlJSlbGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.85,,12.6,m,RECH Yasmin,1996,CF,ANA ATL.FELTRE,3 se- 5,Longarone,2011-05-14,https://www.fidal.it/atleta/RECH-Yasmin/eKmRlJSocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.44,+2.0,9.44,e,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,4 se- 1,Marostica,2012-09-22,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.48,+1.4,9.48,e,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,5 ba- 3,Jesolo,2012-10-06,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.57,,9.57,e,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,2 se- 4,Feltre,2012-06-21,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.65,,9.65,e,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,1 se- 2,Rossano Veneto,2012-09-02,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.65,,9.65,e,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,1 se- 2,Majano,2012-09-08,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.67,-1.2,9.67,e,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,5 fi- 2,Jesolo,2012-10-06,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.74,+0.0,9.74,e,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,2 se- 2,Verona,2012-06-02,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.75,,9.5,m,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2012-10-20,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.85,,9.6,m,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,1 se- 1,Vallesella Di Cadore,2012-05-05,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.85,,9.6,m,ZANDOMENEGHI Marco,1997,CM,ANA ATL.FELTRE,2 se- 3,Belluno,2012-05-19,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.85,,9.6,m,VELLO Michele,1997,CM,ANA ATL.FELTRE,3 se- 1,Feltre,2012-08-23,https://www.fidal.it/atleta/VELLO-Michele/eKmRlJSkb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.93,+1.2,9.93,e,VELLO Michele,1997,CM,ANA ATL.FELTRE,4 se- 8,Marostica,2012-09-22,https://www.fidal.it/atleta/VELLO-Michele/eKmRlJSkb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.98,,9.98,e,VELLO Michele,1997,CM,ANA ATL.FELTRE,2 se- 3,Feltre,2012-06-21,https://www.fidal.it/atleta/VELLO-Michele/eKmRlJSkb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,10.05,e,SALTAREL Riccardo,1997,CM,ANA ATL.FELTRE,3 se- 3,Feltre,2012-06-21,https://www.fidal.it/atleta/SALTAREL-Riccardo/eKmRlJWkbGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.13,-0.2,10.13,e,SALTAREL Riccardo,1997,CM,ANA ATL.FELTRE,2 se- 5,Verona,2012-06-02,https://www.fidal.it/atleta/SALTAREL-Riccardo/eKmRlJWkbGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,SALTAREL Riccardo,1997,CM,ANA ATL.FELTRE,4 se- 3,Belluno,2012-05-19,https://www.fidal.it/atleta/SALTAREL-Riccardo/eKmRlJWkbGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,SALTAREL Riccardo,1997,CM,ANA ATL.FELTRE,5 se- 1,Feltre,2012-08-23,https://www.fidal.it/atleta/SALTAREL-Riccardo/eKmRlJWkbGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.39,,10.39,e,SALTAREL Riccardo,1997,CM,ANA ATL.FELTRE,4 se- 4,Rossano Veneto,2012-09-02,https://www.fidal.it/atleta/SALTAREL-Riccardo/eKmRlJWkbGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,SALTAREL Riccardo,1997,CM,ANA ATL.FELTRE,3 se- 1,Vallesella Di Cadore,2012-05-05,https://www.fidal.it/atleta/SALTAREL-Riccardo/eKmRlJWkbGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.77,,10.77,e,ZAPPIA Matteo,1998,CM,ANA ATL.FELTRE,3 se- 2,Feltre,2012-06-21,https://www.fidal.it/atleta/ZAPPIA-Matteo/eKmRlJSjcGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,ZAPPIA Matteo,1998,CM,ANA ATL.FELTRE,4 se- 7,Marostica,2012-05-12,https://www.fidal.it/atleta/ZAPPIA-Matteo/eKmRlJSjcGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.3,,11.30,e,SPADA Stefania,1998,CF,ANA ATL.FELTRE,3 se- 1,Feltre,2012-06-21,https://www.fidal.it/atleta/SPADA-Stefania/eKmRlJOkamU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,SPADA Stefania,1998,CF,ANA ATL.FELTRE,3 se- 4,Belluno,2012-05-19,https://www.fidal.it/atleta/SPADA-Stefania/eKmRlJOkamU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.52,,11.52,e,SPADA Stefania,1998,CF,ANA ATL.FELTRE,1 se- 8,Quinto Di Treviso,2012-07-04,https://www.fidal.it/atleta/SPADA-Stefania/eKmRlJOkamU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,SPADA Stefania,1998,CF,ANA ATL.FELTRE,1 se- 3,Belluno,2012-10-20,https://www.fidal.it/atleta/SPADA-Stefania/eKmRlJOkamU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,ZINGALE Caterina,1998,CF,ANA ATL.FELTRE,4 se- 1,Vallesella Di Cadore,2012-05-05,https://www.fidal.it/atleta/ZINGALE-Caterina/eKmRlJSha2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,FANTINEL Ilaria,1998,CF,ANA ATL.FELTRE,2 se- 2,Belluno,2012-10-20,https://www.fidal.it/atleta/FANTINEL-Ilaria/eKmRlJWlbWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,MARAZZINI Giulia,1998,CF,ANA ATL.FELTRE,1 se- 4,Belluno,2012-10-20,https://www.fidal.it/atleta/MARAZZINI-Giulia/eKmRlJSncWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.85,e,LAKHDAR Fatima,1997,CF,ANA ATL.FELTRE,4 se- 3,Feltre,2012-06-21,https://www.fidal.it/atleta/LAKHDAR-Fatima/eKmRlJWmbWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,LAKHDAR Fatima,1997,CF,ANA ATL.FELTRE,1 se- 3,Belluno,2012-05-19,https://www.fidal.it/atleta/LAKHDAR-Fatima/eKmRlJWmbWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,BASSANI Margherita,1997,CF,ANA ATL.FELTRE,1 se- 2,Vallesella Di Cadore,2012-05-05,https://www.fidal.it/atleta/BASSANI-Margherita/eKmRlJSlbGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,LAKHDAR Fatima,1997,CF,ANA ATL.FELTRE,2 se- 2,Vallesella Di Cadore,2012-05-05,https://www.fidal.it/atleta/LAKHDAR-Fatima/eKmRlJWmbWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.75,,13.5,m,DE BARBA Giulia,1997,CF,ANA ATL.FELTRE,4 se- 3,Belluno,2012-10-20,https://www.fidal.it/atleta/DE-BARBA-Giulia/eKmRlJWmaGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.87,-0.1,9.87,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,4 se- 1,Feltre,2013-06-22,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,-0.5,9.95,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,1 se- 3,Majano,2013-09-07,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.01,-0.1,10.01,e,ZABOT Alex,1998,CM,ANA ATL.FELTRE,6 se- 1,Feltre,2013-06-22,https://www.fidal.it/atleta/ZABOT-Alex/eKmRlJWnbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.03,-1.3,10.03,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,1 se- 4,Bassano Del Grappa,2013-06-01,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,ZABOT Alex,1998,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2013-05-11,https://www.fidal.it/atleta/ZABOT-Alex/eKmRlJWnbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.04,-0.5,10.04,e,ZABOT Alex,1998,CM,ANA ATL.FELTRE,5 se- 2,Bassano Del Grappa,2013-06-01,https://www.fidal.it/atleta/ZABOT-Alex/eKmRlJWnbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.14,+0.0,10.14,e,ZABOT Alex,1998,CM,ANA ATL.FELTRE,4 se- 4,Caprino Veronese,2013-09-28,https://www.fidal.it/atleta/ZABOT-Alex/eKmRlJWnbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.22,-0.9,10.22,e,DAL SASSO Alberto,1998,CM,ANA ATL.FELTRE,2 se- 5,Feltre,2013-06-22,https://www.fidal.it/atleta/DAL-SASSO-Alberto/eKmRlJWfbGs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.29,-1.2,10.29,e,MARIN Leonardo,1998,CM,ANA ATL.FELTRE,1 se- 4,Feltre,2013-06-22,https://www.fidal.it/atleta/MARIN-Leonardo/eKmRlJaibmw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.31,-0.5,10.31,e,ZABOT Alex,1998,CM,ANA ATL.FELTRE,5 se- 3,Majano,2013-09-07,https://www.fidal.it/atleta/ZABOT-Alex/eKmRlJWnbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,ZABOT Alex,1998,CM,ANA ATL.FELTRE,1 se- 2,Belluno,2013-05-03,https://www.fidal.it/atleta/ZABOT-Alex/eKmRlJWnbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.39,-0.7,10.39,e,AGOSTINETTO Isacco,1999,CM,ANA ATL.FELTRE,1 se- 3,Feltre,2013-06-22,https://www.fidal.it/atleta/AGOSTINETTO-Isacco/eKyRkpaga2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,ZABOT Alex,1998,CM,ANA ATL.FELTRE,1 se- 2,Feltre,2013-04-06,https://www.fidal.it/atleta/ZABOT-Alex/eKmRlJWnbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,AGOSTINETTO Isacco,1999,CM,ANA ATL.FELTRE,2 se- 1,Feltre,2013-04-06,https://www.fidal.it/atleta/AGOSTINETTO-Isacco/eKyRkpaga2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,2 se- 2,Belluno,2013-05-03,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,-0.7,11.15,e,ZAPPIA Matteo,1998,CM,ANA ATL.FELTRE,5 se- 3,Feltre,2013-06-22,https://www.fidal.it/atleta/ZAPPIA-Matteo/eKmRlJSjcGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,D'ALBERTO Davide,1999,CM,ANA ATL.FELTRE,4 se- 2,Feltre,2013-04-06,https://www.fidal.it/atleta/D-ALBERTO-Davide/eKmRlJWlbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.9,+1.5,10.90,e,ZINGALE Caterina,1998,CF,ANA ATL.FELTRE,1 se- 3,Feltre,2013-06-22,https://www.fidal.it/atleta/ZINGALE-Caterina/eKmRlJSha2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,FANTINEL Ilaria,1998,CF,ANA ATL.FELTRE,1 se- 2,Feltre,2013-04-06,https://www.fidal.it/atleta/FANTINEL-Ilaria/eKmRlJWlbWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,ZINGALE Caterina,1998,CF,ANA ATL.FELTRE,1 se- 4,Belluno,2013-05-03,https://www.fidal.it/atleta/ZINGALE-Caterina/eKmRlJSha2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.22,+1.5,11.22,e,SPADA Stefania,1998,CF,ANA ATL.FELTRE,5 se- 3,Feltre,2013-06-22,https://www.fidal.it/atleta/SPADA-Stefania/eKmRlJOkamU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,-1.1,11.25,e,ZINGALE Caterina,1998,CF,ANA ATL.FELTRE,2 se- 4,Bassano Del Grappa,2013-06-01,https://www.fidal.it/atleta/ZINGALE-Caterina/eKmRlJSha2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,MARAZZINI Giulia,1998,CF,ANA ATL.FELTRE,3 se- 2,Feltre,2013-04-06,https://www.fidal.it/atleta/MARAZZINI-Giulia/eKmRlJSncWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,SPADA Stefania,1998,CF,ANA ATL.FELTRE,2 se- 4,Belluno,2013-05-03,https://www.fidal.it/atleta/SPADA-Stefania/eKmRlJOkamU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,SPADA Stefania,1998,CF,ANA ATL.FELTRE,4 se- 2,Feltre,2013-04-06,https://www.fidal.it/atleta/SPADA-Stefania/eKmRlJOkamU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,FILOSA Annalisa,1999,CF,ANA ATL.FELTRE,6 se- 2,Feltre,2013-04-06,https://www.fidal.it/atleta/FILOSA-Annalisa/eKmRlJSjb2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,FILOSA Annalisa,1999,CF,ANA ATL.FELTRE,1 se- 1,Agordo,2013-10-19,https://www.fidal.it/atleta/FILOSA-Annalisa/eKmRlJSjb2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,CORRENT Chiara,1999,CF,ANA ATL.FELTRE,2 se- 3,Belluno,2013-05-11,https://www.fidal.it/atleta/CORRENT-Chiara/eKmRlJWhbGQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.03,+1.0,12.03,e,BERTOLDIN Matilde,1999,CF,ANA ATL.FELTRE,3 se- 7,Feltre,2013-06-22,https://www.fidal.it/atleta/BERTOLDIN-Matilde/eKmRlJWiaGs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,PROCACCINI Sara,1999,CF,ANA ATL.FELTRE,3 se- 1,Agordo,2013-10-19,https://www.fidal.it/atleta/PROCACCINI-Sara/eKmRlJSmbWw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,+1.0,12.15,e,SANGUIN Giulia,1999,CF,ANA ATL.FELTRE,4 se- 7,Feltre,2013-06-22,https://www.fidal.it/atleta/SANGUIN-Giulia/eKmRlJSmbmo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.17,-0.6,12.17,e,PAGNUSSAT Emma,1999,CF,ANA ATL.FELTRE,7 se- 5,Bassano Del Grappa,2013-06-01,https://www.fidal.it/atleta/PAGNUSSAT-Emma/eKmRlJSjb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.35,,12.1,m,BERTOLDIN Matilde,1999,CF,ANA ATL.FELTRE,4 se- 3,Feltre,2013-04-06,https://www.fidal.it/atleta/BERTOLDIN-Matilde/eKmRlJWiaGs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.35,,12.1,m,PAGNUSSAT Emma,1999,CF,ANA ATL.FELTRE,3 se- 2,Belluno,2013-05-11,https://www.fidal.it/atleta/PAGNUSSAT-Emma/eKmRlJSjb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.35,,12.1,m,BERTOLDIN Matilde,1999,CF,ANA ATL.FELTRE,4 se- 2,Belluno,2013-05-11,https://www.fidal.it/atleta/BERTOLDIN-Matilde/eKmRlJWiaGs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.65,,12.4,m,SANGUIN Giulia,1999,CF,ANA ATL.FELTRE,4 se- 2,Agordo,2013-10-19,https://www.fidal.it/atleta/SANGUIN-Giulia/eKmRlJSmbmo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.75,,12.5,m,SANGUIN Giulia,1999,CF,ANA ATL.FELTRE,5 se- 3,Feltre,2013-04-06,https://www.fidal.it/atleta/SANGUIN-Giulia/eKmRlJSmbmo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.55,,13.3,m,SLONGO Emily,1998,CF,ANA ATL.FELTRE,4 se- 4,Belluno,2013-05-03,https://www.fidal.it/atleta/SLONGO-Emily/eKmRlJagbWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.51,,9.51,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,1 se- 1,Abano Terme,2014-06-27,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.51,+1.4,9.51,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,3 se- 4,Majano,2014-09-06,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.54,+3.0,9.54,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,4 se- 2,Fidenza,2014-06-15,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.55,,9.3,m,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2014-08-21,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.59,+0.1,9.59,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,4 se- 4,Borgo Valsugana,2014-10-11,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.62,-1.7,9.62,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,1 se- 1,Feltre,2014-06-21,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.64,+0.6,9.64,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,4 se- 1,Rossano Veneto,2014-09-07,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.65,-1.3,9.65,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,3 se- 1,Belluno,2014-06-07,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.65,-1.1,9.65,e,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,3 se- 1,Caprino Veronese,2014-09-27,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.75,,9.5,m,RIGHES Gabriele,1999,CM,ANA ATL.FELTRE,1 se- 1,Belluno,2014-05-17,https://www.fidal.it/atleta/RIGHES-Gabriele/eKmRlJafaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,AGOSTINETTO Isacco,1999,CM,ANA ATL.FELTRE,1 se- 3,Agordo,2014-10-18,https://www.fidal.it/atleta/AGOSTINETTO-Isacco/eKyRkpaga2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.23,-0.8,10.23,e,OLIVOTTO Giovanni,1999,CM,ANA ATL.FELTRE,2 se- 4,Feltre,2014-06-21,https://www.fidal.it/atleta/OLIVOTTO-Giovanni/eKmRlJafaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.29,-0.8,10.29,e,DE CARLI Federico,2000,CM,ANA ATL.FELTRE,2 se- 2,Feltre,2014-06-21,https://www.fidal.it/atleta/DE-CARLI-Federico/eKmRlJWncGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.41,-1.3,10.41,e,CAPPELLIN Marco,2000,CM,ANA ATL.FELTRE,1 se- 3,Feltre,2014-06-21,https://www.fidal.it/atleta/CAPPELLIN-Marco/eKmRlJambWw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,,10.3,m,COSTA Edgard,1999,CM,ANA ATL.FELTRE,2 se- 3,Feltre,2014-03-29,https://www.fidal.it/atleta/COSTA-Edgard/eKmRlJSjbmo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,,10.3,m,DE CARLI Federico,2000,CM,ANA ATL.FELTRE,3 se- 2,Belluno,2014-05-17,https://www.fidal.it/atleta/DE-CARLI-Federico/eKmRlJWncGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,TOIGO Emanuele,1999,CM,ANA ATL.FELTRE,5 se- 1,Belluno,2014-05-17,https://www.fidal.it/atleta/TOIGO-Emanuele/eKmRlJambGs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,AGOSTINETTO Isacco,1999,CM,ANA ATL.FELTRE,4 se- 2,Feltre,2014-03-29,https://www.fidal.it/atleta/AGOSTINETTO-Isacco/eKyRkpaga2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,D'ALBERTO Davide,1999,CM,ANA ATL.FELTRE,5 se- 3,Agordo,2014-10-18,https://www.fidal.it/atleta/D-ALBERTO-Davide/eKmRlJWlbmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.35,,13.1,m,FEDEGARI Davide,2000,CM,ANA ATL.FELTRE,4 se- 4,Feltre,2014-03-29,https://www.fidal.it/atleta/FEDEGARI-Davide/eKmRlJajcWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.69,-0.2,10.69,e,NDIAYE Amina anna,2000,CF,ANA ATL.FELTRE,3 se- 1,San Giovanni Lupatoto,2014-07-05,https://www.fidal.it/atleta/NDIAYE-Amina-anna/eKmRlJSnaGQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.8,-1.2,10.80,e,NDIAYE Amina anna,2000,CF,ANA ATL.FELTRE,1 se- 3,Belluno,2014-06-07,https://www.fidal.it/atleta/NDIAYE-Amina-anna/eKmRlJSnaGQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,,10.85,e,NDIAYE Amina anna,2000,CF,ANA ATL.FELTRE,2 se- 2,Abano Terme,2014-06-27,https://www.fidal.it/atleta/NDIAYE-Amina-anna/eKmRlJSnaGQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,NDIAYE Amina anna,2000,CF,ANA ATL.FELTRE,1 se- 4,Belluno,2014-05-17,https://www.fidal.it/atleta/NDIAYE-Amina-anna/eKmRlJSnaGQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,FILOSA Annalisa,1999,CF,ANA ATL.FELTRE,2 se- 2,Belluno,2014-08-21,https://www.fidal.it/atleta/FILOSA-Annalisa/eKmRlJSjb2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,-0.6,11.25,e,FILOSA Annalisa,1999,CF,ANA ATL.FELTRE,4 se- 1,Feltre,2014-06-21,https://www.fidal.it/atleta/FILOSA-Annalisa/eKmRlJSjb2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.4,,11.40,e,MALACARNE Veronica,1999,CF,ANA ATL.FELTRE,2 se- 6,Abano Terme,2014-06-27,https://www.fidal.it/atleta/MALACARNE-Veronica/eKmRlJWlbmQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,MALACARNE Veronica,1999,CF,ANA ATL.FELTRE,1 se- 4,Feltre,2014-03-29,https://www.fidal.it/atleta/MALACARNE-Veronica/eKmRlJWlbmQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,FILOSA Annalisa,1999,CF,ANA ATL.FELTRE,1 se- 2,Belluno,2014-05-17,https://www.fidal.it/atleta/FILOSA-Annalisa/eKmRlJSjb2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.44,,11.44,e,TAMBURLIN Anna,2000,CF,ANA ATL.FELTRE,3 se- 6,Abano Terme,2014-06-27,https://www.fidal.it/atleta/TAMBURLIN-Anna/eKmRlJWobGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.48,,11.48,e,FILOSA Annalisa,1999,CF,ANA ATL.FELTRE,5 se- 4,Abano Terme,2014-06-27,https://www.fidal.it/atleta/FILOSA-Annalisa/eKmRlJSjb2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.51,-1.7,11.51,e,MALACARNE Veronica,1999,CF,ANA ATL.FELTRE,2 se- 2,Feltre,2014-06-21,https://www.fidal.it/atleta/MALACARNE-Veronica/eKmRlJWlbmQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.52,-0.6,11.52,e,TAMBURLIN Anna,2000,CF,ANA ATL.FELTRE,1 se- 3,Feltre,2014-06-21,https://www.fidal.it/atleta/TAMBURLIN-Anna/eKmRlJWobGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,SECCO Camilla,2000,CF,ANA ATL.FELTRE,1 se- 3,Belluno,2014-05-17,https://www.fidal.it/atleta/SECCO-Camilla/eKmRlJWobGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.66,+1.1,11.66,e,D'ALBERTO Elena,2000,CF,ANA ATL.FELTRE,2 se- 4,Feltre,2014-06-21,https://www.fidal.it/atleta/D-ALBERTO-Elena/eKmRlJSjb2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.66,+1.2,11.66,e,FILOSA Annalisa,1999,CF,ANA ATL.FELTRE,4 se- 1,Majano,2014-09-06,https://www.fidal.it/atleta/FILOSA-Annalisa/eKmRlJSjb2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,FILOSA Annalisa,1999,CF,ANA ATL.FELTRE,2 se- 4,Feltre,2014-03-29,https://www.fidal.it/atleta/FILOSA-Annalisa/eKmRlJSjb2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.84,-0.4,11.84,e,D'ALBERTO Elena,2000,CF,ANA ATL.FELTRE,2 se- 3,San Giovanni Lupatoto,2014-07-05,https://www.fidal.it/atleta/D-ALBERTO-Elena/eKmRlJSjb2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,D'ALBERTO Arianna,2000,CF,ANA ATL.FELTRE,1 se- 4,Agordo,2014-10-18,https://www.fidal.it/atleta/D-ALBERTO-Arianna/eKmRlJWmaGs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,+1.1,11.85,e,PAULIN Beatrice,2000,CF,ANA ATL.FELTRE,3 se- 4,Feltre,2014-06-21,https://www.fidal.it/atleta/PAULIN-Beatrice/eKmRlJWjbGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.92,,11.92,e,D'ALBERTO Elena,2000,CF,ANA ATL.FELTRE,3 se- 7,Abano Terme,2014-06-27,https://www.fidal.it/atleta/D-ALBERTO-Elena/eKmRlJSjb2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,PAULIN Beatrice,2000,CF,ANA ATL.FELTRE,5 se- 2,Agordo,2014-10-18,https://www.fidal.it/atleta/PAULIN-Beatrice/eKmRlJWjbGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.25,,12.0,m,PAGNUSSAT Emma,1999,CF,ANA ATL.FELTRE,3 se- 3,Belluno,2014-05-17,https://www.fidal.it/atleta/PAGNUSSAT-Emma/eKmRlJSjb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.45,,12.2,m,PAGNUSSAT Emma,1999,CF,ANA ATL.FELTRE,5 se- 4,Feltre,2014-03-29,https://www.fidal.it/atleta/PAGNUSSAT-Emma/eKmRlJSjb2k%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,,10.15,e,LUCA Cristian,2000,CM,ANA ATL.FELTRE,3 se- 1,Majano,2015-09-05,https://www.fidal.it/atleta/LUCA-Cristian/eKmRlJegb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,LUCA Cristian,2000,CM,ANA ATL.FELTRE,3 se- 1,Agordo,2015-05-16,https://www.fidal.it/atleta/LUCA-Cristian/eKmRlJegb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,,10.55,e,LUCA Cristian,2000,CM,ANA ATL.FELTRE,6 se- 4,Feltre,2015-06-20,https://www.fidal.it/atleta/LUCA-Cristian/eKmRlJegb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.3,,11.30,e,TAMBURLIN Anna,2000,CF,ANA ATL.FELTRE,1 se- 3,Feltre,2015-06-20,https://www.fidal.it/atleta/TAMBURLIN-Anna/eKmRlJWobGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.41,+0.3,11.41,e,DE CARLI Alessandra,2001,CF,ANA ATL.FELTRE,3 se- 4,Belluno,2015-05-30,https://www.fidal.it/atleta/DE-CARLI-Alessandra/eKmRlJalbmo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,DE CARLI Alessandra,2001,CF,ANA ATL.FELTRE,1 se- 3,Agordo,2015-05-16,https://www.fidal.it/atleta/DE-CARLI-Alessandra/eKmRlJalbmo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.6,,11.60,e,CANOVA Aurora,2001,CF,ANA ATL.FELTRE,1 se- 2,Feltre,2015-06-20,https://www.fidal.it/atleta/CANOVA-Aurora/eKmRlJamcGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,CANOVA Aurora,2001,CF,ANA ATL.FELTRE,3 se- 3,Feltre,2015-03-28,https://www.fidal.it/atleta/CANOVA-Aurora/eKmRlJamcGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,D'ALBERTO Arianna,2000,CF,ANA ATL.FELTRE,1 se- 2,Belluno,2015-10-18,https://www.fidal.it/atleta/D-ALBERTO-Arianna/eKmRlJWmaGs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.06,,12.06,e,FERRAZZI Francesca,2000,CF,ANA ATL.FELTRE,5 se- 2,Feltre,2015-06-20,https://www.fidal.it/atleta/FERRAZZI-Francesca/eKmRlJegb2Q%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.25,,12.0,m,FERRAZZI Francesca,2000,CF,ANA ATL.FELTRE,2 se- 3,Agordo,2015-05-16,https://www.fidal.it/atleta/FERRAZZI-Francesca/eKmRlJegb2Q%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.65,,12.4,m,MONDIN Sara,2001,CF,ANA ATL.FELTRE,4 se- 2,Belluno,2015-10-18,https://www.fidal.it/atleta/MONDIN-Sara/eKmRlJWoa2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.75,,12.5,m,CAZZADOR Livia,2001,CF,ANA ATL.FELTRE,3 se- 3,Agordo,2015-05-16,https://www.fidal.it/atleta/CAZZADOR-Livia/eKmRlJefams%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.75,,12.5,m,NDIAYE Aicha,2001,CF,ANA ATL.FELTRE,4 se- 3,Agordo,2015-05-16,https://www.fidal.it/atleta/NDIAYE-Aicha/eKmRlJanaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.05,,12.8,m,NDIAYE Aicha,2001,CF,ANA ATL.FELTRE,4 se- 3,Feltre,2015-03-28,https://www.fidal.it/atleta/NDIAYE-Aicha/eKmRlJanaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.09,,13.09,e,SCOPEL Elisa,2000,CF,ANA ATL.FELTRE,5 se- 1,Feltre,2015-06-20,https://www.fidal.it/atleta/SCOPEL-Elisa/eKmRlJefcGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.55,,13.3,m,ZUCCO Chiara,2001,CF,ANA ATL.FELTRE,3 se- 4,Feltre,2015-03-28,https://www.fidal.it/atleta/ZUCCO-Chiara/eKmRlJefaGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.64,,13.64,e,ZUCCO Chiara,2001,CF,ANA ATL.FELTRE,6 se- 1,Feltre,2015-06-20,https://www.fidal.it/atleta/ZUCCO-Chiara/eKmRlJefaGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.75,,9.5,m,SIRAGNA Lorenzo,2001,CM,ANA ATL.FELTRE,1 se- 1,Valesella,2016-08-18,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.75,,9.5,m,SIRAGNA Lorenzo,2001,CM,ANA ATL.FELTRE,2 se- 1,Agordo,2016-10-15,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.77,-0.9,9.77,e,SIRAGNA Lorenzo,2001,CM,ANA ATL.FELTRE,2 se- 8,Rossano Veneto,2016-09-11,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.81,-0.9,9.81,e,SIRAGNA Lorenzo,2001,CM,ANA ATL.FELTRE,3 se- 2,Majano,2016-09-03,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.85,,9.6,m,SIRAGNA Lorenzo,2001,CM,ANA ATL.FELTRE,2 se- 1,Feltre,2016-04-02,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.87,,9.87,e,SIRAGNA Lorenzo,2001,CM,ANA ATL.FELTRE,3 se- 5,Feltre,2016-06-25,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.91,,9.91,e,ZABOT Julian,2002,CM,ANA ATL.FELTRE,2 se- 5,Borgoricco,2016-09-24,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.93,+0.7,9.93,e,SIRAGNA Lorenzo,2001,CM,ANA ATL.FELTRE,3 se- 3,Rovigo,2016-05-28,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.93,-1.3,9.93,e,SIRAGNA Lorenzo,2001,CM,ANA ATL.FELTRE,2 se- 5,Padova,2016-07-17,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,,9.7,m,SIRAGNA Lorenzo,2001,CM,ANA ATL.FELTRE,2 se- 1,Belluno,2016-05-07,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.97,,9.97,e,ZABOT Julian,2002,CM,ANA ATL.FELTRE,3 se- 4,Feltre,2016-06-25,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.97,-0.7,9.97,e,ZABOT Julian,2002,CM,ANA ATL.FELTRE,1 se- 7,Rossano Veneto,2016-09-11,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.03,-1.8,10.03,e,SIRAGNA Lorenzo,2001,CM,ANA ATL.FELTRE,2 se- 1,Conegliano,2016-04-25,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.05,,9.8,m,ZABOT Julian,2002,CM,ANA ATL.FELTRE,2 se- 1,Belluno,2016-05-17,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,+3.4,10.25,e,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,1 se- 2,Conegliano,2016-04-25,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.26,-2.7,10.26,e,ZABOT Julian,2002,CM,ANA ATL.FELTRE,5 se- 4,Padova,2016-07-17,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,1 se- 2,Feltre,2016-04-02,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,,10.3,m,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,4 se- 1,Belluno,2016-05-07,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.62,-1.7,10.62,e,RENTO Filippo,2002,CM,ANA ATL.FELTRE,3 se- 2,Padova,2016-07-17,https://www.fidal.it/atleta/RENTO-Filippo/eKmRlJakbmM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.64,-1.7,10.64,e,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,4 se- 2,Padova,2016-07-17,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,2 se- 2,Agordo,2016-10-15,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.67,-1.0,10.67,e,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,5 se- 5,Rossano Veneto,2016-09-11,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,BOLZONELLO Sebastiano,2002,CM,ANA ATL.FELTRE,4 se- 2,Feltre,2016-04-02,https://www.fidal.it/atleta/BOLZONELLO-Sebastiano/eKmRlJaocWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,CAPRETTA Francesco,2002,CM,ANA ATL.FELTRE,3 se- 4,Agordo,2016-10-15,https://www.fidal.it/atleta/CAPRETTA-Francesco/eKmRlJagcWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,GRIS Matteo,2002,CM,ANA ATL.FELTRE,5 se- 2,Feltre,2016-04-02,https://www.fidal.it/atleta/GRIS-Matteo/eKmRlJWibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,BOLZONELLO Sebastiano,2002,CM,ANA ATL.FELTRE,3 se- 2,Belluno,2016-05-07,https://www.fidal.it/atleta/BOLZONELLO-Sebastiano/eKmRlJaocWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.76,,10.76,e,SCOPEL Gioia,2002,CF,ANA ATL.FELTRE,3 se- 4,Feltre,2016-06-25,https://www.fidal.it/atleta/SCOPEL-Gioia/eKmRlJSjcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,SCOPEL Gioia,2002,CF,ANA ATL.FELTRE,3 se- 1,Agordo,2016-10-15,https://www.fidal.it/atleta/SCOPEL-Gioia/eKmRlJSjcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,SCOPEL Gioia,2002,CF,ANA ATL.FELTRE,1 se- 3,Belluno,2016-05-07,https://www.fidal.it/atleta/SCOPEL-Gioia/eKmRlJSjcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.16,-0.9,11.16,e,SCOPEL Gioia,2002,CF,ANA ATL.FELTRE,4 se- 8,Rossano Veneto,2016-09-11,https://www.fidal.it/atleta/SCOPEL-Gioia/eKmRlJSjcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,ZATTA Vanessa,2001,CF,ANA ATL.FELTRE,1 se- 4,Belluno,2016-05-07,https://www.fidal.it/atleta/ZATTA-Vanessa/eKmRlJela2Q%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,PERSICO Elisa,2002,CF,ANA ATL.FELTRE,2 se- 2,Belluno,2016-05-17,https://www.fidal.it/atleta/PERSICO-Elisa/eKmRlJWjcGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,CHARAF Salma,2002,CF,ANA ATL.FELTRE,3 se- 2,Belluno,2016-05-17,https://www.fidal.it/atleta/CHARAF-Salma/eKmRlJehaGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.46,,11.46,e,CHARAF Salma,2002,CF,ANA ATL.FELTRE,4 se- 3,Feltre,2016-06-25,https://www.fidal.it/atleta/CHARAF-Salma/eKmRlJehaGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,PERSICO Elisa,2002,CF,ANA ATL.FELTRE,1 se- 4,Feltre,2016-04-02,https://www.fidal.it/atleta/PERSICO-Elisa/eKmRlJWjcGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,RAVEANE Giorgia,2002,CF,ANA ATL.FELTRE,2 se- 4,Feltre,2016-04-02,https://www.fidal.it/atleta/RAVEANE-Giorgia/eKmRlJakbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,PERSICO Elisa,2002,CF,ANA ATL.FELTRE,1 se- 3,Agordo,2016-10-15,https://www.fidal.it/atleta/PERSICO-Elisa/eKmRlJWjcGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.56,-2.1,11.56,e,CHARAF Salma,2002,CF,ANA ATL.FELTRE,1 se- 3,Conegliano,2016-04-25,https://www.fidal.it/atleta/CHARAF-Salma/eKmRlJehaGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.58,+1.4,11.58,e,RAVEANE Giorgia,2002,CF,ANA ATL.FELTRE,5 se- 5,Rovigo,2016-05-28,https://www.fidal.it/atleta/RAVEANE-Giorgia/eKmRlJakbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.66,-0.3,11.66,e,RAVEANE Giorgia,2002,CF,ANA ATL.FELTRE,3 se- 2,Conegliano,2016-04-25,https://www.fidal.it/atleta/RAVEANE-Giorgia/eKmRlJakbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,PERSICO Elisa,2002,CF,ANA ATL.FELTRE,2 se- 2,Belluno,2016-05-07,https://www.fidal.it/atleta/PERSICO-Elisa/eKmRlJWjcGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.74,,11.74,e,DE CARLI Alessandra,2001,CF,ANA ATL.FELTRE,3 ba- 3,Nova Milanese,2016-05-29,https://www.fidal.it/atleta/DE-CARLI-Alessandra/eKmRlJalbmo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,RAVEANE Giorgia,2002,CF,ANA ATL.FELTRE,4 se- 2,Agordo,2016-10-15,https://www.fidal.it/atleta/RAVEANE-Giorgia/eKmRlJakbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,CHARAF Salma,2002,CF,ANA ATL.FELTRE,3 se- 4,Feltre,2016-04-02,https://www.fidal.it/atleta/CHARAF-Salma/eKmRlJehaGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,CHARAF Salma,2002,CF,ANA ATL.FELTRE,5 se- 1,Valesella,2016-08-18,https://www.fidal.it/atleta/CHARAF-Salma/eKmRlJehaGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,DE CARLI Alessandra,2001,CF,ANA ATL.FELTRE,6 se- 1,Valesella,2016-08-18,https://www.fidal.it/atleta/DE-CARLI-Alessandra/eKmRlJalbmo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.11,-0.3,12.11,e,CANOVA Aurora,2001,CF,ANA ATL.FELTRE,6 se- 2,Conegliano,2016-04-25,https://www.fidal.it/atleta/CANOVA-Aurora/eKmRlJamcGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,BARBARESI Lisa,2001,CF,ANA ATL.FELTRE,2 se- 5,Feltre,2016-04-02,https://www.fidal.it/atleta/BARBARESI-Lisa/eKmRlJagbWM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.45,,12.2,m,DALLA CORTE Giada,2001,CF,ANA ATL.FELTRE,2 se- 3,Agordo,2016-10-15,https://www.fidal.it/atleta/DALLA-CORTE-Giada/eKmRlJancGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.55,+0.3,9.55,e,ZABOT Julian,2002,CM,ANA ATL.FELTRE,2 se- 1,Feltre,2017-08-23,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.56,-0.3,9.56,e,ZABOT Julian,2002,CM,ANA ATL.FELTRE,4 se- 2,Caprino Veronese,2017-09-23,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.62,-0.2,9.62,e,ZABOT Julian,2002,CM,ANA ATL.FELTRE,1 se- 2,Vicenza,2017-06-03,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.65,,9.4,m,ZABOT Julian,2002,CM,ANA ATL.FELTRE,1 se- 1,Feltre,2017-10-14,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.72,+0.0,9.72,e,ZABOT Julian,2002,CM,ANA ATL.FELTRE,1 se- 1,Conegliano,2017-04-25,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.87,-2.6,9.87,e,ZABOT Julian,2002,CM,ANA ATL.FELTRE,4 se- 2,Gemona Del Friuli,2017-09-09,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.89,-1.5,9.89,e,ZABOT Julian,2002,CM,ANA ATL.FELTRE,5 se- 4,Padova,2017-07-16,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,,9.7,m,ZABOT Julian,2002,CM,ANA ATL.FELTRE,1 se- 1,Feltre,2017-04-01,https://www.fidal.it/atleta/ZABOT-Julian/eKmRlJelbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.99,-0.2,9.99,e,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,1 se- 5,Caprino Veronese,2017-09-23,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.03,+0.3,10.03,e,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,4 se- 1,Feltre,2017-08-23,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.13,-0.2,10.13,e,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,2 se- 2,Trento,2017-06-11,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.22,-0.4,10.22,e,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,2 se- 2,Padova,2017-07-16,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,,10.0,m,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,4 se- 1,Feltre,2017-04-01,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.27,+0.0,10.27,e,BIESUZ Enrico,2002,CM,ANA ATL.FELTRE,5 se- 2,Conegliano,2017-04-25,https://www.fidal.it/atleta/BIESUZ-Enrico/eKmRlJSjb2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.75,,10.5,m,CRIVELLER Marco,2003,CM,ANA ATL.FELTRE,2 se- 2,Feltre,2017-10-14,https://www.fidal.it/atleta/CRIVELLER-Marco/eKmRlJWlb2Y%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.84,+0.0,10.84,e,CRIVELLER Marco,2003,CM,ANA ATL.FELTRE,5 se- 3,Conegliano,2017-04-25,https://www.fidal.it/atleta/CRIVELLER-Marco/eKmRlJWlb2Y%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,,10.6,m,DE BASTIANI Davide,2002,CM,ANA ATL.FELTRE,1 se- 4,Agordo,2017-04-29,https://www.fidal.it/atleta/DE-BASTIANI-Davide/eKmRlJifbWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,,10.6,m,GRIS Matteo,2002,CM,ANA ATL.FELTRE,3 se- 2,Feltre,2017-10-14,https://www.fidal.it/atleta/GRIS-Matteo/eKmRlJWibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.89,-0.4,10.89,e,GRIS Matteo,2002,CM,ANA ATL.FELTRE,5 se- 2,Padova,2017-07-16,https://www.fidal.it/atleta/GRIS-Matteo/eKmRlJWibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.91,+1.4,10.91,e,CRIVELLER Marco,2003,CM,ANA ATL.FELTRE,1 se- 3,Feltre,2017-08-23,https://www.fidal.it/atleta/CRIVELLER-Marco/eKmRlJWlb2Y%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.96,+1.4,10.96,e,VISENTI Matteo,2003,CM,ANA ATL.FELTRE,2 se- 3,Feltre,2017-08-23,https://www.fidal.it/atleta/VISENTI-Matteo/eKmRlJekamw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.0,+1.4,11.00,e,GRIS Matteo,2002,CM,ANA ATL.FELTRE,3 se- 3,Feltre,2017-08-23,https://www.fidal.it/atleta/GRIS-Matteo/eKmRlJWibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,GRIS Matteo,2002,CM,ANA ATL.FELTRE,1 se- 2,Feltre,2017-04-01,https://www.fidal.it/atleta/GRIS-Matteo/eKmRlJWibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,VISENTI Matteo,2003,CM,ANA ATL.FELTRE,3 se- 1,Agordo,2017-04-29,https://www.fidal.it/atleta/VISENTI-Matteo/eKmRlJekamw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,BOLZONELLO Sebastiano,2002,CM,ANA ATL.FELTRE,2 se- 2,Feltre,2017-04-01,https://www.fidal.it/atleta/BOLZONELLO-Sebastiano/eKmRlJaocWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,POSSAMAI Alberto,2003,CM,ANA ATL.FELTRE,3 se- 3,Agordo,2017-09-30,https://www.fidal.it/atleta/POSSAMAI-Alberto/eKmRlJeka2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,POSSAMAI Alberto,2003,CM,ANA ATL.FELTRE,4 se- 3,Feltre,2017-10-14,https://www.fidal.it/atleta/POSSAMAI-Alberto/eKmRlJeka2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.41,+1.4,11.41,e,POSSAMAI Alberto,2003,CM,ANA ATL.FELTRE,4 se- 3,Feltre,2017-08-23,https://www.fidal.it/atleta/POSSAMAI-Alberto/eKmRlJeka2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,POSSAMAI Alberto,2003,CM,ANA ATL.FELTRE,4 se- 2,Feltre,2017-04-01,https://www.fidal.it/atleta/POSSAMAI-Alberto/eKmRlJeka2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,FAORO Thomas,2003,CM,ANA ATL.FELTRE,4 se- 1,Agordo,2017-04-29,https://www.fidal.it/atleta/FAORO-Thomas/eKmRlJeobGs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,ISMA Mauro,2003,CM,ANA ATL.FELTRE,3 se- 6,Feltre,2017-04-01,https://www.fidal.it/atleta/ISMA-Mauro/eKmRlJajbmM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.45,,12.2,m,SARNO Gioele,2003,CM,ANA ATL.FELTRE,3 se- 4,Agordo,2017-04-29,https://www.fidal.it/atleta/SARNO-Gioele/eKmRlJekb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.95,,12.7,m,SARNO Gioele,2003,CM,ANA ATL.FELTRE,5 se- 4,Feltre,2017-04-01,https://www.fidal.it/atleta/SARNO-Gioele/eKmRlJekb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,SCOPEL Gioia,2002,CF,ANA ATL.FELTRE,1 se- 1,Feltre,2017-04-01,https://www.fidal.it/atleta/SCOPEL-Gioia/eKmRlJSjcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.99,-0.3,10.99,e,SCOPEL Gioia,2002,CF,ANA ATL.FELTRE,4 se- 1,Feltre,2017-08-23,https://www.fidal.it/atleta/SCOPEL-Gioia/eKmRlJSjcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,PERSICO Elisa,2002,CF,ANA ATL.FELTRE,3 se- 1,Feltre,2017-04-01,https://www.fidal.it/atleta/PERSICO-Elisa/eKmRlJWjcGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,PERSICO Elisa,2002,CF,ANA ATL.FELTRE,1 se- 4,Agordo,2017-04-29,https://www.fidal.it/atleta/PERSICO-Elisa/eKmRlJWjcGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.44,+0.0,11.44,e,RAVEANE Giorgia,2002,CF,ANA ATL.FELTRE,3 se- 2,Conegliano,2017-04-25,https://www.fidal.it/atleta/RAVEANE-Giorgia/eKmRlJakbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.51,-0.1,11.51,e,PERSICO Elisa,2002,CF,ANA ATL.FELTRE,5 se- 2,Feltre,2017-08-23,https://www.fidal.it/atleta/PERSICO-Elisa/eKmRlJWjcGk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.53,,11.53,e,RAVEANE Giorgia,2002,CF,ANA ATL.FELTRE,3 se- 3,Trento,2017-06-11,https://www.fidal.it/atleta/RAVEANE-Giorgia/eKmRlJakbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,RAVEANE Giorgia,2002,CF,ANA ATL.FELTRE,4 se- 1,Feltre,2017-04-01,https://www.fidal.it/atleta/RAVEANE-Giorgia/eKmRlJakbmc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,CHARAF Salma,2002,CF,ANA ATL.FELTRE,5 se- 1,Feltre,2017-04-01,https://www.fidal.it/atleta/CHARAF-Salma/eKmRlJehaGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.65,,9.4,m,DALLA SEGA Davide,1999,JM,ANA ATL.FELTRE,1 se- 1,Feltre,2017-04-01,https://www.fidal.it/atleta/DALLA-SEGA-Davide/eKmRlJala2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.65,,9.4,m,ZANDOMENEGHI Marco,1997,PM,ANA ATL.FELTRE,2 se- 1,Feltre,2017-04-01,https://www.fidal.it/atleta/ZANDOMENEGHI-Marco/eKmRlJWjb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.75,,9.5,m,SIRAGNA Lorenzo,2001,AM,ANA ATL.FELTRE,3 se- 1,Feltre,2017-04-01,https://www.fidal.it/atleta/SIRAGNA-Lorenzo/eKmRlJahbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.85,,9.6,m,GIAZZON Francesco,2000,AM,ANA ATL.FELTRE,4 se- 1,Feltre,2017-04-01,https://www.fidal.it/atleta/GIAZZON-Francesco/eKmRlJakaGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,9.95,,9.7,m,MANISCALCHI Stefano,1990,SM,ANA ATL.FELTRE,1 se- 2,Feltre,2017-04-01,https://www.fidal.it/atleta/MANISCALCHI-Stefano/eKiRlZKia2s%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,MADONNA Donato,1991,SM,ANA ATL.FELTRE,2 se- 2,Feltre,2017-04-01,https://www.fidal.it/atleta/MADONNA-Donato/eKmRlJejaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,TAMBURLIN Anna,2000,AF,ANA ATL.FELTRE,1 se- 2,Feltre,2017-04-01,https://www.fidal.it/atleta/TAMBURLIN-Anna/eKmRlJWobGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,DE CARLI Alessandra,2001,AF,ANA ATL.FELTRE,2 se- 2,Feltre,2017-04-01,https://www.fidal.it/atleta/DE-CARLI-Alessandra/eKmRlJalbmo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,,9.9,m,CRIVELLER Marco,2003,CM,ANA ATL.FELTRE,1 su- 1,Agordo,2018-10-06,https://www.fidal.it/atleta/CRIVELLER-Marco/eKmRlJWlb2Y%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,ANDREAZZA Manuel,2004,CM,ANA ATL.FELTRE,3 su- 1,Agordo,2018-10-06,https://www.fidal.it/atleta/ANDREAZZA-Manuel/eKmRlJifa2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,ANDREAZZA Manuel,2004,CM,ANA ATL.FELTRE,4 su- 1,Feltre,2018-06-30,https://www.fidal.it/atleta/ANDREAZZA-Manuel/eKmRlJifa2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.56,,11.56,e,DE BARBA Elena,2004,CF,ANA ATL.FELTRE,7 se- 2,Rovigo,2018-05-17,https://www.fidal.it/atleta/DE-BARBA-Elena/eKmRlJWfcWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,MAHJOUBI Gaia,2004,CF,ANA ATL.FELTRE,2 se- 3,Feltre,2018-06-30,https://www.fidal.it/atleta/MAHJOUBI-Gaia/eKmRlJejamY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,BARP Anna asia,2004,CF,ANA ATL.FELTRE,2 se- 8,Ponzano Veneto,2018-09-29,https://www.fidal.it/atleta/BARP-Anna-asia/eKmRlJekb2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,BERTELLE Alice,2004,CF,ANA ATL.FELTRE,3 se- 3,Feltre,2018-06-30,https://www.fidal.it/atleta/BERTELLE-Alice/eKmRlJijamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,ROSSA Elena,2004,CF,ANA ATL.FELTRE,1 se- 2,Feltre,2018-06-30,https://www.fidal.it/atleta/ROSSA-Elena/eKmRlJagbWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.35,,12.1,m,DE BORTOLI Giulia,2004,CF,ANA ATL.FELTRE,2 se- 6,Valesella,2018-05-05,https://www.fidal.it/atleta/DE-BORTOLI-Giulia/eKmRlJWma2Q%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.95,,12.7,m,DE BORTOLI Giulia,2004,CF,ANA ATL.FELTRE,5 se- 5,Ponzano Veneto,2018-09-29,https://www.fidal.it/atleta/DE-BORTOLI-Giulia/eKmRlJWma2Q%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.85,,13.6,m,CONZ Gioia,2004,CF,ANA ATL.FELTRE,4 se- 2,Feltre,2018-06-30,https://www.fidal.it/atleta/CONZ-Gioia/eKmRlJifa2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,14.25,,14.0,m,CONZ Gioia,2004,CF,ANA ATL.FELTRE,5 se- 5,Valesella,2018-05-05,https://www.fidal.it/atleta/CONZ-Gioia/eKmRlJifa2g%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,SCHENAL Anna,2004,CF,ANA ATL.FELTRE,4 se- 1,Domegge Di Cadore,2019-04-13,https://www.fidal.it/atleta/SCHENAL-Anna/eKmRlJajbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,BARP Anna asia,2004,CF,ANA ATL.FELTRE,1 se- 2,Domegge Di Cadore,2019-04-13,https://www.fidal.it/atleta/BARP-Anna-asia/eKmRlJekb2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,BARP Anna asia,2004,CF,ANA ATL.FELTRE,5 se- 1,Vittorio Veneto,2019-04-27,https://www.fidal.it/atleta/BARP-Anna-asia/eKmRlJekb2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,CASSOL Anita,2005,CF,ANA ATL.FELTRE,5 se- 1,Domegge Di Cadore,2019-04-13,https://www.fidal.it/atleta/CASSOL-Anita/eKmRlJWjbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.58,+0.3,11.58,e,DAL ZOTTO Benedetta,2005,CF,ANA ATL.FELTRE,1 se- 5,Feltre,2019-06-22,https://www.fidal.it/atleta/DAL-ZOTTO-Benedetta/eKmRlJiibmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,MAHJOUBI Gaia,2004,CF,ANA ATL.FELTRE,1 se- 3,Feltre,2019-05-18,https://www.fidal.it/atleta/MAHJOUBI-Gaia/eKmRlJejamY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.66,-0.5,11.66,e,DAL ZOTTO Benedetta,2005,CF,ANA ATL.FELTRE,4 se- 4,Bassano Del Grappa,2019-05-25,https://www.fidal.it/atleta/DAL-ZOTTO-Benedetta/eKmRlJiibmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.66,+0.3,11.66,e,ROLUCCI Ilaria,2005,CF,ANA ATL.FELTRE,2 se- 5,Feltre,2019-06-22,https://www.fidal.it/atleta/ROLUCCI-Ilaria/eKmRlJifb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,CASSOL Anita,2005,CF,ANA ATL.FELTRE,2 se- 4,Pederobba,2019-09-14,https://www.fidal.it/atleta/CASSOL-Anita/eKmRlJWjbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.8,-0.9,11.80,e,BERTELLE Alice,2004,CF,ANA ATL.FELTRE,2 se- 4,Cles,2019-08-24,https://www.fidal.it/atleta/BERTELLE-Alice/eKmRlJijamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.81,+0.0,11.81,e,DE BORTOLI Giulia,2004,CF,ANA ATL.FELTRE,1 se- 6,Feltre,2019-06-22,https://www.fidal.it/atleta/DE-BORTOLI-Giulia/eKmRlJWma2Q%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,ROLUCCI Ilaria,2005,CF,ANA ATL.FELTRE,1 se- 2,Vittorio Veneto,2019-04-27,https://www.fidal.it/atleta/ROLUCCI-Ilaria/eKmRlJifb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,DAL ZOTTO Benedetta,2005,CF,ANA ATL.FELTRE,1 se- 4,Feltre,2019-05-18,https://www.fidal.it/atleta/DAL-ZOTTO-Benedetta/eKmRlJiibmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,ROLUCCI Ilaria,2005,CF,ANA ATL.FELTRE,2 se- 2,Belluno,2019-10-19,https://www.fidal.it/atleta/ROLUCCI-Ilaria/eKmRlJifb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,DAL ZOTTO Benedetta,2005,CF,ANA ATL.FELTRE,4 se- 2,Domegge Di Cadore,2019-04-13,https://www.fidal.it/atleta/DAL-ZOTTO-Benedetta/eKmRlJiibmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,ROLUCCI Ilaria,2005,CF,ANA ATL.FELTRE,5 se- 2,Domegge Di Cadore,2019-04-13,https://www.fidal.it/atleta/ROLUCCI-Ilaria/eKmRlJifb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,DAL ZOTTO Benedetta,2005,CF,ANA ATL.FELTRE,3 se- 2,Vittorio Veneto,2019-04-27,https://www.fidal.it/atleta/DAL-ZOTTO-Benedetta/eKmRlJiibmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,ROLUCCI Ilaria,2005,CF,ANA ATL.FELTRE,4 se- 1,Feltre,2019-05-18,https://www.fidal.it/atleta/ROLUCCI-Ilaria/eKmRlJifb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,BERTELLE Alice,2004,CF,ANA ATL.FELTRE,1 se- 3,Domegge Di Cadore,2019-04-13,https://www.fidal.it/atleta/BERTELLE-Alice/eKmRlJijamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,SPADA Francesca,2005,CF,ANA ATL.FELTRE,2 se- 3,Domegge Di Cadore,2019-04-13,https://www.fidal.it/atleta/SPADA-Francesca/eKmRlJajbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,DE BORTOLI Giulia,2004,CF,ANA ATL.FELTRE,4 se- 3,Domegge Di Cadore,2019-04-13,https://www.fidal.it/atleta/DE-BORTOLI-Giulia/eKmRlJWma2Q%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,BERTELLE Alice,2004,CF,ANA ATL.FELTRE,5 se- 3,Pederobba,2019-09-14,https://www.fidal.it/atleta/BERTELLE-Alice/eKmRlJijamQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,DAL ZOTTO Benedetta,2005,CF,ANA ATL.FELTRE,4 se- 1,Belluno,2019-10-19,https://www.fidal.it/atleta/DAL-ZOTTO-Benedetta/eKmRlJiibmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,DE BORTOLI Giulia,2004,CF,ANA ATL.FELTRE,4 se- 2,Belluno,2019-10-19,https://www.fidal.it/atleta/DE-BORTOLI-Giulia/eKmRlJWma2Q%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,SPADA Francesca,2005,CF,ANA ATL.FELTRE,5 se- 2,Belluno,2019-10-19,https://www.fidal.it/atleta/SPADA-Francesca/eKmRlJajbmY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.25,,12.0,m,DE BORTOLI Giulia,2004,CF,ANA ATL.FELTRE,4 se- 3,Feltre,2019-05-18,https://www.fidal.it/atleta/DE-BORTOLI-Giulia/eKmRlJWma2Q%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.45,+0.2,12.45,e,DAL FARRA Silvia,2005,CF,ANA ATL.FELTRE,4 se- 8,Feltre,2019-06-22,https://www.fidal.it/atleta/DAL-FARRA-Silvia/eKmRlJmfbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.15,,12.9,m,DE RIZ Chiara,2005,CF,ANA ATL.FELTRE,3 se- 3,Belluno,2019-10-19,https://www.fidal.it/atleta/DE-RIZ-Chiara/eKmRlJioaWM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.35,,13.1,m,DE RIZ Chiara,2005,CF,ANA ATL.FELTRE,5 se- 5,Feltre,2019-05-18,https://www.fidal.it/atleta/DE-RIZ-Chiara/eKmRlJioaWM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.75,,10.5,m,SCOPEL Simone,2006,CM,ANA ATL.FELTRE,2 su- 1,Puos D'alpago,2020-09-05,https://www.fidal.it/atleta/SCOPEL-Simone/eKmRlJeocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.85,,10.6,m,SCOPEL Simone,2006,CM,ANA ATL.FELTRE,2 se- 3,Puos D'alpago,2020-09-26,https://www.fidal.it/atleta/SCOPEL-Simone/eKmRlJeocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,CASSOL Anita,2005,CF,ANA ATL.FELTRE,1 se- 2,Puos D'alpago,2020-09-26,https://www.fidal.it/atleta/CASSOL-Anita/eKmRlJWjbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,CASSOL Anita,2005,CF,ANA ATL.FELTRE,1 se- 1,Puos D'alpago,2020-09-05,https://www.fidal.it/atleta/CASSOL-Anita/eKmRlJWjbGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.83,+1.6,11.83,e,MOINO Eleonora,2006,CF,ANA ATL.FELTRE,1 su- 1,Agordo,2020-08-22,https://www.fidal.it/atleta/MOINO-Eleonora/eKmRlJiibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,ROLUCCI Ilaria,2005,CF,ANA ATL.FELTRE,2 su- 1,Vallesella,2020-07-23,https://www.fidal.it/atleta/ROLUCCI-Ilaria/eKmRlJifb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,MOINO Eleonora,2006,CF,ANA ATL.FELTRE,4 se- 3,Puos D'alpago,2020-09-26,https://www.fidal.it/atleta/MOINO-Eleonora/eKmRlJiibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,MOINO Eleonora,2006,CF,ANA ATL.FELTRE,2 se- 1,Puos D'alpago,2020-09-05,https://www.fidal.it/atleta/MOINO-Eleonora/eKmRlJiibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,DAL ZOTTO Benedetta,2005,CF,ANA ATL.FELTRE,4 se- 2,Puos D'alpago,2020-09-26,https://www.fidal.it/atleta/DAL-ZOTTO-Benedetta/eKmRlJiibmg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,ROLUCCI Ilaria,2005,CF,ANA ATL.FELTRE,5 se- 3,Puos D'alpago,2020-09-26,https://www.fidal.it/atleta/ROLUCCI-Ilaria/eKmRlJifb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.15,,12.9,m,DE RIZ Chiara,2005,CF,ANA ATL.FELTRE,3 su- 1,Vallesella,2020-07-23,https://www.fidal.it/atleta/DE-RIZ-Chiara/eKmRlJioaWM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.06,-1.1,10.06,e,SCOPEL Simone,2006,CM,ANA ATL.FELTRE,1 se- 3,Feltre,2021-06-26,https://www.fidal.it/atleta/SCOPEL-Simone/eKmRlJeocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.14,,10.14,e,SCOPEL Simone,2006,CM,ANA ATL.FELTRE,4 su- 1,Merano,2021-07-17,https://www.fidal.it/atleta/SCOPEL-Simone/eKmRlJeocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,,9.9,m,SCOPEL Simone,2006,CM,ANA ATL.FELTRE,1 se- 1,Alpago,2021-09-25,https://www.fidal.it/atleta/SCOPEL-Simone/eKmRlJeocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,,10.0,m,SCOPEL Simone,2006,CM,ANA ATL.FELTRE,1 se- 2,Alpago,2021-05-22,https://www.fidal.it/atleta/SCOPEL-Simone/eKmRlJeocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,,10.0,m,SCOPEL Simone,2006,CM,ANA ATL.FELTRE,2 se- 1,Domegge Di Cadore,2021-06-12,https://www.fidal.it/atleta/SCOPEL-Simone/eKmRlJeocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.29,-0.3,10.29,e,SCOPEL Simone,2006,CM,ANA ATL.FELTRE,2 se- 3,Verona,2021-06-02,https://www.fidal.it/atleta/SCOPEL-Simone/eKmRlJeocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,SCOPEL Simone,2006,CM,ANA ATL.FELTRE,2 se- 3,Domegge Di Cadore,2021-05-15,https://www.fidal.it/atleta/SCOPEL-Simone/eKmRlJeocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.34,-0.8,10.34,e,SCOPEL Simone,2006,CM,ANA ATL.FELTRE,3 se- 4,Vittorio Veneto,2021-09-18,https://www.fidal.it/atleta/SCOPEL-Simone/eKmRlJeocGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.99,+0.4,10.99,e,RECH Martino,2007,CM,ANA ATL.FELTRE,4 se- 2,Verona,2021-06-02,https://www.fidal.it/atleta/RECH-Martino/eKmRlJmgaGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,RECH Martino,2007,CM,ANA ATL.FELTRE,4 se- 3,Domegge Di Cadore,2021-05-15,https://www.fidal.it/atleta/RECH-Martino/eKmRlJmgaGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,MOINO Eleonora,2006,CF,ANA ATL.FELTRE,1 se- 2,Domegge Di Cadore,2021-06-12,https://www.fidal.it/atleta/MOINO-Eleonora/eKmRlJiibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.37,,11.37,e,MOINO Eleonora,2006,CF,ANA ATL.FELTRE,2 se- 6,Agordo,2021-04-25,https://www.fidal.it/atleta/MOINO-Eleonora/eKmRlJiibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,MOINO Eleonora,2006,CF,ANA ATL.FELTRE,5 se- 1,Alpago,2021-05-22,https://www.fidal.it/atleta/MOINO-Eleonora/eKmRlJiibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.57,-0.2,11.57,e,SPADA Anna,2007,CF,ANA ATL.FELTRE,1 se- 3,Verona,2021-06-02,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.6,-0.2,11.60,e,SPADA Anna,2007,CF,ANA ATL.FELTRE,4 se- 4,Abano Terme,2021-06-19,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.62,,11.62,e,SPADA Anna,2007,CF,ANA ATL.FELTRE,3 se- 1,Agordo,2021-04-25,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.62,-0.8,11.62,e,SPADA Anna,2007,CF,ANA ATL.FELTRE,5 se- 3,Feltre,2021-06-26,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,SPADA Anna,2007,CF,ANA ATL.FELTRE,3 se- 2,Alpago,2021-05-22,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.64,-1.5,11.64,e,MOINO Eleonora,2006,CF,ANA ATL.FELTRE,5 se- 7,Abano Terme,2021-07-02,https://www.fidal.it/atleta/MOINO-Eleonora/eKmRlJiibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,SPADA Anna,2007,CF,ANA ATL.FELTRE,4 se- 2,Feltre,2021-08-25,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,MOINO Eleonora,2006,CF,ANA ATL.FELTRE,3 se- 1,Alpago,2021-09-25,https://www.fidal.it/atleta/MOINO-Eleonora/eKmRlJiibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,SPADA Anna,2007,CF,ANA ATL.FELTRE,4 se- 1,Alpago,2021-09-25,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.67,-1.3,11.67,e,MOINO Eleonora,2006,CF,ANA ATL.FELTRE,5 se- 2,Feltre,2021-06-26,https://www.fidal.it/atleta/MOINO-Eleonora/eKmRlJiibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.72,-1.4,11.72,e,SPADA Anna,2007,CF,ANA ATL.FELTRE,3 se- 6,Abano Terme,2021-07-02,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.73,-1.8,11.73,e,DAVID Giovanna,2007,CF,ANA ATL.FELTRE,2 se- 6,Feltre,2021-06-26,https://www.fidal.it/atleta/DAVID-Giovanna/eKmRlJijb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,COLUSSI Ilary,2006,CF,ANA ATL.FELTRE,1 se- 3,Alpago,2021-09-25,https://www.fidal.it/atleta/COLUSSI-Ilary/eKmRlJeob2w%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.82,-2.2,11.82,e,DAVID Giovanna,2007,CF,ANA ATL.FELTRE,3 se- 5,Abano Terme,2021-07-02,https://www.fidal.it/atleta/DAVID-Giovanna/eKmRlJijb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,FIAMMENGO Giulia,2006,CF,ANA ATL.FELTRE,3 se- 6,Alpago,2021-05-22,https://www.fidal.it/atleta/FIAMMENGO-Giulia/eKmRlJmlaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.95,,11.7,m,MOINO Eleonora,2006,CF,ANA ATL.FELTRE,5 se- 2,Feltre,2021-08-25,https://www.fidal.it/atleta/MOINO-Eleonora/eKmRlJiibGg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.1,-1.3,12.10,e,PIOLO Carlotta,2006,CF,ANA ATL.FELTRE,3 se- 1,Verona,2021-06-02,https://www.fidal.it/atleta/PIOLO-Carlotta/eKmRlJiiaWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,PIOLO Carlotta,2006,CF,ANA ATL.FELTRE,4 se- 6,Alpago,2021-05-22,https://www.fidal.it/atleta/PIOLO-Carlotta/eKmRlJiiaWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.2,-3.5,12.20,e,PIOLO Carlotta,2006,CF,ANA ATL.FELTRE,4 se- 4,Feltre,2021-06-26,https://www.fidal.it/atleta/PIOLO-Carlotta/eKmRlJiiaWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.27,-1.4,12.27,e,COMIOTTO Giada,2006,CF,ANA ATL.FELTRE,1 se- 5,Feltre,2021-06-26,https://www.fidal.it/atleta/COMIOTTO-Giada/eKmRlJaoaGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.34,-2.6,12.34,e,COMIOTTO Giada,2006,CF,ANA ATL.FELTRE,3 se- 3,Abano Terme,2021-07-02,https://www.fidal.it/atleta/COMIOTTO-Giada/eKmRlJaoaGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.45,,12.2,m,COMIOTTO Giada,2006,CF,ANA ATL.FELTRE,2 se- 2,Alpago,2021-09-25,https://www.fidal.it/atleta/COMIOTTO-Giada/eKmRlJaoaGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.65,,12.4,m,COMIOTTO Giada,2006,CF,ANA ATL.FELTRE,4 se- 7,Alpago,2021-05-22,https://www.fidal.it/atleta/COMIOTTO-Giada/eKmRlJaoaGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.93,-1.8,12.93,e,DE BACCO Emma,2006,CF,ANA ATL.FELTRE,4 se- 6,Feltre,2021-06-26,https://www.fidal.it/atleta/DE-BACCO-Emma/eKmRlJelbmU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.97,-1.8,12.97,e,DE GIACOMETTI Lien,2006,CF,ANA ATL.FELTRE,5 se- 6,Feltre,2021-06-26,https://www.fidal.it/atleta/DE-GIACOMETTI-Lien/eKmRlJmlbWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,,10.3,m,PETITTO Leonardo,2008,CM,ANA ATL.FELTRE,3 su- 1,Agordo,2022-05-21,https://www.fidal.it/atleta/PETITTO-Leonardo/eKmRlJijbmQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,ANDREOLI Antonio,2008,CM,ANA ATL.FELTRE,4 su- 1,Agordo,2022-05-21,https://www.fidal.it/atleta/ANDREOLI-Antonio/eKmRlJmmbmM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.05,,10.8,m,PETITTO Leonardo,2008,CM,ANA ATL.FELTRE,4 se- 1,Mel,2022-06-22,https://www.fidal.it/atleta/PETITTO-Leonardo/eKmRlJijbmQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.15,,10.9,m,BALDISSERI Pietro,2008,CM,ANA ATL.FELTRE,2 se- 2,Mel,2022-06-22,https://www.fidal.it/atleta/BALDISSERI-Pietro/eKmRlJeocGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,RECH Martino,2007,CM,ANA ATL.FELTRE,4 se- 1,Alpago,2022-04-09,https://www.fidal.it/atleta/RECH-Martino/eKmRlJmgaGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,BELLUS Riccardo,2008,CM,ANA ATL.FELTRE,2 se- 3,Domegge Di Cadore,2022-05-07,https://www.fidal.it/atleta/BELLUS-Riccardo/eKmRlJekamU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,BALDISSERI Pietro,2008,CM,ANA ATL.FELTRE,1 se- 2,Domegge Di Cadore,2022-05-07,https://www.fidal.it/atleta/BALDISSERI-Pietro/eKmRlJeocGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,2 se- 1,Feltre,2022-10-01,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,+0.3,11.35,e,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,5 se- 4,Feltre,2022-06-25,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,3 se- 1,Domegge Di Cadore,2022-05-07,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,ANDREOLI Antonio,2008,CM,ANA ATL.FELTRE,4 se- 1,Domegge Di Cadore,2022-05-07,https://www.fidal.it/atleta/ANDREOLI-Antonio/eKmRlJmmbmM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.44,-0.3,11.44,e,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,4 se- 3,Verona,2022-06-02,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.48,-0.6,11.48,e,SAADAOUI Omar,2008,CM,ANA ATL.FELTRE,3 se- 5,Feltre,2022-06-25,https://www.fidal.it/atleta/SAADAOUI-Omar/eKmRlJimbWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,3 se- 2,Mel,2022-06-22,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,SAADAOUI Omar,2008,CM,ANA ATL.FELTRE,4 se- 2,Mel,2022-06-22,https://www.fidal.it/atleta/SAADAOUI-Omar/eKmRlJimbWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,3 su- 1,Agordo,2022-08-31,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.58,-1.2,11.58,e,SAADAOUI Omar,2008,CM,ANA ATL.FELTRE,3 se- 2,Verona,2022-06-02,https://www.fidal.it/atleta/SAADAOUI-Omar/eKmRlJimbWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.65,,11.4,m,PETITTO Leonardo,2008,CM,ANA ATL.FELTRE,3 se- 3,Domegge Di Cadore,2022-05-07,https://www.fidal.it/atleta/PETITTO-Leonardo/eKmRlJijbmQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.64,+0.4,11.64,e,PETITTO Leonardo,2008,CM,ANA ATL.FELTRE,5 se- 1,Majano,2022-09-10,https://www.fidal.it/atleta/PETITTO-Leonardo/eKmRlJijbmQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,SAADAOUI Omar,2008,CM,ANA ATL.FELTRE,2 se- 2,Domegge Di Cadore,2022-05-07,https://www.fidal.it/atleta/SAADAOUI-Omar/eKmRlJimbWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.05,,11.8,m,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,3 se- 3,Alpago,2022-04-09,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,ANDREOLI Antonio,2008,CM,ANA ATL.FELTRE,4 se- 3,Alpago,2022-04-09,https://www.fidal.it/atleta/ANDREOLI-Antonio/eKmRlJmmbmM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.45,,12.2,m,DEON Giovanni,2007,CM,ANA ATL.FELTRE,3 se- 2,Domegge Di Cadore,2022-05-07,https://www.fidal.it/atleta/DEON-Giovanni/eKmRlJiiamY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.55,,12.3,m,SAADAOUI Omar,2008,CM,ANA ATL.FELTRE,4 se- 2,Alpago,2022-04-09,https://www.fidal.it/atleta/SAADAOUI-Omar/eKmRlJimbWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.03,+0.9,11.03,e,SPADA Anna,2007,CF,ANA ATL.FELTRE,1 se- 3,Feltre,2022-06-25,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.14,+1.3,11.14,e,DAVID Giovanna,2007,CF,ANA ATL.FELTRE,4 se- 2,Feltre,2022-06-25,https://www.fidal.it/atleta/DAVID-Giovanna/eKmRlJijb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,MANTELLATO Monica,2008,CF,ANA ATL.FELTRE,1 se- 3,Agordo,2022-05-21,https://www.fidal.it/atleta/MANTELLATO-Monica/eKmRlJmjamk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,DAVID Giovanna,2007,CF,ANA ATL.FELTRE,4 se- 1,Agordo,2022-05-21,https://www.fidal.it/atleta/DAVID-Giovanna/eKmRlJijb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.35,,11.1,m,SPADA Anna,2007,CF,ANA ATL.FELTRE,5 se- 1,Agordo,2022-05-21,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.39,+0.9,11.39,e,SPADA Anna,2007,CF,ANA ATL.FELTRE,3 se- 6,Verona,2022-06-02,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.44,+0.9,11.44,e,DAVID Giovanna,2007,CF,ANA ATL.FELTRE,4 se- 6,Verona,2022-06-02,https://www.fidal.it/atleta/DAVID-Giovanna/eKmRlJijb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,SPADA Anna,2007,CF,ANA ATL.FELTRE,5 se- 1,Agordo,2022-08-31,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,-0.7,11.45,e,SPADA Anna,2007,CF,ANA ATL.FELTRE,3 se- 3,San Vito Al Tagliamento,2022-08-27,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,+0.4,11.45,e,DAVID Giovanna,2007,CF,ANA ATL.FELTRE,6 ba- 1,Venezia,2022-09-17,https://www.fidal.it/atleta/DAVID-Giovanna/eKmRlJijb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.5,-0.8,11.50,e,SPADA Anna,2007,CF,ANA ATL.FELTRE,5 se- 2,Majano,2022-09-10,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,DAVID Giovanna,2007,CF,ANA ATL.FELTRE,2 se- 1,Mel,2022-06-22,https://www.fidal.it/atleta/DAVID-Giovanna/eKmRlJijb2U%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,,11.3,m,SPADA Anna,2007,CF,ANA ATL.FELTRE,3 se- 1,Mel,2022-06-22,https://www.fidal.it/atleta/SPADA-Anna/eKmRlJmkaWQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.72,+0.1,11.72,e,MANTELLATO Monica,2008,CF,ANA ATL.FELTRE,6 se- 7,Verona,2022-06-02,https://www.fidal.it/atleta/MANTELLATO-Monica/eKmRlJmjamk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.15,,11.9,m,DE RIZ Silvia,2008,CF,ANA ATL.FELTRE,2 se- 4,Domegge Di Cadore,2022-05-07,https://www.fidal.it/atleta/DE-RIZ-Silvia/eKmRlJmgaWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.65,,12.4,m,DUSO Noemi,2008,CF,ANA ATL.FELTRE,3 se- 5,Alpago,2022-04-09,https://www.fidal.it/atleta/DUSO-Noemi/eKmRlJimaWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.85,,12.6,m,MENEGAZZO Silvia,2007,CF,ANA ATL.FELTRE,4 se- 4,Domegge Di Cadore,2022-05-07,https://www.fidal.it/atleta/MENEGAZZO-Silvia/eKmRlJeocGM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,13.65,,13.4,m,LUZZATTO Sara,2008,CF,ANA ATL.FELTRE,4 se- 3,Mel,2022-06-22,https://www.fidal.it/atleta/LUZZATTO-Sara/eKmRlJmnamM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.24,-0.3,10.24,e,DE NANDO Pietro,2009,CM,ANA ATL.FELTRE,1 ba- 2,San Biagio Di Callalta,2023-05-20,https://www.fidal.it/atleta/DE-NANDO-Pietro/eKmRlJqgb2o%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.33,+1.2,10.33,e,BALDISSERI Pietro,2008,CM,ANA ATL.FELTRE,2 se- 3,Feltre,2023-07-01,https://www.fidal.it/atleta/BALDISSERI-Pietro/eKmRlJeocGc%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.35,,10.1,m,SAADAOUI Omar,2008,CM,ANA ATL.FELTRE,2 su- 1,Mezzano,2023-08-18,https://www.fidal.it/atleta/SAADAOUI-Omar/eKmRlJimbWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.4,+1.2,10.40,e,PETITTO Leonardo,2008,CM,ANA ATL.FELTRE,3 se- 3,Feltre,2023-07-01,https://www.fidal.it/atleta/PETITTO-Leonardo/eKmRlJijbmQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.47,+2.1,10.47,e,SAADAOUI Omar,2008,CM,ANA ATL.FELTRE,2 se- 2,Feltre,2023-07-01,https://www.fidal.it/atleta/SAADAOUI-Omar/eKmRlJimbWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.55,,10.3,m,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,1 se- 2,Agordo,2023-05-27,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,3 su- 1,Mezzano,2023-08-18,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.75,,10.5,m,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,3 se- 1,Longarone,2023-09-16,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.82,+0.9,10.82,e,SCOPEL Nicola,2008,CM,ANA ATL.FELTRE,5 se- 1,Feltre,2023-07-01,https://www.fidal.it/atleta/SCOPEL-Nicola/eKmRlJeocGY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.95,,10.7,m,SAADAOUI Omar,2008,CM,ANA ATL.FELTRE,3 se- 1,Belluno,2023-04-01,https://www.fidal.it/atleta/SAADAOUI-Omar/eKmRlJimbWU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.23,+0.9,10.23,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,4 se- 4,Majano,2023-09-09,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.27,+2.0,10.27,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,2 se- 1,Feltre,2023-07-01,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.34,+0.3,10.34,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,2 ba- 2,Caorle,2023-10-07,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.41,+0.7,10.41,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,2 se- 1,Verona,2023-06-02,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,1 se- 1,Agordo,2023-05-27,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,1 su- 1,Mezzano,2023-08-18,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,1 se- 1,Borgo Valbelluna,2023-09-02,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.47,-2.4,10.47,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,4 fi- 2,Caorle,2023-10-07,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.57,+0.6,10.57,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,3 ba- 2,San Biagio Di Callalta,2023-05-20,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.65,,10.4,m,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,1 se- 5,Belluno,2023-04-01,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.7,-1.6,10.70,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,5 se- 1,Vittorio Veneto,2023-09-23,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.55,+1.0,11.55,e,TURRIN Lucia,2009,CF,ANA ATL.FELTRE,1 se- 5,Feltre,2023-07-01,https://www.fidal.it/atleta/TURRIN-Lucia/eKmRlJiibGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.04,-0.4,12.04,e,MASET Diletta,2009,CF,ANA ATL.FELTRE,3 se- 4,Verona,2023-06-02,https://www.fidal.it/atleta/MASET-Diletta/eKmRlJqfcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.25,,12.0,m,MASET Diletta,2009,CF,ANA ATL.FELTRE,3 se- 4,Belluno,2023-04-01,https://www.fidal.it/atleta/MASET-Diletta/eKmRlJqfcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.25,,12.0,m,DE RIZ Silvia,2008,CF,ANA ATL.FELTRE,5 su- 1,Mezzano,2023-08-18,https://www.fidal.it/atleta/DE-RIZ-Silvia/eKmRlJmgaWk%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.29,-1.9,12.29,e,ZATTA Ambra,2009,CF,ANA ATL.FELTRE,2 ba- 3,San Biagio Di Callalta,2023-05-20,https://www.fidal.it/atleta/ZATTA-Ambra/eKmRlJimbGQ%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.37,-0.2,12.37,e,MASET Diletta,2009,CF,ANA ATL.FELTRE,6 ba- 2,San Biagio Di Callalta,2023-05-20,https://www.fidal.it/atleta/MASET-Diletta/eKmRlJqfcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.54,+2.2,12.54,e,ZANNINI Giulia,2009,CF,ANA ATL.FELTRE,5 se- 4,Feltre,2023-07-01,https://www.fidal.it/atleta/ZANNINI-Giulia/eKmRlJiiamo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.55,,12.3,m,MASET Diletta,2009,CF,ANA ATL.FELTRE,3 se- 4,Longarone,2023-09-16,https://www.fidal.it/atleta/MASET-Diletta/eKmRlJqfcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.72,-0.3,12.72,e,ZANNINI Giulia,2009,CF,ANA ATL.FELTRE,5 ba- 2,San Biagio Di Callalta,2023-05-20,https://www.fidal.it/atleta/ZANNINI-Giulia/eKmRlJiiamo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.75,,12.5,m,ZANNINI Giulia,2009,CF,ANA ATL.FELTRE,2 se- 5,Agordo,2023-05-27,https://www.fidal.it/atleta/ZANNINI-Giulia/eKmRlJiiamo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.95,,12.7,m,LUZZATTO Sara,2008,CF,ANA ATL.FELTRE,5 se- 2,Belluno,2023-04-01,https://www.fidal.it/atleta/LUZZATTO-Sara/eKmRlJmnamM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.95,,12.7,m,LUZZATTO Sara,2008,CF,ANA ATL.FELTRE,4 se- 4,Longarone,2023-09-16,https://www.fidal.it/atleta/LUZZATTO-Sara/eKmRlJmnamM%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.04,+0.6,10.04,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,1 se- 4,Parma,2024-06-02,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.15,,9.9,m,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,1 se- 1,Borgo Valbelluna,2024-06-15,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.17,+0.1,10.17,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,3 ba- 3,Caorle,2024-10-05,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.21,-0.4,10.21,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,2 se- 1,Feltre,2024-06-22,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.23,-1.6,10.23,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,1 se- 1,Sacile,2024-06-29,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.25,-0.3,10.25,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,5 fi- 1,Caorle,2024-10-05,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.27,-1.7,10.27,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,2 se- 1,Vittorio Veneto,2024-09-21,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.3,-1.0,10.30,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,4 fi- 1,San Biagio Di Callalta,2024-05-18,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.3,-0.3,10.30,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,4 se- 1,Majano,2024-09-07,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.45,,10.2,m,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,1 se- 1,Domegge Di Cadore,2024-10-19,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.46,-2.1,10.46,e,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,4 ba- 1,San Biagio Di Callalta,2024-05-18,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,10.75,,10.5,m,GIUSTI Lovely,2009,CF,ANA ATL.FELTRE,1 se- 1,Belluno,2024-04-06,https://www.fidal.it/atleta/GIUSTI-Lovely/eKmRlJiiaWg%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.19,+0.0,11.19,e,FANTINEL Matilde,2010,CF,ANA ATL.FELTRE,2 se- 4,Majano,2024-09-07,https://www.fidal.it/atleta/FANTINEL-Matilde/eKmRlJmnbWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,FANTINEL Matilde,2010,CF,ANA ATL.FELTRE,1 se- 2,Longarone,2024-06-01,https://www.fidal.it/atleta/FANTINEL-Matilde/eKmRlJmnbWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.25,,11.0,m,MELLO Medlin,2009,CF,ANA ATL.FELTRE,2 se- 5,Longarone,2024-06-01,https://www.fidal.it/atleta/MELLO-Medlin/eKmRlJqga2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.24,-1.0,11.24,e,FANTINEL Matilde,2010,CF,ANA ATL.FELTRE,2 se- 2,Feltre,2024-06-22,https://www.fidal.it/atleta/FANTINEL-Matilde/eKmRlJmnbWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.24,+0.0,11.24,e,FANTINEL Matilde,2010,CF,ANA ATL.FELTRE,2 se- 5,San Vito Al Tagliamento,2024-08-31,https://www.fidal.it/atleta/FANTINEL-Matilde/eKmRlJmnbWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.32,-1.0,11.32,e,MELLO Medlin,2009,CF,ANA ATL.FELTRE,4 se- 2,Feltre,2024-06-22,https://www.fidal.it/atleta/MELLO-Medlin/eKmRlJqga2c%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.4,-1.1,11.40,e,CASTELLAZ Anna,2010,CF,ANA ATL.FELTRE,3 ba- 2,San Biagio Di Callalta,2024-05-18,https://www.fidal.it/atleta/CASTELLAZ-Anna/eKmRlJihb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.45,,11.2,m,CASTELLAZ Anna,2010,CF,ANA ATL.FELTRE,3 se- 5,Longarone,2024-06-01,https://www.fidal.it/atleta/CASTELLAZ-Anna/eKmRlJihb2M%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.63,-0.6,11.63,e,BELLUS Laila,2010,CF,ANA ATL.FELTRE,2 ba- 3,San Biagio Di Callalta,2024-05-18,https://www.fidal.it/atleta/BELLUS-Laila/eKmRlJiiaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.72,-2.5,11.72,e,FANTINEL Matilde,2010,CF,ANA ATL.FELTRE,1 ba- 2,San Biagio Di Callalta,2024-05-18,https://www.fidal.it/atleta/FANTINEL-Matilde/eKmRlJmnbWY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.74,-0.7,11.74,e,SPADA Diletta,2010,CF,ANA ATL.FELTRE,2 ba- 2,San Biagio Di Callalta,2024-05-18,https://www.fidal.it/atleta/SPADA-Diletta/eKmRlJmiaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.75,,11.5,m,BELLUS Laila,2010,CF,ANA ATL.FELTRE,3 se- 1,Borgo Valbelluna,2024-06-15,https://www.fidal.it/atleta/BELLUS-Laila/eKmRlJiiaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.76,-1.9,11.76,e,BRANDSTETTER Sofia martina,2010,CF,ANA ATL.FELTRE,3 se- 6,Feltre,2024-06-22,https://www.fidal.it/atleta/BRANDSTETTER-Sofia-martina/eKmRlJqmbWs%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.82,-1.4,11.82,e,COLMANET Ginevra,2010,CF,ANA ATL.FELTRE,2 ba- 2,San Biagio Di Callalta,2024-05-18,https://www.fidal.it/atleta/COLMANET-Ginevra/eKmRlJiibGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,11.85,,11.6,m,SPADA Diletta,2010,CF,ANA ATL.FELTRE,4 se- 2,Longarone,2024-06-01,https://www.fidal.it/atleta/SPADA-Diletta/eKmRlJmiaGw%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.25,,12.0,m,COLMANET Ginevra,2010,CF,ANA ATL.FELTRE,2 se- 4,Belluno,2024-04-06,https://www.fidal.it/atleta/COLMANET-Ginevra/eKmRlJiibGU%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.25,,12.0,m,MASET Diletta,2009,CF,ANA ATL.FELTRE,3 se- 2,Borgo Valbelluna,2024-06-15,https://www.fidal.it/atleta/MASET-Diletta/eKmRlJqfcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.25,,12.0,m,BELLUS Laila,2010,CF,ANA ATL.FELTRE,4 se- 1,Domegge Di Cadore,2024-10-19,https://www.fidal.it/atleta/BELLUS-Laila/eKmRlJiiaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.55,,12.3,m,MASET Diletta,2009,CF,ANA ATL.FELTRE,5 se- 1,Belluno,2024-04-06,https://www.fidal.it/atleta/MASET-Diletta/eKmRlJqfcGo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+,12.65,,12.4,m,DE NATO LIRA Sofia,2009,CF,ANA ATL.FELTRE,4 se- 2,Domegge Di Cadore,2024-10-19,https://www.fidal.it/atleta/DE-NATO-LIRA-Sofia/eKmRlJmjamY%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
