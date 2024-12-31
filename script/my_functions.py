@@ -4,6 +4,7 @@ import pandas as pd
 import math
 import json
 import re
+import os
 
 ## Scarica una pagina e mette i dati in un DataFrame del tipo 'tempo', 'vento', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società'
 def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, naz, limite, societa, f_log):
@@ -229,14 +230,54 @@ def ultimo_aggiornamento_FIDAL(f_log) -> str:
         return ''
 
 
+## Permette di aprire un file del database di csv con pandas
+def get_file_database(ambiente, gara) -> pd.DataFrame:
+
+    if ambiente == 'I':
+        foldername = '../database/indoor/'
+    elif ambiente == 'P':
+        foldername = '../database/outdoor/'
+    else:
+        print('\nGli ambienti possibili sono: \'I\', \'P\', \'S\'\n')
+        exit()
+
+    filename = ''
+    for subfolder in os.listdir(foldername):
+        if subfolder[-3:] == 'csv':continue
+        for file in os.listdir(foldername + subfolder):
+            if file[:-15] == gara:
+                filename = foldername + subfolder + '/' +  file
+                break
+    if filename == '':
+        print('\nGara ' + gara + ' non trovata\n')
+        exit()
 
 
+    col_dtype = json.load(open('colonne_dtype.json'))
+    df = pd.read_csv(filename, dtype=col_dtype)
+
+    return df
 
 
+## Scarica la data di nascita dato il link al profilo di un atleta
+def get_data_nascita_FIDAL(link_atleta, anno) -> str:
 
+    page = requests.get(link_atleta)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    
+    # La data di nascita è dentro un <div style="float:left;">
+    data_row = soup.find_all('div', style="float:left;")
 
+    for item in data_row:
+        match = re.search(r'\d{2}-\d{2}-\d{4}', str(item))
+        if match:
+            data_di_nascita = match.group()
+            data_di_nascita = data_di_nascita.split('-')[2] + '-' + data_di_nascita.split('-')[1] + '-' + data_di_nascita.split('-')[0]
+            if data_di_nascita[:4] != anno:
+                print('anno = ' + anno + '\ndata = ' + data_di_nascita)
+            return data_di_nascita
 
-
-
-
+    print('\nNessuna data di nascita trovata')
+    print(link_atleta)
+    return ''
 
