@@ -11,8 +11,7 @@ I risultati purtroppo sono solo quelli dal 2005 in poi.
 I risultati sono raccolti in diversi file CSV che è possibile scaricare qui [https://github.com/F-Depi/database](https://github.com/F-Depi/database-atletica-italiana/tree/master/database).
 Ogni csv può avere fino a 13 colonne
 
-![image](https://github.com/F-Depi/database-atletica-italiana/assets/120582465/d871b986-7b3b-426a-9568-91b316633563)
-
+![image](https://github.com/user-attachments/assets/c0a06917-bf55-4695-9d5f-55099fddbe94)
 
 - ***prestazione*** contiene il tempo utile per classificare i risultati. Tempi/misure scritte erroneamente vengono trasformati in -1, in questo caso la colonna ***cronometraggio*** avrà valore _x_. Tempi del tipo hh:mm:SS.ss (es. 1h23:45.67 o 12:34.56) vengono convertiti in SS.ss (es. 1h23:45.67 -> 5025.67 s o 12:34.56 -> 754.56 s). Tempi con una sola cifra decimale (es. 10.3) vengono considerati ottenuti con cronometraggio manuale e convertiti aggiungendo 0.25 s (es. 10.3 -> 10.55 s), in questo caso la colonna ***cronometraggo*** avrà valore m.
 - ***vento*** contiene il vento misurato durante la gara. È vuoto se non c'è nessun dato. La colonna c'è anche per gare in cui il vento non viene misurato (es. salto in alto, 1000m) ed è vuota.
