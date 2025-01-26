@@ -9,7 +9,7 @@ I risultati purtroppo sono solo quelli dal 2005 in poi.
 
 ## Utilizzo
 I risultati sono raccolti in diversi file CSV che è possibile scaricare qui [https://github.com/F-Depi/database](https://github.com/F-Depi/database-atletica-italiana/tree/master/database).
-Ogni csv ha 13 colonne
+Ogni csv può avere fino a 13 colonne
 
 ![image](https://github.com/F-Depi/database-atletica-italiana/assets/120582465/d871b986-7b3b-426a-9568-91b316633563)
 
@@ -28,19 +28,33 @@ Ogni csv ha 13 colonne
 - ***link_società*** link alla pagina fidal della società dell'atleta
 
 ## Attenzione
-Il database è pieno di errori. Ho provato ad arginare questa cosa nella conversione del dato della colonna ***tempo*** a quello della colonna ***prestazione*** mettendo -1 dove il tempo non era stato inserito correttamente. Nonostante ciò ci somo comunque alcune prestazione che sfuggono al filtro ma che sono ovviamente sbagliate (es. il 10.01 nei 400m registrato a Cagliari che compare in cima al file csv. Il tempo è stato inserito come 10.007 quando probabilmente era 1:00.07 e lo script lo arrotonda a 10.01).
+Il database è pieno di errori. Ho provato ad arginare questa cosa nella
+conversione del dato della colonna ***tempo*** a quello della colonna
+***prestazione*** mettendo -1 dove il tempo non era stato inserito correttamente.
+Nonostante ciò ci sono comunque alcune prestazione che sfuggono al filtro ma che
+sono ovviamente sbagliate (es. il 10.01 nei 400m registrato a Cagliari che
+compare in cima al file csv. Il tempo è stato inserito come 10.007 quando
+probabilmente era 1:00.07 e lo script lo arrotonda a 10.01).
 
-Alcuni file csv sono molto grossi, aspettatevi che qualunque programma usiate ci metta qualche secondo ad aprirli.
+Alcuni file csv sono molto grossi, aspettatevi che qualunque programma usiate
+ci metta qualche secondo ad aprirli.
 
-Oltre agli errori nel database della Fidal è molto provabile che ci siano errori nei mei script, quindi per favore segnalatemi eventuali incongruenze con quello che vi aspettate!
+Oltre agli errori nel database della Fidal è molto provabile che ci siano errori
+nei mei script, quindi per favore segnalatemi eventuali incongruenze con quello che vi aspettate!
 
-Per discipline poco comuni (es. 24h) i dati hanno spesso errori e sono gestiti male dagli script. Non ho intenzione di perderci tempo, ma mi sono comunque preoccupato di scaricare tutto. Consiglio di fare riferimento alla colonna ***tempi*** che ha i dati grezzi.
+Per discipline poco comuni (es. 24h) i dati hanno spesso errori e sono gestiti
+male dagli script. Non ho intenzione di perderci tempo, ma mi sono comunque
+preoccupato di scaricare tutto. Consiglio di fare riferimento alla colonna
+***tempi*** che ha i dati grezzi.
 
-A volte ci sono anche errori sulla data di nascita che impediscono al sistema di rinoscere correttamente la categoria.
+A volte ci sono anche errori sulla data di nascita che impediscono al sistema
+di rinoscere correttamente la categoria.
 
-Gare non ancora scaricate: marcia, prove multiple, staffette, tutte le gare indoor e su strada.
+Gare mancanti (todo list):
+ - più o meno tutta la categoria ragazzi poiché i risultati compaiono solo
+ specificando la regione;
+ - corse su strada;
 
-Ultimo aggiornamento 2024-06-26. Il sistema di aggiornamento non è ancora stato implementato, quindi le prime gare scaricate (100m, 200m) hanno il database aggiornato al 2024-06-25.
 
 ## Errori su marcia e gare più lunghe di 1 minuto
 
