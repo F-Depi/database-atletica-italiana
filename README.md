@@ -96,8 +96,14 @@ In
 [analisi_esempi](https://github.com/F-Depi/database-atletica-italiana/blob/master/analisi_esempi)
 ci sono degli esempi su alcune statistiche che ho fatto:
 
-
 **Migliori (4) PB promesse nei 1500m fatti il giorno del proprio compleanno**
 
 ![image](https://github.com/user-attachments/assets/85644ab6-1e64-4d01-9802-243df39c8868)
 
+**Distribuzione dei risultati dei 60m piani indoor**
+
+![risultati_categorie](https://github.com/user-attachments/assets/45be6247-082a-4cf2-b8a8-d386298ca669)
+
+**Abbandono dell'atletica dopo le categorie giovanili**
+
+![oh_no](https://github.com/user-attachments/assets/650bf533-8a74-4d4c-a987-0bc6c7d6467a)
