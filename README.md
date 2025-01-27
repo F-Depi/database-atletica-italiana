@@ -90,8 +90,14 @@ di rinoscere correttamente la categoria.
 _Buone Statistiche!_
 
 
-## A seguito di una richiesta da casa...
-Migliori (4) PB promesse nei 1500m fatti il giorno del proprio compleanno
+**P.S.**
+
+In
+[analisi_esempi](https://github.com/F-Depi/database-atletica-italiana/blob/master/analisi_esempi)
+ci sono degli esempi su alcune statistiche che ho fatto:
+
+
+**Migliori (4) PB promesse nei 1500m fatti il giorno del proprio compleanno**
 
 ![image](https://github.com/user-attachments/assets/85644ab6-1e64-4d01-9802-243df39c8868)
 

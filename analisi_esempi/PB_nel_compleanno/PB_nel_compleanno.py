@@ -2,12 +2,15 @@ from operator import index
 import os
 import json
 import pandas as pd
-from my_functions import get_data_nascita_FIDAL, get_file_database
+from ../script/my_functions import get_data_nascita_FIDAL, get_file_database
 
 
 col_dtype = json.load(open('colonne_dtype.json'))
 
 '''
+## Per prima cosa dobbiamo aprire il profilo fidal di ogni atleta che ha fatto
+## i 1500m per prendere la data esatta di nascita (il database ha solo l'anno)
+
 ambiente = 'P'
 gara = '1500m'
 
@@ -31,10 +34,11 @@ for link_atleta, nascita in zip(df_atleti['link_atleta'], df_atleti['anno']):
         if df.loc[ii, 'link_atleta'] == link_atleta:
             df.loc[ii, 'anno'] = nascita
 
-df.to_csv('test2.csv', index=False)
+df.to_csv('test.csv', index=False)
 '''
 
-df2 = pd.read_csv('test.csv', dtype=col_dtype)
+## Ora possiamo fare la statistica
+df2 = pd.read_csv('1500m_con_data_nascita_completa.csv', dtype=col_dtype)
 df_null = df2[df2['anno'] == '']
 df2 = df2[df2['anno'].str[-5:] == df2['data'].str[-5:]]
 df2 = pd.concat([df_null, df2])
