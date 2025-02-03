@@ -1,2 +1,3 @@
 */__pycache__/*.pyc
 script/test.py
+.venv/
