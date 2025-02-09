@@ -231,12 +231,12 @@ def ultimo_aggiornamento_FIDAL(f_log) -> str:
 
 
 ## Permette di aprire un file del database di csv con pandas
-def get_file_database(ambiente, gara) -> pd.DataFrame:
+def get_file_database(ambiente, gara, PROJECT_ROOT) -> pd.DataFrame:
 
     if ambiente == 'I':
-        foldername = '../database/indoor/'
+        foldername = PROJECT_ROOT + '/database/indoor/'
     elif ambiente == 'P':
-        foldername = '../database/outdoor/'
+        foldername = PROJECT_ROOT + '/database/outdoor/'
     else:
         print('\nGli ambienti possibili sono: \'I\', \'P\', \'S\'\n')
         exit()
@@ -253,7 +253,7 @@ def get_file_database(ambiente, gara) -> pd.DataFrame:
         exit()
 
 
-    col_dtype = json.load(open('colonne_dtype.json'))
+    col_dtype = json.load(open(PROJECT_ROOT + '/script/colonne_dtype.json'))
     df = pd.read_csv(filename, dtype=col_dtype)
 
     return df
@@ -280,4 +280,23 @@ def get_data_nascita_FIDAL(link_atleta, anno) -> str:
     print('\nNessuna data di nascita trovata')
     print(link_atleta)
     return ''
+
+
+## Tiene solo il risultato migliore per ogni atleta
+def best_by_atleta(df, tipo=['tempo', 'misura']):
+    # df:   data frame con tutte le colonne specificate nel readme. E'
+    #       importante che ci sia una colonna 'prestazione' e una 'link_atleta'.
+    #       Si usa 'link_atleta' invece che solamente il nome perche' il link
+    #       contine un univoco che semplifica la gestione degli omonimi.
+    # tipo: specifica se la prestazione è un tempo o una misura, per tenere la 
+    #       più bassa o alta rispettivamente. Default tempo.
+
+    ascend = True
+    if tipo == 'misura': ascend = False
+
+    df = df.sort_values(by=['link_atleta', 'prestazione'], ascending=[True, ascend])
+    df = df.drop_duplicates(subset=['link_atleta'], keep='first')
+    df = df.sort_values(by='prestazione', ascending=ascend)
+
+    return df
 
