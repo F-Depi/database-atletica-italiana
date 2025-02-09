@@ -9,21 +9,22 @@ sys.path.append(os.path.abspath(PROJECT_ROOT + '/script/'))
 from my_functions import get_data_nascita_FIDAL, get_file_database
 
 
-col_dtype = json.load(open('colonne_dtype.json'))
+col_dtype = json.load(open(PROJECT_ROOT + '/script/colonne_dtype.json'))
 
-'''
 ## Per prima cosa dobbiamo aprire il profilo fidal di ogni atleta che ha fatto
 ## i 1500m per prendere la data esatta di nascita (il database ha solo l'anno)
 
+'''
 ambiente = 'P'
 gara = '1500m'
 
 df = get_file_database(ambiente, gara)
-df = df[df['prestazione'] < 233.48]
+df = df[df['prestazione'] < 233.48]     # filtriamo per snellire il database
 
 df = df.sort_values(by=['link_atleta'])
 
-# Vettore booleano per lasciare solo 1 risultato per ogni persona (.shift() restituisce False per la prima riga)
+# Vettore booleano per lasciare solo 1 risultato per ogni persona
+# (.shift() restituisce False per la prima riga)
 mask = df['link_atleta'] != df['link_atleta'].shift()
 mask.iloc[0] = True
 
