@@ -10,7 +10,7 @@ from my_functions import get_file_database, best_by_atleta
 ## 60HS indoor
 ambiente = 'I'
 gara = '60Hs_h106-9.14'
-data_I = get_file_database(ambiente, gara, PROJECT_ROOT)
+data_I = get_file_database(ambiente, gara)
 data_I = data_I[data_I['data'].str[:4] == '2025']
 data_I = best_by_atleta(data_I)
 
@@ -21,7 +21,7 @@ data_qual_I = data_I[data_I['prestazione'] <= 8.30]
 ## 110HS Outdoor
 ambiente = 'P'
 gara = '110Hs_h106-9.14'
-data_P = get_file_database(ambiente, gara, PROJECT_ROOT)
+data_P = get_file_database(ambiente, gara)
 data_P = data_P[data_P['data'].str[:4] == '2024']
 data_P = data_P[data_P['vento'] != '']
 data_P = data_P[data_P['vento'].astype(float) <= 2]
@@ -38,4 +38,4 @@ data_qual = pd.concat([data_qual_O, data_qual_I])
 data_qual = best_by_atleta(data_qual)
 #print(data_qual)
 
-data_qual.to_csv(PROJECT_ROOT + '/analisi_esempi/atleti_con_minimo/HS_qual.csv', index=None)
+data_qual.to_csv('HS_qual.csv', index=None)

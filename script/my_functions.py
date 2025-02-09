@@ -6,6 +6,9 @@ import json
 import re
 import os
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '../'))
+
 ## Scarica una pagina e mette i dati in un DataFrame del tipo 'tempo', 'vento', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società'
 def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, naz, limite, societa, f_log):
     
@@ -231,7 +234,7 @@ def ultimo_aggiornamento_FIDAL(f_log) -> str:
 
 
 ## Permette di aprire un file del database di csv con pandas
-def get_file_database(ambiente, gara, PROJECT_ROOT) -> pd.DataFrame:
+def get_file_database(ambiente, gara) -> pd.DataFrame:
 
     if ambiente == 'I':
         foldername = PROJECT_ROOT + '/database/indoor/'
