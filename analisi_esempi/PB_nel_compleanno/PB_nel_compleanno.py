@@ -1,8 +1,12 @@
 from operator import index
-import os
 import json
 import pandas as pd
-from ../script/my_functions import get_data_nascita_FIDAL, get_file_database
+import os
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '../../'))
+import sys
+sys.path.append(os.path.abspath(PROJECT_ROOT + '/script/'))
+from my_functions import get_data_nascita_FIDAL, get_file_database
 
 
 col_dtype = json.load(open('colonne_dtype.json'))
