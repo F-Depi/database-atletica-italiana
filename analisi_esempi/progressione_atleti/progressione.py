@@ -10,11 +10,11 @@ from my_functions import get_file_database, best_by_atleta
 
 
 
-def progressione_atleti(ambiente, gara, ascend, sub, sesso=['M', 'F'], min_anni=3, vento=['y', 'n'], save=['y', 'n']):
+def progressione_atleti(ambiente, gara, ascend, lim, sesso=['M', 'F'], min_anni=3, vento=['y', 'n'], agg_indoor=['y','n'], save=['y', 'n']):
     ## sesso: ['M', 'F']
     ## ascend: [True, False] per distinguere corse da concorsi dove la classifica
     ##         si fa ordinando la prestazione al contrario
-    ## sub: [float] prestazione minima/massima che deve avere un atleta in
+    ## lim: [float] prestazione minima/massima che deve avere un atleta in
     ##      carriera per essere considerato nel grafico
     ## min_anni: [int, default=3] numero minimo di anni in cui l'atleta deve
     ##           avere almeno un risultato valido per essere considerato
@@ -27,6 +27,11 @@ def progressione_atleti(ambiente, gara, ascend, sub, sesso=['M', 'F'], min_anni=
         data = data[data['vento'] != '']                
         data = data[data['vento'].astype(float) <= 2]   
     data = data[data['categoria'].str.contains(sesso, na=False)]
+
+    if agg_indoor == 'y':
+        data_I = get_file_database('I', gara)
+        data_I = data_I[data_I['categoria'].str.contains(sesso, na=False)]
+        data = pd.concat([data, data_I])    # dati dal database
 
 
     ## Voglio prendere solo la miglior gara dell'anno quindi creo una colonna con 
@@ -45,20 +50,20 @@ def progressione_atleti(ambiente, gara, ascend, sub, sesso=['M', 'F'], min_anni=
     print(f'{len(data_grouped)} atleti attivi per {min_anni} o più anni')
 
 
-    ## Teniamo solo gli atleti scesi sotto i 'sub' secondi
+    ## Teniamo solo gli atleti scesi sotto i 'lim' secondi
     if ascend == True:
         ## corse
-        data = data_grouped.filter(lambda group: group['prestazione'].min() < sub)
+        data = data_grouped.filter(lambda group: group['prestazione'].min() <= lim)
         data_grouped = data.groupby('link_atleta') 
         N = len(data_grouped)
-        print(f'Di cui {N} scesi sotto i {sub} secondi')
+        print(f'Di cui {N} scesi sotto i {lim} secondi')
 
     elif ascend == False:
         ## concorsi
-        data = data_grouped.filter(lambda group: group['prestazione'].max() > sub)
+        data = data_grouped.filter(lambda group: group['prestazione'].max() >= lim)
         data_grouped = data.groupby('link_atleta') 
         N = len(data_grouped)
-        print(f'Di cui {N} arrivati sopra i {sub} metri')
+        print(f'Di cui {N} arrivati sopra i {lim} metri')
 
     else:
         print('Ascend = {ascend}. Ascend può solo essere True (per corse) o False (per concorsi)')
@@ -90,16 +95,16 @@ def progressione_atleti(ambiente, gara, ascend, sub, sesso=['M', 'F'], min_anni=
              + group['prestazione'].astype(float).iloc[0], color='w', alpha=0, label=' ')
 
 
-    tiks = [2007, 2009, 2011, 2013, 2015, 2017, 2019, 2021, 2023, 2025]
-    tiks = range(17, 40)
+    eta = data['anno_gara'].astype(int) - data['anno'].astype(int)
+    tiks = range(min(eta), max(eta) + 1)
     plt.xticks(tiks)
     plt.legend(ncols=N // ii_max + 1)
     plt.xlabel('Età [anni]')
     plt.ylabel('prestazione')
-    plt.title(f'Atleti italiani attivi per almeno {min_anni} anni, arrivati a {sub}')
+    plt.title(f'Atleti italiani attivi per almeno {min_anni} anni, arrivati a {lim}')
     plt.tight_layout()
     if save == 'y':
-        plt.savefig(f'progressione_{gara}_{sesso}_sub_{sub}.pdf')
+        plt.savefig(f'progressione_{gara}_{sesso}_lim_{lim}.pdf')
     plt.show()
 
 
@@ -107,38 +112,47 @@ def progressione_atleti(ambiente, gara, ascend, sub, sesso=['M', 'F'], min_anni=
 ambiente = 'P'
 gara = '110Hs_h106-9.14'
 min_anni = 3
-sub = 13.8
+lim = 13.8
 ascend = True
 
-#progressione_atleti(ambiente, gara, ascend, sub, sesso='M', min_anni=min_anni, vento='y', save='y')
+progressione_atleti(ambiente, gara, ascend, lim, sesso='M', min_anni=min_anni, vento='y', save='y')
 
 
 ## Progressione nei 100 Hs
 ambiente = 'P'
 gara = '100Hs_h84-8.50'
 min_anni = 3
-sub = 13.5
+lim = 13.5
 ascend = True 
 
-#progressione_atleti(ambiente, gara, ascend, sub, sesso='F', min_anni=min_anni, vento='y', save='y')
+progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', save='y')
 
 
 ## Progressione nei 100m
 ambiente = 'P'
 gara = '100m'
 min_anni = 3
-sub = 11.5
+lim = 11.5
 ascend = True  
 
-#progressione_atleti(ambiente, gara, ascend, sub, sesso='F', min_anni=min_anni, vento='y', save='y')
+progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', save='y')
 
 
-## Progressione nei 100m
-ambiente = 'I'
+## Progressione nel triplo
+ambiente = 'P'
 gara = 'triplo'
 min_anni = 3
-sub = 13.5
+lim = 13.5
 ascend = False  
 
-progressione_atleti(ambiente, gara, ascend, sub, sesso='F', min_anni=min_anni, vento='n', save='n')
+#progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', agg_indoor='y', save='y')
 
+
+## Progressione nel lungo
+ambiente = 'P'
+gara = 'lungo'
+min_anni = 3
+lim = 6.35
+ascend = False  
+
+progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', agg_indoor='y', save='y')
