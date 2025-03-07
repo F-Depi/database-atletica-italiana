@@ -93,7 +93,7 @@ _Buone Statistiche!_
 **P.S.**
 
 In
-[analisi_esempi](https://github.com/F-Depi/database-atletica-italiana/blob/master/analisi_esempi)
+[statistiche](https://github.com/F-Depi/database-atletica-italiana/blob/master/statistiche)
 ci sono degli esempi su alcune statistiche che ho fatto:
 
 **Migliori (4) PB promesse nei 1500m fatti il giorno del proprio compleanno**
