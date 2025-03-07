@@ -86,7 +86,7 @@ def progressione_atleti(ambiente, gara, ascend, lim, sesso=['M', 'F'], min_anni=
 
         eta = group['anno_gara'].astype(int) - group['anno'].astype(int)
         plt.plot(eta, group['prestazione'].astype(float), linestyle='-',
-                 marker=markers[ii // ii_max], markersize=10, color=colors[ii % ii_max],
+                 marker=markers[ii // ii_max], markersize=8, color=colors[ii % ii_max],
                  label = group['atleta'].iloc[0])
         ii += 1
 
@@ -115,7 +115,7 @@ min_anni = 3
 lim = 13.9
 ascend = True
 
-progressione_atleti(ambiente, gara, ascend, lim, sesso='M', min_anni=min_anni, vento='y', save='y')
+#progressione_atleti(ambiente, gara, ascend, lim, sesso='M', min_anni=min_anni, vento='y', save='y')
 
 
 ## Progressione nei 100 Hs
@@ -125,7 +125,7 @@ min_anni = 3
 lim = 13.5
 ascend = True 
 
-progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', save='y')
+#progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', save='y')
 
 
 ## Progressione nei 100m
@@ -135,7 +135,7 @@ min_anni = 3
 lim = 11.5
 ascend = True  
 
-progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', save='y')
+#progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', save='y')
 
 
 ## Progressione nel triplo
@@ -145,7 +145,7 @@ min_anni = 3
 lim = 13.5
 ascend = False  
 
-progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', agg_indoor='y', save='y')
+#progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', agg_indoor='y', save='y')
 
 
 ## Progressione nel lungo
@@ -155,4 +155,4 @@ min_anni = 3
 lim = 6.35
 ascend = False  
 
-progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', agg_indoor='y', save='y')
+progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', agg_indoor='y', save='n')
