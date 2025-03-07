@@ -101,7 +101,7 @@ def progressione_atleti(ambiente, gara, ascend, lim, sesso=['M', 'F'], min_anni=
     plt.legend(ncols=N // ii_max + 1)
     plt.xlabel('Età [anni]')
     plt.ylabel('prestazione')
-    plt.title(f'Atleti italiani attivi per almeno {min_anni} anni, arrivati a {lim}')
+    plt.title(f'{gara}: atleti italiani attivi per almeno {min_anni} anni, arrivati a {lim}')
     plt.tight_layout()
     if save == 'y':
         plt.savefig(f'progressione_{gara}_{sesso}_lim_{lim}.pdf')
@@ -112,7 +112,7 @@ def progressione_atleti(ambiente, gara, ascend, lim, sesso=['M', 'F'], min_anni=
 ambiente = 'P'
 gara = '110Hs_h106-9.14'
 min_anni = 3
-lim = 13.8
+lim = 13.9
 ascend = True
 
 progressione_atleti(ambiente, gara, ascend, lim, sesso='M', min_anni=min_anni, vento='y', save='y')
@@ -145,7 +145,7 @@ min_anni = 3
 lim = 13.5
 ascend = False  
 
-#progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', agg_indoor='y', save='y')
+progressione_atleti(ambiente, gara, ascend, lim, sesso='F', min_anni=min_anni, vento='y', agg_indoor='y', save='y')
 
 
 ## Progressione nel lungo
