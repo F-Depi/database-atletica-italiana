@@ -1,0 +1,513 @@
+prestazione,atleta,anno,categoria,società,posizione,luogo,data,link_atleta,link_società
+5683.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,1 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5561.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,5 su- 1,Aubiere,2015-02-22,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5310.0,RIBOLZI Marco,1989,SM,ATL. VIRTUS  CR LUCCA,2 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/RIBOLZI-Marco/drKRkpKiaWk%3D,https://www.fidal.it/societa/ATL--VIRTUS-CR-LUCCA/LU100
+5202.0,VIGLIOTTI Vincenzo,1994,PM,ATL. STUDENTESCA CA.RI.RI,3 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/VIGLIOTTI-Vincenzo/gKqRkpKhaGM%3D,https://www.fidal.it/societa/ATL--STUDENTESCA-CA-RI-RI/RI223
+5157.0,CASALE Nicolo',1993,PM,ATLETICA MONZA,4 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/CASALE-Nicolo-/dq2Rkpulb2U%3D,https://www.fidal.it/societa/ATLETICA-MONZA/MI710
+5069.0,PAOLUZZI Roberto,1993,PM,ATL. STUDENTESCA CA.RI.RI,5 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/PAOLUZZI-Roberto/fqiRk5qhaWs%3D,https://www.fidal.it/societa/ATL--STUDENTESCA-CA-RI-RI/RI223
+4953.0,MARSI Luca,1989,SM,ATLETICA LIVORNO,6 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/MARSI-Luca/faiRm5aiaWc%3D,https://www.fidal.it/societa/ATLETICA-LIVORNO/LI036
+4886.0,CASALE Nicolo',1993,PM,ATLETICA MONZA,1 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/CASALE-Nicolo-/dq2Rkpulb2U%3D,https://www.fidal.it/societa/ATLETICA-MONZA/MI710
+4870.0,DELL'ACQUA Luca,1995,PM,N.ATL. FANFULLA LODIGIANA,7 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/DELL-ACQUA-Luca/drKRkpWfaGs%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+4858.0,NEMO Manuel,1995,PM,TEAM ATLETICA MARCHE,8 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/NEMO-Manuel/e6iRk5WiaWU%3D,https://www.fidal.it/societa/TEAM-ATLETICA-MARCHE/FM050
+4841.0,SIMIONATO Gianluca,1990,SM,N.ATL. FANFULLA LODIGIANA,9 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/SIMIONATO-Gianluca/drKRkpSobWM%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+4793.0,NEMO Manuel,1995,PM,TEAM ATLETICA MARCHE,1 su- 1,Ancona,2015-01-11,https://www.fidal.it/atleta/NEMO-Manuel/e6iRk5WiaWU%3D,https://www.fidal.it/societa/TEAM-ATLETICA-MARCHE/FM050
+4667.0,BATTISTI Tommaso,1992,SM,EDERA ATL. FORLI,10 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/BATTISTI-Tommaso/eqiRlZSjcGQ%3D,https://www.fidal.it/societa/EDERA-ATL--FORLI/FC038
+4642.0,MIANI Matteo,1993,PM,SILCA ULTRALITE VITTORIO V.TO,11 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/MIANI-Matteo/eKyRkpSjbWo%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+4635.0,MIANI Matteo,1993,PM,SILCA ULTRALITE VITTORIO V.TO,2 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/MIANI-Matteo/eKyRkpSjbWo%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+4541.0,BATTISTI Tommaso,1992,SM,EDERA ATL. FORLI,2 su- 1,Ancona,2015-01-11,https://www.fidal.it/atleta/BATTISTI-Tommaso/eqiRlZSjcGQ%3D,https://www.fidal.it/societa/EDERA-ATL--FORLI/FC038
+4533.0,POLETTI Alessandro,1991,SM,ATL. RICCARDI MILANO,12 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/POLETTI-Alessandro/dq2Rk5qlcWo%3D,https://www.fidal.it/societa/ATL--RICCARDI-MILANO/MI080
+4471.0,PERBELLINI Marco,1987,SM,ATL. INSIEME NEW FOODS VR,13 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/PERBELLINI-Marco/eKAAARkpOgcWs%3D,https://www.fidal.it/societa/ATL--INSIEME-NEW-FOODS-VR/VR761
+4433.0,LAZZINI Luca,1995,PM,TEAM-A LOMBARDIA,3 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/LAZZINI-Luca/dq2Rk5uja2c%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+4418.0,LAZZINI Luca,1995,PM,TEAM-A LOMBARDIA,14 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/LAZZINI-Luca/dq2Rk5uja2c%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+4410.0,ASAMOAH Stephen kobena,1993,PM,ATL. VIRTUS CASTENEDOLO,15 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/ASAMOAH-Stephen-kobena/dqqRl5mmcGQ%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4383.0,MONTANI Marco,1995,PM,ATL. AVIS MACERATA,3 su- 1,Ancona,2015-01-11,https://www.fidal.it/atleta/MONTANI-Marco/e6iRk5mlb2s%3D,https://www.fidal.it/societa/ATL--AVIS-MACERATA/MC004
+4355.0,COLOMBO Patrizio,1994,PM,PROSPORT ATL. FIRENZE,9 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/COLOMBO-Patrizio/faiSk5OobGU%3D,https://www.fidal.it/societa/PROSPORT-ATL--FIRENZE/FI009
+4345.0,TESTA Giacomo,1990,SM,C.U.S. PARMA,16 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/TESTA-Giacomo/eqiRlZalcGM%3D,https://www.fidal.it/societa/C-U-S--PARMA/PR068
+4344.0,ASAMOAH Stephen kobena,1993,PM,ATL. VIRTUS CASTENEDOLO,4 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/ASAMOAH-Stephen-kobena/dqqRl5mmcGQ%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4305.0,VIANELLO Stefano,1995,PM,ATL. VIRTUS  CR LUCCA,5 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/VIANELLO-Stefano/dq2RlJSgcGQ%3D,https://www.fidal.it/societa/ATL--VIRTUS-CR-LUCCA/LU100
+4285.0,VALLI Corrado,1993,PM,ATL. LECCO-COLOMBO COSTRUZ.,10 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/VALLI-Corrado/dquRkpSjaWg%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4258.0,PIAZZA Matteo,1990,SM,PROSPORT ATL. FIRENZE,17 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/PIAZZA-Matteo/faiRm5aha2Y%3D,https://www.fidal.it/societa/PROSPORT-ATL--FIRENZE/FI009
+4181.0,RIGHETTINI Giacomo,1995,PM,S.S. ROBUR BARBARANO,11 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/RIGHETTINI-Giacomo/dqqRlpuncWU%3D,https://www.fidal.it/societa/S-S--ROBUR-BARBARANO/BS178
+4176.0,BATTISTELLO Riccardo,1991,SM,ATL. RIGOLETTO,6 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/BATTISTELLO-Riccardo/dqiSl5SkbmU%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+4150.0,VERGINER Alex,1994,PM,ATLETICA GHERDEINA RAIFFEISEN,7 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/VERGINER-Alex/iaiRkpmfamQ%3D,https://www.fidal.it/societa/ATLETICA-GHERDEINA-RAIFFEISEN/BZ050
+4143.0,MALATINI Leonardo,1993,PM,TEAM ATLETICA MARCHE,4 su- 1,Ancona,2015-01-11,https://www.fidal.it/atleta/MALATINI-Leonardo/e6iRk5SmbGo%3D,https://www.fidal.it/societa/TEAM-ATLETICA-MARCHE/FM050
+4141.0,PEZZINI Mirko,1995,PM,LAGARINA CRUS TEAM,18 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/PEZZINI-Mirko/d6iRk5SmbmY%3D,https://www.fidal.it/societa/LAGARINA-CRUS-TEAM/TN131
+4068.0,NADALI Andrea,1988,SM,FONDAZIONE M. BENTEGODI,8 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/NADALI-Andrea/eKiRlJimbWQ%3D,https://www.fidal.it/societa/FONDAZIONE-M--BENTEGODI/VR784
+3913.0,PEZZINI Mirko,1995,PM,LAGARINA CRUS TEAM,9 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/PEZZINI-Mirko/d6iRk5SmbmY%3D,https://www.fidal.it/societa/LAGARINA-CRUS-TEAM/TN131
+3890.0,FELLINE Francesco,1992,SM,ATL. RIGOLETTO,10 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/FELLINE-Francesco/dqiSl5Slamw%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+3850.0,SANFRATELLO Ivan,1979,SM35,N.ATL. FANFULLA LODIGIANA,11 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/SANFRATELLO-Ivan/dqiRk5KfbGQ%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+3788.0,BAGNOLO Umberto,1994,PM,N.ATL. FANFULLA LODIGIANA,12 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/BAGNOLO-Umberto/dq2Rk5umcGU%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+3768.0,RIBOLZI Marco,1989,SM,ATL. VIRTUS  CR LUCCA,5 su- 1,Ancona,2015-01-11,https://www.fidal.it/atleta/RIBOLZI-Marco/drKRkpKiaWk%3D,https://www.fidal.it/societa/ATL--VIRTUS-CR-LUCCA/LU100
+3767.0,AGOSTI Marco,1992,SM,ATL. RIGOLETTO,13 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/AGOSTI-Marco/dq6RkpKfaWo%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+3738.0,GEREMIA Andrea,1994,PM,ATL.BIOTEKNA MARCON,14 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/GEREMIA-Andrea/eK6RkpKjcGY%3D,https://www.fidal.it/societa/ATL-BIOTEKNA-MARCON/VE471
+3641.0,MONTANI Marco,1995,PM,ATL. AVIS MACERATA,19 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/MONTANI-Marco/e6iRk5mlb2s%3D,https://www.fidal.it/societa/ATL--AVIS-MACERATA/MC004
+3636.0,MIOTTI Emanuele,1995,PM,PRO SESTO ATL.,15 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/MIOTTI-Emanuele/dq2RlpSgamM%3D,https://www.fidal.it/societa/PRO-SESTO-ATL-/MI089
+3545.0,MALATINI Leonardo,1993,PM,TEAM ATLETICA MARCHE,14 su- 1,Padova,2015-01-24,https://www.fidal.it/atleta/MALATINI-Leonardo/e6iRk5SmbGo%3D,https://www.fidal.it/societa/TEAM-ATLETICA-MARCHE/FM050
+3493.0,COMIZZOLI Alberto,1995,PM,N.ATL. FANFULLA LODIGIANA,16 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/COMIZZOLI-Alberto/dq2RlZegamM%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+3178.0,OTTAVIANI Leonardo,1991,SM,ATL. AVIS MACERATA,6 su- 1,Ancona,2015-01-11,https://www.fidal.it/atleta/OTTAVIANI-Leonardo/e6iRk5KlaGw%3D,https://www.fidal.it/societa/ATL--AVIS-MACERATA/MC004
+3085.0,GUZZI Mattia,1983,SM,N.ATL. FANFULLA LODIGIANA,17 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/GUZZI-Mattia/dq2RkpWmbmM%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+3005.0,BORTOLI Giulio,1995,PM,LIB. VALPOLICELLA LUPATOTINA,18 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/BORTOLI-Giulio/eKAAARkpSocGQ%3D,https://www.fidal.it/societa/LIB--VALPOLICELLA-LUPATOTINA/VR833
+2190.0,VENIER Stefano,1959,SM55,GA ARISTIDE COIN VENEZIA 1949,19 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/VENIER-Stefano/eK2RkpKfa2Q%3D,https://www.fidal.it/societa/GA-ARISTIDE-COIN-VENEZIA-1949/VE474
+1177.0,PELLIZZARI Paolo,1960,SM55,MASTERATLETICA,20 su- 1,Padova,2015-01-10,https://www.fidal.it/atleta/PELLIZZARI-Paolo/eKiRlJqga2Y%3D,https://www.fidal.it/societa/MASTERATLETICA/VI650
+5531.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,1 su- 1,Aubiere,2016-12-18,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5225.0,VIGLIOTTI Vincenzo,1994,PM,ATL.STUD. RIETI ANDREA MILARDI,1 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/VIGLIOTTI-Vincenzo/gKqRkpKhaGM%3D,https://www.fidal.it/societa/ATL-STUD--RIETI-ANDREA-MILARDI/RI223
+5101.0,FASSINA Simone,1996,PM,TEAM-A LOMBARDIA,7 su- 1,Ames,2016-02-27,https://www.fidal.it/atleta/FASSINA-Simone/dq2Rk5iibms%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+5015.0,PAOLUZZI Roberto,1993,SM,ATL.STUD. RIETI ANDREA MILARDI,2 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/PAOLUZZI-Roberto/fqiRk5qhaWs%3D,https://www.fidal.it/societa/ATL-STUD--RIETI-ANDREA-MILARDI/RI223
+4965.0,DELL'ACQUA Luca,1995,PM,N.ATL. FANFULLA LODIGIANA,3 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/DELL-ACQUA-Luca/drKRkpWfaGs%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+4917.0,PINTER Loris,1985,SM,U.S. QUERCIA TRENTINGRANA,4 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/PINTER-Loris/d6iRkpWkbGk%3D,https://www.fidal.it/societa/U-S--QUERCIA-TRENTINGRANA/TN109
+4873.0,ARRIGONI Valentino,1996,PM,NUOVA ATLETICA ASTRO,5 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/ARRIGONI-Valentino/dq2RlZOobmw%3D,https://www.fidal.it/societa/NUOVA-ATLETICA-ASTRO/MI212
+4866.0,MIANI Matteo,1993,SM,SILCA ULTRALITE VITTORIO V.TO,6 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/MIANI-Matteo/eKyRkpSjbWo%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+4856.0,MIANI Matteo,1993,SM,SILCA ULTRALITE VITTORIO V.TO,1 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/MIANI-Matteo/eKyRkpSjbWo%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+4842.0,CASALE Nicolo',1993,SM,ATLETICA MONZA,2 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/CASALE-Nicolo-/dq2Rkpulb2U%3D,https://www.fidal.it/societa/ATLETICA-MONZA/MI710
+4789.0,PINTER Loris,1985,SM,U.S. QUERCIA TRENTINGRANA,3 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/PINTER-Loris/d6iRkpWkbGk%3D,https://www.fidal.it/societa/U-S--QUERCIA-TRENTINGRANA/TN109
+4739.0,ZANATTA Jacopo,1996,PM,SILCA ULTRALITE VITTORIO V.TO,7 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/ZANATTA-Jacopo/eKyRkpWjb2Q%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+4724.0,NEMO Manuel,1995,PM,TEAM ATLETICA MARCHE,1 su- 1,Ancona,2016-01-10,https://www.fidal.it/atleta/NEMO-Manuel/e6iRk5WiaWU%3D,https://www.fidal.it/societa/TEAM-ATLETICA-MARCHE/FM050
+4674.0,DI PRIMA Matteo,1995,PM,PRO SESTO ATL.,8 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/DI-PRIMA-Matteo/dq2Rk5uha2U%3D,https://www.fidal.it/societa/PRO-SESTO-ATL-/MI089
+4654.0,LAZZINI Luca,1995,PM,TEAM-A LOMBARDIA,9 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/LAZZINI-Luca/dq2Rk5uja2c%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+4638.0,LASSINI Diego,1996,PM,SILCA ULTRALITE VITTORIO V.TO,10 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/LASSINI-Diego/eauRkpqjamg%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+4599.0,BIZZOTTO Andrea,1991,SM,ATL.BIOTEKNA MARCON,11 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/BIZZOTTO-Andrea/eK6RkpKib2o%3D,https://www.fidal.it/societa/ATL-BIOTEKNA-MARCON/VE471
+4596.0,DI PRIMA Matteo,1995,PM,PRO SESTO ATL.,4 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/DI-PRIMA-Matteo/dq2Rk5uha2U%3D,https://www.fidal.it/societa/PRO-SESTO-ATL-/MI089
+4563.0,LAZZINI Luca,1995,PM,TEAM-A LOMBARDIA,5 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/LAZZINI-Luca/dq2Rk5uja2c%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+4469.0,BIZZOTTO Andrea,1991,SM,ATL.BIOTEKNA MARCON,6 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/BIZZOTTO-Andrea/eK6RkpKib2o%3D,https://www.fidal.it/societa/ATL-BIOTEKNA-MARCON/VE471
+4421.0,GONFIANTINI Dario,1994,PM,ASD ATLETICA  PRATO,12 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/GONFIANTINI-Dario/fbORkpKga2g%3D,https://www.fidal.it/societa/ASD-ATLETICA-PRATO/PO149
+4386.0,COLOMBO Patrizio,1994,PM,PROSPORT ATL. FIRENZE,13 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/COLOMBO-Patrizio/faiSk5OobGU%3D,https://www.fidal.it/societa/PROSPORT-ATL--FIRENZE/FI009
+4343.0,POLETTI Alessandro,1991,SM,ATL. LECCO-COLOMBO COSTRUZ.,14 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/POLETTI-Alessandro/dq2Rk5qlcWo%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4331.0,RIGHETTINI Giacomo,1995,PM,ATL. VIRTUS CASTENEDOLO,15 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/RIGHETTINI-Giacomo/dqqRlpuncWU%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4325.0,SCORTECCIA Filippo,1994,PM,PROSPORT ATL. FIRENZE,16 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/SCORTECCIA-Filippo/faiSkpulbmQ%3D,https://www.fidal.it/societa/PROSPORT-ATL--FIRENZE/FI009
+4278.0,ATCHORI ESSOH Alexi,1993,SM,ATL. CHIARI 1964 LIB.,17 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/ATCHORI-ESSOH-Alexi/dqqRl5mjams%3D,https://www.fidal.it/societa/ATL--CHIARI-1964-LIB-/BS318
+4275.0,ASAMOAH Stephen kobena,1993,SM,ATL. VIRTUS CASTENEDOLO,18 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/ASAMOAH-Stephen-kobena/dqqRl5mmcGQ%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4271.0,RIGHETTINI Giacomo,1995,PM,ATL. VIRTUS CASTENEDOLO,7 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/RIGHETTINI-Giacomo/dqqRlpuncWU%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4266.0,NADALI Andrea,1988,SM,FONDAZIONE M. BENTEGODI,8 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/NADALI-Andrea/eKiRlJimbWQ%3D,https://www.fidal.it/societa/FONDAZIONE-M--BENTEGODI/VR784
+4240.0,CIOCCOLONI Claudio,1996,PM,E.SERVIZI ATL. FUTURA ROMA,2 su- 1,Ancona,2016-01-10,https://www.fidal.it/atleta/CIOCCOLONI-Claudio/f6iRl5unamo%3D,https://www.fidal.it/societa/E-SERVIZI-ATL--FUTURA-ROMA/RM555
+4228.0,GEREMIA Andrea,1994,PM,ATL.BIOTEKNA MARCON,19 su- 1,Padova,2016-01-23,https://www.fidal.it/atleta/GEREMIA-Andrea/eK6RkpKjcGY%3D,https://www.fidal.it/societa/ATL-BIOTEKNA-MARCON/VE471
+4221.0,PAOLUZZI Roberto,1993,SM,ATL.STUD. RIETI ANDREA MILARDI,3 su- 1,Ancona,2016-01-10,https://www.fidal.it/atleta/PAOLUZZI-Roberto/fqiRk5qhaWs%3D,https://www.fidal.it/societa/ATL-STUD--RIETI-ANDREA-MILARDI/RI223
+4221.0,MALATINI Leonardo,1993,SM,TEAM ATLETICA MARCHE,4 su- 1,Ancona,2016-01-10,https://www.fidal.it/atleta/MALATINI-Leonardo/e6iRk5SmbGo%3D,https://www.fidal.it/societa/TEAM-ATLETICA-MARCHE/FM050
+4188.0,PERBELLINI Marco,1987,SM,ATL. INSIEME NEW FOODS VR,9 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/PERBELLINI-Marco/eKAAARkpOgcWs%3D,https://www.fidal.it/societa/ATL--INSIEME-NEW-FOODS-VR/VR761
+4142.0,BASSO Mirco,1996,PM,ATL BRUGNERA PN FRIULINTAGLI,10 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/BASSO-Mirco/eaqRkpufb2k%3D,https://www.fidal.it/societa/ATL-BRUGNERA-PN-FRIULINTAGLI/PN039
+4090.0,BORSETTO Matteo,1995,PM,ASSOCIAZIONE ATLETICA N.E.VI.,11 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/BORSETTO-Matteo/eKqRkpOja2s%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+4087.0,GEREMIA Andrea,1994,PM,ATL.BIOTEKNA MARCON,12 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/GEREMIA-Andrea/eK6RkpKjcGY%3D,https://www.fidal.it/societa/ATL-BIOTEKNA-MARCON/VE471
+3949.0,QUAGLIA Francesco,1995,PM,A.S.D. ATL. FOSSANO '75,13 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/QUAGLIA-Francesco/dKyRlJejbWM%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+3896.0,SARTORELLI Luca,1996,PM,ATL. RICCARDI MILANO 1946,14 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/SARTORELLI-Luca/dq2RlJqja2U%3D,https://www.fidal.it/societa/ATL--RICCARDI-MILANO-1946/MI080
+3792.0,PATERNOSTER Matteo,1996,PM,S.A.F. BOLZANO,15 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/PATERNOSTER-Matteo/iaiRkpqgamk%3D,https://www.fidal.it/societa/S-A-F--BOLZANO/BZ018
+3749.0,MAZZANTI Andrea,1993,SM,ATL. IMOLA SACMI AVIS,5 su- 1,Ancona,2016-01-10,https://www.fidal.it/atleta/MAZZANTI-Andrea/eqiRlpKncWY%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+3285.0,TOLLIO Denis,1987,SM,G.A. BASSANO,16 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/TOLLIO-Denis/eKiRlZOfbmk%3D,https://www.fidal.it/societa/G-A--BASSANO/VI614
+3151.0,PERBELLINI Pietro,1984,SM,LIB. VALPOLICELLA LUPATOTINA,17 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/PERBELLINI-Pietro/eKiRk5egbGs%3D,https://www.fidal.it/societa/LIB--VALPOLICELLA-LUPATOTINA/VR833
+2826.0,COMIZZOLI Alberto,1995,PM,N.ATL. FANFULLA LODIGIANA,18 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/COMIZZOLI-Alberto/dq2RlZegamM%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+2811.0,GUZZI Mattia,1983,SM,N.ATL. FANFULLA LODIGIANA,19 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/GUZZI-Mattia/dq2RkpWmbmM%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+2407.0,MASCOLO Francesco,1990,SM,A.S.D. ASTRO 2000 BN-AGROPOLI,6 su- 1,Ancona,2016-01-10,https://www.fidal.it/atleta/MASCOLO-Francesco/gKyRkpWjb2Y%3D,https://www.fidal.it/societa/A-S-D--ASTRO-2000-BN-AGROPOLI/BN286
+2323.0,PAPARO Antonio,1994,PM,A.S.D. ASTRO 2000 BN-AGROPOLI,7 su- 1,Ancona,2016-01-10,https://www.fidal.it/atleta/PAPARO-Antonio/gKyRkpajbWo%3D,https://www.fidal.it/societa/A-S-D--ASTRO-2000-BN-AGROPOLI/BN286
+1113.0,PELLIZZARI Paolo,1960,SM55,ATL.VICENTINA,20 su- 1,Padova,2016-01-10,https://www.fidal.it/atleta/PELLIZZARI-Paolo/eKiRlJqga2Y%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+5841.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,12 su- 1,Belgrado,2017-03-05,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5824.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,4 su- 1,Bordeaux,2017-02-19,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5760.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,1 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5438.0,ZANATTA Jacopo,1996,PM,SILCA ULTRALITE VITTORIO V.TO,2 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/ZANATTA-Jacopo/eKyRkpWjb2Q%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+5285.0,FASSINA Simone,1996,PM,TEAM-A LOMBARDIA,4 su- 1,Ames,2017-02-25,https://www.fidal.it/atleta/FASSINA-Simone/dq2Rk5iibms%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+5267.0,DELL'ACQUA Luca,1995,PM,N.ATL. FANFULLA LODIGIANA,3 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/DELL-ACQUA-Luca/drKRkpWfaGs%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+5195.0,SIMIONATO Gianluca,1990,SM,N.ATL. FANFULLA LODIGIANA,4 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/SIMIONATO-Gianluca/drKRkpSobWM%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+5151.0,DELL'ACQUA Luca,1995,PM,N.ATL. FANFULLA LODIGIANA,1 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/DELL-ACQUA-Luca/drKRkpWfaGs%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+5133.0,ZANATTA Jacopo,1996,PM,SILCA ULTRALITE VITTORIO V.TO,2 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/ZANATTA-Jacopo/eKyRkpWjb2Q%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+5117.0,SIMIONATO Gianluca,1990,SM,N.ATL. FANFULLA LODIGIANA,3 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/SIMIONATO-Gianluca/drKRkpSobWM%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+4934.0,NEMO Manuel,1995,PM,TEAM ATLETICA MARCHE,5 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/NEMO-Manuel/e6iRk5WiaWU%3D,https://www.fidal.it/societa/TEAM-ATLETICA-MARCHE/FM050
+4933.0,NEMO Manuel,1995,PM,TEAM ATLETICA MARCHE,1 se- 1,Ancona,2017-01-08,https://www.fidal.it/atleta/NEMO-Manuel/e6iRk5WiaWU%3D,https://www.fidal.it/societa/TEAM-ATLETICA-MARCHE/FM050
+4870.0,MIANI Matteo,1993,SM,SILCA ULTRALITE VITTORIO V.TO,4 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/MIANI-Matteo/eKyRkpSjbWo%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+4791.0,ARRIGONI Valentino,1996,PM,NUOVA ATLETICA ASTRO,7 se- 1,Aubiere,2017-12-17,https://www.fidal.it/atleta/ARRIGONI-Valentino/dq2RlZOobmw%3D,https://www.fidal.it/societa/NUOVA-ATLETICA-ASTRO/MI212
+4789.0,GONFIANTINI Dario,1994,SM,ASD ATLETICA  PRATO,6 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/GONFIANTINI-Dario/fbORkpKga2g%3D,https://www.fidal.it/societa/ASD-ATLETICA-PRATO/PO149
+4783.0,PETAZZI Andrea,1995,PM,ATL. LECCO-COLOMBO COSTRUZ.,8 se- 1,Aubiere,2017-12-17,https://www.fidal.it/atleta/PETAZZI-Andrea/drKRkpenaWc%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4773.0,MIANI Matteo,1993,SM,SILCA ULTRALITE VITTORIO V.TO,7 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/MIANI-Matteo/eKyRkpSjbWo%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+4752.0,LASSINI Diego,1996,PM,SILCA ULTRALITE VITTORIO V.TO,8 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/LASSINI-Diego/eauRkpqjamg%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+4740.0,GONFIANTINI Dario,1994,SM,ASD ATLETICA  PRATO,5 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/GONFIANTINI-Dario/fbORkpKga2g%3D,https://www.fidal.it/societa/ASD-ATLETICA-PRATO/PO149
+4733.0,ATCHORI ESSOH Alexi,1993,SM,ATL. VIRTUS CASTENEDOLO,9 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/ATCHORI-ESSOH-Alexi/dqqRl5mjams%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4726.0,LASSINI Diego,1996,PM,SILCA ULTRALITE VITTORIO V.TO,6 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/LASSINI-Diego/eauRkpqjamg%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+4657.0,LAZZINI Luca,1995,PM,TEAM-A LOMBARDIA,10 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/LAZZINI-Luca/dq2Rk5uja2c%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+4650.0,LAZZINI Luca,1995,PM,TEAM-A LOMBARDIA,7 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/LAZZINI-Luca/dq2Rk5uja2c%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+4648.0,COMEL Alessio,1997,PM,UNIONE SPORTIVA ALBATESE ASD,10 se- 1,Aubiere,2017-12-17,https://www.fidal.it/atleta/COMEL-Alessio/dquRkpmja2k%3D,https://www.fidal.it/societa/UNIONE-SPORTIVA-ALBATESE-ASD/CO546
+4550.0,POLETTI Alessandro,1991,SM,ATL. LECCO-COLOMBO COSTRUZ.,13 se- 1,Aubiere,2017-12-17,https://www.fidal.it/atleta/POLETTI-Alessandro/dq2Rk5qlcWo%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4538.0,BATTISTI Tommaso,1992,SM,EDERA ATL. FORLI,11 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/BATTISTI-Tommaso/eqiRlZSjcGQ%3D,https://www.fidal.it/societa/EDERA-ATL--FORLI/FC038
+4507.0,MARSI Luca,1989,SM,ATLETICA LIVORNO,8 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/MARSI-Luca/faiRm5aiaWc%3D,https://www.fidal.it/societa/ATLETICA-LIVORNO/LI036
+4507.0,BORSETTO Matteo,1995,PM,ASSOCIAZIONE ATLETICA N.E.VI.,12 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/BORSETTO-Matteo/eKqRkpOja2s%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+4474.0,QUAGLIA Francesco,1995,PM,A.S.D. ATL. FOSSANO '75,13 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/QUAGLIA-Francesco/dKyRlJejbWM%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4456.0,COLOMBO Patrizio,1994,SM,PROSPORT ATL. FIRENZE,14 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/COLOMBO-Patrizio/faiSk5OobGU%3D,https://www.fidal.it/societa/PROSPORT-ATL--FIRENZE/FI009
+4446.0,MARSI Luca,1989,SM,ATLETICA LIVORNO,15 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/MARSI-Luca/faiRm5aiaWc%3D,https://www.fidal.it/societa/ATLETICA-LIVORNO/LI036
+4425.0,MANIACI Filippo,1997,PM,ATL LIBERTAS RUNNERS LIVORNO,16 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/MANIACI-Filippo/faiSkpmjamU%3D,https://www.fidal.it/societa/ATL-LIBERTAS-RUNNERS-LIVORNO/LI035
+4410.0,RIGHETTINI Giacomo,1995,PM,BRIXIA ATLETICA 2014 SSD SRL,17 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/RIGHETTINI-Giacomo/dqqRlpuncWU%3D,https://www.fidal.it/societa/BRIXIA-ATLETICA-2014-SSD-SRL/BS786
+4405.0,BOLDI COTTI Francesco,1991,SM,ATL. RIGOLETTO,4 su- 1,Lione,2017-12-03,https://www.fidal.it/atleta/BOLDI-COTTI-Francesco/dqiSl5SlbGM%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+4385.0,MONTRESOR Luca,1997,PM,ATL. INSIEME NEW FOODS VR,18 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/MONTRESOR-Luca/eKAAARkpejamk%3D,https://www.fidal.it/societa/ATL--INSIEME-NEW-FOODS-VR/VR761
+4381.0,FORESI Andrea,1997,PM,ATLETICA LIVORNO,19 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/FORESI-Andrea/faiSkpKia2k%3D,https://www.fidal.it/societa/ATLETICA-LIVORNO/LI036
+4360.0,BATTISTI Tommaso,1992,SM,EDERA ATL. FORLI,2 se- 1,Ancona,2017-01-08,https://www.fidal.it/atleta/BATTISTI-Tommaso/eqiRlZSjcGQ%3D,https://www.fidal.it/societa/EDERA-ATL--FORLI/FC038
+4300.0,COLOMBO Patrizio,1994,SM,PROSPORT ATL. FIRENZE,10 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/COLOMBO-Patrizio/faiSk5OobGU%3D,https://www.fidal.it/societa/PROSPORT-ATL--FIRENZE/FI009
+4300.0,ATCHORI ESSOH Alexi,1993,SM,ATL. VIRTUS CASTENEDOLO,9 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/ATCHORI-ESSOH-Alexi/dqqRl5mjams%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4293.0,SCORTECCIA Filippo,1994,SM,PROSPORT ATL. FIRENZE,20 su- 1,Padova,2017-01-28,https://www.fidal.it/atleta/SCORTECCIA-Filippo/faiSkpulbmQ%3D,https://www.fidal.it/societa/PROSPORT-ATL--FIRENZE/FI009
+4286.0,RIGHETTINI Giacomo,1995,PM,BRIXIA ATLETICA 2014 SSD SRL,11 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/RIGHETTINI-Giacomo/dqqRlpuncWU%3D,https://www.fidal.it/societa/BRIXIA-ATLETICA-2014-SSD-SRL/BS786
+4242.0,BOLDI COTTI Francesco,1991,SM,ATL. RIGOLETTO,12 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/BOLDI-COTTI-Francesco/dqiSl5SlbGM%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+4234.0,CIOCCOLONI Claudio,1996,PM,A.S.D. ATLETICA FUTURA ROMA,3 se- 1,Ancona,2017-01-08,https://www.fidal.it/atleta/CIOCCOLONI-Claudio/f6iRl5unamo%3D,https://www.fidal.it/societa/A-S-D--ATLETICA-FUTURA-ROMA/RM555
+4218.0,QUAGLIA Francesco,1995,PM,A.S.D. ATL. FOSSANO '75,13 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/QUAGLIA-Francesco/dKyRlJejbWM%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4168.0,FORESI Andrea,1997,PM,ATLETICA LIVORNO,14 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/FORESI-Andrea/faiSkpKia2k%3D,https://www.fidal.it/societa/ATLETICA-LIVORNO/LI036
+4103.0,BIANCOLI Federico,1996,PM,ATL. RICCARDI MILANO 1946,7 su- 1,Lione,2017-12-03,https://www.fidal.it/atleta/BIANCOLI-Federico/dqiSl5WlaWg%3D,https://www.fidal.it/societa/ATL--RICCARDI-MILANO-1946/MI080
+4100.0,MONTRESOR Luca,1997,PM,ATL. INSIEME NEW FOODS VR,15 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/MONTRESOR-Luca/eKAAARkpejamk%3D,https://www.fidal.it/societa/ATL--INSIEME-NEW-FOODS-VR/VR761
+3977.0,MAZZANTI Andrea,1993,SM,ATL. IMOLA SACMI AVIS,16 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/MAZZANTI-Andrea/eqiRlpKncWY%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+3937.0,CERNUSCHI Francesco maria,1991,SM,ATLETICA MONZA,17 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/CERNUSCHI-Francesco-maria/dq2Rk5uha2s%3D,https://www.fidal.it/societa/ATLETICA-MONZA/MI710
+3929.0,FELLINE Francesco,1992,SM,ATL. RIGOLETTO,18 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/FELLINE-Francesco/dqiSl5Slamw%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+3906.0,SARTORELLI Luca,1996,PM,CUS PRO PATRIA MILANO,19 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/SARTORELLI-Luca/dq2RlJqja2U%3D,https://www.fidal.it/societa/CUS-PRO-PATRIA-MILANO/MI077
+3829.0,MANSANI Lorenzo,1995,PM,CENTRO ATLETICA PIOMBINO,20 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/MANSANI-Lorenzo/faiRm5qnbWQ%3D,https://www.fidal.it/societa/CENTRO-ATLETICA-PIOMBINO/LI038
+3782.0,FELLINE Francesco,1992,SM,ATL. RIGOLETTO,9 su- 1,Lione,2017-12-03,https://www.fidal.it/atleta/FELLINE-Francesco/dqiSl5Slamw%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+3001.0,AGOSTI Marco,1992,SM,ATL. RIGOLETTO,13 su- 1,Lione,2017-12-03,https://www.fidal.it/atleta/AGOSTI-Marco/dq6RkpKfaWo%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+2794.0,MELICONI Alessandro,1997,PM,A.S.D. PONTEVECCHIO BOLOGNA,21 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/MELICONI-Alessandro/eqmRkpSiaGY%3D,https://www.fidal.it/societa/A-S-D--PONTEVECCHIO-BOLOGNA/BO506
+2186.0,VENIER Stefano,1959,SM55,GA ARISTIDE COIN VENEZIA 1949,22 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/VENIER-Stefano/eK2RkpKfa2Q%3D,https://www.fidal.it/societa/GA-ARISTIDE-COIN-VENEZIA-1949/VE474
+2176.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,24 se- 1,Aubiere,2017-12-17,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+2171.0,EL FATNANE Nabil,1995,PM,ATL. RIGOLETTO,15 su- 1,Lione,2017-12-03,https://www.fidal.it/atleta/EL-FATNANE-Nabil/dq6RkpKmbGo%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+2166.0,MASCOLO Francesco,1990,SM,ASD POL. ASTRO 2000 BENEVENTO,4 se- 1,Ancona,2017-01-08,https://www.fidal.it/atleta/MASCOLO-Francesco/gKyRkpWjb2Y%3D,https://www.fidal.it/societa/ASD-POL--ASTRO-2000-BENEVENTO/BN286
+1231.0,BATTISTELLO Riccardo,1991,SM,ATL. RIGOLETTO,17 su- 1,Lione,2017-12-03,https://www.fidal.it/atleta/BATTISTELLO-Riccardo/dqiSl5SkbmU%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+868.0,PELLIZZARI Paolo,1960,SM55,ATL.VICENTINA,23 su- 1,Padova,2017-01-14,https://www.fidal.it/atleta/PELLIZZARI-Paolo/eKiRlJqga2Y%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+5645.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,1 su- 1,Aubiere,2018-12-16,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5517.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,1 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5274.0,DEMETZ Alexander,1994,SM,ATLETICA GHERDEINA RAIFFEISEN,2 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/DEMETZ-Alexander/iaiRkpmgbGs%3D,https://www.fidal.it/societa/ATLETICA-GHERDEINA-RAIFFEISEN/BZ050
+5249.0,LEONE Marco,1998,PM,ATL. LECCO-COLOMBO COSTRUZ.,3 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/LEONE-Marco/dquRkpWmaGg%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5212.0,DELL'ACQUA Luca,1995,SM,N.ATL. FANFULLA LODIGIANA,4 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/DELL-ACQUA-Luca/drKRkpWfaGs%3D,https://www.fidal.it/societa/N-ATL--FANFULLA-LODIGIANA/MI218
+5119.0,TAVIANI Matteo,1997,PM,ATL. VIRTUS  CR LUCCA,5 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/TAVIANI-Matteo/f6yRkpSfaWQ%3D,https://www.fidal.it/societa/ATL--VIRTUS-CR-LUCCA/LU100
+5118.0,DEMETZ Alexander,1994,SM,ATLETICA GHERDEINA RAIFFEISEN,1 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/DEMETZ-Alexander/iaiRkpmgbGs%3D,https://www.fidal.it/societa/ATLETICA-GHERDEINA-RAIFFEISEN/BZ050
+5104.0,CHIUSOLO Matteo,1998,PM,SPORTRACE,3 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/CHIUSOLO-Matteo/f6yRkpWnbGU%3D,https://www.fidal.it/societa/SPORTRACE/RM243
+5097.0,MIANI Matteo,1993,SM,ASSINDUSTRIA SPORT PADOVA,6 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/MIANI-Matteo/eKyRkpSjbWo%3D,https://www.fidal.it/societa/ASSINDUSTRIA-SPORT-PADOVA/PD140
+5018.0,LEONE Marco,1998,PM,ATL. LECCO-COLOMBO COSTRUZ.,2 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/LEONE-Marco/dquRkpWmaGg%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4998.0,BRINI Michele,1998,PM,ATL. IMOLA SACMI AVIS,2 su- 1,Aubiere,2018-12-16,https://www.fidal.it/atleta/BRINI-Michele/eqiRlpKicGw%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4876.0,MELICONI Alessandro,1997,PM,A.S.D. PONTEVECCHIO BOLOGNA,7 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/MELICONI-Alessandro/eqmRkpSiaGY%3D,https://www.fidal.it/societa/A-S-D--PONTEVECCHIO-BOLOGNA/BO506
+4786.0,TAVIANI Matteo,1997,PM,ATL. VIRTUS  CR LUCCA,1 se- 1,Ancona,2018-01-07,https://www.fidal.it/atleta/TAVIANI-Matteo/f6yRkpSfaWQ%3D,https://www.fidal.it/societa/ATL--VIRTUS-CR-LUCCA/LU100
+4763.0,ARRIGONI Valentino,1996,PM,NUOVA ATLETICA ASTRO,8 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/ARRIGONI-Valentino/dq2RlZOobmw%3D,https://www.fidal.it/societa/NUOVA-ATLETICA-ASTRO/MI212
+4694.0,MIANI Matteo,1993,SM,ASSINDUSTRIA SPORT PADOVA,3 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/MIANI-Matteo/eKyRkpSjbWo%3D,https://www.fidal.it/societa/ASSINDUSTRIA-SPORT-PADOVA/PD140
+4619.0,DI PRIMA Matteo,1995,SM,CUS PRO PATRIA MILANO,9 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/DI-PRIMA-Matteo/dq2Rk5uha2U%3D,https://www.fidal.it/societa/CUS-PRO-PATRIA-MILANO/MI077
+4612.0,CIOCCOLONI Claudio,1996,PM,A.S.D. ATLETICA FUTURA ROMA,10 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/CIOCCOLONI-Claudio/f6iRl5unamo%3D,https://www.fidal.it/societa/A-S-D--ATLETICA-FUTURA-ROMA/RM555
+4553.0,ATCHORI ESSOH Alexi,1993,SM,ATL. VIRTUS CASTENEDOLO,11 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/ATCHORI-ESSOH-Alexi/dqqRl5mjams%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4543.0,GIACOMETTI Leonardo,1998,PM,ASSOCIAZIONE ATLETICA N.E.VI.,12 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/GIACOMETTI-Leonardo/eKqRkpWfb2g%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+4513.0,SCORTECCIA Filippo,1994,SM,PROSPORT ATL. FIRENZE,13 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/SCORTECCIA-Filippo/faiSkpulbmQ%3D,https://www.fidal.it/societa/PROSPORT-ATL--FIRENZE/FI009
+4501.0,CIOCCOLONI Claudio,1996,PM,A.S.D. ATLETICA FUTURA ROMA,2 se- 1,Ancona,2018-01-07,https://www.fidal.it/atleta/CIOCCOLONI-Claudio/f6iRl5unamo%3D,https://www.fidal.it/societa/A-S-D--ATLETICA-FUTURA-ROMA/RM555
+4458.0,QUAGLIA Francesco,1995,SM,A.S.D. ATL. FOSSANO '75,14 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/QUAGLIA-Francesco/dKyRlJejbWM%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4440.0,MONTRESOR Luca,1997,PM,EXPANDIA ATL. INSIEME VERONA,15 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/MONTRESOR-Luca/eKAAARkpejamk%3D,https://www.fidal.it/societa/EXPANDIA-ATL--INSIEME-VERONA/VR761
+4440.0,PETAZZI Andrea,1995,SM,ATL. LECCO-COLOMBO COSTRUZ.,6 su- 1,Aubiere,2018-12-16,https://www.fidal.it/atleta/PETAZZI-Andrea/drKRkpenaWc%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4399.0,TETTAMANZI Umberto,1997,PM,ATLETICA MONZA,9 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/TETTAMANZI-Umberto/dq2RlJWkb2g%3D,https://www.fidal.it/societa/ATLETICA-MONZA/MI710
+4386.0,MANGANI Luca,1996,PM,ATL.C.R.PISTOIA E LUCCHESIA,16 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/MANGANI-Luca/faiSkpmgcGY%3D,https://www.fidal.it/societa/ATL-C-R-PISTOIA-E-LUCCHESIA/PT115
+4377.0,GIACOMETTI Leonardo,1998,PM,ASSOCIAZIONE ATLETICA N.E.VI.,4 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/GIACOMETTI-Leonardo/eKqRkpWfb2g%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+4371.0,DOZIO Matteo,1998,PM,ATL. LECCO-COLOMBO COSTRUZ.,17 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/DOZIO-Matteo/dquRkpmnbWk%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4362.0,DI PRIMA Matteo,1995,SM,CUS PRO PATRIA MILANO,7 su- 1,Aubiere,2018-12-16,https://www.fidal.it/atleta/DI-PRIMA-Matteo/dq2Rk5uha2U%3D,https://www.fidal.it/societa/CUS-PRO-PATRIA-MILANO/MI077
+4334.0,DOZIO Matteo,1998,PM,ATL. LECCO-COLOMBO COSTRUZ.,5 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/DOZIO-Matteo/dquRkpmnbWk%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4324.0,CORDELLA Giovanni marco,1998,PM,A.P.D. ATLETICA SCAFATI,12 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/CORDELLA-Giovanni-marco/gKqRkpOfb2g%3D,https://www.fidal.it/societa/A-P-D--ATLETICA-SCAFATI/SA604
+4320.0,BOLDI COTTI Francesco,1991,SM,ATL. RIGOLETTO,8 su- 1,Lione,2018-12-01,https://www.fidal.it/atleta/BOLDI-COTTI-Francesco/dqiSl5SlbGM%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+4296.0,RIGHETTINI Giacomo,1995,SM,C.U.S. PARMA,18 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/RIGHETTINI-Giacomo/dqqRlpuncWU%3D,https://www.fidal.it/societa/C-U-S--PARMA/PR068
+4235.0,CORDELLA Giovanni marco,1998,PM,A.P.D. ATLETICA SCAFATI,3 se- 1,Ancona,2018-01-07,https://www.fidal.it/atleta/CORDELLA-Giovanni-marco/gKqRkpOfb2g%3D,https://www.fidal.it/societa/A-P-D--ATLETICA-SCAFATI/SA604
+4212.0,COMEL Alessio,1997,PM,UNIONE SPORTIVA ALBATESE ASD,19 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/COMEL-Alessio/dquRkpmja2k%3D,https://www.fidal.it/societa/UNIONE-SPORTIVA-ALBATESE-ASD/CO546
+4153.0,GASTALDIN Giulio,1998,PM,ATLETICA MONZA,14 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/GASTALDIN-Giulio/dq2RlZioamo%3D,https://www.fidal.it/societa/ATLETICA-MONZA/MI710
+4116.0,GALASSO Umberto,1997,PM,A.P.D. ATLETICA SCAFATI,4 se- 1,Ancona,2018-01-07,https://www.fidal.it/atleta/GALASSO-Umberto/gKyRkpSnamU%3D,https://www.fidal.it/societa/A-P-D--ATLETICA-SCAFATI/SA604
+4036.0,DALMASSO Daniele,1996,PM,S.A.F.ATLETICA PIEMONTE A.S.D.,6 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/DALMASSO-Daniele/dK6RlZekb2w%3D,https://www.fidal.it/societa/S-A-F-ATLETICA-PIEMONTE-A-S-D-/TO226
+4019.0,GALASSO Umberto,1997,PM,A.P.D. ATLETICA SCAFATI,15 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/GALASSO-Umberto/gKyRkpSnamU%3D,https://www.fidal.it/societa/A-P-D--ATLETICA-SCAFATI/SA604
+3911.0,TRIVELLATO Mauro,1991,SM,A.S.D. INTESATLETICA,5 se- 1,Ancona,2018-01-07,https://www.fidal.it/atleta/TRIVELLATO-Mauro/f6iRl5iiamg%3D,https://www.fidal.it/societa/A-S-D--INTESATLETICA/LT260
+3826.0,GEREMIA Andrea,1994,SM,ATL.BIOTEKNA MARCON,7 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/GEREMIA-Andrea/eK6RkpKjcGY%3D,https://www.fidal.it/societa/ATL-BIOTEKNA-MARCON/VE471
+3665.0,NADALI Andrea,1988,SM,FONDAZIONE M. BENTEGODI,8 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/NADALI-Andrea/eKiRlJimbWQ%3D,https://www.fidal.it/societa/FONDAZIONE-M--BENTEGODI/VR784
+3563.0,MELICONI Alessandro,1997,PM,A.S.D. PONTEVECCHIO BOLOGNA,9 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/MELICONI-Alessandro/eqmRkpSiaGY%3D,https://www.fidal.it/societa/A-S-D--PONTEVECCHIO-BOLOGNA/BO506
+3447.0,DALMASSO Daniele,1996,PM,S.A.F.ATLETICA PIEMONTE A.S.D.,16 su- 1,Padova,2018-01-28,https://www.fidal.it/atleta/DALMASSO-Daniele/dK6RlZekb2w%3D,https://www.fidal.it/societa/S-A-F-ATLETICA-PIEMONTE-A-S-D-/TO226
+3313.0,BOLDI COTTI Federico,1995,SM,ATL. RIGOLETTO,20 su- 1,Lione,2018-12-01,https://www.fidal.it/atleta/BOLDI-COTTI-Federico/dq6RkpKibGc%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+3157.0,PASAHOL Jernie,1998,PM,ATL.CSAIN PERUGIA,6 se- 1,Ancona,2018-01-07,https://www.fidal.it/atleta/PASAHOL-Jernie/fqmRkpOiaGg%3D,https://www.fidal.it/societa/ATL-CSAIN-PERUGIA/PG020
+3144.0,DONATI Davide,1998,PM,A.S.D. ATLETICA FUTURA ROMA,7 se- 1,Ancona,2018-01-07,https://www.fidal.it/atleta/DONATI-Davide/f6yRlJilbWs%3D,https://www.fidal.it/societa/A-S-D--ATLETICA-FUTURA-ROMA/RM555
+3135.0,MANTOVANI Luca,1985,SM,FONDAZIONE M. BENTEGODI,10 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/MANTOVANI-Luca/eKAAARkpKocWY%3D,https://www.fidal.it/societa/FONDAZIONE-M--BENTEGODI/VR784
+3043.0,IRRERA Lorenzo,1998,PM,SPORTRACE,9 se- 1,Ancona,2018-01-07,https://www.fidal.it/atleta/IRRERA-Lorenzo/f6uRkpKiaGU%3D,https://www.fidal.it/societa/SPORTRACE/RM243
+2797.0,CASTELLANETA Andrea,1997,PM,A.S.D. INTESATLETICA,10 se- 1,Ancona,2018-01-07,https://www.fidal.it/atleta/CASTELLANETA-Andrea/f6iRmZiobGc%3D,https://www.fidal.it/societa/A-S-D--INTESATLETICA/LT260
+2573.0,ALESI Cesare,1961,SM55,COLLECTION ATLETICA SAMBENEDET,11 se- 1,Ancona,2018-01-07,https://www.fidal.it/atleta/ALESI-Cesare/e6qRkpShaGU%3D,https://www.fidal.it/societa/COLLECTION-ATLETICA-SAMBENEDET/AP034
+2416.0,VENIER Stefano,1959,SM55,GA ARISTIDE COIN VENEZIA 1949,11 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/VENIER-Stefano/eK2RkpKfa2Q%3D,https://www.fidal.it/societa/GA-ARISTIDE-COIN-VENEZIA-1949/VE474
+2100.0,ROLFI Piero,1970,SM45,S.S. VITTORIO ALFIERI ASTI,12 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/ROLFI-Piero/dKuRk5efaGk%3D,https://www.fidal.it/societa/S-S--VITTORIO-ALFIERI-ASTI/AT001
+847.0,PELLIZZARI Paolo,1960,SM55,ATL.VICENTINA,13 su- 1,Padova,2018-01-13,https://www.fidal.it/atleta/PELLIZZARI-Paolo/eKiRlJqga2Y%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+5752.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,1 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5723.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,2 su- 1,Aubiere,2019-01-13,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5397.0,ZANATTA Jacopo,1996,SM,SILCA ULTRALITE VITTORIO V.TO,1 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/ZANATTA-Jacopo/eKyRkpWjb2Q%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+5254.0,PETAZZI Andrea,1995,SM,ATL. LECCO-COLOMBO COSTRUZ.,2 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/PETAZZI-Andrea/drKRkpenaWc%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5229.0,BRINI Michele,1998,PM,ATL. IMOLA SACMI AVIS,1 su- 1,Lione,2019-12-15,https://www.fidal.it/atleta/BRINI-Michele/eqiRlpKicGw%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+5223.0,ASAMOAH Stephen kobena,1993,SM,ATL. VIRTUS CASTENEDOLO,3 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/ASAMOAH-Stephen-kobena/dqqRl5mmcGQ%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+5123.0,ASAMOAH Stephen kobena,1993,SM,ATL. VIRTUS CASTENEDOLO,2 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/ASAMOAH-Stephen-kobena/dqqRl5mmcGQ%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4994.0,BRINI Michele,1998,PM,ATL. IMOLA SACMI AVIS,1 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/BRINI-Michele/eqiRlpKicGw%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4874.0,ARRIGONI Valentino,1996,SM,NUOVA ATLETICA ASTRO,5 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/ARRIGONI-Valentino/dq2RlZOobmw%3D,https://www.fidal.it/societa/NUOVA-ATLETICA-ASTRO/MI212
+4861.0,DI PRIMA Matteo,1995,SM,CUS PRO PATRIA MILANO,6 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/DI-PRIMA-Matteo/dq2Rk5uha2U%3D,https://www.fidal.it/societa/CUS-PRO-PATRIA-MILANO/MI077
+4854.0,COMEL Alessio,1997,PM,ATL. IMOLA SACMI AVIS,2 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/COMEL-Alessio/dquRkpmja2k%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4831.0,GIACOMETTI Leonardo,1998,PM,ASSOCIAZIONE ATLETICA N.E.VI.,3 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/GIACOMETTI-Leonardo/eKqRkpWfb2g%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+4818.0,MIGLIETTA Riccardo,1999,PM,ATL.VICENTINA,3 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/MIGLIETTA-Riccardo/eK6RkpSocGo%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+4745.0,RONZONI Simone,2000,JM,U.S. OLIMPIA BERGAMO,3 su- 1,Lione,2019-12-15,https://www.fidal.it/atleta/RONZONI-Simone/dqmRl5mla2w%3D,https://www.fidal.it/societa/U-S--OLIMPIA-BERGAMO/BG138
+4702.0,NICOLA Riccardo,1998,PM,G.S. ERMENEGILDO ZEGNA,4 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/NICOLA-Riccardo/dKAAARk5qjbWY%3D,https://www.fidal.it/societa/G-S--ERMENEGILDO-ZEGNA/VC020
+4672.0,KASIBOVIC Amar,1999,PM,ATL.VICENTINA,5 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/KASIBOVIC-Amar/eK6RkpWfaGc%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+4669.0,GIACOMETTI Leonardo,1998,PM,ASSOCIAZIONE ATLETICA N.E.VI.,4 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/GIACOMETTI-Leonardo/eKqRkpWfb2g%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+4628.0,ZANDARCO Simon,1998,PM,ASV S.V. LANA - RAIKA,6 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/ZANDARCO-Simon/iaiRk5Oga2k%3D,https://www.fidal.it/societa/ASV-S-V--LANA-RAIKA/BZ011
+4597.0,PINTER Loris,1985,SM,U.S. QUERCIA TRENTINGRANA,5 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/PINTER-Loris/d6iRkpWkbGk%3D,https://www.fidal.it/societa/U-S--QUERCIA-TRENTINGRANA/TN109
+4584.0,MONTI Andrea,1999,PM,ATL. LECCO-COLOMBO COSTRUZ.,7 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/MONTI-Andrea/dquRk5Ofamc%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4556.0,BOLDI COTTI Francesco,1991,SM,ATL. RIGOLETTO,2 su- 1,Aubiere,2019-11-30,https://www.fidal.it/atleta/BOLDI-COTTI-Francesco/dqiSl5SlbGM%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+4508.0,BRANDI Gabriele,1999,PM,TEAM-A LOMBARDIA,8 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/BRANDI-Gabriele/dq2RlZqgcWU%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+4491.0,BOLDI COTTI Francesco,1991,SM,ATL. RIGOLETTO,13 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/BOLDI-COTTI-Francesco/dqiSl5SlbGM%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+4437.0,QUAGLIA Francesco,1995,SM,A.S.D. ATL. FOSSANO '75,6 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/QUAGLIA-Francesco/dKyRlJejbWM%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4414.0,BARBINI Luca,1999,PM,ATL. LECCO-COLOMBO COSTRUZ.,9 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/BARBINI-Luca/iKiSmZmiaWw%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4409.0,BIANCAMANO Idris,1999,PM,ATLETICA VERCELLI 78,10 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/BIANCAMANO-Idris/dKAAARlJOiaWk%3D,https://www.fidal.it/societa/ATLETICA-VERCELLI-78/VC004
+4392.0,BORSETTO Matteo,1995,SM,ASSOCIAZIONE ATLETICA N.E.VI.,14 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/BORSETTO-Matteo/eKqRkpOja2s%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+4133.0,MAZZANTI Andrea,1993,SM,ATL. IMOLA SACMI AVIS,7 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/MAZZANTI-Andrea/eqiRlpKncWY%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4063.0,BIANCOLI Federico,1996,SM,ATL. RICCARDI MILANO 1946,4 su- 1,Aubiere,2019-11-30,https://www.fidal.it/atleta/BIANCOLI-Federico/dqiSl5WlaWg%3D,https://www.fidal.it/societa/ATL--RICCARDI-MILANO-1946/MI080
+4043.0,BRUCHON Niky,1990,SM,POLISPORTIVA TRIVENETO TRIESTE,8 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/BRUCHON-Niky/eamRkpeoaWw%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+4012.0,MIGLIETTA Riccardo,1999,PM,ATL.VICENTINA,11 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/MIGLIETTA-Riccardo/eK6RkpSocGo%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+4006.0,VICENTINI Pietro,1999,PM,EXPANDIA ATL. INSIEME VERONA,9 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/VICENTINI-Pietro/eKAAARkpufaGk%3D,https://www.fidal.it/societa/EXPANDIA-ATL--INSIEME-VERONA/VR761
+4000.0,VERRATI Lorenzo,1998,PM,GA ARISTIDE COIN VENEZIA 1949,10 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/VERRATI-Lorenzo/eK2RkpmfaWM%3D,https://www.fidal.it/societa/GA-ARISTIDE-COIN-VENEZIA-1949/VE474
+3889.0,NEMO Manuel,1995,SM,TEAM ATLETICA MARCHE,16 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/NEMO-Manuel/e6iRk5WiaWU%3D,https://www.fidal.it/societa/TEAM-ATLETICA-MARCHE/FM050
+3884.0,BUSNARDO Simone,1998,PM,ATL.VICENTINA,11 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/BUSNARDO-Simone/eK6RkpehbWs%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+3857.0,PERON Daniele,1995,SM,ASSOCIAZIONE ATLETICA N.E.VI.,12 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/PERON-Daniele/eKqRkpKhamk%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+3775.0,BANO Pietro,1999,PM,ASSOCIAZIONE ATLETICA N.E.VI.,12 se- 1,Padova,2019-01-27,https://www.fidal.it/atleta/BANO-Pietro/eKqRkpSkamo%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+3673.0,BOLDI COTTI Federico,1995,SM,ATL. RIGOLETTO,10 su- 1,Aubiere,2019-11-30,https://www.fidal.it/atleta/BOLDI-COTTI-Federico/dq6RkpKibGc%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+3425.0,FELLINE Francesco,1992,SM,ATL. RIGOLETTO,12 su- 1,Aubiere,2019-11-30,https://www.fidal.it/atleta/FELLINE-Francesco/dqiSl5Slamw%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+3356.0,BORSETTO Matteo,1995,SM,ASSOCIAZIONE ATLETICA N.E.VI.,13 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/BORSETTO-Matteo/eKqRkpOja2s%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+3279.0,LEONE Pietro,1998,PM,ASD ATLETICA GRAN SASSO TERAMO,1 se- 1,Ancona,2019-01-06,https://www.fidal.it/atleta/LEONE-Pietro/gamRkpOhamY%3D,https://www.fidal.it/societa/ASD-ATLETICA-GRAN-SASSO-TERAMO/TE138
+2899.0,MORETTI Ian,1995,SM,UISP ATLETICA SIENA,14 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/MORETTI-Ian/fbKRkpKfcGk%3D,https://www.fidal.it/societa/UISP-ATLETICA-SIENA/SI043
+2677.0,D'ANGELO Giacomo,1999,PM,ATLETICA IL COLLE ASD,2 se- 1,Ancona,2019-01-06,https://www.fidal.it/atleta/D-ANGELO-Giacomo/fqmRkpWkcGQ%3D,https://www.fidal.it/societa/ATLETICA-IL-COLLE-ASD/PG079
+2517.0,EL FATNANE Nabil,1995,SM,ATL. RIGOLETTO,14 su- 1,Aubiere,2019-11-30,https://www.fidal.it/atleta/EL-FATNANE-Nabil/dq6RkpKmbGo%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+2379.0,VENIER Stefano,1959,SM60,GA ARISTIDE COIN VENEZIA 1949,15 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/VENIER-Stefano/eK2RkpKfa2Q%3D,https://www.fidal.it/societa/GA-ARISTIDE-COIN-VENEZIA-1949/VE474
+956.0,PELLIZZARI Paolo,1960,SM55,ATL.VICENTINA,16 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/PELLIZZARI-Paolo/eKiRlJqga2Y%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+538.0,BERTUZZO Flavio,1958,SM60,ATLETICA VARAZZE,17 su- 1,Padova,2019-01-12,https://www.fidal.it/atleta/BERTUZZO-Flavio/daiRkpWma2g%3D,https://www.fidal.it/societa/ATLETICA-VARAZZE/SV019
+5939.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,1 su- 1,Ancona,2020-02-22,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5680.0,DESTER Dario,2000,PM,CREMONA SPORTIVA ATL. ARVEDI,2 su- 1,Ancona,2020-02-22,https://www.fidal.it/atleta/DESTER-Dario/dqiSl5akbGs%3D,https://www.fidal.it/societa/CREMONA-SPORTIVA-ATL--ARVEDI/CR041
+5656.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,4 su- 1,Aubiere,2020-01-12,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5529.0,DESTER Dario,2000,PM,CREMONA SPORTIVA ATL. ARVEDI,1 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/DESTER-Dario/dqiSl5akbGs%3D,https://www.fidal.it/societa/CREMONA-SPORTIVA-ATL--ARVEDI/CR041
+5406.0,DESTER Dario,2000,PM,CREMONA SPORTIVA ATL. ARVEDI,1 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/DESTER-Dario/dqiSl5akbGs%3D,https://www.fidal.it/societa/CREMONA-SPORTIVA-ATL--ARVEDI/CR041
+5373.0,BRINI Michele,1998,PM,ATL. IMOLA SACMI AVIS,3 su- 1,Ancona,2020-02-22,https://www.fidal.it/atleta/BRINI-Michele/eqiRlpKicGw%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+5372.0,BRINI Michele,1998,PM,ATL. IMOLA SACMI AVIS,2 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/BRINI-Michele/eqiRlpKicGw%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+5363.0,DELL'ACQUA Luca,1995,SM,A.S. ATLETICA VIRTUS LUCCA,4 su- 1,Ancona,2020-02-22,https://www.fidal.it/atleta/DELL-ACQUA-Luca/drKRkpWfaGs%3D,https://www.fidal.it/societa/A-S--ATLETICA-VIRTUS-LUCCA/LU100
+5258.0,MODUGNO Lorenzo,2000,PM,POLISPORTIVA TRIVENETO TRIESTE,5 su- 1,Ancona,2020-02-22,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+5187.0,MODUGNO Lorenzo,2000,PM,POLISPORTIVA TRIVENETO TRIESTE,3 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+5022.0,COMEL Alessio,1997,SM,CUS INSUBRIA VARESE COMO,99 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/COMEL-Alessio/dquRkpmja2k%3D,https://www.fidal.it/societa/CUS-INSUBRIA-VARESE-COMO/VA123
+4988.0,MIGLIETTA Riccardo,1999,PM,ATL.VICENTINA,5 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/MIGLIETTA-Riccardo/eK6RkpSocGo%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+4968.0,MIGLIETTA Riccardo,1999,PM,ATL.VICENTINA,2 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/MIGLIETTA-Riccardo/eK6RkpSocGo%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+4955.0,MIANI Matteo,1993,SM,ASSINDUSTRIA SPORT PADOVA,3 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/MIANI-Matteo/eKyRkpSjbWo%3D,https://www.fidal.it/societa/ASSINDUSTRIA-SPORT-PADOVA/PD140
+4947.0,ASAMOAH Stephen kobena,1993,SM,ATL. VIRTUS CASTENEDOLO,4 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/ASAMOAH-Stephen-kobena/dqqRl5mmcGQ%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4924.0,RONZONI Simone,2000,PM,ATL. IMOLA SACMI AVIS,6 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/RONZONI-Simone/dqmRl5mla2w%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4900.0,FUSARO Nicolo',1999,PM,ATHLETIC CLUB 96 ALPERIA,5 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/FUSARO-Nicolo-/iaiRk5KhaWQ%3D,https://www.fidal.it/societa/ATHLETIC-CLUB-96-ALPERIA/BZ066
+4855.0,FUSARO Nicolo',1999,PM,ATHLETIC CLUB 96 ALPERIA,7 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/FUSARO-Nicolo-/iaiRk5KhaWQ%3D,https://www.fidal.it/societa/ATHLETIC-CLUB-96-ALPERIA/BZ066
+4739.0,MONTI Andrea,1999,PM,ATL. LECCO-COLOMBO COSTRUZ.,8 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/MONTI-Andrea/dquRk5Ofamc%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4730.0,BORSETTO Matteo,1995,SM,ASSOCIAZIONE ATLETICA N.E.VI.,6 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/BORSETTO-Matteo/eKqRkpOja2s%3D,https://www.fidal.it/societa/ASSOCIAZIONE-ATLETICA-N-E-VI-/VI623
+4699.0,COMEL Alessio,1997,SM,CUS INSUBRIA VARESE COMO,6 su- 1,Ancona,2020-02-22,https://www.fidal.it/atleta/COMEL-Alessio/dquRkpmja2k%3D,https://www.fidal.it/societa/CUS-INSUBRIA-VARESE-COMO/VA123
+4605.0,BRINI Alberto,1992,SM,ATL. IMOLA SACMI AVIS,7 su- 1,Ancona,2020-02-22,https://www.fidal.it/atleta/BRINI-Alberto/eqiRlZSmcGc%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4591.0,MONTI Andrea,1999,PM,ATL. LECCO-COLOMBO COSTRUZ.,8 su- 1,Ancona,2020-02-22,https://www.fidal.it/atleta/MONTI-Andrea/dquRk5Ofamc%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4382.0,BIANCOLI Federico,1996,SM,ATL. RICCARDI MILANO 1946,7 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/BIANCOLI-Federico/dqiSl5WlaWg%3D,https://www.fidal.it/societa/ATL--RICCARDI-MILANO-1946/MI080
+4303.0,LAVINO Riccardo,2000,PM,ATLETICA BARBAS,9 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/LAVINO-Riccardo/hquRkpKibWM%3D,https://www.fidal.it/societa/ATLETICA-BARBAS/RC366
+4188.0,BARBINI Luca,1999,PM,ATL. LECCO-COLOMBO COSTRUZ.,10 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/BARBINI-Luca/iKiSmZmiaWw%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4187.0,MAZZANTI Andrea,1993,SM,ATL. IMOLA SACMI AVIS,8 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/MAZZANTI-Andrea/eqiRlpKncWY%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4123.0,MODUGNO Lorenzo,2000,PM,POLISPORTIVA TRIVENETO TRIESTE,9 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+3952.0,CENSURINI Andrea,1994,SM,ATL. IRIENSE VOGHERA,10 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/CENSURINI-Andrea/dqAAARl5ehb2o%3D,https://www.fidal.it/societa/ATL--IRIENSE-VOGHERA/PV245
+3905.0,VERRATI Lorenzo,1998,PM,TREVISATLETICA,11 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/VERRATI-Lorenzo/eK2RkpmfaWM%3D,https://www.fidal.it/societa/TREVISATLETICA/TV354
+3792.0,DALMASSO Daniele,1996,SM,S.A.F.ATLETICA PIEMONTE A.S.D.,12 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/DALMASSO-Daniele/dK6RlZekb2w%3D,https://www.fidal.it/societa/S-A-F-ATLETICA-PIEMONTE-A-S-D-/TO226
+3467.0,KASIBOVIC Amar,1999,PM,ATL.VICENTINA,11 se- 1,Padova,2020-02-01,https://www.fidal.it/atleta/KASIBOVIC-Amar/eK6RkpWfaGc%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+3208.0,BALDASSI Giacomo,2000,PM,POLISPORTIVA TRIVENETO TRIESTE,13 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/BALDASSI-Giacomo/eauRkpufbWo%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+2572.0,FIORINI Federico,1988,SM,ATL.VICENTINA,14 su- 1,Padova,2020-01-12,https://www.fidal.it/atleta/FIORINI-Federico/eKiRlJWoa2Q%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+6076.0,DESTER Dario,2000,PM,C.S. CARABINIERI SEZ. ATLETICA,1 su- 1,Ancona,2021-02-20,https://www.fidal.it/atleta/DESTER-Dario/dqiSl5akbGs%3D,https://www.fidal.it/societa/C-S--CARABINIERI-SEZ--ATLETICA/BO011
+5986.0,CAIROLI Simone,1990,SM,ATL. LECCO-COLOMBO COSTRUZ.,2 su- 1,Ancona,2021-02-20,https://www.fidal.it/atleta/CAIROLI-Simone/dquRkpKlamM%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+5835.0,DESTER Dario,2000,PM,C.S. CARABINIERI SEZ. ATLETICA,7 su- 1,Torun,2021-03-07,https://www.fidal.it/atleta/DESTER-Dario/dqiSl5akbGs%3D,https://www.fidal.it/societa/C-S--CARABINIERI-SEZ--ATLETICA/BO011
+5642.0,NAIDON Lorenzo,1999,PM,U.S. QUERCIA TRENTINGRANA,1 se- 1,Padova,2021-03-07,https://www.fidal.it/atleta/NAIDON-Lorenzo/d6iRk5imbGY%3D,https://www.fidal.it/societa/U-S--QUERCIA-TRENTINGRANA/TN109
+5351.0,MODUGNO Lorenzo,2000,PM,POLISPORTIVA TRIVENETO TRIESTE,3 su- 1,Ancona,2021-02-20,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+5156.0,BRINI Michele,1998,SM,ATL. IMOLA SACMI AVIS,4 su- 1,Ancona,2021-02-20,https://www.fidal.it/atleta/BRINI-Michele/eqiRlpKicGw%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+5112.0,ARRIUS Alessandro,2001,PM,ATL. O.S.A. SARONNO LIB.,1 se- 1,Padova,2021-02-21,https://www.fidal.it/atleta/ARRIUS-Alessandro/drKRkpiib2M%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+5052.0,RONZONI Simone,2000,PM,ATL. IMOLA SACMI AVIS,2 se- 1,Padova,2021-03-07,https://www.fidal.it/atleta/RONZONI-Simone/dqmRl5mla2w%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+5010.0,COMEL Alessio,1997,SM,CUS INSUBRIA VARESE COMO,1 su- 1,Aubiere,2021-12-12,https://www.fidal.it/atleta/COMEL-Alessio/dquRkpmja2k%3D,https://www.fidal.it/societa/CUS-INSUBRIA-VARESE-COMO/VA123
+4849.0,BRINI Alberto,1992,SM,ATL. IMOLA SACMI AVIS,5 su- 1,Ancona,2021-02-20,https://www.fidal.it/atleta/BRINI-Alberto/eqiRlZSmcGc%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4773.0,BRANDI Gabriele,1999,PM,ATL. LECCO-COLOMBO COSTRUZ.,6 su- 1,Salem,2021-12-04,https://www.fidal.it/atleta/BRANDI-Gabriele/dq2RlZqgcWU%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4737.0,RONZONI Simone,2000,PM,ATL. IMOLA SACMI AVIS,3 su- 1,Aubiere,2021-12-12,https://www.fidal.it/atleta/RONZONI-Simone/dqmRl5mla2w%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4698.0,PALETTI Nicola,2001,PM,ATHLETIC CLUB 96 ALPERIA,2 su- 1,Pittsburg,2021-03-06,https://www.fidal.it/atleta/PALETTI-Nicola/iaiRk5WfaGY%3D,https://www.fidal.it/societa/ATHLETIC-CLUB-96-ALPERIA/BZ066
+4613.0,KASIBOVIC Amar,1999,PM,ATL.VICENTINA,6 su- 1,Ancona,2021-02-20,https://www.fidal.it/atleta/KASIBOVIC-Amar/eK6RkpWfaGc%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+4552.0,KASIBOVIC Amar,1999,PM,ATL.VICENTINA,3 se- 1,Padova,2021-03-07,https://www.fidal.it/atleta/KASIBOVIC-Amar/eK6RkpWfaGc%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+4528.0,COMEL Alessio,1997,SM,CUS INSUBRIA VARESE COMO,7 su- 1,Ancona,2021-02-20,https://www.fidal.it/atleta/COMEL-Alessio/dquRkpmja2k%3D,https://www.fidal.it/societa/CUS-INSUBRIA-VARESE-COMO/VA123
+4387.0,RONZONI Simone,2000,PM,ATL. IMOLA SACMI AVIS,8 su- 1,Ancona,2021-02-20,https://www.fidal.it/atleta/RONZONI-Simone/dqmRl5mla2w%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4262.0,ROCCO Mattia,2001,PM,ATLETICA CASTELL'ALFERO T.F.R.,2 se- 1,Padova,2021-02-21,https://www.fidal.it/atleta/ROCCO-Mattia/dKuRk5inaGU%3D,https://www.fidal.it/societa/ATLETICA-CASTELL-ALFERO-T-F-R-/AT012
+4257.0,LAVINO Riccardo,2000,PM,ATLETICA BARBAS,4 se- 1,Padova,2021-03-07,https://www.fidal.it/atleta/LAVINO-Riccardo/hquRkpKibWM%3D,https://www.fidal.it/societa/ATLETICA-BARBAS/RC366
+4240.0,VENTURINI Michele,2001,PM,FONDAZIONE M. BENTEGODI,3 se- 1,Padova,2021-02-21,https://www.fidal.it/atleta/VENTURINI-Michele/eKAAARkpmmamo%3D,https://www.fidal.it/societa/FONDAZIONE-M--BENTEGODI/VR784
+4219.0,ROSSETTI Marco,1999,PM,ATL. O.S.A. SARONNO LIB.,4 se- 1,Padova,2021-02-21,https://www.fidal.it/atleta/ROSSETTI-Marco/dquRkpinbmk%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+3192.0,MUSAZZI Riccardo,1995,SM,ATLETICA P.A.R. CANEGRATE,12 su- 1,Aubiere,2021-12-12,https://www.fidal.it/atleta/MUSAZZI-Riccardo/dq2Rk5amamk%3D,https://www.fidal.it/societa/ATLETICA-P-A-R--CANEGRATE/MI161
+3054.0,LONGHIN Jacopo,2001,PM,C.U.S. PADOVA,5 se- 1,Padova,2021-02-21,https://www.fidal.it/atleta/LONGHIN-Jacopo/eKqRkpaicWc%3D,https://www.fidal.it/societa/C-U-S--PADOVA/PD143
+1888.0,GJONI Erico,2001,PM,ATLETICA CASTELL'ALFERO T.F.R.,6 se- 1,Padova,2021-02-21,https://www.fidal.it/atleta/GJONI-Erico/dKuRk5ioamo%3D,https://www.fidal.it/societa/ATLETICA-CASTELL-ALFERO-T-F-R-/AT012
+6038.0,DESTER Dario,2000,PM,C.S. CARABINIERI SEZ. ATLETICA,1 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/DESTER-Dario/dqiSl5akbGs%3D,https://www.fidal.it/societa/C-S--CARABINIERI-SEZ--ATLETICA/BO011
+5929.0,DESTER Dario,2000,PM,C.S. CARABINIERI SEZ. ATLETICA,10 su- 1,Belgrado,2022-03-19,https://www.fidal.it/atleta/DESTER-Dario/dqiSl5akbGs%3D,https://www.fidal.it/societa/C-S--CARABINIERI-SEZ--ATLETICA/BO011
+5777.0,NAIDON Lorenzo,1999,SM,U.S. QUERCIA TRENTINGRANA,2 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/NAIDON-Lorenzo/d6iRk5imbGY%3D,https://www.fidal.it/societa/U-S--QUERCIA-TRENTINGRANA/TN109
+5747.0,DESTER Dario,2000,PM,C.S. CARABINIERI SEZ. ATLETICA,5 su- 1,Aubiere,2022-01-30,https://www.fidal.it/atleta/DESTER-Dario/dqiSl5akbGs%3D,https://www.fidal.it/societa/C-S--CARABINIERI-SEZ--ATLETICA/BO011
+5389.0,ZANATTA Jacopo,1996,SM,SILCA ULTRALITE VITTORIO V.TO,3 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/ZANATTA-Jacopo/eKyRkpWjb2Q%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+5301.0,SION Alessandro,2002,PM,ATL.LIBERTAS UNICUSANO LIVORNO,1 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/SION-Alessandro/dK6RlZafamg%3D,https://www.fidal.it/societa/ATL-LIBERTAS-UNICUSANO-LIVORNO/LI035
+5276.0,ARRIUS Alessandro,2001,PM,ATL. O.S.A. SARONNO LIB.,2 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/ARRIUS-Alessandro/drKRkpiib2M%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+5271.0,ZANATTA Jacopo,1996,SM,SILCA ULTRALITE VITTORIO V.TO,1 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/ZANATTA-Jacopo/eKyRkpWjb2Q%3D,https://www.fidal.it/societa/SILCA-ULTRALITE-VITTORIO-V-TO/TV348
+5233.0,MODUGNO Lorenzo,2000,PM,POLISPORTIVA TRIVENETO TRIESTE,4 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+5151.0,MODUGNO Lorenzo,2000,PM,POLISPORTIVA TRIVENETO TRIESTE,3 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+5126.0,ARRIUS Alessandro,2001,PM,ATL. O.S.A. SARONNO LIB.,5 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/ARRIUS-Alessandro/drKRkpiib2M%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+5061.0,PALETTI Nicola,2001,PM,ATHLETIC CLUB 96 ALPERIA,3 su- 1,Pittsburg,2022-03-05,https://www.fidal.it/atleta/PALETTI-Nicola/iaiRk5WfaGY%3D,https://www.fidal.it/societa/ATHLETIC-CLUB-96-ALPERIA/BZ066
+5046.0,MODUGNO Lorenzo,2000,PM,POLISPORTIVA TRIVENETO TRIESTE,2 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+5043.0,CERRATO Andrea,1999,SM,A.S.D. ATL. FOSSANO '75,6 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/CERRATO-Andrea/dKyRk5uicWY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+5036.0,CERRATO Andrea,1999,SM,A.S.D. ATL. FOSSANO '75,3 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/CERRATO-Andrea/dKyRk5uicWY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+5032.0,GEROLA Marco,1999,SM,U.S. MILANESE,7 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/GEROLA-Marco/dqAAARlpuncWY%3D,https://www.fidal.it/societa/U-S--MILANESE/MI579
+4905.0,NICOLA Riccardo,1998,SM,G.S. ERMENEGILDO ZEGNA,8 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/NICOLA-Riccardo/dKAAARk5qjbWY%3D,https://www.fidal.it/societa/G-S--ERMENEGILDO-ZEGNA/VC020
+4851.0,RONZONI Simone,2000,PM,ATL. IMOLA SACMI AVIS,4 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/RONZONI-Simone/dqmRl5mla2w%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4827.0,CANDIOTTO Lorenzo,2000,PM,G.S. FIAMME ORO PADOVA,5 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/CANDIOTTO-Lorenzo/eKqRkpafbms%3D,https://www.fidal.it/societa/G-S--FIAMME-ORO-PADOVA/PD131
+4826.0,MENGHI NDIAYE Yoro,2002,PM,A.S. LA FRATELLANZA 1874,6 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/MENGHI-NDIAYE-Yoro/erORkpKobGY%3D,https://www.fidal.it/societa/A-S--LA-FRATELLANZA-1874/MO052
+4825.0,LAVINO Riccardo,2000,PM,ATLETICA BARBAS,7 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/LAVINO-Riccardo/hquRkpKibWM%3D,https://www.fidal.it/societa/ATLETICA-BARBAS/RC366
+4753.0,BARBINI Luca,1999,SM,ATL. LECCO-COLOMBO COSTRUZ.,4 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/BARBINI-Luca/iKiSmZmiaWw%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4745.0,BRINI Alberto,1992,SM,ATL. IMOLA SACMI AVIS,9 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/BRINI-Alberto/eqiRlZSmcGc%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4718.0,RONZONI Simone,2000,PM,ATL. IMOLA SACMI AVIS,10 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/RONZONI-Simone/dqmRl5mla2w%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4706.0,BANO Massimo,2002,PM,ATLETICA LIB. S.A.N.P.,5 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/BANO-Massimo/eKqRkpegaGs%3D,https://www.fidal.it/societa/ATLETICA-LIB--S-A-N-P-/PD146
+4672.0,CANDIOTTO Lorenzo,2000,PM,G.S. FIAMME ORO PADOVA,6 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/CANDIOTTO-Lorenzo/eKqRkpafbms%3D,https://www.fidal.it/societa/G-S--FIAMME-ORO-PADOVA/PD131
+4650.0,AMICI Francesco,2001,PM,LIBERTAS ATLETICA FORLI',8 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/AMICI-Francesco/eqiRlpika2U%3D,https://www.fidal.it/societa/LIBERTAS-ATLETICA-FORLI-/FC542
+4625.0,MASTRIPPOLITO Giovanni,1998,SM,S.E.F. VIRTUS EMILSIDER BO,7 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/MASTRIPPOLITO-Giovanni/eqiRlpOoa2Q%3D,https://www.fidal.it/societa/S-E-F--VIRTUS-EMILSIDER-BO/BO007
+4470.0,ORSILLO Emiliano,2002,PM,SPORT RACE S.S.D. A R.L.,9 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/ORSILLO-Emiliano/f6yRlJWhbmc%3D,https://www.fidal.it/societa/SPORT-RACE-S-S-D--A-R-L-/RM243
+4427.0,ROSSETTI Marco,1999,SM,ATL. O.S.A. SARONNO LIB.,8 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/ROSSETTI-Marco/dquRkpinbmk%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+4404.0,DOZIO Matteo,1998,SM,ATL. LECCO-COLOMBO COSTRUZ.,9 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/DOZIO-Matteo/dquRkpmnbWk%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4402.0,CORTINOVIS Daniele,2001,PM,ATL. BERGAMO 1959 ORIOCENTER,10 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/CORTINOVIS-Daniele/dqmRl5uoamg%3D,https://www.fidal.it/societa/ATL--BERGAMO-1959-ORIOCENTER/BG003
+4382.0,CORTINOVIS Daniele,2001,PM,ATL. BERGAMO 1959 ORIOCENTER,10 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/CORTINOVIS-Daniele/dqmRl5uoamg%3D,https://www.fidal.it/societa/ATL--BERGAMO-1959-ORIOCENTER/BG003
+4341.0,BARELLA Niccolo',2002,PM,ATL. O.S.A. SARONNO LIB.,11 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/BARELLA-Niccolo-/dq2RlZOibmo%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+4335.0,MARCONI Francesco,1995,SM,TREVISATLETICA,11 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/MARCONI-Francesco/eKyRkpSnamM%3D,https://www.fidal.it/societa/TREVISATLETICA/TV354
+4322.0,KASIBOVIC Amar,1999,SM,ATL.VICENTINA,11 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/KASIBOVIC-Amar/eK6RkpWfaGc%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+4207.0,ROCCO Mattia,2001,PM,ATLETICA CASTELL'ALFERO T.F.R.,12 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/ROCCO-Mattia/dKuRk5inaGU%3D,https://www.fidal.it/societa/ATLETICA-CASTELL-ALFERO-T-F-R-/AT012
+4191.0,ROCCO Mattia,2001,PM,ATLETICA CASTELL'ALFERO T.F.R.,12 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/ROCCO-Mattia/dKuRk5inaGU%3D,https://www.fidal.it/societa/ATLETICA-CASTELL-ALFERO-T-F-R-/AT012
+4173.0,LORUSSO Davide,2002,PM,G.S. AVIS BARLETTA A.S.D.,13 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/LORUSSO-Davide/hKmRkpKjb2w%3D,https://www.fidal.it/societa/G-S--AVIS-BARLETTA-A-S-D-/BA754
+4106.0,RICCARDI Mirco,2001,PM,G.S. TRILACUM,13 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/RICCARDI-Mirco/d6iRk5SoaGY%3D,https://www.fidal.it/societa/G-S--TRILACUM/TN524
+4015.0,AMICI Francesco,2001,PM,LIBERTAS ATLETICA FORLI',12 su- 1,Ancona,2022-02-27,https://www.fidal.it/atleta/AMICI-Francesco/eqiRlpika2U%3D,https://www.fidal.it/societa/LIBERTAS-ATLETICA-FORLI-/FC542
+3933.0,DALMASSO Daniele,1996,SM,SAFATLETICA PIEMONTE ASD,14 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/DALMASSO-Daniele/dK6RlZekb2w%3D,https://www.fidal.it/societa/SAFATLETICA-PIEMONTE-ASD/TO226
+3879.0,SANTINI Simone,2002,PM,SPORT RACE S.S.D. A R.L.,14 se- 1,Padova,2022-03-13,https://www.fidal.it/atleta/SANTINI-Simone/f6yRkpqoa2s%3D,https://www.fidal.it/societa/SPORT-RACE-S-S-D--A-R-L-/RM243
+3822.0,MAGGIONI Giacomo,2001,PM,ATL. LECCO-COLOMBO COSTRUZ.,15 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/MAGGIONI-Giacomo/dquRk5OgbmU%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+3803.0,SORIO Alessandro,2000,PM,ATL. INSIEME VERONA,16 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/SORIO-Alessandro/eKAAARk5OoaWg%3D,https://www.fidal.it/societa/ATL--INSIEME-VERONA/VR761
+3750.0,DOLCI Stefano,2000,PM,C.U.S. VERONA SEZ. ATLETICA,17 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/DOLCI-Stefano/eKAAARk5agbmc%3D,https://www.fidal.it/societa/C-U-S--VERONA-SEZ--ATLETICA/VR825
+3660.0,PINOTTI Giacomo,2002,PM,G.S.SELF ATL. MONTANARI GRUZZA,18 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/PINOTTI-Giacomo/erGRkpSha2g%3D,https://www.fidal.it/societa/G-S-SELF-ATL--MONTANARI-GRUZZA/RE105
+3601.0,FRAGIACOMO Jan,2000,PM,C.S.S. LEONARDO DA VINCI,19 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/FRAGIACOMO-Jan/iaiRk5Klb2s%3D,https://www.fidal.it/societa/C-S-S--LEONARDO-DA-VINCI/BZ071
+3530.0,TAMBURI Sergio giovanni,1999,SM,SAFATLETICA PIEMONTE ASD,20 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/TAMBURI-Sergio-giovanni/dKyRlZOhaWY%3D,https://www.fidal.it/societa/SAFATLETICA-PIEMONTE-ASD/TO226
+3212.0,DEMICHELIS Simone,1999,SM,A.S.D. ATL. FOSSANO '75,21 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/DEMICHELIS-Simone/dKyRk5ukbGQ%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+3196.0,BAZZANA Julian,2002,PM,C.S.S. LEONARDO DA VINCI,22 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/BAZZANA-Julian/iaiRk5WibWk%3D,https://www.fidal.it/societa/C-S-S--LEONARDO-DA-VINCI/BZ071
+3048.0,RINALDI Giovanni,2001,PM,A.S.D. ATL. FOSSANO '75,23 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/RINALDI-Giovanni/dKyRlJWha2c%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+2990.0,DALLA CORTE Matteo,2001,PM,ANA ATL.FELTRE,24 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/DALLA-CORTE-Matteo/eKmRlJWmaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+2656.0,EL FATNANE Nabil,1995,SM,ATL. RIGOLETTO,25 su- 1,Padova,2022-02-12,https://www.fidal.it/atleta/EL-FATNANE-Nabil/dq6RkpKmbGo%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+5968.0,DESTER Dario,2000,SM,C.S. CARABINIERI SEZ. ATLETICA,3 su- 1,Aubiere,2023-01-29,https://www.fidal.it/atleta/DESTER-Dario/dqiSl5akbGs%3D,https://www.fidal.it/societa/C-S--CARABINIERI-SEZ--ATLETICA/BO011
+5714.0,NAIDON Lorenzo,1999,SM,U.S. QUERCIA,1 su- 1,Ancona,2023-02-18,https://www.fidal.it/atleta/NAIDON-Lorenzo/d6iRk5imbGY%3D,https://www.fidal.it/societa/U-S--QUERCIA/TN109
+5462.0,CERRATO Andrea,1999,SM,A.S.D. ATL. FOSSANO '75,2 su- 1,Ancona,2023-02-18,https://www.fidal.it/atleta/CERRATO-Andrea/dKyRk5uicWY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+5397.0,CERRATO Andrea,1999,SM,A.S.D. ATL. FOSSANO '75,1 su- 1,Ancona,2023-01-14,https://www.fidal.it/atleta/CERRATO-Andrea/dKyRk5uicWY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+5309.0,MODUGNO Lorenzo,2000,SM,POLISPORTIVA TRIVENETO TRIESTE,3 su- 1,Ancona,2023-02-18,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+5299.0,ARRIUS Alessandro,2001,PM,ATL. O.S.A. SARONNO LIB.,1 su- 1,Padova,2023-03-11,https://www.fidal.it/atleta/ARRIUS-Alessandro/drKRkpiib2M%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+5273.0,PALETTI Nicola,2001,PM,LAGARINA CRUS TEAM,3 su- 1,Birmingham,2023-02-27,https://www.fidal.it/atleta/PALETTI-Nicola/iaiRk5WfaGY%3D,https://www.fidal.it/societa/LAGARINA-CRUS-TEAM/TN131
+5144.0,PALETTI Nicola,2001,PM,LAGARINA CRUS TEAM,4 su- 1,Albuquerque,2023-02-04,https://www.fidal.it/atleta/PALETTI-Nicola/iaiRk5WfaGY%3D,https://www.fidal.it/societa/LAGARINA-CRUS-TEAM/TN131
+5137.0,ZANDARCO Simon,1998,SM,ASV S.V. LANA - RAIKA,4 su- 1,Ancona,2023-02-18,https://www.fidal.it/atleta/ZANDARCO-Simon/iaiRk5Oga2k%3D,https://www.fidal.it/societa/ASV-S-V--LANA-RAIKA/BZ011
+5071.0,MENGHI NDIAYE Yoro,2002,PM,A.S. LA FRATELLANZA 1874,2 su- 1,Padova,2023-03-11,https://www.fidal.it/atleta/MENGHI-NDIAYE-Yoro/erORkpKobGY%3D,https://www.fidal.it/societa/A-S--LA-FRATELLANZA-1874/MO052
+4968.0,CANDIOTTO Lorenzo,2000,SM,G.S. FIAMME ORO PADOVA,5 su- 1,Ancona,2023-02-18,https://www.fidal.it/atleta/CANDIOTTO-Lorenzo/eKqRkpafbms%3D,https://www.fidal.it/societa/G-S--FIAMME-ORO-PADOVA/PD131
+4803.0,LORUSSO Davide,2002,PM,G.S. AVIS BARLETTA A.S.D.,3 su- 1,Padova,2023-03-11,https://www.fidal.it/atleta/LORUSSO-Davide/hKmRkpKjb2w%3D,https://www.fidal.it/societa/G-S--AVIS-BARLETTA-A-S-D-/BA754
+4779.0,MENGHI NDIAYE Yoro,2002,PM,A.S. LA FRATELLANZA 1874,1 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/MENGHI-NDIAYE-Yoro/erORkpKobGY%3D,https://www.fidal.it/societa/A-S--LA-FRATELLANZA-1874/MO052
+4754.0,BANO Massimo,2002,PM,ATLETICA LIB. S.A.N.P.,4 su- 1,Padova,2023-03-11,https://www.fidal.it/atleta/BANO-Massimo/eKqRkpegaGs%3D,https://www.fidal.it/societa/ATLETICA-LIB--S-A-N-P-/PD146
+4683.0,LAVINO Riccardo,2000,SM,ATLETICA BARBAS,2 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/LAVINO-Riccardo/hquRkpKibWM%3D,https://www.fidal.it/societa/ATLETICA-BARBAS/RC366
+4675.0,BANO Massimo,2002,PM,ATLETICA LIB. S.A.N.P.,3 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/BANO-Massimo/eKqRkpegaGs%3D,https://www.fidal.it/societa/ATLETICA-LIB--S-A-N-P-/PD146
+4657.0,LAVINO Riccardo,2000,SM,ATLETICA BARBAS,6 su- 1,Ancona,2023-02-18,https://www.fidal.it/atleta/LAVINO-Riccardo/hquRkpKibWM%3D,https://www.fidal.it/societa/ATLETICA-BARBAS/RC366
+4656.0,DEMICHELIS Simone,1999,SM,A.S.D. ATL. FOSSANO '75,2 su- 1,Ancona,2023-01-14,https://www.fidal.it/atleta/DEMICHELIS-Simone/dKyRk5ukbGQ%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4552.0,BARELLA Niccolo',2002,PM,ATL. O.S.A. SARONNO LIB.,5 su- 1,Padova,2023-03-11,https://www.fidal.it/atleta/BARELLA-Niccolo-/dq2RlZOibmo%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+4505.0,BAZZA Leonardo,2003,PM,ATL. O.S.A. SARONNO LIB.,6 su- 1,Padova,2023-03-11,https://www.fidal.it/atleta/BAZZA-Leonardo/drKRk5Kfa2M%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+4470.0,PIRCHER David,2003,PM,ASV S.V. LANA - RAIKA,7 su- 1,Padova,2023-03-11,https://www.fidal.it/atleta/PIRCHER-David/iaiRk5WobGo%3D,https://www.fidal.it/societa/ASV-S-V--LANA-RAIKA/BZ011
+4379.0,MARCONI Francesco,1995,SM,TREVISATLETICA,4 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/MARCONI-Francesco/eKyRkpSnamM%3D,https://www.fidal.it/societa/TREVISATLETICA/TV354
+4379.0,ANGELI Christian,2002,PM,ATL.  VALLI DI NON E SOLE,8 su- 1,Padova,2023-03-11,https://www.fidal.it/atleta/ANGELI-Christian/d6iRk5ejamc%3D,https://www.fidal.it/societa/ATL--VALLI-DI-NON-E-SOLE/TN102
+4286.0,ANGELI Christian,2002,PM,ATL.  VALLI DI NON E SOLE,5 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/ANGELI-Christian/d6iRk5ejamc%3D,https://www.fidal.it/societa/ATL--VALLI-DI-NON-E-SOLE/TN102
+4283.0,RONZONI Simone,2000,SM,ATL. IMOLA SACMI AVIS,7 su- 1,Ancona,2023-02-18,https://www.fidal.it/atleta/RONZONI-Simone/dqmRl5mla2w%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4236.0,LETTIERI Luigi,2001,PM,A.S.D. ATL. AGROPOLI,6 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/LETTIERI-Luigi/gKyRkpmgamw%3D,https://www.fidal.it/societa/A-S-D--ATL--AGROPOLI/SA128
+4023.0,DOLCI Stefano,2000,SM,C.U.S. VERONA SEZ. ATLETICA,7 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/DOLCI-Stefano/eKAAARk5agbmc%3D,https://www.fidal.it/societa/C-U-S--VERONA-SEZ--ATLETICA/VR825
+4017.0,FRAGIACOMO Jan,2000,SM,C.S.S. LEONARDO DA VINCI,8 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/FRAGIACOMO-Jan/iaiRk5Klb2s%3D,https://www.fidal.it/societa/C-S-S--LEONARDO-DA-VINCI/BZ071
+4017.0,MAZZANTI Andrea,1993,SM,ATL. IMOLA SACMI AVIS,9 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/MAZZANTI-Andrea/eqiRlpKncWY%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4016.0,BINI Lorenzo,2002,PM,TOSCANA ATLETICA JOLLY,3 su- 1,Ancona,2023-01-14,https://www.fidal.it/atleta/BINI-Lorenzo/faqRkpOgbWY%3D,https://www.fidal.it/societa/TOSCANA-ATLETICA-JOLLY/FI018
+4006.0,PERUCH Filippo,2003,PM,VITTORIO ATLETICA,10 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/PERUCH-Filippo/eKyRkpufa2w%3D,https://www.fidal.it/societa/VITTORIO-ATLETICA/TV409
+3781.0,BLASEVICH Eugenio,2005,JM,ATL. RIGOLETTO,11 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/BLASEVICH-Eugenio/dq6RkpSna2U%3D,https://www.fidal.it/societa/ATL--RIGOLETTO/MN406
+3705.0,DE MARCHI Davide,2003,PM,ATL.VICENTINA,12 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/DE-MARCHI-Davide/eK6Rk5OmbGQ%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+3549.0,FIORINI Federico,1988,SM35,ATL.VICENTINA,13 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/FIORINI-Federico/eKiRlJWoa2Q%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+3544.0,MUSAZZI Riccardo,1995,SM,ATLETICA P.A.R. CANEGRATE,12 su- 1,Aubiere,2023-12-10,https://www.fidal.it/atleta/MUSAZZI-Riccardo/dq2Rk5amamk%3D,https://www.fidal.it/societa/ATLETICA-P-A-R--CANEGRATE/MI161
+3481.0,MINNOZZI Lorenzo,1992,SM,SSD NISSOLINO SPORT SRL ASU,4 su- 1,Ancona,2023-01-14,https://www.fidal.it/atleta/MINNOZZI-Lorenzo/f6uRkpKfbWQ%3D,https://www.fidal.it/societa/SSD-NISSOLINO-SPORT-SRL-ASU/RM363
+3065.0,BAZZANA Julian,2002,PM,C.S.S. LEONARDO DA VINCI,14 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/BAZZANA-Julian/iaiRk5WibWk%3D,https://www.fidal.it/societa/C-S-S--LEONARDO-DA-VINCI/BZ071
+2882.0,CECCONATO Filippo,2006,AM,ASD NISSOLINO INTESATLETICA,5 su- 1,Ancona,2023-01-14,https://www.fidal.it/atleta/CECCONATO-Filippo/f6qRkpekcWc%3D,https://www.fidal.it/societa/ASD-NISSOLINO-INTESATLETICA/LT260
+1986.0,VERZE' Stefano,1993,SM,C.U.S. VERONA SEZ. ATLETICA,15 su- 1,Padova,2023-02-11,https://www.fidal.it/atleta/VERZE-Stefano/eKAAARk5unbWk%3D,https://www.fidal.it/societa/C-U-S--VERONA-SEZ--ATLETICA/VR825
+1296.0,IAZZETTA Roberto,1990,SM,SSD NISSOLINO SPORT SRL ASU,7 su- 1,Ancona,2023-01-14,https://www.fidal.it/atleta/IAZZETTA-Roberto/f6iRmJeoamM%3D,https://www.fidal.it/societa/SSD-NISSOLINO-SPORT-SRL-ASU/RM363
+5873.0,DESTER Dario,2000,SM,C.S. CARABINIERI SEZ. ATLETICA,7 su- 1,Aubiere,2024-01-28,https://www.fidal.it/atleta/DESTER-Dario/dqiSl5akbGs%3D,https://www.fidal.it/societa/C-S--CARABINIERI-SEZ--ATLETICA/BO011
+5806.0,NAIDON Lorenzo,1999,SM,G.A. FIAMME GIALLE,9 su- 1,Aubiere,2024-01-28,https://www.fidal.it/atleta/NAIDON-Lorenzo/d6iRk5imbGY%3D,https://www.fidal.it/societa/G-A--FIAMME-GIALLE/RM056
+5506.0,CERRATO Andrea,1999,SM,A.S.D. ATL. FOSSANO '75,1 su- 1,Ancona,2024-01-13,https://www.fidal.it/atleta/CERRATO-Andrea/dKyRk5uicWY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+5449.0,MODUGNO Lorenzo,2000,SM,POLISPORTIVA TRIVENETO TRIESTE,1 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+5437.0,PALETTI Nicola,2001,SM,LAGARINA CRUS TEAM,2 su- 1,Spokane,2024-02-02,https://www.fidal.it/atleta/PALETTI-Nicola/iaiRk5WfaGY%3D,https://www.fidal.it/societa/LAGARINA-CRUS-TEAM/TN131
+5413.0,MODUGNO Lorenzo,2000,SM,POLISPORTIVA TRIVENETO TRIESTE,1 su- 1,Ancona,2024-02-17,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+5353.0,PALETTI Nicola,2001,SM,LAGARINA CRUS TEAM,1 su- 1,Spokane,2024-02-23,https://www.fidal.it/atleta/PALETTI-Nicola/iaiRk5WfaGY%3D,https://www.fidal.it/societa/LAGARINA-CRUS-TEAM/TN131
+5277.0,BRINI Michele,1998,SM,ATL. IMOLA SACMI AVIS,2 su- 1,Ancona,2024-02-17,https://www.fidal.it/atleta/BRINI-Michele/eqiRlpKicGw%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+5219.0,CAIANI Andrea,2003,PM,TEAM-A LOMBARDIA,1 su- 1,Padova,2024-03-02,https://www.fidal.it/atleta/CAIANI-Andrea/dq2RlJmka2s%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+5210.0,ZANDARCO Simon,1998,SM,S.V. LANA - RAIKA ASV,3 su- 1,Ancona,2024-02-17,https://www.fidal.it/atleta/ZANDARCO-Simon/iaiRk5Oga2k%3D,https://www.fidal.it/societa/S-V--LANA-RAIKA-ASV/BZ011
+5169.0,MELLANO Lorenzo,2004,PM,A.S.D. ATL. FOSSANO '75,2 su- 1,Padova,2024-03-02,https://www.fidal.it/atleta/MELLANO-Lorenzo/dKyRlJigbGY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+5056.0,MENGHI NDIAYE Yoro,2002,PM,ASD LA FRATELLANZA 1874,3 su- 1,Padova,2024-03-02,https://www.fidal.it/atleta/MENGHI-NDIAYE-Yoro/erORkpKobGY%3D,https://www.fidal.it/societa/ASD-LA-FRATELLANZA-1874/MO052
+5052.0,CANDIOTTO Lorenzo,2000,SM,G.S. FIAMME ORO PADOVA,2 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/CANDIOTTO-Lorenzo/eKqRkpafbms%3D,https://www.fidal.it/societa/G-S--FIAMME-ORO-PADOVA/PD131
+5034.0,CERRATO Andrea,1999,SM,A.S.D. ATL. FOSSANO '75,4 su- 1,Ancona,2024-02-17,https://www.fidal.it/atleta/CERRATO-Andrea/dKyRk5uicWY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4902.0,FUSARO Nicolo',1999,SM,ATHLETIC CLUB 96 ALPERIA,3 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/FUSARO-Nicolo-/iaiRk5KhaWQ%3D,https://www.fidal.it/societa/ATHLETIC-CLUB-96-ALPERIA/BZ066
+4888.0,MENGHI NDIAYE Yoro,2002,PM,ASD LA FRATELLANZA 1874,5 su- 1,Ancona,2024-02-17,https://www.fidal.it/atleta/MENGHI-NDIAYE-Yoro/erORkpKobGY%3D,https://www.fidal.it/societa/ASD-LA-FRATELLANZA-1874/MO052
+4839.0,BOVO Federico,2003,PM,ASD ATLETICA BIOTEKNA,5 su- 1,Birmingham,2024-01-19,https://www.fidal.it/atleta/BOVO-Federico/eKqRkpeoamc%3D,https://www.fidal.it/societa/ASD-ATLETICA-BIOTEKNA/VE471
+4805.0,NICOLA Riccardo,1998,SM,G.S. ERMENEGILDO ZEGNA,6 su- 1,Ancona,2024-02-17,https://www.fidal.it/atleta/NICOLA-Riccardo/dKAAARk5qjbWY%3D,https://www.fidal.it/societa/G-S--ERMENEGILDO-ZEGNA/VC020
+4795.0,BANO Massimo,2002,PM,ATLETICA LIB. S.A.N.P.,4 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/BANO-Massimo/eKqRkpegaGs%3D,https://www.fidal.it/societa/ATLETICA-LIB--S-A-N-P-/PD146
+4775.0,BANO Massimo,2002,PM,ATLETICA LIB. S.A.N.P.,4 su- 1,Padova,2024-03-02,https://www.fidal.it/atleta/BANO-Massimo/eKqRkpegaGs%3D,https://www.fidal.it/societa/ATLETICA-LIB--S-A-N-P-/PD146
+4767.0,DEMICHELIS Simone,1999,SM,A.S.D. ATL. FOSSANO '75,2 su- 1,Ancona,2024-01-13,https://www.fidal.it/atleta/DEMICHELIS-Simone/dKyRk5ukbGQ%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4754.0,MENGHI NDIAYE Yoro,2002,PM,ASD LA FRATELLANZA 1874,5 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/MENGHI-NDIAYE-Yoro/erORkpKobGY%3D,https://www.fidal.it/societa/ASD-LA-FRATELLANZA-1874/MO052
+4717.0,FRAGIACOMO Jan,2000,SM,LAGARINA CRUS TEAM,7 su- 1,Ancona,2024-02-17,https://www.fidal.it/atleta/FRAGIACOMO-Jan/iaiRk5Klb2s%3D,https://www.fidal.it/societa/LAGARINA-CRUS-TEAM/TN131
+4669.0,FRAGIACOMO Jan,2000,SM,LAGARINA CRUS TEAM,6 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/FRAGIACOMO-Jan/iaiRk5Klb2s%3D,https://www.fidal.it/societa/LAGARINA-CRUS-TEAM/TN131
+4611.0,DEL PEZZO Ruben,2004,PM,A.S.D. ATL. AGROPOLI,5 su- 1,Padova,2024-03-02,https://www.fidal.it/atleta/DEL-PEZZO-Ruben/gK2RkpWjamc%3D,https://www.fidal.it/societa/A-S-D--ATL--AGROPOLI/SA128
+4573.0,BAZZA Leonardo,2003,PM,ATL. O.S.A. SARONNO LIB.,6 su- 1,Padova,2024-03-02,https://www.fidal.it/atleta/BAZZA-Leonardo/drKRk5Kfa2M%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+4570.0,MENGHI NDIAYE Yoro,2002,PM,ASD LA FRATELLANZA 1874,3 su- 1,Ancona,2024-01-13,https://www.fidal.it/atleta/MENGHI-NDIAYE-Yoro/erORkpKobGY%3D,https://www.fidal.it/societa/ASD-LA-FRATELLANZA-1874/MO052
+4551.0,PANCALDI Emanuele,2004,PM,A.S.D. PONTEVECCHIO BOLOGNA,4 su- 1,Ancona,2024-01-13,https://www.fidal.it/atleta/PANCALDI-Emanuele/eqmRkpWoamU%3D,https://www.fidal.it/societa/A-S-D--PONTEVECCHIO-BOLOGNA/BO506
+4536.0,IRRERA Lorenzo,1998,SM,ASD ACSI ATLETICA CAMPIDOGLIO,5 su- 1,Ancona,2024-01-13,https://www.fidal.it/atleta/IRRERA-Lorenzo/f6uRkpKiaGU%3D,https://www.fidal.it/societa/ASD-ACSI-ATLETICA-CAMPIDOGLIO/RM046
+4396.0,VICERE' Vincenzo,2004,PM,LIBERTAS AMATORI ATLETICA LEGG,7 su- 1,Padova,2024-03-02,https://www.fidal.it/atleta/VICERE-Vincenzo/gKqRkpOjbmg%3D,https://www.fidal.it/societa/LIBERTAS-AMATORI-ATLETICA-LEGG/BN800
+4390.0,MAZZANTI Andrea,1993,SM,ATL. IMOLA SACMI AVIS,7 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/MAZZANTI-Andrea/eqiRlpKncWY%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4339.0,QUAGLIA Francesco,1995,SM,A.S.D. ATL. FOSSANO '75,8 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/QUAGLIA-Francesco/dKyRlJejbWM%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4309.0,CINCO Luca,2004,PM,ATL. O.S.A. SARONNO LIB.,8 su- 1,Padova,2024-03-02,https://www.fidal.it/atleta/CINCO-Luca/drKRkpqgamw%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+4292.0,ROMANO Michele,1995,SM,ATL. VIRTUS CASTENEDOLO,7 su- 1,Ulm,2024-03-03,https://www.fidal.it/atleta/ROMANO-Michele/dqqRl5SobmY%3D,https://www.fidal.it/societa/ATL--VIRTUS-CASTENEDOLO/BS575
+4282.0,MARCONI Francesco,1995,SM,TREVISATLETICA,9 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/MARCONI-Francesco/eKyRkpSnamM%3D,https://www.fidal.it/societa/TREVISATLETICA/TV354
+4212.0,ANGELI Christian,2002,PM,ATL.  VALLI DI NON E SOLE,9 su- 1,Padova,2024-03-02,https://www.fidal.it/atleta/ANGELI-Christian/d6iRk5ejamc%3D,https://www.fidal.it/societa/ATL--VALLI-DI-NON-E-SOLE/TN102
+4153.0,BOVO Federico,2003,PM,ASD ATLETICA BIOTEKNA,8 su- 1,Birmingham,2024-02-20,https://www.fidal.it/atleta/BOVO-Federico/eKqRkpeoamc%3D,https://www.fidal.it/societa/ASD-ATLETICA-BIOTEKNA/VE471
+3929.0,PEGORARO Giacomo,2004,PM,ATL.VICENTINA,10 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/PEGORARO-Giacomo/eK6RkpujcWw%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+3879.0,RIBERI Alberto,1999,SM,A.S.D. ATL. FOSSANO '75,11 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/RIBERI-Alberto/dKyRk5ulamY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+3814.0,RIBERI Alberto,1999,SM,A.S.D. ATL. FOSSANO '75,6 su- 1,Ancona,2024-01-13,https://www.fidal.it/atleta/RIBERI-Alberto/dKyRk5ulamY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+3803.0,ZOZZI Giacomo,2004,PM,EDERA ATL. FORLI,7 su- 1,Ancona,2024-01-13,https://www.fidal.it/atleta/ZOZZI-Giacomo/equRkpWfbmw%3D,https://www.fidal.it/societa/EDERA-ATL--FORLI/FC038
+3764.0,MORIGI Lorenzo,2000,SM,A.S.D. PONTEVECCHIO BOLOGNA,8 su- 1,Ancona,2024-01-13,https://www.fidal.it/atleta/MORIGI-Lorenzo/equRkpKfb2g%3D,https://www.fidal.it/societa/A-S-D--PONTEVECCHIO-BOLOGNA/BO506
+3217.0,DALLA CORTE Matteo,2001,SM,ANA ATL.FELTRE,12 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/DALLA-CORTE-Matteo/eKmRlJWmaWo%3D,https://www.fidal.it/societa/ANA-ATL-FELTRE/BL012
+2705.0,MATTONE Andrea,1995,SM,TEAM ATLETICO-MERCURIO NOVARA,13 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/MATTONE-Andrea/dK2RlJKjamw%3D,https://www.fidal.it/societa/TEAM-ATLETICO-MERCURIO-NOVARA/NO020
+2435.0,VERZE' Stefano,1993,SM,C.U.S. VERONA SEZ. ATLETICA,14 su- 1,Padova,2024-02-03,https://www.fidal.it/atleta/VERZE-Stefano/eKAAARk5unbWk%3D,https://www.fidal.it/societa/C-U-S--VERONA-SEZ--ATLETICA/VR825
+5500.0,CERRATO Andrea,1999,SM,A.S.D. ATL. FOSSANO '75,1 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/CERRATO-Andrea/dKyRk5uicWY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+5457.0,BELLANOVA Emanuele francesco,2004,PM,ASD FUTURATLETICA PIEMONTE,6 su- 1,College Station,2025-02-28,https://www.fidal.it/atleta/BELLANOVA-Emanuele-francesco/dKAAARlJOobWc%3D,https://www.fidal.it/societa/ASD-FUTURATLETICA-PIEMONTE/VC073
+5393.0,BOVO Federico,2003,PM,ASD ATLETICA BIOTEKNA,3 su- 1,Houston,2025-02-01,https://www.fidal.it/atleta/BOVO-Federico/eKqRkpeoamc%3D,https://www.fidal.it/societa/ASD-ATLETICA-BIOTEKNA/VE471
+5374.0,NONINO Alberto,2004,PM,ATLETICA MALIGNANI LIBERTAS UD,2 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/NONINO-Alberto/eayRk5alamo%3D,https://www.fidal.it/societa/ATLETICA-MALIGNANI-LIBERTAS-UD/UD030
+5294.0,CAIANI Andrea,2003,PM,TEAM-A LOMBARDIA,3 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/CAIANI-Andrea/dq2RlJmka2s%3D,https://www.fidal.it/societa/TEAM-A-LOMBARDIA/MI774
+5291.0,MODUGNO Lorenzo,2000,SM,POLISPORTIVA TRIVENETO TRIESTE,4 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/MODUGNO-Lorenzo/eauRkpuha2g%3D,https://www.fidal.it/societa/POLISPORTIVA-TRIVENETO-TRIESTE/TS099
+5157.0,FRANZE' Tommaso,2005,PM,ATLETICA P.A.R. CANEGRATE,12 su- 1,Lubbock,2025-03-01,https://www.fidal.it/atleta/FRANZE-Tommaso/dq2RmJijb2o%3D,https://www.fidal.it/societa/ATLETICA-P-A-R--CANEGRATE/MI161
+5041.0,CARUGATI Alessandro,2004,PM,ATL. O.S.A. SARONNO LIB.,5 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/CARUGATI-Alessandro/drKRk5WiaGU%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+5022.0,CANDIOTTO Lorenzo,2000,SM,ATL.LIBERTAS UNICUSANO LIVORNO,1 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/CANDIOTTO-Lorenzo/eKqRkpafbms%3D,https://www.fidal.it/societa/ATL-LIBERTAS-UNICUSANO-LIVORNO/LI035
+4999.0,COMEL Alessio,1997,SM,CUS INSUBRIA VARESE COMO,6 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/COMEL-Alessio/dquRkpmja2k%3D,https://www.fidal.it/societa/CUS-INSUBRIA-VARESE-COMO/VA123
+4951.0,NICOLA Riccardo,1998,SM,G.S. ERMENEGILDO ZEGNA,7 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/NICOLA-Riccardo/dKAAARk5qjbWY%3D,https://www.fidal.it/societa/G-S--ERMENEGILDO-ZEGNA/VC020
+4865.0,DEMICHELIS Simone,1999,SM,A.S.D. ATL. FOSSANO '75,8 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/DEMICHELIS-Simone/dKyRk5ukbGQ%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4857.0,LAVINO Riccardo,2000,SM,ATLETICA BARBAS,9 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/LAVINO-Riccardo/hquRkpKibWM%3D,https://www.fidal.it/societa/ATLETICA-BARBAS/RC366
+4840.0,COMEL Alessio,1997,SM,CUS INSUBRIA VARESE COMO,2 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/COMEL-Alessio/dquRkpmja2k%3D,https://www.fidal.it/societa/CUS-INSUBRIA-VARESE-COMO/VA123
+4802.0,BANO Massimo,2002,SM,ATLETICA LIB. S.A.N.P.,3 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/BANO-Massimo/eKqRkpegaGs%3D,https://www.fidal.it/societa/ATLETICA-LIB--S-A-N-P-/PD146
+4787.0,MATTOLINI Francesco,2005,PM,ATLETICA LIVORNO,10 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/MATTOLINI-Francesco/fayRkpiia2M%3D,https://www.fidal.it/societa/ATLETICA-LIVORNO/LI036
+4774.0,BANO Massimo,2002,SM,ATLETICA LIB. S.A.N.P.,11 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/BANO-Massimo/eKqRkpegaGs%3D,https://www.fidal.it/societa/ATLETICA-LIB--S-A-N-P-/PD146
+4728.0,DEL PEZZO Ruben,2004,PM,A.S.D. ATL. AGROPOLI,1 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/DEL-PEZZO-Ruben/gK2RkpWjamc%3D,https://www.fidal.it/societa/A-S-D--ATL--AGROPOLI/SA128
+4718.0,PANCALDI Emanuele,2004,PM,A.S.D. PONTEVECCHIO BOLOGNA,12 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/PANCALDI-Emanuele/eqmRkpWoamU%3D,https://www.fidal.it/societa/A-S-D--PONTEVECCHIO-BOLOGNA/BO506
+4697.0,PANCALDI Emanuele,2004,PM,A.S.D. PONTEVECCHIO BOLOGNA,2 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/PANCALDI-Emanuele/eqmRkpWoamU%3D,https://www.fidal.it/societa/A-S-D--PONTEVECCHIO-BOLOGNA/BO506
+4696.0,FRAGIACOMO Jan,2000,SM,LAGARINA CRUS TEAM,13 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/FRAGIACOMO-Jan/iaiRk5Klb2s%3D,https://www.fidal.it/societa/LAGARINA-CRUS-TEAM/TN131
+4685.0,QUAGLIA Francesco,1995,SM,A.S.D. ATL. FOSSANO '75,3 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/QUAGLIA-Francesco/dKyRlJejbWM%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4685.0,DEMICHELIS Simone,1999,SM,A.S.D. ATL. FOSSANO '75,4 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/DEMICHELIS-Simone/dKyRk5ukbGQ%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4642.0,DOZIO Matteo,1998,SM,ATL. LECCO-COLOMBO COSTRUZ.,5 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/DOZIO-Matteo/dquRkpmnbWk%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4613.0,DEL PEZZO Ruben,2004,PM,A.S.D. ATL. AGROPOLI,14 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/DEL-PEZZO-Ruben/gK2RkpWjamc%3D,https://www.fidal.it/societa/A-S-D--ATL--AGROPOLI/SA128
+4591.0,BARELLA Niccolo',2002,SM,ATL. O.S.A. SARONNO LIB.,6 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/BARELLA-Niccolo-/dq2RlZOibmo%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+4543.0,FRAGIACOMO Jan,2000,SM,LAGARINA CRUS TEAM,4 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/FRAGIACOMO-Jan/iaiRk5Klb2s%3D,https://www.fidal.it/societa/LAGARINA-CRUS-TEAM/TN131
+4527.0,CALOI Damiano,2000,SM,C.U.S. VERONA SEZ. ATLETICA,5 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/CALOI-Damiano/eKAAARkpima2Y%3D,https://www.fidal.it/societa/C-U-S--VERONA-SEZ--ATLETICA/VR825
+4393.0,BOVO Federico,2003,PM,ASD ATLETICA BIOTEKNA,8 su- 1,Birmingham,2025-02-25,https://www.fidal.it/atleta/BOVO-Federico/eKqRkpeoamc%3D,https://www.fidal.it/societa/ASD-ATLETICA-BIOTEKNA/VE471
+4366.0,ATCHORI ESSOH Alexi,1993,SM,ASD ATLETICA BIOTEKNA,6 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/ATCHORI-ESSOH-Alexi/dqqRl5mjams%3D,https://www.fidal.it/societa/ASD-ATLETICA-BIOTEKNA/VE471
+4326.0,KASIBOVIC Amar,1999,SM,ATL.VICENTINA,7 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/KASIBOVIC-Amar/eK6RkpWfaGc%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+4319.0,BELVISI Andrea,2005,PM,SSD NISSOLINO SPORT SRL ASU,7 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/BELVISI-Andrea/f6qRkpaicWc%3D,https://www.fidal.it/societa/SSD-NISSOLINO-SPORT-SRL-ASU/RM363
+4255.0,BELVISI Andrea,2005,PM,SSD NISSOLINO SPORT SRL ASU,15 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/BELVISI-Andrea/f6qRkpaicWc%3D,https://www.fidal.it/societa/SSD-NISSOLINO-SPORT-SRL-ASU/RM363
+4239.0,RIBERI Alberto,1999,SM,A.S.D. ATL. FOSSANO '75,8 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/RIBERI-Alberto/dKyRk5ulamY%3D,https://www.fidal.it/societa/A-S-D--ATL--FOSSANO-75/CN001
+4205.0,CARUGATI Alessandro,2004,PM,ATL. O.S.A. SARONNO LIB.,9 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/CARUGATI-Alessandro/drKRk5WiaGU%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+4138.0,MAZZANTI Andrea,1993,SM,ATL. IMOLA SACMI AVIS,8 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/MAZZANTI-Andrea/eqiRlpKncWY%3D,https://www.fidal.it/societa/ATL--IMOLA-SACMI-AVIS/BO014
+4124.0,MENGHI NDIAYE Yoro,2002,SM,ASD LA FRATELLANZA 1874,16 su- 1,Padova,2025-02-15,https://www.fidal.it/atleta/MENGHI-NDIAYE-Yoro/erORkpKobGY%3D,https://www.fidal.it/societa/ASD-LA-FRATELLANZA-1874/MO052
+4111.0,MAGGIONI Giacomo,2001,SM,ATL. LECCO-COLOMBO COSTRUZ.,10 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/MAGGIONI-Giacomo/dquRk5OgbmU%3D,https://www.fidal.it/societa/ATL--LECCO-COLOMBO-COSTRUZ-/CO208
+4107.0,DE MAIO Andrea,2004,PM,PROSPORT ATL. FIRENZE,9 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/DE-MAIO-Andrea/fbKRkpOlbms%3D,https://www.fidal.it/societa/PROSPORT-ATL--FIRENZE/FI009
+4105.0,GATTI Gioele,2001,SM,ATL. O.S.A. SARONNO LIB.,11 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/GATTI-Gioele/dquRkpqobmk%3D,https://www.fidal.it/societa/ATL--O-S-A--SARONNO-LIB-/VA119
+4080.0,CAMPONOGARA Elia,2000,SM,C.U.S. VERONA SEZ. ATLETICA,10 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/CAMPONOGARA-Elia/eKAAARlJOma2o%3D,https://www.fidal.it/societa/C-U-S--VERONA-SEZ--ATLETICA/VR825
+3723.0,GHION Alessandro,1998,SM,NISSOLINO INTESATLETICA LATINA,12 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/GHION-Alessandro/f6qRkpSgcGo%3D,https://www.fidal.it/societa/NISSOLINO-INTESATLETICA-LATINA/LT275
+3704.0,MORIGI Lorenzo,2000,SM,A.S.D. PONTEVECCHIO BOLOGNA,11 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/MORIGI-Lorenzo/equRkpKfb2g%3D,https://www.fidal.it/societa/A-S-D--PONTEVECCHIO-BOLOGNA/BO506
+3620.0,DE MARCHI Davide,2003,PM,ATL.VICENTINA,12 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/DE-MARCHI-Davide/eK6Rk5OmbGQ%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+3602.0,RINALDO Matteo,2002,SM,ATL.LONGARONE SINTECO,13 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/RINALDO-Matteo/eKmRlJambWQ%3D,https://www.fidal.it/societa/ATL-LONGARONE-SINTECO/BL001
+3582.0,MONNI Emanuele,2005,PM,ATLETICA IL COLLE ASD,13 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/MONNI-Emanuele/fqmRkpWmamw%3D,https://www.fidal.it/societa/ATLETICA-IL-COLLE-ASD/PG079
+3533.0,FINCO Andrea,2003,PM,ATL.VICENTINA,14 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/FINCO-Andrea/eK6Rkpmibmo%3D,https://www.fidal.it/societa/ATL-VICENTINA/VI626
+3477.0,CORONA Lorenzo,1999,SM,ATL.LONGARONE SINTECO,15 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/CORONA-Lorenzo/eKmRlJWhcWc%3D,https://www.fidal.it/societa/ATL-LONGARONE-SINTECO/BL001
+3191.0,ZAMBETTI Michele,2003,PM,SPORTING CLUB ALZANO,16 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/ZAMBETTI-Michele/dqmRmJSnamw%3D,https://www.fidal.it/societa/SPORTING-CLUB-ALZANO/BG371
+3184.0,MORIGI Lorenzo,2000,SM,A.S.D. PONTEVECCHIO BOLOGNA,14 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/MORIGI-Lorenzo/equRkpKfb2g%3D,https://www.fidal.it/societa/A-S-D--PONTEVECCHIO-BOLOGNA/BO506
+2938.0,SERENI LUCARELLI Federico,2005,PM,ATLETICA IL COLLE ASD,15 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/SERENI-LUCARELLI-Federico/fqmRkpWhcGQ%3D,https://www.fidal.it/societa/ATLETICA-IL-COLLE-ASD/PG079
+2837.0,FUMAGALLI Cesare,2005,PM,G.S. VIRTUS CALCO,17 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/FUMAGALLI-Cesare/dquRlJSoa2s%3D,https://www.fidal.it/societa/G-S--VIRTUS-CALCO/CO294
+2828.0,MATTONE Andrea,1995,SM,ASD FUTURATLETICA PIEMONTE,18 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/MATTONE-Andrea/dK2RlJKjamw%3D,https://www.fidal.it/societa/ASD-FUTURATLETICA-PIEMONTE/VC073
+2714.0,FUMAGALLI Cesare,2005,PM,G.S. VIRTUS CALCO,16 su- 1,Ancona,2025-01-25,https://www.fidal.it/atleta/FUMAGALLI-Cesare/dquRlJSoa2s%3D,https://www.fidal.it/societa/G-S--VIRTUS-CALCO/CO294
+2212.0,VERZE' Stefano,1993,SM,C.U.S. VERONA SEZ. ATLETICA,19 su- 1,Padova,2025-02-01,https://www.fidal.it/atleta/VERZE-Stefano/eKAAARk5unbWk%3D,https://www.fidal.it/societa/C-U-S--VERONA-SEZ--ATLETICA/VR825
