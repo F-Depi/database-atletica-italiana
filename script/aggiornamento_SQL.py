@@ -42,7 +42,7 @@ def get_file_database(ambiente, gara) -> pd.DataFrame | None:
         return None
 
 
-    col_dtype = json.load(open('data/colonne_dtype.json'))
+    col_dtype = json.load(open('script/colonne_dtype.json'))
     df = pd.read_csv(filename, dtype=col_dtype)
 
     return df
@@ -97,6 +97,11 @@ def create_tables():
         conn.close()
 
 
+# Importa i dati dai csv al database postgreSQL di cui è salvata la
+# configurazione in config.py.
+# update=False sovraiscrive tutto
+# update=True cancella dal database SQL i dati dell'anno in corso e copia li
+# riscrive copiandoli dal csv
 def import_data(update=False):
     # Create SQLAlchemy engine
     engine = create_engine(get_sqlalchemy_connection_string())
@@ -113,7 +118,7 @@ def import_data(update=False):
     
     # Load disciplines
     with open(os.path.join(os.path.dirname(os.path.dirname(__file__)), 
-              'data', 'dizionario_gare.json')) as f:
+              'script', 'dizionario_gare.json')) as f:
         disciplines = json.load(f)
     
     try:
