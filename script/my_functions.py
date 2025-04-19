@@ -7,12 +7,16 @@ import re
 import os
 
 
-## Scarica una pagina e mette i dati in un DataFrame del tipo 'tempo', 'vento', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società'
+## Scarica una pagina e mette i dati in un DataFrame del tipo
+## 'tempo', 'vento', 'atleta', 'anno', 'categoria', 'società',
+## 'posizione', 'luogo', 'data', 'link_atleta', 'link_società'
 def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, naz, limite, societa, f_log):
     
     cat = cat[0] + sesso + cat[1:]
 
-    url_FIDAL = 'https://www.fidal.it/graduatorie.php?anno='+anno+'&tipo_attivita='+ambiente+'&sesso='+sesso+'&categoria='+cat+'&gara='+gara+'&tipologia_estrazione='+tip_estr+'&vento='+vento+'&regione='+regione+'&nazionalita='+naz+'&limite='+limite+'&societa='+societa+'&submit=Invia'
+    url_FIDAL = (f'https://www.fidal.it/graduatorie.php?anno={anno}&tipo_attivita={ambiente}&sesso={sesso}'
+                 f'&categoria={cat}&gara={gara}&tipologia_estrazione={tip_estr}&vento={vento}&regione={regione}'
+                 f'&nazionalita={naz}&limite={limite}&societa={societa}&submit=Invia')
 
     print(url_FIDAL, file=f_log)
 
@@ -34,8 +38,11 @@ def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, n
     if 'colspan="8"' in str(data_row[-1]):
         data_row = data_row[:-1]
     
-    # La tabella ha sempre le stesse 8 colonne, quindi mi fido a creare il data frame e mettere dentro i dari di data_row uno alla volta. Aggiungo 2 colonne per i link
-    df_data = pd.DataFrame(index = range(len(data_row)), columns=['tempo', 'vento', 'atleta', 'anno', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società', 'categoria'])
+    # La tabella ha sempre le stesse 8 colonne, quindi mi fido a creare il data frame e mettere dentro i dari di
+    # data_row uno alla volta. Aggiungo 2 colonne per i link e una per la categoria
+    df_data = pd.DataFrame(index = range(len(data_row)),
+    columns=['tempo', 'vento', 'atleta', 'anno', 'società',
+             'posizione', 'luogo', 'data', 'link_atleta', 'link_società', 'categoria']) #pyright: ignore
 
     for i, row in enumerate(data_row):
     
@@ -48,14 +55,15 @@ def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, n
             df_data.iat[i, j] = cell
             j += 1
     
-        # Inserimento di link_atleta, link_società, categoria, prestazione, cronometraggio
+        # Inserimento di link_atleta, link_società, categoria, prestazione, cronometraggio (dati derivati)
         data_a = row.find_all('a')
         if len(data_a) > 1:
             df_data.at[i, 'link_atleta'] = data_a[0].get('href')
             df_data.at[i, 'link_società'] = data_a[1].get('href')
         df_data.at[i, 'categoria'] = assegna_categoria(df_data.at[i, 'anno'], df_data.at[i, 'data'], sesso, cat, f_log)
 
-    df_data = df_data[['tempo', 'vento', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
+    df_data = df_data[['tempo', 'vento', 'atleta', 'anno', 'categoria', 'società',
+                       'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
 
     return df_data
 
@@ -75,7 +83,8 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
         return pd.DataFrame()
 
     if ambiente not in ['I', 'P', 'S']:
-        print('Ambiente non valido: ' + ambiente + '. I possibili valori sono I (indoor), P (pista), S (strada)', file=f_log)
+        print('Ambiente non valido: ' + ambiente + '.'
+              'I possibili valori sono I (indoor), P (pista), S (strada)', file=f_log)
         return pd.DataFrame()
 
     # A questo punto in base al tipo di gara formatto i dati
@@ -94,8 +103,10 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
 
     # Le gare di corsa hanno come prestazione un tempo, che va anche convertito in base al cronometraggio
     if classifica_gara == 'tempo':
-        df[['prestazione', 'cronometraggio']] = df.apply(lambda row: conversione_manuale_elettrico(row['tempo'], f_log), axis=1, result_type='expand')
-        df = df[['prestazione', 'vento', 'tempo', 'cronometraggio', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
+        df[['prestazione', 'cronometraggio']] = df.apply(lambda row: conversione_manuale_elettrico(row['tempo'], f_log),
+                                                         axis=1, result_type='expand')
+        df = df[['prestazione', 'vento', 'tempo', 'cronometraggio', 'atleta', 'anno', 'categoria', 'società',
+                 'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
         if vento == 'no':
             del df['vento']
         return df
@@ -104,20 +115,24 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
     return pd.DataFrame()
 
 
-## Alla Fidal non piace scrive l'anno con 4 cifre, quindi scrivono solo le ultime due. Questa funzione aggiunge il 19 o il 20 davanti.
+## Alla Fidal non piace scrive l'anno con 4 cifre, quindi scrivono solo le ultime due.
+## Questa funzione aggiunge il 1900 o 2000 all'anno.
+## NOTA: I più vecchi atleti nel database fidal sono del 1926, quindi questa funzione si romperà nel 1932 con l'arrivo
+## degli E6 nati nel 2026. Let's go
 def check_anno(cell, i, f_log) -> str:
     if cell == '':
         print('Anno non disponibile in riga', i, file=f_log)
         return cell
     else:
         anno = int(cell)
-        if anno > 24:
+        if anno > 25:
             return str(1900 + anno)
         else:
             return str(2000 + anno)
 
 
-## Alla Fidal non piace scrivere la data in formato standard, quindi la scrivono in modo strano e senza l'anno. Questa funzione la mette in formato standard.
+## Alla Fidal non piace scrivere la data in formato standard, quindi la scrivono in modo strano e senza l'anno.
+## Questa funzione la mette in formato standard.
 def check_data(cell, anno, i, f_log) -> str:
     if cell == '':
         print('Data non disponibile in riga', i, file=f_log)
@@ -217,6 +232,7 @@ def conversione_misure_FIDAL(misura, f_log) -> float:
         print('Misura non convertibile in float: ' + misura, file=f_log)
         return -1
 
+
 ## Controlla l'ultimo aggiornamento delle graduatorie
 def ultimo_aggiornamento_FIDAL(f_log) -> str:
     url_FIDAL = 'https://www.fidal.it/graduatorie.php'
@@ -240,8 +256,6 @@ def ultimo_aggiornamento_database() -> str | None:
     print('I found nothing')
     return None
             
-
-
 
 ## Permette di aprire un file del database di csv con pandas
 def get_file_database(ambiente, gara) -> pd.DataFrame:
