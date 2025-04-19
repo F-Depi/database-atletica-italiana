@@ -6,8 +6,6 @@ import json
 import re
 import os
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, '../'))
 
 ## Scarica una pagina e mette i dati in un DataFrame del tipo 'tempo', 'vento', 'atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data', 'link_atleta', 'link_società'
 def get_data_FIDAL(anno, ambiente, sesso, cat, gara, tip_estr, vento, regione, naz, limite, societa, f_log):
@@ -69,7 +67,7 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
         print('Nessun dato da formattare', file=f_log)
         return pd.DataFrame()
 
-    dict_gare = json.load(open('dizionario_gare.json'))
+    dict_gare = json.load(open('script/dizionario_gare.json'))
     if gara not in dict_gare:
         print('Gara non presente nel dizionario: ' + gara + '. Le gare sono:\n', file=f_log)
         for key in dict_gare.keys():
@@ -232,14 +230,26 @@ def ultimo_aggiornamento_FIDAL(f_log) -> str:
         print('Nessuna data trovata', file=f_log)
         return ''
 
+def ultimo_aggiornamento_database() -> str | None:
+
+    foldername = 'database/indoor/Corse Piane'
+    for file in os.listdir(foldername):
+        if file[:-15] == '60m':
+            return file[-14:-4]
+
+    print('I found nothing')
+    return None
+            
+
+
 
 ## Permette di aprire un file del database di csv con pandas
 def get_file_database(ambiente, gara) -> pd.DataFrame:
 
     if ambiente == 'I':
-        foldername = PROJECT_ROOT + '/database/indoor/'
+        foldername = 'database/indoor/'
     elif ambiente == 'P':
-        foldername = PROJECT_ROOT + '/database/outdoor/'
+        foldername = 'database/outdoor/'
     else:
         print('\nGli ambienti possibili sono: \'I\', \'P\', \'S\'\n')
         exit()
@@ -256,7 +266,7 @@ def get_file_database(ambiente, gara) -> pd.DataFrame:
         exit()
 
 
-    col_dtype = json.load(open(PROJECT_ROOT + '/script/colonne_dtype.json'))
+    col_dtype = json.load(open('/script/colonne_dtype.json'))
     df = pd.read_csv(filename, dtype=col_dtype)
 
     return df

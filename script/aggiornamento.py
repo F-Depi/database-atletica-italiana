@@ -2,6 +2,10 @@ import pandas as pd
 import json
 from my_functions import *
 import os
+import sys
+
+# Add parent directory to Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 '''
 Script per aggiornare automaticamente il database con i dati nuovi delle graduatorie.
@@ -11,22 +15,26 @@ Aggiorno a chunk di 1 anno intero perché:
     - è più semplice
     - alcuni risultati potrebbero essere stati fatti riconoscere a posteriori (es. prestazioni ottenute all'estero)
 
-NOTA: vengono aggiornati solo le gare che hanno un file di risultati già presente nel database.
+NOTA: vengono aggiornate solo le gare che hanno un file di risultati già presente nel database.
 '''
 
 f_log = open('log', 'w')
-dict_gare = json.load(open('dizionario_gare.json'))
-col_dtype = json.load(open('colonne_dtype.json'))
+dict_gare = json.load(open('script/dizionario_gare.json'))
+col_dtype = json.load(open('script/colonne_dtype.json'))
 
 last_server_update = ultimo_aggiornamento_FIDAL(f_log)
 print('Last server update:\t' + last_server_update)
 
+last_database_update = ultimo_aggiornamento_database()
+if last_database_update:
+    print('Last database update:\t' + last_database_update)
+
 ## Diamo il via alla giungla di nesting
 for ambiente in ['I', 'P']:
     if ambiente == 'I':
-        folder = '../database/indoor/'
+        folder = './database/indoor/'
     elif ambiente == 'P':
-        folder = '../database/outdoor/'
+        folder = './database/outdoor/'
     else: exit()
 
     for sub_folder in os.listdir(folder):
@@ -74,17 +82,6 @@ for ambiente in ['I', 'P']:
 
             df.to_csv(sub_folder + gara + '_' + last_server_update + '.csv', index=False)
             os.remove(sub_folder + file)
-
-
-
-
-
-
-
-
-
-
-
 
 
         print('-'*90)
