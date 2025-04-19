@@ -98,7 +98,8 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
         df['tempo'] = df['tempo'].apply(conversione_misure_FIDAL, args=(f_log,))
         if vento == 'no':
             del df['vento']
-        df['vento'] = df['vento'].apply(conversione_vento, args=(f_log,))
+        else: 
+            df['vento'] = df['vento'].apply(conversione_vento, args=(f_log,))
         df = df.rename(columns={'tempo': 'prestazione'})
         return df
 
@@ -110,6 +111,8 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
                  'posizione', 'luogo', 'data', 'link_atleta', 'link_società']]
         if vento == 'no':
             del df['vento']
+        else:
+            df['vento'] = df['vento'].apply(conversione_vento, args=(f_log,))
         return df
 
     print('Tipo di gara non riconosciuto. classifica_gara:', classifica_gara, file=f_log)
