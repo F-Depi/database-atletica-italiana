@@ -98,6 +98,7 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
         df['tempo'] = df['tempo'].apply(conversione_misure_FIDAL, args=(f_log,))
         if vento == 'no':
             del df['vento']
+        df['vento'] = df['vento'].apply(conversione_vento, args=(f_log,))
         df = df.rename(columns={'tempo': 'prestazione'})
         return df
 
@@ -229,8 +230,16 @@ def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
 def conversione_misure_FIDAL(misura, f_log) -> float:
     try: return float(misura)
     except ValueError:
-        print('Misura non convertibile in float: ' + misura, file=f_log)
+        print(f'Misura non convertibile in float: {misura}', file=f_log)
         return -1
+
+
+def conversione_vento(vento, f_log) -> str:
+    vento = vento.replace(',', '.')
+    if any(vento.count(sep) > 1 for sep in ['+', '-', '.']):
+        print(f'Vento strano: {vento}', file=f_log)
+    return vento
+
 
 
 ## Controlla l'ultimo aggiornamento delle graduatorie
