@@ -61,8 +61,11 @@ probabilmente era 1:00.07 e lo script lo arrotonda a 10.01).
 Alcuni file csv sono molto grossi, aspettatevi che qualunque programma usiate
 ci metta qualche secondo ad aprirli.
 
+[pagina strana](https://www.fidal.it/graduatorie.php?anno=2006&tipo_attivita=P&sesso=F&categoria=CF&gara=20&tipologia_estrazione=2&vento=0&regione=0&nazionalita=1&limite=100&societa=&submit=Invia)
+con alcuni risultati che hanno rotto il database
+
 Oltre agli errori nel database della Fidal è molto provabile che ci siano errori
-nei mei script, quindi per favore segnalatemi eventuali incongruenze con quello
+nei miei script, quindi per favore segnalatemi eventuali incongruenze con quello
 che vi aspettate!
 
 Per discipline poco comuni (es. 24h) i dati hanno spesso errori e sono gestiti
