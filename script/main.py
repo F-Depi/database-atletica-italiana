@@ -3,10 +3,10 @@ import os
 from my_functions import get_data_FIDAL, format_data_FIDAL, ultimo_aggiornamento_FIDAL
 
 '''
-Questo script scarica tutte le graduatorie outdoor di tutte le categorie e tutti gli anni
-L'ho fatto andare una volta e ci ha messo tipo 3 ore per scaricare tutto
-(si potrebbe tranquillamente parallelizzare perché la limitazione è il tempo di risposta del server FIDAL,
-ma è uno script che basta runnare 1 volta e poi non serve più)
+Questo script scarica tutte le graduatorie outdoor di tutte le categorie e tutti gli anni.
+L'ho fatto andare una volta e ci ha messo tipo 3 ore per scaricare tutto (si potrebbe tranquillamente parallelizzare
+perché la limitazione è il tempo di risposta del server FIDAL, ma è uno script che basta runnare 1 volta e poi non serve
+più).
 Per aggiornare il database si usa il file 'aggiorna_database.py'
 '''
 
@@ -15,7 +15,6 @@ with open('nottata.log', 'w') as f_log:
     data_agg = ultimo_aggiornamento_FIDAL(f_log)
 
     #anno = '2024'
-    ambiente = 'P'
     #sesso = 'M'
     #cat = 'C'
     #gara = '100m'
@@ -27,6 +26,8 @@ with open('nottata.log', 'w') as f_log:
     societa = ''
 
     dict_gare = json.load(open('dizionario_gare.json'))
+
+    ambiente = 'P'
 
     for gara in dict_gare.keys():
         print('-'*90, file=f_log)
