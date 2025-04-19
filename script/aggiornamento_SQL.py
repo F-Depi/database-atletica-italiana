@@ -78,7 +78,9 @@ def create_tables():
                 link_atleta VARCHAR(200),
                 link_società VARCHAR(200),
                 disciplina VARCHAR(50),
-                ambiente CHAR(1)
+                ambiente CHAR(1),
+                sesso CHAR(1),
+                cod_società CHAR(5)
             );
             
             CREATE INDEX idx_prestazione ON results(prestazione);
@@ -130,6 +132,8 @@ def import_data(update=False):
                     # Import df to PostgreSQL
                     df['disciplina'] = discipline
                     df['ambiente'] = ambiente
+                    df['sesso'] = df['categoria'].str[1]
+                    df['cod_società'] = df['link_società'].str[-5:]
                     
                     # Convert data column to datetime if it exists
                     if 'data' in df.columns:
