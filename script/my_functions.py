@@ -180,14 +180,14 @@ def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
     if 'h' in tempo:
         tempo = tempo.replace('h', ':')
 
-    # Se non è un tempo misurato solo in muti (gare su strada), per correttezza aggiungo anche qui 0.25 secondi
+    # Se non è un tempo misurato solo in muti (gare su strada), per correttezza aggiungo anche qui 0.24 secondi
     if '.' not in tempo:
         hh_mm_SS = tempo.split(':')
         if len(hh_mm_SS) == 2:
-            mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1]) + 0.25
+            mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1]) + 0.24
             return mm_SS, 'm'
         elif len(hh_mm_SS) == 3:
-            hh_mm_SS = int(hh_mm_SS[0]) * 3600 + int(hh_mm_SS[1]) * 60 + int(hh_mm_SS[2]) + 0.25
+            hh_mm_SS = int(hh_mm_SS[0]) * 3600 + int(hh_mm_SS[1]) * 60 + int(hh_mm_SS[2]) + 0.24
             return hh_mm_SS, 'm'
         else:
             print('Questo tempo ha troppi \':\': ' + tempo, file=f_log)
@@ -218,8 +218,8 @@ def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
             print('Questo tempo ha più di due \':\' ' + tempo, file=f_log)
             return -1, 'x'
 
-    # Conversione da possibile tempo manuale a tempo elettrico (+0.25 secondi)
-    if len(tempo.split('.')[-1]) == 1: return hh_mm_in_seconds + float(tempo) + 0.25, 'm'
+    # Conversione da possibile tempo manuale a tempo elettrico (+0.24 secondi)
+    if len(tempo.split('.')[-1]) == 1: return hh_mm_in_seconds + float(tempo) + 0.24, 'm'
     elif len(tempo.split('.')[-1]) == 2: return hh_mm_in_seconds + float(tempo), 'e'
     elif len(tempo.split('.')[-1]) == 3:
         print('Questo tempo ha più di due cifre dopo il punto decimale: ' + tempo, file=f_log)
