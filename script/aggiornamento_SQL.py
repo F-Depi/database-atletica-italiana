@@ -23,9 +23,9 @@ from config import DB_CONFIG
 def get_file_database(ambiente, gara) -> pd.DataFrame | None:
 
     if ambiente == 'I':
-        foldername = 'database/indoor/'
+        foldername = '../database-atletica-csv/indoor/'
     elif ambiente == 'P':
-        foldername = 'database/outdoor/'
+        foldername = '../database-atletica-csv/outdoor/'
     else:
         print('\nGli ambienti possibili sono: \'I\', \'P\'\n')
         exit()
@@ -161,5 +161,5 @@ def import_data(update=False):
 
 
 if __name__ == "__main__":
-    create_tables()
-    import_data(update=False)
+    #create_tables()
+    import_data(update=True)

@@ -34,9 +34,9 @@ if last_database_update:
 ## Diamo il via alla giungla di nesting
 for ambiente in ['I', 'P']:
     if ambiente == 'I':
-        folder = './database/indoor/'
+        folder = '../database-atletica-csv/indoor/'
     elif ambiente == 'P':
-        folder = './database/outdoor/'
+        folder = '../database-atletica-csv/outdoor/'
     else: exit()
 
     for sub_folder in os.listdir(folder):
@@ -65,19 +65,20 @@ for ambiente in ['I', 'P']:
 
             df_new = pd.DataFrame()
             for year in years:
-                for cat in ['C', 'X']:
+                for cat in ['E', 'C', 'X']:
                     for sesso in ['M', 'F']:
                         regione = '0'
                         df = get_data_FIDAL(str(year), ambiente, sesso, cat, cod, '1', '2', regione, '2', '0', '', f_log)
                         df_new = pd.concat([df_new, df])
-                for cat in ['E', 'R']:
-                    for sesso in ['M', 'F']:
-                        for reg in dict_reg_prov.keys():
-                            df = get_data_FIDAL(str(year), ambiente, sesso, cat, cod, '1', '2', reg, '2', '0', '', f_log)
-                            df_new = pd.concat([df_new, df])
+                cat = 'R'
+                for sesso in ['M', 'F']:
+                    for reg in dict_reg_prov.keys():
+                        df = get_data_FIDAL(str(year), ambiente, sesso, cat, cod, '1', '2', reg, '2', '0', '', f_log)
+                        df_new = pd.concat([df_new, df])
 
             # Formattazione dei dati
             df_new = format_data_FIDAL(df_new, gara, ambiente, f_log)
+            df_new = df_new.drop_duplicates()
 
             # Carico il vecchio database
             df_old = pd.read_csv(sub_folder + file, dtype=col_dtype)
