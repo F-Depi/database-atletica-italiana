@@ -152,7 +152,7 @@ def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria, f_log) ->
     if anno_atleta == '': return categoria
     if data_prestazione == '': return categoria
     eta = int(data_prestazione[:4]) - int(anno_atleta)
-    if eta < 6:
+    if eta < 5:
         print('Atleta troppo giovane, età:', eta, file=f_log)
         return ''
     elif eta < 12: return 'E' + sesso
@@ -232,17 +232,22 @@ def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
 
 
 def conversione_misure_FIDAL(misura, f_log) -> float:
-    try: return float(misura)
+    try:
+        return float(misura)
     except ValueError:
-        print(f'Misura non convertibile in float: {misura}', file=f_log)
+        print(f'ERRORE: Misura non convertibile in float: {misura}', file=f_log)
         return -1
 
 
 def conversione_vento(vento, f_log) -> str:
+    if pd.isnull(vento):
+        return vento
     vento = vento.replace(',', '.')
-    if any(vento.count(sep) > 1 for sep in ['+', '-', '.']):
-        print(f'Vento strano: {vento}', file=f_log)
-    return vento
+    try:
+        return float(vento)
+    except ValueError:
+        print(f'ERRORE: Vento strano: {vento}', file=f_log)
+        return vento
 
 
 
@@ -261,7 +266,7 @@ def ultimo_aggiornamento_FIDAL() -> str:
 
 def ultimo_aggiornamento_database() -> str | None:
 
-    foldername = 'database/indoor/Corse Piane'
+    foldername = '../database-atletica-csv/indoor/Corse Piane'
     for file in os.listdir(foldername):
         if file[:-15] == '60m':
             return file[-14:-4]
@@ -274,9 +279,9 @@ def ultimo_aggiornamento_database() -> str | None:
 def get_file_database(ambiente, gara) -> pd.DataFrame:
 
     if ambiente == 'I':
-        foldername = 'database/indoor/'
+        foldername = '../database-atletica-csv/indoor/'
     elif ambiente == 'P':
-        foldername = 'database/outdoor/'
+        foldername = '../database-atletica-csv/outdoor/'
     else:
         print('\nGli ambienti possibili sono: \'I\', \'P\', \'S\'\n')
         exit()
