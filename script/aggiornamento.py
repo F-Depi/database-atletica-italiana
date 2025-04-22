@@ -21,8 +21,10 @@ NOTA: vengono aggiornate solo le gare che hanno un file di risultati già presen
 f_log = open('log', 'w')
 dict_gare = json.load(open('script/dizionario_gare.json'))
 col_dtype = json.load(open('script/colonne_dtype.json'))
+dict_reg_prov = json.load(open('script/regioni_province.json'))
 
-last_server_update = ultimo_aggiornamento_FIDAL(f_log)
+
+last_server_update = ultimo_aggiornamento_FIDAL()
 print('Last server update:\t' + last_server_update)
 
 last_database_update = ultimo_aggiornamento_database()
@@ -63,10 +65,16 @@ for ambiente in ['I', 'P']:
 
             df_new = pd.DataFrame()
             for year in years:
-                for cat in ['E', 'C', 'X']:
+                for cat in ['C', 'X']:
                     for sesso in ['M', 'F']:
-                        df = get_data_FIDAL(str(year), ambiente, sesso, cat, cod, '1', '2', '0', '2', '0', '', f_log)
+                        regione = '0'
+                        df = get_data_FIDAL(str(year), ambiente, sesso, cat, cod, '1', '2', regione, '2', '0', '', f_log)
                         df_new = pd.concat([df_new, df])
+                for cat in ['E', 'R']:
+                    for sesso in ['M', 'F']:
+                        for reg in dict_reg_prov.keys():
+                            df = get_data_FIDAL(str(year), ambiente, sesso, cat, cod, '1', '2', reg, '2', '0', '', f_log)
+                            df_new = pd.concat([df_new, df])
 
             # Formattazione dei dati
             df_new = format_data_FIDAL(df_new, gara, ambiente, f_log)

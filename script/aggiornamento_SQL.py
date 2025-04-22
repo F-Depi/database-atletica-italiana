@@ -27,7 +27,7 @@ def get_file_database(ambiente, gara) -> pd.DataFrame | None:
     elif ambiente == 'P':
         foldername = 'database/outdoor/'
     else:
-        print('\nGli ambienti possibili sono: \'I\', \'P\', \'S\'\n')
+        print('\nGli ambienti possibili sono: \'I\', \'P\'\n')
         exit()
 
     filename = ''
@@ -161,5 +161,5 @@ def import_data(update=False):
 
 
 if __name__ == "__main__":
-    #create_tables()
-    import_data(update=True)
+    create_tables()
+    import_data(update=False)

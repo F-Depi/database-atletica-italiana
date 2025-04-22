@@ -3,7 +3,11 @@ import pandas as pd
 import json
 import os
 
-
+"""
+Assegna i punteggi World Athletics a un file CSV di risultati
+Non è mai stato implementato perché la fidal non li usa.
+Le tabelle sono inoltre state aggiornate a inizio 2025, qui ci sono quelle vecchie.
+"""
 def trova_punti(tabelle, prop_gare, ambiente, sesso, gara, mark):
 
     ## Questa serve per capire se dobbiamo cercare il punteggio approssimando
