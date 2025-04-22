@@ -44,17 +44,17 @@ with open('nottata.log', 'w') as f_log:
             write_header = True
             for anno in range(2005, pd.Timestamp.now().year):
                 anno = str(anno)
-                #for cat in ['C', 'X']:
-                #    for sesso in ['M', 'F']:
+                for cat in ['C', 'X']:
+                    for sesso in ['M', 'F']:
             
-                #        regione = 0
-                #        print(anno, cat, sesso, regione, file=f_log)
+                        regione = 0
+                        print(anno, cat, sesso, regione, file=f_log)
             
-                #        df = get_data_FIDAL(anno, ambiente, sesso, cat, cod_gara, tip_estr, vento, regione, naz, lim, societa, f_log)
-                #        df = format_data_FIDAL(df, gara, ambiente, f_log) 
-                #        if df is not None:
-                #            df.to_csv(file, index=False, mode='a', header=write_header)
-                #            write_header = False
+                        df = get_data_FIDAL(anno, ambiente, sesso, cat, cod_gara, tip_estr, vento, regione, naz, lim, societa, f_log)
+                        df = format_data_FIDAL(df, gara, ambiente, f_log) 
+                        if df is not None:
+                            df.to_csv(file, index=False, mode='a', header=write_header)
+                            write_header = False
 
                 for cat in ['E', 'R']:
                     for sesso in ['M', 'F']:

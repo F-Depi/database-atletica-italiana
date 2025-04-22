@@ -53,35 +53,48 @@ for file in os.listdir(folder):
 
 
 '''Aggiunge le date di nascita complete'''
-
-
-ambiente = 'P'
-gara = '1500m'
-
-df = get_file_database(ambiente, gara)
-df = df.sort_values(by=['link_atleta'])
-
-# Vettore booleano per lasciare solo 1 risultato per ogni persona (.shift() restituisce False per la prima riga)
-mask = df['link_atleta'] != df['link_atleta'].shift()
-mask.iloc[0] = True
-
-df = df[mask]
-
-### Ora dividiamo il df in 8 parti, una per ogni thread, forse
-### non finito###
-#len_per_thread = len(df) // 8
-#num_thread = int(sys.argv[1])
-#if num_thread > 8 or num_thread < 1:
-#    print('L\'argomento deve essere 1, ..., 8')
-#    exit()
-#start_point = (num_thread - 1) * len_per_thread
-#end_point = num_thread * len_per_thread
+#ambiente = 'P'
+#gara = '1500m'
 #
-#df = df[start_point:end_point]
+#df = get_file_database(ambiente, gara)
+#df = df.sort_values(by=['link_atleta'])
 #
-#t_0 = time.time()
-#date_nascita = df.apply(lambda row: get_data_nascita_FIDAL(row['link_atleta'], row['anno']), axis=1)
-#df['nascita'] = date_nascita
-#df.to_csv('test.csv', index=False)
-#t_1 = time.time()
-#print(t_1 - t_0)
+## Vettore booleano per lasciare solo 1 risultato per ogni persona (.shift() restituisce False per la prima riga)
+#mask = df['link_atleta'] != df['link_atleta'].shift()
+#mask.iloc[0] = True
+#
+#df = df[mask]
+
+
+'''Deduplichiamo il database perché ho capito che le righe DEVONO essere uniche
+grazie alla colonna posizione che distrugge l'ultima possibile molteplicità'''
+
+col_dtype = json.load(open('script/colonne_dtype.json'))
+## Diamo il via alla giungla di nesting
+for ambiente in ['indoor', 'outdoor']:
+    folder = f'database/{ambiente}/'
+
+    for sub_folder in os.listdir(folder):
+        if sub_folder.endswith('.csv'): continue
+
+        sub_folder = folder + sub_folder + '/'
+
+        for file in os.listdir(sub_folder):
+
+            # evito i file di errori e di discipline sconosciute
+            sono_risultati = file.endswith('.csv') and file[:3] != 'Sco'
+            if not sono_risultati: continue
+
+            print('Aggiorno ' + sub_folder + file)
+            
+            # Carico il file
+            try:
+                df = pd.read_csv(sub_folder + file, dtype=col_dtype)
+                df = df.drop_duplicates()
+                df = df.sort_values(by='data')
+                df = df.reset_index(drop=True)
+                df.to_csv(sub_folder + file, index=False)
+            except Exception as e:
+                print(f"Errore durante la lettura del file {file}: {e}")
+                continue
+

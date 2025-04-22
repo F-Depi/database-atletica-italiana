@@ -1,3 +1,4 @@
+from sys import exception
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -246,7 +247,7 @@ def conversione_vento(vento, f_log) -> str:
 
 
 ## Controlla l'ultimo aggiornamento delle graduatorie
-def ultimo_aggiornamento_FIDAL(f_log) -> str:
+def ultimo_aggiornamento_FIDAL() -> str:
     url_FIDAL = 'https://www.fidal.it/graduatorie.php'
     page = requests.get(url_FIDAL)
     data = re.search(r'aggiornati dal 2005 al \d{2}-\d{2}-\d{4}', page.text)
@@ -255,8 +256,8 @@ def ultimo_aggiornamento_FIDAL(f_log) -> str:
         data = data.split('-')
         return data[2] + '-' + data[1] + '-' + data[0]
     else:
-        print('Nessuna data trovata', file=f_log)
-        return ''
+        exit('Nessuna data trovata')
+        
 
 def ultimo_aggiornamento_database() -> str | None:
 
@@ -292,7 +293,7 @@ def get_file_database(ambiente, gara) -> pd.DataFrame:
         exit()
 
 
-    col_dtype = json.load(open('/script/colonne_dtype.json'))
+    col_dtype = json.load(open('script/colonne_dtype.json'))
     df = pd.read_csv(filename, dtype=col_dtype)
 
     return df
