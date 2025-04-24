@@ -67,5 +67,5 @@ def togli_centesimo():
                     df.to_csv(folder + sub_folder + file, sep=',', index=False, header=True)
 
 
-#trova_errori()
-togli_centesimo()
+trova_errori()
+#togli_centesimo()
