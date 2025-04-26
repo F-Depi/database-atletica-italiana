@@ -1,0 +1,12 @@
+Ci sono 11967 risultati di principalmente ragazzi tra il 2005 e il 2006 che compaiono nel database con il codice del
+Decathlon JM. I tempi fanno pensare ai 60Hs_h60-7.50. Dal momento che nei 60Hs_h60-7.50 mancano i risultati di 2005 e
+2006, è probabile che i risultati di 2005 e 2006 siano stati erroneamente inseriti nel database con il codice del
+Decathlon JM. Ho cambioto la disciplina contando su questo errore.
+A questo punto dovrei chiedermi, dove sono i risultati Decathlon_JM nel periodo 2005-2006? A dire il vero mancano anche
+quelli del 2007.
+Accade una cosa simile con dei risultati nell'Eptathlon_AF, ma quelli non so dove metterli quindi sono in
+outdoor/sconosciuto_cod_81.csv
+Anche nella marcia 5km i risultati di 2005 e 2006 sono chissà cosa mentre i veri risultati di marcia partono dal 2009,
+sono salvati in sconosciuto_cod_21.csv
+C'è anche un codice 19 (teoricamente Eptathlon JM) che porta a risultati da 2005-2006 che non ho identificato, ma che
+non possono essere dell'Eptathlon. Sono salvati in sconosciuto_cod_19.csv
