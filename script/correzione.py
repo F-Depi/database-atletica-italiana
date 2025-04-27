@@ -5,10 +5,10 @@ import json
 from my_functions import *
 import time
 
-def trova_errori():
+def trova_errori(amb):
     ''' Trova gli errori e li aggiunge al file di log '''
-    folder = '../database-atletica-csv/indoor/'
-    log_file = folder + 'errori_post_deduplicazione.csv'
+    folder = f'../database-atletica-csv/{amb}/'
+    log_file = 'errori/errori_new.csv'
     write_header = True
 
     for sub_folder in os.listdir(folder):
@@ -67,5 +67,6 @@ def togli_centesimo():
                     df.to_csv(folder + sub_folder + file, sep=',', index=False, header=True)
 
 
-trova_errori()
+trova_errori('indoor')
+trova_errori('outdoor')
 #togli_centesimo()
