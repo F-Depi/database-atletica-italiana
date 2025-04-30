@@ -1,9 +1,6 @@
 import pandas as pd
 import os
-import sys
-import json
 from my_functions import *
-import time
 
 def trova_errori(amb):
     ''' Trova gli errori e li aggiunge al file di log '''
