@@ -141,6 +141,10 @@ def import_data(update=False):
                     
                     if update:
                         df = df[df['data'].dt.year == int(current_year)]
+
+                    if 'cronometraggio' in df.columns:
+                        df = df[df['cronometraggio'] != 'x']
+                    df = df[df['prestazione'] > 0]
                     
                     # Use SQLAlchemy to write to database
                     df.to_sql('results', 
