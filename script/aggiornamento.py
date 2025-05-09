@@ -31,6 +31,8 @@ last_database_update = ultimo_aggiornamento_database()
 if last_database_update:
     print('Last database update:\t' + last_database_update)
 
+updated_sthing = False
+
 ## Diamo il via alla giungla di nesting
 for ambiente in ['I', 'P']:
     if ambiente == 'I':
@@ -56,6 +58,7 @@ for ambiente in ['I', 'P']:
                 continue
 
             print('Aggiorno ' + sub_folder + file)
+            updated_sthing = True
 
             # L'aggiornamento verrà fatto scaricando tutti i dati dell'anno in corso (e di quelli mancanti)
             years = range(int(last_local_update[:4]), int(last_server_update[:4]) + 1)
@@ -100,3 +103,4 @@ for ambiente in ['I', 'P']:
 
         print('-'*90)
 
+print(updated_sthing)
