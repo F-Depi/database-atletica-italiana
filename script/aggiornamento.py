@@ -86,6 +86,11 @@ for ambiente in ['I', 'P']:
             # Carico il vecchio database
             df_old = pd.read_csv(sub_folder + file, dtype=col_dtype)
 
+            ## Tolgo i risultati dell'ultimo anno perchè li ho appena riscaricati più aggiornati
+            ## Ogni tanto mi togga farlo se ci sono errori grossi della fidal che passano inosservati dai miei filtri
+            ## e loro si preoccupano di correggerli tutti quanti dopo un po'
+            #df_old = df_old[df_old['data'].str[:4] != last_local_update[:4]]
+
             df = pd.concat([df_old, df_new])
             # L'obbiettivo è aggiungere i risultati nuovi, sapendo che abbiamo in df_new anche risultati già presenti
             # nel DB. L'attenzione particolare sta nel fatto che ci sono risultati errati che nel DB ho corretto ma che
@@ -98,7 +103,10 @@ for ambiente in ['I', 'P']:
             df = df.reset_index(drop=True)
 
             df.to_csv(sub_folder + gara + '_' + last_server_update + '.csv', index=False)
-            os.remove(sub_folder + file)
+
+            ## Just to be sure
+            if last_local_update != last_server_update:
+                os.remove(sub_folder + file)
 
 
         print('-'*90)
