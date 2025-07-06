@@ -26,4 +26,142 @@ Last database update:	2025-07-05
 ../database-atletica-csv/indoor/Corse Piane/60m_2025-07-05.csv è già aggiornato
 ../database-atletica-csv/indoor/Corse Piane/800m_2025-07-05.csv è già aggiornato
 ------------------------------------------------------------------------------------------
-Aggiorno ../database-atletica-csv/indoor/Lanci/vortex_2025-07-04.csv
+../database-atletica-csv/indoor/Lanci/disco_2kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Lanci/giavellotto_600g_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Lanci/martello_7kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Lanci/peso_2kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Lanci/peso_3kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Lanci/peso_4kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Lanci/peso_5kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Lanci/peso_6kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Lanci/peso_7kg_2025-07-05.csv è già aggiornato
+------------------------------------------------------------------------------------------
+../database-atletica-csv/indoor/Marcia/Marcia_2000m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Marcia/Marcia_3000m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Marcia/Marcia_5000m_2025-07-05.csv è già aggiornato
+------------------------------------------------------------------------------------------
+../database-atletica-csv/indoor/Ostacoli/50Hs_h100-9.14_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/50Hs_h106-9.14_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/50Hs_h60-7.50_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/50Hs_h76-8.00_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/50Hs_h76-8.50_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/50Hs_h84-8.50_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/50Hs_h91-9.14_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h100-9.14_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h106-9.14_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h60-7.50_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h68.6-7.00_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h76-7.00_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h76-8.00_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h76-8.50_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h84-8.00_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h84-8.50_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h91-8.50_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Ostacoli/60Hs_h91-9.14_2025-07-05.csv è già aggiornato
+------------------------------------------------------------------------------------------
+../database-atletica-csv/indoor/Salti/alto_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Salti/asta_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Salti/lungo_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Salti/triplo_2025-07-05.csv è già aggiornato
+------------------------------------------------------------------------------------------
+../database-atletica-csv/indoor/Siepi/2000st_h76_2025-07-05.csv è già aggiornato
+../database-atletica-csv/indoor/Siepi/2000st_h91_2025-07-05.csv è già aggiornato
+------------------------------------------------------------------------------------------
+../database-atletica-csv/outdoor/Prove Multiple/Decathlon_AM_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Prove Multiple/Decathlon_JM_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Prove Multiple/Decathlon_PM_SM_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Prove Multiple/Eptathlon_AF_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Prove Multiple/Eptathlon_JF_PF_SF_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Prove Multiple/Esathlon_CM_(asta)_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Prove Multiple/Esathlon_CM_(disco)_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Prove Multiple/Pentathlon_CF_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Prove Multiple/Pentathlon_I-O_JF_PF_SF_2025-07-05.csv è già aggiornato
+------------------------------------------------------------------------------------------
+../database-atletica-csv/outdoor/Corse Piane/10000m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/1000m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/100m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/1500m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/1miglio_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/2000m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/200m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/24h_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/3000m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/300m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/400m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/5000m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/50m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/600m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/60m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/800m_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Corse Piane/80m_2025-07-05.csv è già aggiornato
+------------------------------------------------------------------------------------------
+Aggiorno ../database-atletica-csv/outdoor/Lanci/martello_5kg_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Lanci/martello_6kg_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Lanci/martello_7kg_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Lanci/peso_2kg_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Lanci/peso_3kg_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Lanci/peso_4kg_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Lanci/peso_5kg_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Lanci/peso_6kg_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Lanci/peso_7kg_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Lanci/vortex_2025-07-04.csv
+../database-atletica-csv/outdoor/Lanci/disco_1.5kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Lanci/disco_1.75kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Lanci/disco_1kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Lanci/disco_2kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Lanci/giavellotto_400g_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Lanci/giavellotto_500g_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Lanci/giavellotto_600g_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Lanci/giavellotto_700g_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Lanci/giavellotto_800g_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Lanci/martello_3kg_2025-07-05.csv è già aggiornato
+../database-atletica-csv/outdoor/Lanci/martello_4kg_2025-07-05.csv è già aggiornato
+------------------------------------------------------------------------------------------
+Aggiorno ../database-atletica-csv/outdoor/Marcia/Marcia_10000m_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Marcia/Marcia_10km_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Marcia/Marcia_2000m_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Marcia/Marcia_3000m_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Marcia/Marcia_5000m_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Marcia/Marcia_5km_2025-07-04.csv
+------------------------------------------------------------------------------------------
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/100Hs_h76-8.00_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/100Hs_h76-8.50_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/100Hs_h84-8.00_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/100Hs_h84-8.50_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/100Hs_h91-8.50_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/110Hs_h100-9.14_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/110Hs_h106-9.14_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/110Hs_h91-9.14_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/200Hs_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/400Hs_h76_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/400Hs_h84_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/400Hs_h91_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/50Hs_h60-7.50_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/50Hs_h76-8.00_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/60Hs_h100-9.14_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/60Hs_h106-9.14_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/60Hs_h60-7.50_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/60Hs_h76-7.00_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/60Hs_h76-8.50_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/60Hs_h84-8.00_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/60Hs_h84-8.50_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/60Hs_h91-8.50_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/60Hs_h91-9.14_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/80Hs_h68.6-7.00_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/80Hs_h76-7.00_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/80Hs_h76-8.00_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Ostacoli/300Hs_h76_2025-07-04.csv
+------------------------------------------------------------------------------------------
+Aggiorno ../database-atletica-csv/outdoor/Salti/alto_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Salti/asta_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Salti/lungo_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Salti/triplo_2025-07-04.csv
+------------------------------------------------------------------------------------------
+Aggiorno ../database-atletica-csv/outdoor/Siepi/1200st_h76_SV_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Siepi/2000st_h76_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Siepi/2000st_h84_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Siepi/2000st_h91_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Siepi/3000st_h76_2025-07-04.csv
+Aggiorno ../database-atletica-csv/outdoor/Siepi/3000st_h91_2025-07-04.csv
+------------------------------------------------------------------------------------------
+True
