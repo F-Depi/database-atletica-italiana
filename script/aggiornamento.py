@@ -54,10 +54,10 @@ for ambiente in ['I', 'P']:
 
             last_local_update = file[-14:-4]
             if last_local_update == last_server_update:
-                print(sub_folder + file + ' è già aggiornato')
+                print(sub_folder + file + ' è già aggiornato', file=f_log)
                 continue
 
-            print('Aggiorno ' + sub_folder + file)
+            print('Aggiorno ' + sub_folder + file, file=f_log)
             updated_sthing = True
 
             # L'aggiornamento verrà fatto scaricando tutti i dati dell'anno in corso (e di quelli mancanti)
