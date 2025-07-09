@@ -181,6 +181,7 @@ def refresh_atleti_table():
             atleta,
             categoria,
             società,
+            anno,
             ROW_NUMBER() OVER (PARTITION BY link_atleta ORDER BY data DESC) AS rn
         FROM results
     )
@@ -188,7 +189,8 @@ def refresh_atleti_table():
         link_atleta,
         atleta,
         categoria,
-        società
+        società,
+        anno
     FROM latest_info
     WHERE rn = 1;
     """
