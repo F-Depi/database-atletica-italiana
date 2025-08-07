@@ -1,0 +1,20 @@
+{
+    "400m": "400m",
+    "5000m": "5000m",
+    "giavellotto_600g": "JT",       
+    "asta": "PV",                   
+    "800m": "800m",
+    "triplo": "TJ",                 
+    "100m": "100m",
+    "1500m": "1500m",
+    "100Hs_h84-8.50": "100mH",    
+    "Marcia_10km": "10kmW",         
+    "lungo": "LJ",                  
+    "200m": "200m",
+    "disco_1kg": "DT",              
+    "400Hs_h76": "400mH",          
+    "3000st_h76": "3000m SC",      
+    "peso_4kg": "SP",               
+    "martello_4kg": "HT",           
+    "alto": "HJ"                    
+}
