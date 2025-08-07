@@ -98,13 +98,23 @@ In
 [statistiche](https://github.com/F-Depi/database-atletica-italiana/blob/master/statistiche)
 ci sono degli esempi su alcune statistiche che ho fatto:
 
+**Risultati dei Campionati Italiani Assoluti Caorle 2025 ordinati per punteggio tabellare World Athletics**
+
+<img width="1979" height="1078" alt="image" src="https://github.com/user-attachments/assets/79e589a0-5bc2-4cfe-8574-f856993deeb8" />
+
+---
+
 **Migliori (4) PB promesse nei 1500m fatti il giorno del proprio compleanno**
 
 ![image](https://github.com/user-attachments/assets/85644ab6-1e64-4d01-9802-243df39c8868)
 
+---
+
 **Distribuzione dei risultati dei 60m piani indoor**
 
 ![risultati_categorie](https://github.com/user-attachments/assets/45be6247-082a-4cf2-b8a8-d386298ca669)
+
+---
 
 **Abbandono dell'atletica dopo le categorie giovanili**
 
