@@ -12,8 +12,8 @@ sito FIDAL, da cui viene fatto lo scraping per ogni disciplina/anno/categoria.
 I risultati purtroppo sono solo quelli dal 2005 in poi.
 
 ## Utilizzo
-I risultati sono raccolti in diversi file CSV che è possibile scaricare qui
-[https://github.com/F-Depi/database](https://github.com/F-Depi/database-atletica-italiana/tree/master/database).
+I risultati sono raccolti in diversi file CSV che è possibile scaricare
+[qui](https://archive.org/details/database-atletica-italiana-csv-zip).
 Ogni csv può avere fino a 13 colonne
 
 ![image](https://github.com/user-attachments/assets/c0a06917-bf55-4695-9d5f-55099fddbe94)
@@ -36,9 +36,8 @@ nei risultati del sito della Fidal (es. 1.23:45). Tempi errati del tipo 1.23.45
 vengono segnalati con _x_, ma interpretati come 1:23.45 in quanto è l'errore più
 comune commesso.
 Il database viene poi controllato e corretto a mano, gli errori corretti sono
-salvati in
-[errori outdoor](https://github.com/F-Depi/database-atletica-italiana/blob/master/database/outdoor/errori.csv)
-ed [errori indoor](https://github.com/F-Depi/database-atletica-italiana/blob/master/database/indoor/errori.csv)
+salvati in un file denominato ```errori.csv``` che si puà vedere
+[qui](https://ia803200.us.archive.org/view_archive.php?archive=/10/items/database-atletica-italiana-csv-zip/database-atletica-italiana-csv.zip)
 
 - ***atleta*** nome dell'atleta
 - ***anno*** anno di nascita dell'atleta
