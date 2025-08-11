@@ -13,7 +13,7 @@ Per aggiornare il database si usa il file 'aggiorna_database.py'
 
 with open('nottata.log', 'w') as f_log:
 
-    data_agg = ultimo_aggiornamento_FIDAL(f_log)
+    data_agg = ultimo_aggiornamento_FIDAL()
 
     #anno = '2024'
     #sesso = 'M'
@@ -35,6 +35,8 @@ with open('nottata.log', 'w') as f_log:
             print(gara, file=f_log)
             
             cod_gara = dict_gare[gara]['codice']
+            if cod_gara != "38":
+                continue
             tipo_gara = dict_gare[gara]['tipo']
             
             folder = f'database/{ambiente_folder}/{tipo_gara}/'
@@ -44,7 +46,7 @@ with open('nottata.log', 'w') as f_log:
             write_header = True
             for anno in range(2005, pd.Timestamp.now().year):
                 anno = str(anno)
-                for cat in ['C', 'X']:
+                for cat in ['C']:#, 'X']:
                     for sesso in ['M', 'F']:
             
                         regione = 0
@@ -56,16 +58,16 @@ with open('nottata.log', 'w') as f_log:
                             df.to_csv(file, index=False, mode='a', header=write_header)
                             write_header = False
 
-                for cat in ['E', 'R']:
-                    for sesso in ['M', 'F']:
-                        for reg in dict_reg_prov.keys():
+                #for cat in ['E', 'R']:
+                #    for sesso in ['M', 'F']:
+                #        for reg in dict_reg_prov.keys():
 
-                            regione = reg
-                            print(anno, cat, sesso, reg, file=f_log)
+                #            regione = reg
+                #            print(anno, cat, sesso, reg, file=f_log)
 
-                            df = get_data_FIDAL(anno, ambiente, sesso, cat, cod_gara, tip_estr, vento, regione, naz, lim, societa, f_log)
-                            df = format_data_FIDAL(df, gara, ambiente, f_log) 
-                            if df is not None:
-                                df.to_csv(file, index=False, mode='a', header=write_header)
-                                write_header = False
+                #            df = get_data_FIDAL(anno, ambiente, sesso, cat, cod_gara, tip_estr, vento, regione, naz, lim, societa, f_log)
+                #            df = format_data_FIDAL(df, gara, ambiente, f_log) 
+                #            if df is not None:
+                #                df.to_csv(file, index=False, mode='a', header=write_header)
+                #                write_header = False
 
