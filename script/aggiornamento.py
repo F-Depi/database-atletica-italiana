@@ -31,6 +31,8 @@ last_database_update = ultimo_aggiornamento_database()
 if last_database_update:
     print('Last database update:\t' + last_database_update)
 
+updated_sthing = False
+
 ## Diamo il via alla giungla di nesting
 for ambiente in ['I', 'P']:
     if ambiente == 'I':
@@ -56,6 +58,7 @@ for ambiente in ['I', 'P']:
                 continue
 
             print('Aggiorno ' + sub_folder + file)
+            updated_sthing = True
 
             # L'aggiornamento verrà fatto scaricando tutti i dati dell'anno in corso (e di quelli mancanti)
             years = range(int(last_local_update[:4]), int(last_server_update[:4]) + 1)
@@ -83,15 +86,29 @@ for ambiente in ['I', 'P']:
             # Carico il vecchio database
             df_old = pd.read_csv(sub_folder + file, dtype=col_dtype)
 
-            # Tolgo i risultati dell'ultimo anno perchè li ho appena riscaricati più aggiornati
-            df_old = df_old[df_old['data'].str[:4] != last_local_update[:4]]
+            ## Tolgo i risultati dell'ultimo anno perchè li ho appena riscaricati più aggiornati
+            ## Ogni tanto mi togga farlo se ci sono errori grossi della fidal che passano inosservati dai miei filtri
+            ## e loro si preoccupano di correggerli tutti quanti dopo un po'
+            #df_old = df_old[df_old['data'].str[:4] != last_local_update[:4]]
 
             df = pd.concat([df_old, df_new])
+            # L'obbiettivo è aggiungere i risultati nuovi, sapendo che abbiamo in df_new anche risultati già presenti
+            # nel DB. L'attenzione particolare sta nel fatto che ci sono risultati errati che nel DB ho corretto ma che
+            # continuo a riscaricare errati. Voglio quindi deduplicare senza guardare il tempo (che è quello che ha
+            # l'errore) tenendo la prima copia, ovvero la versione già corretta nel mio DB.
+            # La ricerca degli errori (risultati con cronometraggio 'x' o con vento strano) vengono rilevati e salvati 
+            # correzione.py
+            df = df.drop_duplicates(subset=['atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data',
+                                            'link_atleta', 'link_società'], keep='first')
             df = df.reset_index(drop=True)
 
             df.to_csv(sub_folder + gara + '_' + last_server_update + '.csv', index=False)
-            os.remove(sub_folder + file)
+
+            ## Just to be sure
+            if last_local_update != last_server_update:
+                os.remove(sub_folder + file)
 
 
         print('-'*90)
 
+print(updated_sthing)

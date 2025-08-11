@@ -141,6 +141,10 @@ def import_data(update=False):
                     
                     if update:
                         df = df[df['data'].dt.year == int(current_year)]
+
+                    if 'cronometraggio' in df.columns:
+                        df = df[df['cronometraggio'] != 'x']
+                    df = df[df['prestazione'] > 0]
                     
                     # Use SQLAlchemy to write to database
                     df.to_sql('results', 
@@ -159,7 +163,50 @@ def import_data(update=False):
         engine.dispose()
 
 
+def refresh_atleti_table():
+    """
+    Refreshes the 'atleti' table in the database by truncating and reinserting
+    the latest data per athlete from the 'results' table.
+    """
+
+    engine = create_engine(get_sqlalchemy_connection_string())
+
+    refresh_sql = """
+    TRUNCATE atleti;
+
+    INSERT INTO atleti
+    WITH latest_info AS (
+        SELECT
+            link_atleta,
+            atleta,
+            categoria,
+            società,
+            anno,
+            ROW_NUMBER() OVER (PARTITION BY link_atleta ORDER BY data DESC) AS rn
+        FROM results
+    )
+    SELECT
+        link_atleta,
+        atleta,
+        categoria,
+        società,
+        anno
+    FROM latest_info
+    WHERE rn = 1;
+    """
+
+    with engine.begin() as conn:  # begin() starts a transaction
+        conn.execute(text(refresh_sql))
+
+    print("✅ atleti table refreshed successfully.")
+
 
 if __name__ == "__main__":
-    #create_tables()
-    import_data(update=True)
+    update = True
+
+    if not update:
+        create_tables()
+
+    import_data(update)
+    if update:
+        refresh_atleti_table()
