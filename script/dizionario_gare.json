@@ -627,6 +627,13 @@
         "classifica": "distanza",
         "vento": "sì"
     },
+    "Pentathlon_Cadetti_pre2017": {
+        "codice": "38",
+        "tipo": "Prove Multiple",
+        "classifica": "distanza",
+        "vento": "sì",
+        "note": "dismesso dal 2017"
+    },
     "Pentathlon_CF": {
         "codice": "O3",
         "tipo": "Prove Multiple",
