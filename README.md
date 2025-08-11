@@ -12,8 +12,8 @@ sito FIDAL, da cui viene fatto lo scraping per ogni disciplina/anno/categoria.
 I risultati purtroppo sono solo quelli dal 2005 in poi.
 
 ## Utilizzo
-I risultati sono raccolti in diversi file CSV che è possibile scaricare qui
-[https://github.com/F-Depi/database](https://github.com/F-Depi/database-atletica-italiana/tree/master/database).
+I risultati sono raccolti in diversi file CSV che è possibile scaricare
+[qui](https://archive.org/details/database-atletica-italiana-csv-zip).
 Ogni csv può avere fino a 13 colonne
 
 ![image](https://github.com/user-attachments/assets/c0a06917-bf55-4695-9d5f-55099fddbe94)
@@ -36,9 +36,8 @@ nei risultati del sito della Fidal (es. 1.23:45). Tempi errati del tipo 1.23.45
 vengono segnalati con _x_, ma interpretati come 1:23.45 in quanto è l'errore più
 comune commesso.
 Il database viene poi controllato e corretto a mano, gli errori corretti sono
-salvati in
-[errori outdoor](https://github.com/F-Depi/database-atletica-italiana/blob/master/database/outdoor/errori.csv)
-ed [errori indoor](https://github.com/F-Depi/database-atletica-italiana/blob/master/database/indoor/errori.csv)
+salvati in un file denominato ```errori.csv``` che si puà vedere
+[qui](https://ia803200.us.archive.org/view_archive.php?archive=/10/items/database-atletica-italiana-csv-zip/database-atletica-italiana-csv.zip)
 
 - ***atleta*** nome dell'atleta
 - ***anno*** anno di nascita dell'atleta
@@ -99,13 +98,23 @@ In
 [statistiche](https://github.com/F-Depi/database-atletica-italiana/blob/master/statistiche)
 ci sono degli esempi su alcune statistiche che ho fatto:
 
+**Risultati dei Campionati Italiani Assoluti Caorle 2025 ordinati per punteggio tabellare World Athletics**
+
+<img width="1979" height="1078" alt="image" src="https://github.com/user-attachments/assets/79e589a0-5bc2-4cfe-8574-f856993deeb8" />
+
+---
+
 **Migliori (4) PB promesse nei 1500m fatti il giorno del proprio compleanno**
 
 ![image](https://github.com/user-attachments/assets/85644ab6-1e64-4d01-9802-243df39c8868)
 
+---
+
 **Distribuzione dei risultati dei 60m piani indoor**
 
 ![risultati_categorie](https://github.com/user-attachments/assets/45be6247-082a-4cf2-b8a8-d386298ca669)
+
+---
 
 **Abbandono dell'atletica dopo le categorie giovanili**
 
