@@ -1,4 +1,3 @@
-from sys import exception
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -6,6 +5,19 @@ import math
 import json
 import re
 import os
+from sqlalchemy import create_engine, text
+from config import DB_CONFIG
+
+
+def get_sqlalchemy_connection_string():
+    """Generates the connection string for SQLAlchemy."""
+    return f"postgresql://{DB_CONFIG['user']}:{DB_CONFIG['password']}@{DB_CONFIG['host']}:{DB_CONFIG['port']}/{DB_CONFIG['database']}"
+
+
+def get_db_engine():
+    """Create and return SQLAlchemy engine."""
+    connection_string = get_sqlalchemy_connection_string()
+    return create_engine(connection_string)
 
 
 ## Scarica una pagina e mette i dati in un DataFrame del tipo
@@ -76,11 +88,11 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
         print('Nessun dato da formattare', file=f_log)
         return pd.DataFrame()
 
-    dict_gare = json.load(open('script/dizionario_gare.json'))
-    if gara not in dict_gare:
+    conn = get_db_engine().connect()
+    df_discipline = pd.read_sql("SELECT * FROM discipline", conn)
+    if gara not in df_discipline['disciplina'].values:
         print('Gara non presente nel dizionario: ' + gara + '. Le gare sono:\n', file=f_log)
-        for key in dict_gare.keys():
-            print(key)
+        print(df_discipline['disciplina'].to_string(index=False), file=f_log)
         return pd.DataFrame()
 
     if ambiente not in ['I', 'P', 'S']:
@@ -89,9 +101,9 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
         return pd.DataFrame()
 
     # A questo punto in base al tipo di gara formatto i dati
-    classifica_gara = dict_gare[gara]['classifica']
+    classifica_gara = df_discipline[df_discipline['disciplina'] == gara]['classifica'].iloc[0]
 
-    vento = dict_gare[gara]['vento']
+    vento = df_discipline[df_discipline['disciplina'] == gara]['vento'].iloc[0]
     if ambiente == 'I': vento = 'no'
 
     # Salti, lanci e 24h di corsa sono gare in cui la classifica è data dalla misura.
@@ -243,12 +255,14 @@ def conversione_misure_FIDAL(misura, f_log) -> float:
         return -1
 
 
-def conversione_vento(vento, f_log) -> str:
+def conversione_vento(vento, f_log) -> str | None:
     if pd.isnull(vento):
-        return vento
+        return None
+    if vento == '':
+        return None
     vento = vento.replace(',', '.')
     try:
-        return float(vento)
+        return f"{float(vento):.1f}"
     except ValueError:
         print(f'ERRORE: Vento strano: {vento}', file=f_log)
         return vento
@@ -269,15 +283,20 @@ def ultimo_aggiornamento_FIDAL() -> str:
         
 
 def ultimo_aggiornamento_database() -> str | None:
+    with get_db_engine().connect() as conn:
+        query = text("""
+            SELECT ultimo_aggiornamento::date
+            FROM discipline
+            ORDER BY ultimo_aggiornamento ASC
+            LIMIT 1
+        """)
 
-    foldername = '../database-atletica-csv/indoor/Corse Piane'
-    for file in os.listdir(foldername):
-        if file[:-15] == '60m':
-            return file[-14:-4]
+        result = conn.execute(query).scalar()
+        if result is not None:
+            return result.strftime("%Y-%m-%d")
+        else:
+            return None
 
-    print('I found nothing')
-    return None
-            
 
 ## Permette di aprire un file del database di csv con pandas
 def get_file_database(ambiente, gara) -> pd.DataFrame:
@@ -348,4 +367,30 @@ def best_by_atleta(df, tipo=['tempo', 'misura']):
     df = df.sort_values(by='prestazione', ascending=ascend)
 
     return df
+
+
+def check_errori(df, disciplina, f_log):
+
+    log_file = 'errori/errori_new.csv'
+
+    if 'cronometraggio' in df.columns:
+        df_typo = df[df['cronometraggio'] == 'x']
+        if not df.empty:
+            print(f"Trovati {len(df_typo)} errori in cronometraggio", file=f_log)
+            df_typo.insert(0, 'gara', disciplina)
+            df_typo.to_csv(log_file, sep=',', mode='a',index=False, header=False)
+
+    if 'vento' in df.columns:
+        indexes = []
+        for i, row in df.iterrows():
+            if df.at[i, 'vento'] == '': df.at[i, 'vento'] = None
+            if df.at[i, 'vento'] is None: continue
+            try:
+                _ = float(row['vento'])
+            except ValueError:
+                indexes.append(i)
+        df_err = df.iloc[indexes]
+        if not df_err.empty:
+            df_err.insert(0, 'gara', disciplina)
+            df_err.to_csv(log_file, sep=',', mode='a',index=False, header=False)
 
