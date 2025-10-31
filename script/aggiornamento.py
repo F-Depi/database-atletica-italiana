@@ -1,114 +1,153 @@
 import pandas as pd
-import json
 from my_functions import *
-import os
-import sys
 
-# Add parent directory to Python path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 '''
-Script per aggiornare automaticamente il database con i dati nuovi delle graduatorie.
-Il database viene aggiornato guardando l'ultimo anno presente. Tutti i dati di quell'anno vengono cancellati e riscaricati.
-Se l'ultimo anno presente non era quello in corso, vengono scaricati anche gli anni successivi.
+Script per aggiornare automaticamente il database con i dati nuovi delle
+graduatorie.
+Il database viene aggiornato guardando l'ultimo anno presente. Tutti i dati di
+quell'anno vengono cancellati e riscaricati.
+Se l'ultimo anno presente non era quello in corso, vengono scaricati anche gli
+anni successivi.
 Aggiorno a chunk di 1 anno intero perché:
     - è più semplice
-    - alcuni risultati potrebbero essere stati fatti riconoscere a posteriori (es. prestazioni ottenute all'estero)
+    - alcuni risultati potrebbero essere stati fatti riconoscere a posteriori
+      (es. prestazioni ottenute all'estero)
 
-NOTA: vengono aggiornate solo le gare che hanno un file di risultati già presente nel database.
+NOTA: vengono aggiornate solo le gare che hanno un file di risultati già
+presente nel database.
 '''
 
-f_log = open('log', 'w')
-dict_gare = json.load(open('script/dizionario_gare.json'))
-col_dtype = json.load(open('script/colonne_dtype.json'))
-dict_reg_prov = json.load(open('script/regioni_province.json'))
+tieni_correzioni_manuali = True
+
+f_log = open('log.txt', 'w')
+f_status = open('status.txt', 'w')
+
+conn = get_db_engine().connect()
+df_discipline = pd.read_sql("SELECT * FROM discipline", conn)
+result = conn.execute(text("SELECT * FROM regioni_province"))
+dict_reg_prov = {row.regione: row.province for row in result}
 
 
 last_server_update = ultimo_aggiornamento_FIDAL()
-print('Last server update:\t' + last_server_update)
+print('Last server update:\t' + last_server_update, file=f_status)
 
 last_database_update = ultimo_aggiornamento_database()
 if last_database_update:
-    print('Last database update:\t' + last_database_update)
+    print('Last database update:\t' + last_database_update, file=f_status)
+f_status.flush()
 
-updated_sthing = False
+
+updated_something = False
 
 ## Diamo il via alla giungla di nesting
-for ambiente in ['I', 'P']:
-    if ambiente == 'I':
-        folder = '../database-atletica-csv/indoor/'
-    elif ambiente == 'P':
-        folder = '../database-atletica-csv/outdoor/'
-    else: exit()
+for i, row in df_discipline.iterrows():
+    disciplina = row['disciplina']
+    ult_agg = row['ultimo_aggiornamento'].strftime("%Y-%m-%d")
+    if ult_agg >= last_server_update:
+        print(f"{disciplina} è già aggiornata", file=f_status)
+        f_status.flush()
+        continue
 
-    for sub_folder in os.listdir(folder):
-        if sub_folder.endswith('.csv'): continue
+    for ambiente in ['I', 'P']:
 
-        sub_folder = folder + sub_folder + '/'
+        print(f"Aggiorno {disciplina} {ambiente}", file=f_status)
+        f_status.flush()
+        updated_something = True
 
-        for file in os.listdir(sub_folder):
+        # L'aggiornamento verrà fatto scaricando tutti i dati dell'anno in corso
+        #(e di quelli mancanti)
+        years = range(int(ult_agg[:4]), int(last_server_update[:4]) + 1)
 
-            # evito i file di errori e di discipline sconosciute
-            sono_risultati = file.endswith('.csv') and file[:3] != 'Sco'
-            if not sono_risultati: continue
+        codice = row['codice']
 
-            last_local_update = file[-14:-4]
-            if last_local_update == last_server_update:
-                print(sub_folder + file + ' è già aggiornato')
-                continue
-
-            print('Aggiorno ' + sub_folder + file)
-            updated_sthing = True
-
-            # L'aggiornamento verrà fatto scaricando tutti i dati dell'anno in corso (e di quelli mancanti)
-            years = range(int(last_local_update[:4]), int(last_server_update[:4]) + 1)
-
-            gara = file[:-15]
-            cod = dict_gare[gara]['codice']
-
-            df_new = pd.DataFrame()
-            for year in years:
-                for cat in ['E', 'C', 'X']:
-                    for sesso in ['M', 'F']:
-                        regione = '0'
-                        df = get_data_FIDAL(str(year), ambiente, sesso, cat, cod, '1', '2', regione, '2', '0', '', f_log)
-                        df_new = pd.concat([df_new, df])
-                cat = 'R'
+        df_new = pd.DataFrame()
+        for year in years:
+            for cat in ['C', 'X']:
                 for sesso in ['M', 'F']:
-                    for reg in dict_reg_prov.keys():
-                        df = get_data_FIDAL(str(year), ambiente, sesso, cat, cod, '1', '2', reg, '2', '0', '', f_log)
-                        df_new = pd.concat([df_new, df])
+                    df = get_data_FIDAL(str(year), ambiente, sesso, cat, codice,
+                                        '1', '2', '0', '2', '0', '', f_log)
+                    df_new = pd.concat([df_new, df])
 
-            # Formattazione dei dati
-            df_new = format_data_FIDAL(df_new, gara, ambiente, f_log)
-            df_new = df_new.drop_duplicates()
+            # Le graduatorie ragazzi esistono solo regionalmente
+            cat = 'R'
+            for sesso in ['M', 'F']:
+                for reg in dict_reg_prov.keys():
+                    df = get_data_FIDAL(str(year), ambiente, sesso, cat, codice,
+                                        '1', '2', reg, '2', '0', '', f_log)
+                    df_new = pd.concat([df_new, df])
 
-            # Carico il vecchio database
-            df_old = pd.read_csv(sub_folder + file, dtype=col_dtype)
+        if df_new.empty:
+            print(f"Nessun dato trovato per {disciplina} {ambiente}", file=f_status)
+            f_status.flush()
+            continue
 
-            ## Tolgo i risultati dell'ultimo anno perchè li ho appena riscaricati più aggiornati
-            ## Ogni tanto mi togga farlo se ci sono errori grossi della fidal che passano inosservati dai miei filtri
-            ## e loro si preoccupano di correggerli tutti quanti dopo un po'
-            #df_old = df_old[df_old['data'].str[:4] != last_local_update[:4]]
+        # Formattazione dei dati
+        df_new = format_data_FIDAL(df_new, disciplina, ambiente, f_log)
+        df_new = df_new.drop_duplicates()
 
+        # Carico il vecchio database
+        where_clause = f"""WHERE disciplina = '{disciplina}'
+                           AND data >= '{years[0]}-01-01'
+                           AND ambiente = '{ambiente}'"""
+
+        if tieni_correzioni_manuali:
+        # L'obbiettivo è aggiungere i risultati nuovi, sapendo che abbiamo in
+        # df_new anche risultati già presenti nel DB. L'attenzione particolare
+        # sta nel fatto che ci sono risultati errati che nel DB ho corretto ma
+        # che continuo a riscaricare errati. Voglio quindi deduplicare senza
+        # guardare il tempo (che è quello che ha l'errore) tenendo la prima
+        # copia, ovvero la versione già corretta nel mio DB.
+            query1 = text(f"SELECT * FROM results {where_clause}")
+            df_old = pd.read_sql(query1, conn)
             df = pd.concat([df_old, df_new])
-            # L'obbiettivo è aggiungere i risultati nuovi, sapendo che abbiamo in df_new anche risultati già presenti
-            # nel DB. L'attenzione particolare sta nel fatto che ci sono risultati errati che nel DB ho corretto ma che
-            # continuo a riscaricare errati. Voglio quindi deduplicare senza guardare il tempo (che è quello che ha
-            # l'errore) tenendo la prima copia, ovvero la versione già corretta nel mio DB.
-            # La ricerca degli errori (risultati con cronometraggio 'x' o con vento strano) vengono rilevati e salvati 
-            # correzione.py
-            df = df.drop_duplicates(subset=['atleta', 'anno', 'categoria', 'società', 'posizione', 'luogo', 'data',
-                                            'link_atleta', 'link_società'], keep='first')
+            df = df.drop_duplicates(subset=['atleta', 'anno', 'categoria',
+                                   'società', 'posizione', 'luogo', 'data',
+                                   'link_atleta', 'link_società'], keep='first')
             df = df.reset_index(drop=True)
 
-            df.to_csv(sub_folder + gara + '_' + last_server_update + '.csv', index=False)
+        else:
+        # Ignoro i risultati che ci sono già perchè li ho appena riscaricati
+        # più aggiornati. Ogni tanto mi tocca farlo se ci sono errori grossi
+        # della fidal che passano inosservati dai miei filtri e che loro si
+        # preoccupano di correggere dopo un po'
+            df = df_new
+        
+        # Controllo automatico di (alcuni) possibili errori
+        check_errori(df, disciplina, f_log)
 
-            ## Just to be sure
-            if last_local_update != last_server_update:
-                os.remove(sub_folder + file)
+        if 'cronometraggio' in df.columns:
+            df = df[df['cronometraggio'] != 'x']
+        df = df[df['prestazione'] > 0]
+ 
+        if 'id' in df.columns:
+            df = df.drop(columns=['id'])
+
+        df['disciplina'] = disciplina
+        df['ambiente'] = ambiente
+        df['sesso'] = df['categoria'].str[1]
+        df['cod_società'] = df['link_società'].str[-5:]
+
+        conn.execute(text(f"DELETE FROM results {where_clause}"))
+        df.to_sql('results',
+                  conn,
+                  if_exists='append',
+                  index=False,
+                  method='multi',
+                  chunksize=1000)
+
+        conn.commit()
+    
+    conn.execute(text(f"""UPDATE discipline
+                      SET ultimo_aggiornamento = CURRENT_TIMESTAMP
+                      WHERE disciplina = '{disciplina}'"""))
+    conn.commit()
 
 
-        print('-'*90)
+    print('-'*90, file=f_status)
+    f_status.flush()
 
-print(updated_sthing)
+
+conn.close()
+print(updated_something, file=f_status)
+f_status.flush()
