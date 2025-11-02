@@ -18,7 +18,8 @@ NOTA: vengono aggiornate solo le gare che hanno un file di risultati già
 presente nel database.
 '''
 
-tieni_correzioni_manuali = True
+tieni_correzioni_manuali = False
+force_update = False
 
 f_log = open('log.txt', 'w')
 f_status = open('status.txt', 'w')
@@ -44,7 +45,7 @@ updated_something = False
 for i, row in df_discipline.iterrows():
     disciplina = row['disciplina']
     ult_agg = row['ultimo_aggiornamento'].strftime("%Y-%m-%d")
-    if ult_agg >= last_server_update:
+    if ult_agg >= last_server_update and not force_update:
         print(f"{disciplina} è già aggiornata", file=f_status)
         f_status.flush()
         continue

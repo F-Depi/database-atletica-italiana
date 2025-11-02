@@ -383,8 +383,10 @@ def check_errori(df, disciplina, f_log):
     if 'vento' in df.columns:
         indexes = []
         for i, row in df.iterrows():
-            if df.at[i, 'vento'] == '': df.at[i, 'vento'] = None
-            if df.at[i, 'vento'] is None: continue
+            if row['vento'] == '':
+                df.loc[i, 'vento'] = None
+            if row['vento'] is None:
+                continue
             try:
                 _ = float(row['vento'])
             except ValueError:
