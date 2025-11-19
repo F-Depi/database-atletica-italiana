@@ -6,7 +6,7 @@ import json
 import re
 import os
 from sqlalchemy import create_engine, text
-from config import DB_CONFIG
+from script.config import DB_CONFIG
 
 
 def get_sqlalchemy_connection_string():
