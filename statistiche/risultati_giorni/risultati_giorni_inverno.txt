@@ -1,0 +1,98 @@
+WITH filtered AS (
+    SELECT
+        DATE(data) AS giorno,
+        luogo,
+        disciplina,
+        categoria
+    FROM results
+    WHERE categoria NOT IN ('EM', 'EF')
+      AND EXTRACT(MONTH FROM data) IN (1, 2, 3, 12)
+),
+
+-- Totals per day
+daily_totals AS (
+    SELECT
+        giorno,
+        COUNT(*) AS risultati_totali
+    FROM filtered
+    GROUP BY giorno
+),
+
+-- Pre-aggregate luogo
+luogo_counts AS (
+    SELECT
+        giorno,
+        luogo,
+        COUNT(*) AS cnt
+    FROM filtered
+    GROUP BY giorno, luogo
+),
+
+luoghi AS (
+    SELECT
+        giorno,
+        STRING_AGG(
+            luogo || ' (' || cnt || ')',
+            ', '
+            ORDER BY cnt DESC
+        ) AS luoghi
+    FROM luogo_counts
+    GROUP BY giorno
+),
+
+-- Pre-aggregate disciplina
+disciplina_counts AS (
+    SELECT
+        giorno,
+        disciplina,
+        COUNT(*) AS cnt
+    FROM filtered
+    GROUP BY giorno, disciplina
+),
+
+discipline AS (
+    SELECT
+        giorno,
+        STRING_AGG(
+            disciplina || ' (' || cnt || ')',
+            ', '
+            ORDER BY cnt DESC
+        ) AS discipline
+    FROM disciplina_counts
+    GROUP BY giorno
+),
+
+-- Pre-aggregate categoria
+categoria_counts AS (
+    SELECT
+        giorno,
+        categoria,
+        COUNT(*) AS cnt
+    FROM filtered
+    GROUP BY giorno, categoria
+),
+
+categorie AS (
+    SELECT
+        giorno,
+        STRING_AGG(
+            categoria || ' (' || cnt || ')',
+            ', '
+            ORDER BY cnt DESC
+        ) AS categorie
+    FROM categoria_counts
+    GROUP BY giorno
+)
+
+SELECT
+    d.giorno,
+    d.risultati_totali,
+    l.luoghi,
+    di.discipline,
+    c.categorie
+FROM daily_totals d
+LEFT JOIN luoghi l USING (giorno)
+LEFT JOIN discipline di USING (giorno)
+LEFT JOIN categorie c USING (giorno)
+ORDER BY d.risultati_totali DESC
+LIMIT 100;

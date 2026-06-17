@@ -1,0 +1,81 @@
+WITH atleti AS (
+    SELECT DISTINCT ON (r.link_atleta)
+        r.link_atleta,
+        r.atleta,
+        r.anno
+    FROM results r
+    WHERE r.cod_società IN ('BO011', 'RI224', 'RM002', 'RM052', 'RM053', 'RM056', 'PD131')
+      AND NOT EXISTS (
+          SELECT 1
+          FROM results x
+          WHERE x.link_atleta = r.link_atleta
+            AND x.cod_società IN ('BO011', 'RI224', 'RM002', 'RM052', 'RM053', 'RM056', 'PD131')
+            AND x.categoria IN ('EM', 'EF', 'RM', 'RF', 'CM', 'CF')
+      )
+      AND EXISTS (
+          SELECT 1
+          FROM results y
+          WHERE y.link_atleta = r.link_atleta
+            AND y.cod_società IN ('BO011', 'RI224', 'RM002', 'RM052', 'RM053', 'RM056', 'PD131')
+            AND y.categoria IN ('PM', 'PF', 'SM', 'SF')
+      )
+),
+
+primo_nuovo AS (
+    SELECT DISTINCT ON (r.link_atleta)
+        r.link_atleta,
+        r.cod_società,
+        r.società,
+        r.data,
+        r.disciplina,
+        r.prestazione AS tempo
+    FROM results r
+    WHERE r.link_atleta IN (SELECT link_atleta FROM atleti)
+      AND r.cod_società IN ('BO011', 'RI224', 'RM002', 'RM052', 'RM053', 'RM056', 'PD131')
+    ORDER BY r.link_atleta, r.data ASC
+),
+
+ultima_vecchia AS (
+    SELECT DISTINCT ON (r.link_atleta)
+        r.link_atleta,
+        r.cod_società,
+        r.società,
+        r.data,
+        r.disciplina,
+        r.prestazione AS tempo
+    FROM results r
+    JOIN primo_nuovo pn
+      ON pn.link_atleta = r.link_atleta
+    WHERE r.cod_società NOT IN ('BO011', 'RI224', 'RM002', 'RM052', 'RM053', 'RM056', 'PD131')
+      AND r.data < pn.data
+    ORDER BY r.link_atleta, r.data DESC
+)
+
+SELECT
+    a.atleta,
+	a.link_atleta,
+
+    uv.cod_società  AS cod_società_precedente,
+    uv.società      AS società_precedente,
+    uv.data         AS data_ultimo_risultato_vecchia_società,
+    uv.disciplina   AS disciplina_vecchia,
+    uv.tempo        AS tempo_vecchio,
+
+    pn.cod_società  AS cod_società_nuova,
+    pn.società      AS società_nuova,
+    pn.data         AS data_primo_risultato_nuova_società,
+    pn.disciplina   AS disciplina_nuova,
+    pn.tempo        AS tempo_nuovo,
+
+    a.anno          AS anno_nascita,
+    EXTRACT(YEAR FROM pn.data)::int - a.anno AS età_al_cambio
+
+FROM atleti a
+JOIN primo_nuovo pn
+    ON pn.link_atleta = a.link_atleta
+LEFT JOIN ultima_vecchia uv
+    ON uv.link_atleta = a.link_atleta
+	
+WHERE uv.link_atleta IS NOT NULL
+
+ORDER BY età_al_cambio;
