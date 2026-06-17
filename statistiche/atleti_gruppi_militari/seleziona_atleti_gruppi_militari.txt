@@ -1,0 +1,39 @@
+SELECT
+    t.disciplina,
+    t.tempo,
+    t.atleta,
+    t.categoria,
+    t.anno,
+    t.società,
+    t.luogo,
+    t.data
+FROM (
+    SELECT DISTINCT ON (r.link_atleta)
+        r.disciplina,
+        r.tempo,
+        r.atleta,
+        r.categoria,
+        r.anno,
+        r.società,
+        r.luogo,
+        r.data,
+        r.link_atleta
+    FROM results r
+    WHERE r.cod_società IN ('BO011', 'RM002', 'RM052', 'RM053', 'RM056', 'PD131')
+      AND NOT EXISTS (
+          SELECT 1
+          FROM results x
+          WHERE x.link_atleta = r.link_atleta
+            AND x.cod_società IN ('BO011', 'RM002', 'RM052', 'RM053', 'RM056', 'PD131')
+            AND x.categoria IN ('EM', 'EF', 'RM', 'RF', 'CM', 'CF')
+      )
+      AND EXISTS (
+          SELECT 1
+          FROM results y
+          WHERE y.link_atleta = r.link_atleta
+            AND y.cod_società IN ('BO011', 'RM002', 'RM052', 'RM053', 'RM056', 'PD131')
+            AND y.categoria IN ('PM', 'PF', 'SM', 'SF')
+      )
+    ORDER BY r.link_atleta, r.data DESC
+) t
+ORDER BY t.atleta;

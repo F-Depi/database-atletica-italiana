@@ -1,0 +1,49 @@
+WITH parametri AS (
+    SELECT
+        DATE '2025-01-01'  AS data_inizio_outdoor,
+        DATE '2026-12-31'  AS data_fine_outdoor,
+        DATE '2025-11-01'  AS data_inizio_indoor,
+        DATE '2026-02-22'  AS data_fine_indoor,
+        11.6::numeric      AS tempo_max_outdoor,
+        7.52::numeric      AS tempo_max_indoor,
+        '100m'             AS disciplina_outdoor,
+        '60m'              AS disciplina_indoor,
+        'F'                AS sesso 
+)
+
+SELECT *
+FROM (
+    SELECT DISTINCT ON (r.link_atleta) r.*
+    FROM results r
+    JOIN discipline d
+        ON d.disciplina = r.disciplina
+    CROSS JOIN parametri p
+    WHERE
+        r.sesso = p.sesso
+    AND
+    (
+        (
+            r.disciplina = p.disciplina_outdoor
+            AND r.data BETWEEN p.data_inizio_outdoor AND p.data_fine_outdoor
+            AND r.prestazione < p.tempo_max_outdoor
+            AND (
+                d.vento = false
+                OR (d.vento = true AND r.vento <= 2.0)
+            )
+        )
+        OR
+        (
+            r.disciplina = p.disciplina_indoor
+            AND r.data BETWEEN p.data_inizio_indoor AND p.data_fine_indoor
+            AND r.prestazione < p.tempo_max_indoor
+        )
+    )
+    ORDER BY
+        r.link_atleta,
+        CASE
+            WHEN r.disciplina = p.disciplina_indoor THEN 1
+            ELSE 2
+        END,
+        r.prestazione ASC
+) t
+ORDER BY prestazione ASC;
