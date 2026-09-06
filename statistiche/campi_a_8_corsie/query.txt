@@ -1,0 +1,18 @@
+WITH heats AS (
+    SELECT luogo, data, disciplina,
+           ROW_NUMBER() OVER (
+               PARTITION BY luogo
+               ORDER BY data DESC
+           ) AS rn
+    FROM results
+    WHERE ambiente = 'P'
+      AND disciplina IN ('200m', '300m', '400m')
+      AND EXTRACT(YEAR FROM data) > 2020
+    GROUP BY luogo, data, disciplina, RIGHT(posizione, 5)
+    HAVING COUNT(DISTINCT LEFT(posizione, 1)) > 7
+)
+SELECT luogo, data, disciplina
+FROM heats
+WHERE rn = 1
+ORDER BY luogo;
+
