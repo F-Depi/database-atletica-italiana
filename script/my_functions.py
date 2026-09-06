@@ -6,7 +6,7 @@ import json
 import re
 import os
 from sqlalchemy import create_engine, text
-from script.config import DB_CONFIG
+from config import DB_CONFIG
 
 
 def get_sqlalchemy_connection_string():
@@ -265,7 +265,7 @@ def conversione_vento(vento, f_log) -> str | None:
         return f"{float(vento):.1f}"
     except ValueError:
         print(f'ERRORE: Vento strano: {vento}', file=f_log)
-        return vento
+        return None
 
 
 
