@@ -165,4 +165,5 @@ with open('lista_società.txt', 'r') as file:
 
 for ii in range(len(cod)):
     print(f"{ii}/{len(cod)}: {cod[ii]}")
-    genera_grafico(cod[ii], save=True)
+    #genera_grafico(cod[ii], save=True)
+genera_grafico("BL009", True)

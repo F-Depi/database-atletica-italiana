@@ -36,8 +36,10 @@ def _data_italiana():
     return f"{oggi.day} {_MESI_ITALIANI[oggi.month]} {oggi.year}"
 
 # Stessa lista di codici usata nel ciclo di generazione; verrà ordinata.
-with open('lista_società.txt', 'r') as file:
-    CODICI = [line.strip() for line in file]
+#with open('lista_società.txt', 'r') as file:
+#    CODICI = [line.strip() for line in file]
+CODICI = ["BL012", "TN524", "BL009", "BL008", "VI626", "BS181", "TV406", "TV409", "TV354", "TN109", "TN101", "BZ066"]
+
 
 # Opzionale: mappa cod -> nome società da mostrare nell'indice.
 # Se un codice non è presente qui, viene mostrato il codice stesso.
@@ -60,7 +62,7 @@ def get_nome_società(cod, conn):
 NOMI_SOCIETA = {cod: get_nome_società(cod, conn) for cod in CODICI}
 
 CARTELLA_PNG = "figures"  # cartella dove genera_grafico salva i PNG
-OUTPUT_PDF = "gare_per_anno_tutte_le_societa.pdf"
+OUTPUT_PDF = "Gare_per_anno_societa_note.pdf"
 
 TITOLO_COPERTINA = "Gare per Anno per Società"
 SOTTOTITOLO_COPERTINA = "Report riepilogativo"
