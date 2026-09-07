@@ -153,17 +153,17 @@ def genera_grafico(COD_SOCIETA, save=False):
 
     plt.tight_layout()
     if save:
-        plt.savefig(f"figures/gare_per_anno_societa_{COD_SOCIETA}.png", dpi=150)
+        #plt.savefig(f"figures/gare_per_anno_societa_{COD_SOCIETA}.png", dpi=150)
+        plt.savefig(f"figures/gare_per_anno_societa_{COD_SOCIETA}.pdf", format="pdf")
     else:
         plt.show()
     plt.close()
 
-cods = ["BL012", "TN524", "BL009", "BL008", "VI626", "BS181", "TV406", "TV409", "TV354", "TN109", "TN101", "BZ066"]
+#cods_società_note = ["BL012", "TN524", "BL009", "BL008", "VI626", "BS181", "TV406", "TV409", "TV354", "TN109", "TN101", "BZ066"]
 
-with open('lista_società.txt', 'r') as file:
-    cod = [line.strip() for line in file]
+with open('lista_società_250.txt', 'r') as file:
+    cods = [line.strip() for line in file]
 
-for ii in range(len(cod)):
-    print(f"{ii}/{len(cod)}: {cod[ii]}")
-    #genera_grafico(cod[ii], save=True)
-genera_grafico("BL009", True)
+for ii in range(len(cods)):
+    print(f"{ii}/{len(cods)}: {cods[ii]}")
+    genera_grafico(cods[ii], save=True)

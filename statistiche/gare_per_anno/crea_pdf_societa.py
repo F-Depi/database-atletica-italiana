@@ -8,7 +8,7 @@ Richiede una distribuzione LaTeX installata (es. TeX Live / MiKTeX) con
 pdflatex disponibile nel PATH.
 
 Presuppone che i file siano salvati con il pattern:
-    gare_per_anno_societa_{COD_SOCIETA}.png
+    gare_per_anno_societa_{COD_SOCIETA}.pdf
 nella cartella indicata da CARTELLA_PNG.
 """
 
@@ -36,9 +36,10 @@ def _data_italiana():
     return f"{oggi.day} {_MESI_ITALIANI[oggi.month]} {oggi.year}"
 
 # Stessa lista di codici usata nel ciclo di generazione; verrà ordinata.
-#with open('lista_società.txt', 'r') as file:
+CODICI = ["BL012", "TN524", "BL009", "BL008", "VI626", "BS181", "TV406", "TV409",
+           "TV354", "TN109", "TN101", "BZ066"]
+#with open('lista_societa_250.txt', 'r') as file:
 #    CODICI = [line.strip() for line in file]
-CODICI = ["BL012", "TN524", "BL009", "BL008", "VI626", "BS181", "TV406", "TV409", "TV354", "TN109", "TN101", "BZ066"]
 
 
 # Opzionale: mappa cod -> nome società da mostrare nell'indice.
@@ -62,6 +63,7 @@ def get_nome_società(cod, conn):
 NOMI_SOCIETA = {cod: get_nome_società(cod, conn) for cod in CODICI}
 
 CARTELLA_PNG = "figures"  # cartella dove genera_grafico salva i PNG
+#OUTPUT_PDF = "Gare_per_anno_tutte_societa.pdf"
 OUTPUT_PDF = "Gare_per_anno_societa_note.pdf"
 
 TITOLO_COPERTINA = "Gare per Anno per Società"
@@ -94,14 +96,8 @@ def _etichetta(cod):
 def _crea_tex(codici_trovati, path_immagini, path_tex):
     righe = [
         r"\documentclass[a4paper,oneside]{article}",
-        # 'landscape' ruota l'intera gabbia di pagina: niente più angle=90
-        # sulle immagini, è la pagina stessa ad essere orizzontale.
         r"\usepackage[margin=1.5cm,landscape]{geometry}",
         r"\usepackage{graphicx}",
-        # tocloft permette di controllare la larghezza riservata al numero
-        # di sezione nell'indice. Il default di article.cls (~1.5em) basta
-        # per numeri a 1-2 cifre ma un numero a 3 cifre (es. "123") sborda
-        # e si sovrappone al titolo: per questo aumentiamo lo spazio.
         r"\usepackage{tocloft}",
         r"\setlength{\cftsecnumwidth}{3em}",
         r"\usepackage{hyperref}",
@@ -116,21 +112,38 @@ def _crea_tex(codici_trovati, path_immagini, path_tex):
         r"\vspace{0.5cm}",
         r"{\large %s\par}" % _data_italiana(),
         r"\end{titlepage}",
+        
+        # ===== ABSTRACT STRETTO E CENTRATO =====
+        r"\clearpage",
+        r"\begin{center}",
+        r"\begin{minipage}{0.6\textwidth}",
+        r"\begin{abstract}",
+        r"Le seguenti pagine riportano il numero totale dei risultati gara conseguiti di anno in anno (dal 2005 a oggi) dagli atleti di una società. Il grafico a sinistra mostra i risultati totali della società e gli andamenti dei soli risultati indoor, outdoor, maschili e femminili. Il grafico a destra divide invece i risultati per categorie.",
+        r"\par\vspace{0.3cm}",
+        r"Sono incluse solo le società che al 4 di settembre hanno più di 250 risultati nel 2026.",
+        r"\par\vspace{0.3cm}",
+        r"Database di \url{https://atletica.mooo.com}",
+        r"Fonte dati: \url{https://www.fidal.it/}",
+        r"\par\vspace{0.3cm}",
+        r"Aggiornato al %s." % _data_italiana(),
+        r"\end{abstract}",
+        r"\end{minipage}",
+        r"\end{center}",
+        # ===== FINE ABSTRACT =====
+        
+        r"\clearpage",
         r"\tableofcontents",
         r"\clearpage",
     ]
 
     for cod in codici_trovati:
         etichetta = _escape_latex(_etichetta(cod))
-        percorso_png = os.path.join(path_immagini, f"gare_per_anno_societa_{cod}.png")
+        percorso_grafico = os.path.join(path_immagini, f"gare_per_anno_societa_{cod}.pdf")
 
-        # Forza una nuova pagina pulita prima di ogni sezione
         righe.append(r"\clearpage")
         righe.append(r"\section{%s}" % etichetta)
         righe.append(r"\begin{center}")
-        # Pagina già orizzontale: niente rotazione, l'immagine occupa
-        # la larghezza/altezza disponibile mantenendo le proporzioni.
-        righe.append(r"\includegraphics[width=\textwidth, height=0.85\textheight, keepaspectratio]{%s}" % percorso_png.replace("\\", "/"))
+        righe.append(r"\includegraphics[width=\textwidth, height=0.85\textheight, keepaspectratio]{%s}" % percorso_grafico.replace("\\", "/"))
         righe.append(r"\end{center}")
 
     righe.append(r"\end{document}")
@@ -139,7 +152,7 @@ def _crea_tex(codici_trovati, path_immagini, path_tex):
         f.write("\n".join(righe))
 
 
-def combina_png_in_pdf(codici, cartella_png=CARTELLA_PNG, output_pdf=OUTPUT_PDF):
+def combina_grafico_in_pdf(codici, cartella_grafico=CARTELLA_PNG, output_pdf=OUTPUT_PDF):
     if shutil.which("pdflatex") is None:
         raise RuntimeError(
             "pdflatex non trovato nel PATH. Installa una distribuzione LaTeX "
@@ -152,11 +165,11 @@ def combina_png_in_pdf(codici, cartella_png=CARTELLA_PNG, output_pdf=OUTPUT_PDF)
     codici_trovati = []
     mancanti = []
     for cod in codici_ordinati:
-        path_png = os.path.join(cartella_png, f"gare_per_anno_societa_{cod}.png")
-        if os.path.exists(path_png):
+        path_grafico = os.path.join(cartella_grafico, f"gare_per_anno_societa_{cod}.pdf")
+        if os.path.exists(path_grafico):
             codici_trovati.append(cod)
         else:
-            mancanti.append(path_png)
+            mancanti.append(path_grafico)
 
     if mancanti:
         print("Attenzione, questi file non sono stati trovati e verranno saltati:")
@@ -167,11 +180,11 @@ def combina_png_in_pdf(codici, cartella_png=CARTELLA_PNG, output_pdf=OUTPUT_PDF)
         print("Nessuna immagine trovata: PDF non creato.")
         return
 
-    cartella_png_assoluta = os.path.abspath(cartella_png)
+    cartella_grafico_assoluta = os.path.abspath(cartella_grafico)
 
     with tempfile.TemporaryDirectory() as tmp:
         path_tex = os.path.join(tmp, "documento.tex")
-        _crea_tex(codici_trovati, cartella_png_assoluta, path_tex)
+        _crea_tex(codici_trovati, cartella_grafico_assoluta, path_tex)
 
         # 3 compilazioni bastano e avanzano per popolare indice/segnalibri.
         # Nota: il numero di compilazioni NON incide sulla sovrapposizione
@@ -194,4 +207,4 @@ def combina_png_in_pdf(codici, cartella_png=CARTELLA_PNG, output_pdf=OUTPUT_PDF)
 
 
 if __name__ == "__main__":
-    combina_png_in_pdf(CODICI)
+    combina_grafico_in_pdf(CODICI)
