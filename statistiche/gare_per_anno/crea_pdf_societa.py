@@ -36,10 +36,10 @@ def _data_italiana():
     return f"{oggi.day} {_MESI_ITALIANI[oggi.month]} {oggi.year}"
 
 # Stessa lista di codici usata nel ciclo di generazione; verrà ordinata.
-CODICI = ["BL012", "TN524", "BL009", "BL008", "VI626", "BS181", "TV406", "TV409",
-           "TV354", "TN109", "TN101", "BZ066"]
-#with open('lista_societa_250.txt', 'r') as file:
-#    CODICI = [line.strip() for line in file]
+with open('lista_societa_250.txt', 'r') as file:
+    CODICI = [line.strip() for line in file]
+#CODICI = ["BL012", "TN524", "BL009", "BL008", "VI626", "BS181", "TV406", "TV409",
+#           "TV354", "TN109", "TN101", "BZ066"]
 
 
 # Opzionale: mappa cod -> nome società da mostrare nell'indice.
@@ -63,8 +63,8 @@ def get_nome_società(cod, conn):
 NOMI_SOCIETA = {cod: get_nome_società(cod, conn) for cod in CODICI}
 
 CARTELLA_PNG = "figures"  # cartella dove genera_grafico salva i PNG
-#OUTPUT_PDF = "Gare_per_anno_tutte_societa.pdf"
-OUTPUT_PDF = "Gare_per_anno_societa_note.pdf"
+OUTPUT_PDF = "Gare_per_anno_tutte_societa.pdf"
+#OUTPUT_PDF = "Gare_per_anno_societa_note.pdf"
 
 TITOLO_COPERTINA = "Gare per Anno per Società"
 SOTTOTITOLO_COPERTINA = "Report riepilogativo"
@@ -111,6 +111,13 @@ def _crea_tex(codici_trovati, path_immagini, path_tex):
         r"{\Large %s\par}" % _escape_latex(SOTTOTITOLO_COPERTINA),
         r"\vspace{0.5cm}",
         r"{\large %s\par}" % _data_italiana(),
+        r"\vspace{2cm}",
+        # ===== AUTORE E EMAIL =====
+        r"{\large\textbf{Autore:}\par}",
+        r"Federico De Paoli",
+        r"\par\vspace{0.3cm}",
+        r"{\normalsize\texttt{fdp.federico@proton.me}\par}",
+        # ===== FINE AUTORE E EMAIL =====
         r"\end{titlepage}",
         
         # ===== ABSTRACT STRETTO E CENTRATO =====
