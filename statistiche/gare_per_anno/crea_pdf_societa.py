@@ -92,14 +92,22 @@ def _etichetta(cod):
 def _crea_tex(codici_trovati, path_immagini, path_tex):
     righe = [
         r"\documentclass[a4paper,oneside]{article}",
-        r"\usepackage[margin=1.5cm]{geometry}",
+        # 'landscape' ruota l'intera gabbia di pagina: niente più angle=90
+        # sulle immagini, è la pagina stessa ad essere orizzontale.
+        r"\usepackage[margin=1.5cm,landscape]{geometry}",
         r"\usepackage{graphicx}",
+        # tocloft permette di controllare la larghezza riservata al numero
+        # di sezione nell'indice. Il default di article.cls (~1.5em) basta
+        # per numeri a 1-2 cifre ma un numero a 3 cifre (es. "123") sborda
+        # e si sovrappone al titolo: per questo aumentiamo lo spazio.
+        r"\usepackage{tocloft}",
+        r"\setlength{\cftsecnumwidth}{3em}",
         r"\usepackage{hyperref}",
         r"\hypersetup{colorlinks=true, linkcolor=blue, bookmarksopen=true}",
         r"\begin{document}",
         r"\begin{titlepage}",
         r"\centering",
-        r"\vspace*{5cm}",
+        r"\vspace*{3cm}",
         r"{\Huge\bfseries %s\par}" % _escape_latex(TITOLO_COPERTINA),
         r"\vspace{1cm}",
         r"{\Large %s\par}" % _escape_latex(SOTTOTITOLO_COPERTINA),
@@ -113,13 +121,14 @@ def _crea_tex(codici_trovati, path_immagini, path_tex):
     for cod in codici_trovati:
         etichetta = _escape_latex(_etichetta(cod))
         percorso_png = os.path.join(path_immagini, f"gare_per_anno_societa_{cod}.png")
-        
+
         # Forza una nuova pagina pulita prima di ogni sezione
         righe.append(r"\clearpage")
         righe.append(r"\section{%s}" % etichetta)
         righe.append(r"\begin{center}")
-        # Altezza ridotta a 0.88\textheight per evitare lo straripamento pagina con il titolo
-        righe.append(r"\includegraphics[angle=90, height=0.88\textheight, width=\textwidth, keepaspectratio]{%s}" % percorso_png.replace("\\", "/"))
+        # Pagina già orizzontale: niente rotazione, l'immagine occupa
+        # la larghezza/altezza disponibile mantenendo le proporzioni.
+        righe.append(r"\includegraphics[width=\textwidth, height=0.85\textheight, keepaspectratio]{%s}" % percorso_png.replace("\\", "/"))
         righe.append(r"\end{center}")
 
     righe.append(r"\end{document}")
@@ -162,8 +171,11 @@ def combina_png_in_pdf(codici, cartella_png=CARTELLA_PNG, output_pdf=OUTPUT_PDF)
         path_tex = os.path.join(tmp, "documento.tex")
         _crea_tex(codici_trovati, cartella_png_assoluta, path_tex)
 
-        # pdflatex va eseguito due volte per popolare correttamente l'indice
-        for _ in range(5):
+        # 3 compilazioni bastano e avanzano per popolare indice/segnalibri.
+        # Nota: il numero di compilazioni NON incide sulla sovrapposizione
+        # numero/titolo nell'indice, che è un problema di larghezza fissa
+        # (vedi \cftsecnumwidth sopra), non di riferimenti da risolvere.
+        for _ in range(3):
             risultato = subprocess.run(
                 ["pdflatex", "-interaction=nonstopmode", "-halt-on-error", "documento.tex"],
                 cwd=tmp,
