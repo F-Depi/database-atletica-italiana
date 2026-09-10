@@ -16,6 +16,7 @@ LATEX_SPECIAL_CHARS = {
 }
 _LATEX_PATTERN = re.compile("|".join(re.escape(k) for k in LATEX_SPECIAL_CHARS))
 
+
 def escape_latex(text):
     if not isinstance(text, str):
         return text
@@ -56,9 +57,13 @@ with open("report_regioni/figure.tex", "w") as f:
 
         pdf_regione = os.path.join(CHECK_DIR_REGIONI, f"{cod_regione}.pdf")
         if not os.path.exists(pdf_regione):
-            print(f"[ATTENZIONE] Grafico mancante per regione {cod_regione} ({nome_regione}): {pdf_regione}")
+            print(
+                f"[ATTENZIONE] Grafico mancante per regione {cod_regione} ({nome_regione}): {pdf_regione}"
+            )
         else:
-            f.write(SECTION_TEMPLATE % (nome_regione_disp, FIGURE_DIR_REGIONI, cod_regione))
+            f.write(
+                SECTION_TEMPLATE % (nome_regione_disp, FIGURE_DIR_REGIONI, cod_regione)
+            )
             f.write("\n")
 
         # Tutte le province di questa regione (match sul COD)
@@ -75,8 +80,13 @@ with open("report_regioni/figure.tex", "w") as f:
 
             pdf_provincia = os.path.join(CHECK_DIR_PROVINCE, f"{cod_provincia}.pdf")
             if not os.path.exists(pdf_provincia):
-                print(f"[ATTENZIONE] Grafico mancante per provincia {cod_provincia} ({prov_row['Provincia']}): {pdf_provincia}")
+                print(
+                    f"[ATTENZIONE] Grafico mancante per provincia {cod_provincia} ({prov_row['Provincia']}): {pdf_provincia}"
+                )
                 continue
 
-            f.write(SUBSECTION_TEMPLATE % (nome_provincia_disp, FIGURE_DIR_PROVINCE, cod_provincia))
+            f.write(
+                SUBSECTION_TEMPLATE
+                % (nome_provincia_disp, FIGURE_DIR_PROVINCE, cod_provincia)
+            )
             f.write("\n")

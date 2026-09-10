@@ -15,6 +15,7 @@ LATEX_SPECIAL_CHARS = {
     "\\": r"\textbackslash{}",
 }
 
+
 def escape_latex(text):
     if not isinstance(text, str):
         return text
@@ -24,7 +25,9 @@ def escape_latex(text):
 
 
 LIM = "_250"
-societa = pd.read_csv(f"liste/lista_societa{LIM}.csv", dtype="str", keep_default_na=False)
+societa = pd.read_csv(
+    f"liste/lista_societa{LIM}.csv", dtype="str", keep_default_na=False
+)
 report = f"report_societa{LIM}/figure.tex"
 
 with open(report, "w") as f:

@@ -3,10 +3,12 @@ Query il DB per N atleti e plotta anno vs numero di gare.
 Marker: indoor = quadrato, outdoor = cerchio.
 Colore: diverso per ogni atleta.
 """
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import sys
 import os
+
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "script"))
 from my_functions import *
 
@@ -14,10 +16,10 @@ conn = get_db_engine().connect()
 
 ATLETI = {
     "Federico": "https://www.fidal.it/atleta/DE-PAOLI-Federico/eKmRlJmfcWs%3D",
-    #"Giulia": "https://www.fidal.it/atleta/RICCARDI-Giulia/d6iRk5SoaGU%3D",
+    # "Giulia": "https://www.fidal.it/atleta/RICCARDI-Giulia/d6iRk5SoaGU%3D",
     "Diana": "https://www.fidal.it/atleta/CARNIEL-Diana/eaqRk5OkcWY%3D",
     "Giuliano": "https://www.fidal.it/atleta/FERRARI-Giuliano/d6iRlJOibGs%3D",
-    "Alessandro": "https://www.fidal.it/atleta/PEDROTTI-Alessandro/d6iRlJSla2Q%3D"
+    "Alessandro": "https://www.fidal.it/atleta/PEDROTTI-Alessandro/d6iRlJSla2Q%3D",
 }
 
 QUERY = """
@@ -40,12 +42,11 @@ for i, (nome, link) in enumerate(ATLETI.items()):
 
     color = colors[i % len(colors)]
 
-    #plt.plot(indoor["year"], indoor["n"], marker="s", linestyle="", color=color,
+    # plt.plot(indoor["year"], indoor["n"], marker="s", linestyle="", color=color,
     #         label=f"{nome} (I)")
-    #plt.plot(outdoor["year"], outdoor["n"], marker="o", linestyle="", color=color,
+    # plt.plot(outdoor["year"], outdoor["n"], marker="o", linestyle="", color=color,
     #         label=f"{nome} (P)")
-    plt.plot(tot["year"], tot["n"], marker="o", color=color,
-             label=f"{nome}")
+    plt.plot(tot["year"], tot["n"], marker="o", color=color, label=f"{nome}")
 
 plt.xlabel("Anno")
 plt.ylabel("Numero di gare")

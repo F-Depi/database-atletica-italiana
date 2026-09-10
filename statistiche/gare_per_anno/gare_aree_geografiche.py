@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import sys
 import os
 from datetime import date
+
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "script"))
 from my_functions import *
 
@@ -12,20 +13,23 @@ SMALL_SIZE = 14
 MEDIUM_SIZE = 15
 BIGGER_SIZE = 18
 
-plt.rc('font', size=SMALL_SIZE)           # controls default text sizes
-plt.rc('axes', titlesize=BIGGER_SIZE)     # fontsize of the axes title
-plt.rc('axes', labelsize=MEDIUM_SIZE)     # fontsize of the x and y labels
-plt.rc('xtick', labelsize=SMALL_SIZE)     # fontsize of the tick labels
-plt.rc('ytick', labelsize=SMALL_SIZE)     # fontsize of the tick labels
-plt.rc('legend', fontsize=MEDIUM_SIZE)    # legend fontsize
+plt.rc("font", size=SMALL_SIZE)  # controls default text sizes
+plt.rc("axes", titlesize=BIGGER_SIZE)  # fontsize of the axes title
+plt.rc("axes", labelsize=MEDIUM_SIZE)  # fontsize of the x and y labels
+plt.rc("xtick", labelsize=SMALL_SIZE)  # fontsize of the tick labels
+plt.rc("ytick", labelsize=SMALL_SIZE)  # fontsize of the tick labels
+plt.rc("legend", fontsize=MEDIUM_SIZE)  # legend fontsize
 
 anno_oggi = date.today().year
 
+
 def add_signature(fig, text="Federico De Paoli · fdp.federico@proton.me"):
     fig.text(
-        0.99, 0.01,          # x, y in coordinate della figura (0-1), angolo in basso a destra
+        0.99,
+        0.01,  # x, y in coordinate della figura (0-1), angolo in basso a destra
         text,
-        ha="right", va="bottom",
+        ha="right",
+        va="bottom",
         fontsize=6,
         color="gray",
         alpha=0.5,
@@ -33,7 +37,7 @@ def add_signature(fig, text="Federico De Paoli · fdp.federico@proton.me"):
     )
 
 
-def ottieni_dati(COD, area="società", filtro=''):
+def ottieni_dati(COD, area="società", filtro=""):
     """
     Query il DB per gli atleti di una società e plotta anno vs numero di gare.
     COD: codice società se area = società (es. BL012)
@@ -41,7 +45,7 @@ def ottieni_dati(COD, area="società", filtro=''):
          sigle regione se area = regione (es. VEN)
     """
     OPZIONI_VALIDE = ["società", "provincia", "regione", "italia"]
-    
+
     conn = get_db_engine().connect()
 
     if area == "società":
@@ -64,7 +68,7 @@ def ottieni_dati(COD, area="società", filtro=''):
                 EXTRACT(YEAR FROM data),
                 ambiente;
         """
-    
+
     elif area == "provincia":
         QUERY = f"""
             WITH r AS (
@@ -158,16 +162,13 @@ def ottieni_dati(COD, area="società", filtro=''):
     df["categoria"] = df["categoria"].str[0] + df["categoria"].str[2:]
 
     # Raggruppa tutte le categorie Master (S35, S40, ..., S95) in un'unica voce "Master"
-    df["categoria"] = df["categoria"].fillna("").apply(
-        lambda c: "Master" if re.match(r"^S\d{2}$", c) else c
+    df["categoria"] = (
+        df["categoria"]
+        .fillna("")
+        .apply(lambda c: "Master" if re.match(r"^S\d{2}$", c) else c)
     )
 
-    tot_categorie = (
-            df.groupby(["categoria", "year"])["n"]
-            .sum()
-            .reset_index()
-            )
-
+    tot_categorie = df.groupby(["categoria", "year"])["n"].sum().reset_index()
 
     totale = {
         "totale": tot,
@@ -178,20 +179,24 @@ def ottieni_dati(COD, area="società", filtro=''):
         **{
             categoria: tot_categorie[tot_categorie["categoria"] == categoria]
             for categoria in tot_categorie["categoria"].unique()
-        }
+        },
     }
 
-    totale.pop("X", None) # Categoria non identificata per risultati molto vecchi
+    totale.pop("X", None)  # Categoria non identificata per risultati molto vecchi
 
     # Aggiungi 0 negli anni vuoti
     for k, v in totale.items():
-        totale[k] = (v.set_index("year")["n"].reindex(anni_tutti, fill_value=0)
-                     .rename_axis("year").reset_index())
+        totale[k] = (
+            v.set_index("year")["n"]
+            .reindex(anni_tutti, fill_value=0)
+            .rename_axis("year")
+            .reset_index()
+        )
 
     return totale, anni_tutti
 
 
-def genera_grafico(title, totale, anni, coeff, fname=''):
+def genera_grafico(title, totale, anni, coeff, fname=""):
     """
     Grafico sinistro: totale società, totale indoor, totale outdoor.
     Grafico destro: totale per categoria (S35-S95 raggruppate in "Master", categoria E esclusa).
@@ -206,35 +211,50 @@ def genera_grafico(title, totale, anni, coeff, fname=''):
     m = ["<", ">", "^", "v", "s"]
 
     for i, k in enumerate(keys):
-        last = (i == len(keys) - 1)
+        last = i == len(keys) - 1
         years = totale[k]["year"].array
         n = totale[k]["n"].array
 
         # Andamento
-        if anni[-1] < anno_oggi: # non c'è bisogno della stima
-            ax_left.plot(years, n,
-                         marker=m[i],c=c[i], label=k.title(),
-                         markersize=7 if last else 5,
-                         linewidth=3 if last else 1.5)
+        if anni[-1] < anno_oggi:  # non c'è bisogno della stima
+            ax_left.plot(
+                years,
+                n,
+                marker=m[i],
+                c=c[i],
+                label=k.title(),
+                markersize=7 if last else 5,
+                linewidth=3 if last else 1.5,
+            )
             continue
 
-        ax_left.plot(years[:-1], n[:-1],
-                     marker=m[i],c=c[i], label=k.title(),
-                     markersize=7 if last else 5,
-                     linewidth=3 if last else 1.5)
+        ax_left.plot(
+            years[:-1],
+            n[:-1],
+            marker=m[i],
+            c=c[i],
+            label=k.title(),
+            markersize=7 if last else 5,
+            linewidth=3 if last else 1.5,
+        )
 
         # Ulitimo anno
-        #ax_left.plot(years[-1], n[-1],
+        # ax_left.plot(years[-1], n[-1],
         #             marker=m[i],c=c[i], label=k.title(),
         #             markersize=7 if last else 5,
         #             linewidth=3 if last else 1.5)
 
         # Predizione sull'ulitimo anno
-        ax_left.plot(years[-2:], [n[-2], n[-1] * coeff[k]],
-                     c=c[i], alpha=0.8, linestyle="--",
-                     markersize=7 if last else 5,
-                     linewidth=3 if last else 1.5,
-                     label="Previsione" if last else "")
+        ax_left.plot(
+            years[-2:],
+            [n[-2], n[-1] * coeff[k]],
+            c=c[i],
+            alpha=0.8,
+            linestyle="--",
+            markersize=7 if last else 5,
+            linewidth=3 if last else 1.5,
+            label="Previsione" if last else "",
+        )
 
     ax_left.set_xlabel("Anno")
     ax_left.set_ylabel("Numero di gare")
@@ -247,30 +267,67 @@ def genera_grafico(title, totale, anni, coeff, fname=''):
 
     # --- Grafico destro ---
     categorie = totale.keys()
-    dict_cat = {"R": "Rag", "C": "Cad", "A": "All", "J": "Jun", "P": "Pro", "S": "Sen", "Master": "Master"}
-    c = ["#3776AB", "#FFD43B", "#2CA02C", "#D62728", "#9467BD", "#FF7F0E", "#17BECF", "#E377C2"]
+    dict_cat = {
+        "R": "Rag",
+        "C": "Cad",
+        "A": "All",
+        "J": "Jun",
+        "P": "Pro",
+        "S": "Sen",
+        "Master": "Master",
+    }
+    c = [
+        "#3776AB",
+        "#FFD43B",
+        "#2CA02C",
+        "#D62728",
+        "#9467BD",
+        "#FF7F0E",
+        "#17BECF",
+        "#E377C2",
+    ]
     m = ["<", ">", "^", "v", "s", "o", "P"]
 
     for i, cat in enumerate(dict_cat.keys()):
-        if cat not in categorie: continue
+        if cat not in categorie:
+            continue
         years = totale[cat]["year"].array
         n = totale[cat]["n"].array
 
         # Andamento
-        if anni[-1] < anno_oggi or len(years) == 1: # non c'è bisogno della stima
-            ax_right.plot(years, n, marker=m[i], markersize=5,
-                          linewidth=1.5, c=c[i], label=dict_cat[cat])
+        if anni[-1] < anno_oggi or len(years) == 1:  # non c'è bisogno della stima
+            ax_right.plot(
+                years,
+                n,
+                marker=m[i],
+                markersize=5,
+                linewidth=1.5,
+                c=c[i],
+                label=dict_cat[cat],
+            )
             continue
-        ax_right.plot(years[:-1], n[:-1], marker=m[i], markersize=5,
-                      linewidth=1.5, c=c[i], label=dict_cat[cat])
+        ax_right.plot(
+            years[:-1],
+            n[:-1],
+            marker=m[i],
+            markersize=5,
+            linewidth=1.5,
+            c=c[i],
+            label=dict_cat[cat],
+        )
 
         # Ultimo anno
-        #ax_right.plot(years[-1], n[-1], marker=m[i], markersize=5,
+        # ax_right.plot(years[-1], n[-1], marker=m[i], markersize=5,
         #              c=c[i], label=dict_cat[cat])
 
         # Predizione sull'ulitimo anno
-        ax_right.plot(years[-2:], [n[-2], n[-1] * coeff[cat]],
-                      linestyle="--", linewidth=1.5, c=c[i])
+        ax_right.plot(
+            years[-2:],
+            [n[-2], n[-1] * coeff[cat]],
+            linestyle="--",
+            linewidth=1.5,
+            c=c[i],
+        )
 
     ax_right.set_xlabel("Anno")
     ax_right.set_title(f"Totale per categoria")
@@ -282,7 +339,7 @@ def genera_grafico(title, totale, anni, coeff, fname=''):
 
     plt.tight_layout()
     add_signature(fig)
-    if fname != '':
+    if fname != "":
         plt.savefig(f"figures/{fname}.pdf", format="pdf")
     else:
         plt.show()
@@ -303,32 +360,34 @@ def ottieni_dati_con_predizioni(COD, area, mese_giorno):
     coeff = {}
     avg_numb = 3 if len(anni) >= 3 + 1 else len(anni) - 1
     for key in totale:
-        if key not in totale_red \
-        or (totale_red[key].iloc[-avg_numb-1:-1] < 5).any().any():
+        if (
+            key not in totale_red
+            or (totale_red[key].iloc[-avg_numb - 1 : -1] < 5).any().any()
+        ):
             coeff[key] = 1
             continue
 
         merged = totale[key][["year", "n"]].merge(
-        totale_red[key][["year", "n"]], on="year", suffixes=("", "_red")
+            totale_red[key][["year", "n"]], on="year", suffixes=("", "_red")
         )
-        coeff[key] = (merged["n"] / merged["n_red"]).iloc[-avg_numb-1:-1].mean()
+        coeff[key] = (merged["n"] / merged["n_red"]).iloc[-avg_numb - 1 : -1].mean()
 
     return totale, anni, coeff
 
 
 """ Italia """
-#totale, anni, coeff = ottieni_dati_con_predizioni(None, "italia", '09-08')
-#genera_grafico("Italia", totale, anni, coeff, fname="Italia")
+# totale, anni, coeff = ottieni_dati_con_predizioni(None, "italia", '09-08')
+# genera_grafico("Italia", totale, anni, coeff, fname="Italia")
 
 
 """ Regioni """
-#regioni = pd.read_csv("liste/lista_regioni.csv", dtype="str", keep_default_na=False)
-#for ii, row in regioni.iterrows():
+# regioni = pd.read_csv("liste/lista_regioni.csv", dtype="str", keep_default_na=False)
+# for ii, row in regioni.iterrows():
 #    COD = row["COD"]
 #    print(f"{ii + 1}/{len(regioni)} ({COD})")
 #
 #    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "regione", '09-08')
-#    if len(anni) == 0: 
+#    if len(anni) == 0:
 #        continue
 #    print(f", {max(coeff.values())}")
 #
@@ -336,13 +395,13 @@ def ottieni_dati_con_predizioni(COD, area, mese_giorno):
 
 
 """ Province """
-#province = pd.read_csv("liste/lista_province.csv", dtype="str", keep_default_na=False)
-#for ii, row in province.iterrows():
+# province = pd.read_csv("liste/lista_province.csv", dtype="str", keep_default_na=False)
+# for ii, row in province.iterrows():
 #    COD = row["COD"]
 #    print(f"{ii+1}/{len(province)} ({COD})")
 #
 #    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "provincia", '09-08')
-#    if len(anni) == 0: 
+#    if len(anni) == 0:
 #        continue
 #    print(f", {max(coeff.values())}")
 #
@@ -350,13 +409,13 @@ def ottieni_dati_con_predizioni(COD, area, mese_giorno):
 
 
 """ Società """
-#societa = pd.read_csv("liste/lista_societa_250.csv", dtype="str", keep_default_na=False)
-#for ii, row in societa.iterrows():
+# societa = pd.read_csv("liste/lista_societa_250.csv", dtype="str", keep_default_na=False)
+# for ii, row in societa.iterrows():
 #    COD = row["COD"]
 #    print(f"{ii + 1}/{len(societa)} ({COD})", end='')
 #
 #    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "società", '09-08')
-#    if len(anni) == 0: 
+#    if len(anni) == 0:
 #        continue
 #    print(f", {max(coeff.values())}")
 #
