@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.28)  10 SEP 2026 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.28)  10 SEP 2026 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,7 +423,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 \clearpage
+l.87 \clearpage
                 [1
 
 ] (./societa_250.toc [2
@@ -436,15 +436,15 @@ l.82 \clearpage
 [21] [22
 
 ]
-<../figures/Italia.pdf, id=2040, 1156.32pt x 650.43pt>
+<../figures/Italia.pdf, id=2042, 1156.32pt x 650.43pt>
 File: ../figures/Italia.pdf Graphic file (type pdf)
 <use ../figures/Italia.pdf>
-Package pdftex.def Info: ../figures/Italia.pdf  used on input line 134.
+Package pdftex.def Info: ../figures/Italia.pdf  used on input line 148.
 (pdftex.def)             Requested size: 684.60736pt x 385.09021pt.
 (./figure.tex [23
 
  <../figures/Italia.pdf>]
-<../figures/societa/AL001.pdf, id=2135, 1156.32pt x 650.43pt>
+<../figures/societa/AL001.pdf, id=2137, 1156.32pt x 650.43pt>
 File: ../figures/societa/AL001.pdf Graphic file (type pdf)
 <use ../figures/societa/AL001.pdf>
 Package pdftex.def Info: ../figures/societa/AL001.pdf  used on input line 3.
@@ -452,7 +452,7 @@ Package pdftex.def Info: ../figures/societa/AL001.pdf  used on input line 3.
 [24
 
  <../figures/societa/AL001.pdf>]
-<../figures/societa/AL005.pdf, id=2240, 1156.32pt x 650.43pt>
+<../figures/societa/AL005.pdf, id=2242, 1156.32pt x 650.43pt>
 File: ../figures/societa/AL005.pdf Graphic file (type pdf)
 <use ../figures/societa/AL005.pdf>
 Package pdftex.def Info: ../figures/societa/AL005.pdf  used on input line 8.
@@ -460,7 +460,7 @@ Package pdftex.def Info: ../figures/societa/AL005.pdf  used on input line 8.
 [25
 
  <../figures/societa/AL005.pdf>]
-<../figures/societa/AL006.pdf, id=2347, 1156.32pt x 650.43pt>
+<../figures/societa/AL006.pdf, id=2349, 1156.32pt x 650.43pt>
 File: ../figures/societa/AL006.pdf Graphic file (type pdf)
 <use ../figures/societa/AL006.pdf>
 Package pdftex.def Info: ../figures/societa/AL006.pdf  used on input line 13.
@@ -468,7 +468,7 @@ Package pdftex.def Info: ../figures/societa/AL006.pdf  used on input line 13.
 [26
 
  <../figures/societa/AL006.pdf>]
-<../figures/societa/AN001.pdf, id=2451, 1156.32pt x 650.43pt>
+<../figures/societa/AN001.pdf, id=2453, 1156.32pt x 650.43pt>
 File: ../figures/societa/AN001.pdf Graphic file (type pdf)
 <use ../figures/societa/AN001.pdf>
 Package pdftex.def Info: ../figures/societa/AN001.pdf  used on input line 18.
@@ -476,7 +476,7 @@ Package pdftex.def Info: ../figures/societa/AN001.pdf  used on input line 18.
 [27
 
  <../figures/societa/AN001.pdf>]
-<../figures/societa/AN010.pdf, id=2556, 1156.32pt x 650.43pt>
+<../figures/societa/AN010.pdf, id=2558, 1156.32pt x 650.43pt>
 File: ../figures/societa/AN010.pdf Graphic file (type pdf)
 <use ../figures/societa/AN010.pdf>
 Package pdftex.def Info: ../figures/societa/AN010.pdf  used on input line 23.
@@ -484,7 +484,7 @@ Package pdftex.def Info: ../figures/societa/AN010.pdf  used on input line 23.
 [28
 
  <../figures/societa/AN010.pdf>]
-<../figures/societa/AN015.pdf, id=2663, 1156.32pt x 650.43pt>
+<../figures/societa/AN015.pdf, id=2665, 1156.32pt x 650.43pt>
 File: ../figures/societa/AN015.pdf Graphic file (type pdf)
 <use ../figures/societa/AN015.pdf>
 Package pdftex.def Info: ../figures/societa/AN015.pdf  used on input line 28.
@@ -492,7 +492,7 @@ Package pdftex.def Info: ../figures/societa/AN015.pdf  used on input line 28.
 [29
 
  <../figures/societa/AN015.pdf>]
-<../figures/societa/AO001.pdf, id=2770, 1156.32pt x 650.43pt>
+<../figures/societa/AO001.pdf, id=2772, 1156.32pt x 650.43pt>
 File: ../figures/societa/AO001.pdf Graphic file (type pdf)
 <use ../figures/societa/AO001.pdf>
 Package pdftex.def Info: ../figures/societa/AO001.pdf  used on input line 33.
@@ -500,7 +500,7 @@ Package pdftex.def Info: ../figures/societa/AO001.pdf  used on input line 33.
 [30
 
  <../figures/societa/AO001.pdf>]
-<../figures/societa/AO002.pdf, id=2875, 1156.32pt x 650.43pt>
+<../figures/societa/AO002.pdf, id=2877, 1156.32pt x 650.43pt>
 File: ../figures/societa/AO002.pdf Graphic file (type pdf)
 <use ../figures/societa/AO002.pdf>
 Package pdftex.def Info: ../figures/societa/AO002.pdf  used on input line 38.
@@ -508,7 +508,7 @@ Package pdftex.def Info: ../figures/societa/AO002.pdf  used on input line 38.
 [31
 
  <../figures/societa/AO002.pdf>]
-<../figures/societa/AO004.pdf, id=2980, 1156.32pt x 650.43pt>
+<../figures/societa/AO004.pdf, id=2982, 1156.32pt x 650.43pt>
 File: ../figures/societa/AO004.pdf Graphic file (type pdf)
 <use ../figures/societa/AO004.pdf>
 Package pdftex.def Info: ../figures/societa/AO004.pdf  used on input line 43.
@@ -516,7 +516,7 @@ Package pdftex.def Info: ../figures/societa/AO004.pdf  used on input line 43.
 [32
 
  <../figures/societa/AO004.pdf>]
-<../figures/societa/AP005.pdf, id=3086, 1156.32pt x 650.43pt>
+<../figures/societa/AP005.pdf, id=3088, 1156.32pt x 650.43pt>
 File: ../figures/societa/AP005.pdf Graphic file (type pdf)
 <use ../figures/societa/AP005.pdf>
 Package pdftex.def Info: ../figures/societa/AP005.pdf  used on input line 48.
@@ -524,7 +524,7 @@ Package pdftex.def Info: ../figures/societa/AP005.pdf  used on input line 48.
 [33
 
  <../figures/societa/AP005.pdf>]
-<../figures/societa/AP007.pdf, id=3190, 1156.32pt x 650.43pt>
+<../figures/societa/AP007.pdf, id=3192, 1156.32pt x 650.43pt>
 File: ../figures/societa/AP007.pdf Graphic file (type pdf)
 <use ../figures/societa/AP007.pdf>
 Package pdftex.def Info: ../figures/societa/AP007.pdf  used on input line 53.
@@ -532,7 +532,7 @@ Package pdftex.def Info: ../figures/societa/AP007.pdf  used on input line 53.
 [34
 
  <../figures/societa/AP007.pdf>]
-<../figures/societa/AP034.pdf, id=3296, 1156.32pt x 650.43pt>
+<../figures/societa/AP034.pdf, id=3298, 1156.32pt x 650.43pt>
 File: ../figures/societa/AP034.pdf Graphic file (type pdf)
 <use ../figures/societa/AP034.pdf>
 Package pdftex.def Info: ../figures/societa/AP034.pdf  used on input line 58.
@@ -540,7 +540,7 @@ Package pdftex.def Info: ../figures/societa/AP034.pdf  used on input line 58.
 [35
 
  <../figures/societa/AP034.pdf>]
-<../figures/societa/AQ006.pdf, id=3404, 1156.32pt x 650.43pt>
+<../figures/societa/AQ006.pdf, id=3406, 1156.32pt x 650.43pt>
 File: ../figures/societa/AQ006.pdf Graphic file (type pdf)
 <use ../figures/societa/AQ006.pdf>
 Package pdftex.def Info: ../figures/societa/AQ006.pdf  used on input line 63.
@@ -548,7 +548,7 @@ Package pdftex.def Info: ../figures/societa/AQ006.pdf  used on input line 63.
 [36
 
  <../figures/societa/AQ006.pdf>]
-<../figures/societa/AR053.pdf, id=3511, 1156.32pt x 650.43pt>
+<../figures/societa/AR053.pdf, id=3513, 1156.32pt x 650.43pt>
 File: ../figures/societa/AR053.pdf Graphic file (type pdf)
 <use ../figures/societa/AR053.pdf>
 Package pdftex.def Info: ../figures/societa/AR053.pdf  used on input line 68.
@@ -556,7 +556,7 @@ Package pdftex.def Info: ../figures/societa/AR053.pdf  used on input line 68.
 [37
 
  <../figures/societa/AR053.pdf>]
-<../figures/societa/AR058.pdf, id=3616, 1156.32pt x 650.43pt>
+<../figures/societa/AR058.pdf, id=3618, 1156.32pt x 650.43pt>
 File: ../figures/societa/AR058.pdf Graphic file (type pdf)
 <use ../figures/societa/AR058.pdf>
 Package pdftex.def Info: ../figures/societa/AR058.pdf  used on input line 73.
@@ -564,7 +564,7 @@ Package pdftex.def Info: ../figures/societa/AR058.pdf  used on input line 73.
 [38
 
  <../figures/societa/AR058.pdf>]
-<../figures/societa/AR505.pdf, id=3726, 1156.32pt x 650.43pt>
+<../figures/societa/AR505.pdf, id=3728, 1156.32pt x 650.43pt>
 File: ../figures/societa/AR505.pdf Graphic file (type pdf)
 <use ../figures/societa/AR505.pdf>
 Package pdftex.def Info: ../figures/societa/AR505.pdf  used on input line 78.
@@ -572,7 +572,7 @@ Package pdftex.def Info: ../figures/societa/AR505.pdf  used on input line 78.
 [39
 
  <../figures/societa/AR505.pdf>]
-<../figures/societa/AT001.pdf, id=3821, 1156.32pt x 650.43pt>
+<../figures/societa/AT001.pdf, id=3823, 1156.32pt x 650.43pt>
 File: ../figures/societa/AT001.pdf Graphic file (type pdf)
 <use ../figures/societa/AT001.pdf>
 Package pdftex.def Info: ../figures/societa/AT001.pdf  used on input line 83.
@@ -580,7 +580,7 @@ Package pdftex.def Info: ../figures/societa/AT001.pdf  used on input line 83.
 [40
 
  <../figures/societa/AT001.pdf>]
-<../figures/societa/AV208.pdf, id=3926, 1156.32pt x 650.43pt>
+<../figures/societa/AV208.pdf, id=3928, 1156.32pt x 650.43pt>
 File: ../figures/societa/AV208.pdf Graphic file (type pdf)
 <use ../figures/societa/AV208.pdf>
 Package pdftex.def Info: ../figures/societa/AV208.pdf  used on input line 88.
@@ -588,7 +588,7 @@ Package pdftex.def Info: ../figures/societa/AV208.pdf  used on input line 88.
 [41
 
  <../figures/societa/AV208.pdf>]
-<../figures/societa/BA005.pdf, id=4034, 1156.32pt x 650.43pt>
+<../figures/societa/BA005.pdf, id=4036, 1156.32pt x 650.43pt>
 File: ../figures/societa/BA005.pdf Graphic file (type pdf)
 <use ../figures/societa/BA005.pdf>
 Package pdftex.def Info: ../figures/societa/BA005.pdf  used on input line 93.
@@ -596,7 +596,7 @@ Package pdftex.def Info: ../figures/societa/BA005.pdf  used on input line 93.
 [42
 
  <../figures/societa/BA005.pdf>]
-<../figures/societa/BA006.pdf, id=4139, 1156.32pt x 650.43pt>
+<../figures/societa/BA006.pdf, id=4141, 1156.32pt x 650.43pt>
 File: ../figures/societa/BA006.pdf Graphic file (type pdf)
 <use ../figures/societa/BA006.pdf>
 Package pdftex.def Info: ../figures/societa/BA006.pdf  used on input line 98.
@@ -604,7 +604,7 @@ Package pdftex.def Info: ../figures/societa/BA006.pdf  used on input line 98.
 [43
 
  <../figures/societa/BA006.pdf>]
-<../figures/societa/BA007.pdf, id=4248, 1156.32pt x 650.43pt>
+<../figures/societa/BA007.pdf, id=4250, 1156.32pt x 650.43pt>
 File: ../figures/societa/BA007.pdf Graphic file (type pdf)
 <use ../figures/societa/BA007.pdf>
 Package pdftex.def Info: ../figures/societa/BA007.pdf  used on input line 103.
@@ -612,7 +612,7 @@ Package pdftex.def Info: ../figures/societa/BA007.pdf  used on input line 103.
 [44
 
  <../figures/societa/BA007.pdf>]
-<../figures/societa/BA008.pdf, id=4349, 1156.32pt x 650.43pt>
+<../figures/societa/BA008.pdf, id=4351, 1156.32pt x 650.43pt>
 File: ../figures/societa/BA008.pdf Graphic file (type pdf)
 <use ../figures/societa/BA008.pdf>
 Package pdftex.def Info: ../figures/societa/BA008.pdf  used on input line 108.
@@ -620,7 +620,7 @@ Package pdftex.def Info: ../figures/societa/BA008.pdf  used on input line 108.
 [45
 
  <../figures/societa/BA008.pdf>]
-<../figures/societa/BA089.pdf, id=4456, 1156.32pt x 650.43pt>
+<../figures/societa/BA089.pdf, id=4458, 1156.32pt x 650.43pt>
 File: ../figures/societa/BA089.pdf Graphic file (type pdf)
 <use ../figures/societa/BA089.pdf>
 Package pdftex.def Info: ../figures/societa/BA089.pdf  used on input line 113.
@@ -628,7 +628,7 @@ Package pdftex.def Info: ../figures/societa/BA089.pdf  used on input line 113.
 [46
 
  <../figures/societa/BA089.pdf>]
-<../figures/societa/BA772.pdf, id=4562, 1156.32pt x 650.43pt>
+<../figures/societa/BA772.pdf, id=4564, 1156.32pt x 650.43pt>
 File: ../figures/societa/BA772.pdf Graphic file (type pdf)
 <use ../figures/societa/BA772.pdf>
 Package pdftex.def Info: ../figures/societa/BA772.pdf  used on input line 118.
@@ -636,7 +636,7 @@ Package pdftex.def Info: ../figures/societa/BA772.pdf  used on input line 118.
 [47
 
  <../figures/societa/BA772.pdf>]
-<../figures/societa/BG003.pdf, id=4660, 1156.32pt x 650.43pt>
+<../figures/societa/BG003.pdf, id=4662, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG003.pdf Graphic file (type pdf)
 <use ../figures/societa/BG003.pdf>
 Package pdftex.def Info: ../figures/societa/BG003.pdf  used on input line 123.
@@ -644,7 +644,7 @@ Package pdftex.def Info: ../figures/societa/BG003.pdf  used on input line 123.
 [48
 
  <../figures/societa/BG003.pdf>]
-<../figures/societa/BG036.pdf, id=4768, 1156.32pt x 650.43pt>
+<../figures/societa/BG036.pdf, id=4770, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG036.pdf Graphic file (type pdf)
 <use ../figures/societa/BG036.pdf>
 Package pdftex.def Info: ../figures/societa/BG036.pdf  used on input line 128.
@@ -652,7 +652,7 @@ Package pdftex.def Info: ../figures/societa/BG036.pdf  used on input line 128.
 [49
 
  <../figures/societa/BG036.pdf>]
-<../figures/societa/BG045.pdf, id=4872, 1156.32pt x 650.43pt>
+<../figures/societa/BG045.pdf, id=4874, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG045.pdf Graphic file (type pdf)
 <use ../figures/societa/BG045.pdf>
 Package pdftex.def Info: ../figures/societa/BG045.pdf  used on input line 133.
@@ -660,7 +660,7 @@ Package pdftex.def Info: ../figures/societa/BG045.pdf  used on input line 133.
 [50
 
  <../figures/societa/BG045.pdf>]
-<../figures/societa/BG135.pdf, id=4981, 1156.32pt x 650.43pt>
+<../figures/societa/BG135.pdf, id=4983, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG135.pdf Graphic file (type pdf)
 <use ../figures/societa/BG135.pdf>
 Package pdftex.def Info: ../figures/societa/BG135.pdf  used on input line 138.
@@ -668,7 +668,7 @@ Package pdftex.def Info: ../figures/societa/BG135.pdf  used on input line 138.
 [51
 
  <../figures/societa/BG135.pdf>]
-<../figures/societa/BG223.pdf, id=5092, 1156.32pt x 650.43pt>
+<../figures/societa/BG223.pdf, id=5094, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG223.pdf Graphic file (type pdf)
 <use ../figures/societa/BG223.pdf>
 Package pdftex.def Info: ../figures/societa/BG223.pdf  used on input line 143.
@@ -676,7 +676,7 @@ Package pdftex.def Info: ../figures/societa/BG223.pdf  used on input line 143.
 [52
 
  <../figures/societa/BG223.pdf>]
-<../figures/societa/BG228.pdf, id=5197, 1156.32pt x 650.43pt>
+<../figures/societa/BG228.pdf, id=5199, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG228.pdf Graphic file (type pdf)
 <use ../figures/societa/BG228.pdf>
 Package pdftex.def Info: ../figures/societa/BG228.pdf  used on input line 148.
@@ -684,7 +684,7 @@ Package pdftex.def Info: ../figures/societa/BG228.pdf  used on input line 148.
 [53
 
  <../figures/societa/BG228.pdf>]
-<../figures/societa/BG232.pdf, id=5299, 1156.32pt x 650.43pt>
+<../figures/societa/BG232.pdf, id=5301, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG232.pdf Graphic file (type pdf)
 <use ../figures/societa/BG232.pdf>
 Package pdftex.def Info: ../figures/societa/BG232.pdf  used on input line 153.
@@ -692,7 +692,7 @@ Package pdftex.def Info: ../figures/societa/BG232.pdf  used on input line 153.
 [54
 
  <../figures/societa/BG232.pdf>]
-<../figures/societa/BG248.pdf, id=5405, 1156.32pt x 650.43pt>
+<../figures/societa/BG248.pdf, id=5407, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG248.pdf Graphic file (type pdf)
 <use ../figures/societa/BG248.pdf>
 Package pdftex.def Info: ../figures/societa/BG248.pdf  used on input line 158.
@@ -700,7 +700,7 @@ Package pdftex.def Info: ../figures/societa/BG248.pdf  used on input line 158.
 [55
 
  <../figures/societa/BG248.pdf>]
-<../figures/societa/BG371.pdf, id=5510, 1156.32pt x 650.43pt>
+<../figures/societa/BG371.pdf, id=5512, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG371.pdf Graphic file (type pdf)
 <use ../figures/societa/BG371.pdf>
 Package pdftex.def Info: ../figures/societa/BG371.pdf  used on input line 163.
@@ -708,7 +708,7 @@ Package pdftex.def Info: ../figures/societa/BG371.pdf  used on input line 163.
 [56
 
  <../figures/societa/BG371.pdf>]
-<../figures/societa/BG542.pdf, id=5619, 1156.32pt x 650.43pt>
+<../figures/societa/BG542.pdf, id=5621, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG542.pdf Graphic file (type pdf)
 <use ../figures/societa/BG542.pdf>
 Package pdftex.def Info: ../figures/societa/BG542.pdf  used on input line 168.
@@ -716,7 +716,7 @@ Package pdftex.def Info: ../figures/societa/BG542.pdf  used on input line 168.
 [57
 
  <../figures/societa/BG542.pdf>]
-<../figures/societa/BG795.pdf, id=5726, 1156.32pt x 650.43pt>
+<../figures/societa/BG795.pdf, id=5728, 1156.32pt x 650.43pt>
 File: ../figures/societa/BG795.pdf Graphic file (type pdf)
 <use ../figures/societa/BG795.pdf>
 Package pdftex.def Info: ../figures/societa/BG795.pdf  used on input line 173.
@@ -724,7 +724,7 @@ Package pdftex.def Info: ../figures/societa/BG795.pdf  used on input line 173.
 [58
 
  <../figures/societa/BG795.pdf>]
-<../figures/societa/BL001.pdf, id=5833, 1156.32pt x 650.43pt>
+<../figures/societa/BL001.pdf, id=5835, 1156.32pt x 650.43pt>
 File: ../figures/societa/BL001.pdf Graphic file (type pdf)
 <use ../figures/societa/BL001.pdf>
 Package pdftex.def Info: ../figures/societa/BL001.pdf  used on input line 178.
@@ -732,7 +732,7 @@ Package pdftex.def Info: ../figures/societa/BL001.pdf  used on input line 178.
 [59
 
  <../figures/societa/BL001.pdf>]
-<../figures/societa/BL008.pdf, id=5940, 1156.32pt x 650.43pt>
+<../figures/societa/BL008.pdf, id=5942, 1156.32pt x 650.43pt>
 File: ../figures/societa/BL008.pdf Graphic file (type pdf)
 <use ../figures/societa/BL008.pdf>
 Package pdftex.def Info: ../figures/societa/BL008.pdf  used on input line 183.
@@ -740,7 +740,7 @@ Package pdftex.def Info: ../figures/societa/BL008.pdf  used on input line 183.
 [60
 
  <../figures/societa/BL008.pdf>]
-<../figures/societa/BL009.pdf, id=6045, 1156.32pt x 650.43pt>
+<../figures/societa/BL009.pdf, id=6047, 1156.32pt x 650.43pt>
 File: ../figures/societa/BL009.pdf Graphic file (type pdf)
 <use ../figures/societa/BL009.pdf>
 Package pdftex.def Info: ../figures/societa/BL009.pdf  used on input line 188.
@@ -748,7 +748,7 @@ Package pdftex.def Info: ../figures/societa/BL009.pdf  used on input line 188.
 [61
 
  <../figures/societa/BL009.pdf>]
-<../figures/societa/BL012.pdf, id=6153, 1156.32pt x 650.43pt>
+<../figures/societa/BL012.pdf, id=6155, 1156.32pt x 650.43pt>
 File: ../figures/societa/BL012.pdf Graphic file (type pdf)
 <use ../figures/societa/BL012.pdf>
 Package pdftex.def Info: ../figures/societa/BL012.pdf  used on input line 193.
@@ -756,7 +756,7 @@ Package pdftex.def Info: ../figures/societa/BL012.pdf  used on input line 193.
 [62
 
  <../figures/societa/BL012.pdf>]
-<../figures/societa/BN800.pdf, id=6257, 1156.32pt x 650.43pt>
+<../figures/societa/BN800.pdf, id=6260, 1156.32pt x 650.43pt>
 File: ../figures/societa/BN800.pdf Graphic file (type pdf)
 <use ../figures/societa/BN800.pdf>
 Package pdftex.def Info: ../figures/societa/BN800.pdf  used on input line 198.
@@ -764,7 +764,7 @@ Package pdftex.def Info: ../figures/societa/BN800.pdf  used on input line 198.
 [63
 
  <../figures/societa/BN800.pdf>]
-<../figures/societa/BO002.pdf, id=6365, 1156.32pt x 650.43pt>
+<../figures/societa/BO002.pdf, id=6367, 1156.32pt x 650.43pt>
 File: ../figures/societa/BO002.pdf Graphic file (type pdf)
 <use ../figures/societa/BO002.pdf>
 Package pdftex.def Info: ../figures/societa/BO002.pdf  used on input line 203.
@@ -772,7 +772,7 @@ Package pdftex.def Info: ../figures/societa/BO002.pdf  used on input line 203.
 [64
 
  <../figures/societa/BO002.pdf>]
-<../figures/societa/BO007.pdf, id=6469, 1156.32pt x 650.43pt>
+<../figures/societa/BO007.pdf, id=6471, 1156.32pt x 650.43pt>
 File: ../figures/societa/BO007.pdf Graphic file (type pdf)
 <use ../figures/societa/BO007.pdf>
 Package pdftex.def Info: ../figures/societa/BO007.pdf  used on input line 208.
@@ -780,7 +780,7 @@ Package pdftex.def Info: ../figures/societa/BO007.pdf  used on input line 208.
 [65
 
  <../figures/societa/BO007.pdf>]
-<../figures/societa/BO011.pdf, id=6578, 1156.32pt x 650.43pt>
+<../figures/societa/BO011.pdf, id=6580, 1156.32pt x 650.43pt>
 File: ../figures/societa/BO011.pdf Graphic file (type pdf)
 <use ../figures/societa/BO011.pdf>
 Package pdftex.def Info: ../figures/societa/BO011.pdf  used on input line 213.
@@ -788,7 +788,7 @@ Package pdftex.def Info: ../figures/societa/BO011.pdf  used on input line 213.
 [66
 
  <../figures/societa/BO011.pdf>]
-<../figures/societa/BO014.pdf, id=6686, 1156.32pt x 650.43pt>
+<../figures/societa/BO014.pdf, id=6688, 1156.32pt x 650.43pt>
 File: ../figures/societa/BO014.pdf Graphic file (type pdf)
 <use ../figures/societa/BO014.pdf>
 Package pdftex.def Info: ../figures/societa/BO014.pdf  used on input line 218.
@@ -796,7 +796,7 @@ Package pdftex.def Info: ../figures/societa/BO014.pdf  used on input line 218.
 [67
 
  <../figures/societa/BO014.pdf>]
-<../figures/societa/BO015.pdf, id=6792, 1156.32pt x 650.43pt>
+<../figures/societa/BO015.pdf, id=6794, 1156.32pt x 650.43pt>
 File: ../figures/societa/BO015.pdf Graphic file (type pdf)
 <use ../figures/societa/BO015.pdf>
 Package pdftex.def Info: ../figures/societa/BO015.pdf  used on input line 223.
@@ -804,7 +804,7 @@ Package pdftex.def Info: ../figures/societa/BO015.pdf  used on input line 223.
 [68
 
  <../figures/societa/BO015.pdf>]
-<../figures/societa/BO506.pdf, id=6900, 1156.32pt x 650.43pt>
+<../figures/societa/BO506.pdf, id=6902, 1156.32pt x 650.43pt>
 File: ../figures/societa/BO506.pdf Graphic file (type pdf)
 <use ../figures/societa/BO506.pdf>
 Package pdftex.def Info: ../figures/societa/BO506.pdf  used on input line 228.
@@ -812,7 +812,7 @@ Package pdftex.def Info: ../figures/societa/BO506.pdf  used on input line 228.
 [69
 
  <../figures/societa/BO506.pdf>]
-<../figures/societa/BO522.pdf, id=7011, 1156.32pt x 650.43pt>
+<../figures/societa/BO522.pdf, id=7013, 1156.32pt x 650.43pt>
 File: ../figures/societa/BO522.pdf Graphic file (type pdf)
 <use ../figures/societa/BO522.pdf>
 Package pdftex.def Info: ../figures/societa/BO522.pdf  used on input line 233.
@@ -820,7 +820,7 @@ Package pdftex.def Info: ../figures/societa/BO522.pdf  used on input line 233.
 [70
 
  <../figures/societa/BO522.pdf>]
-<../figures/societa/BS179.pdf, id=7116, 1156.32pt x 650.43pt>
+<../figures/societa/BS179.pdf, id=7118, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS179.pdf Graphic file (type pdf)
 <use ../figures/societa/BS179.pdf>
 Package pdftex.def Info: ../figures/societa/BS179.pdf  used on input line 238.
@@ -828,7 +828,7 @@ Package pdftex.def Info: ../figures/societa/BS179.pdf  used on input line 238.
 [71
 
  <../figures/societa/BS179.pdf>]
-<../figures/societa/BS181.pdf, id=7222, 1156.32pt x 650.43pt>
+<../figures/societa/BS181.pdf, id=7224, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS181.pdf Graphic file (type pdf)
 <use ../figures/societa/BS181.pdf>
 Package pdftex.def Info: ../figures/societa/BS181.pdf  used on input line 243.
@@ -836,7 +836,7 @@ Package pdftex.def Info: ../figures/societa/BS181.pdf  used on input line 243.
 [72
 
  <../figures/societa/BS181.pdf>]
-<../figures/societa/BS199.pdf, id=7330, 1156.32pt x 650.43pt>
+<../figures/societa/BS199.pdf, id=7332, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS199.pdf Graphic file (type pdf)
 <use ../figures/societa/BS199.pdf>
 Package pdftex.def Info: ../figures/societa/BS199.pdf  used on input line 248.
@@ -844,7 +844,7 @@ Package pdftex.def Info: ../figures/societa/BS199.pdf  used on input line 248.
 [73
 
  <../figures/societa/BS199.pdf>]
-<../figures/societa/BS303.pdf, id=7437, 1156.32pt x 650.43pt>
+<../figures/societa/BS303.pdf, id=7439, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS303.pdf Graphic file (type pdf)
 <use ../figures/societa/BS303.pdf>
 Package pdftex.def Info: ../figures/societa/BS303.pdf  used on input line 253.
@@ -852,7 +852,7 @@ Package pdftex.def Info: ../figures/societa/BS303.pdf  used on input line 253.
 [74
 
  <../figures/societa/BS303.pdf>]
-<../figures/societa/BS318.pdf, id=7545, 1156.32pt x 650.43pt>
+<../figures/societa/BS318.pdf, id=7547, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS318.pdf Graphic file (type pdf)
 <use ../figures/societa/BS318.pdf>
 Package pdftex.def Info: ../figures/societa/BS318.pdf  used on input line 258.
@@ -860,7 +860,7 @@ Package pdftex.def Info: ../figures/societa/BS318.pdf  used on input line 258.
 [75
 
  <../figures/societa/BS318.pdf>]
-<../figures/societa/BS319.pdf, id=7653, 1156.32pt x 650.43pt>
+<../figures/societa/BS319.pdf, id=7655, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS319.pdf Graphic file (type pdf)
 <use ../figures/societa/BS319.pdf>
 Package pdftex.def Info: ../figures/societa/BS319.pdf  used on input line 263.
@@ -868,7 +868,7 @@ Package pdftex.def Info: ../figures/societa/BS319.pdf  used on input line 263.
 [76
 
  <../figures/societa/BS319.pdf>]
-<../figures/societa/BS355.pdf, id=7763, 1156.32pt x 650.43pt>
+<../figures/societa/BS355.pdf, id=7765, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS355.pdf Graphic file (type pdf)
 <use ../figures/societa/BS355.pdf>
 Package pdftex.def Info: ../figures/societa/BS355.pdf  used on input line 268.
@@ -876,7 +876,7 @@ Package pdftex.def Info: ../figures/societa/BS355.pdf  used on input line 268.
 [77
 
  <../figures/societa/BS355.pdf>]
-<../figures/societa/BS364.pdf, id=7870, 1156.32pt x 650.43pt>
+<../figures/societa/BS364.pdf, id=7872, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS364.pdf Graphic file (type pdf)
 <use ../figures/societa/BS364.pdf>
 Package pdftex.def Info: ../figures/societa/BS364.pdf  used on input line 273.
@@ -884,7 +884,7 @@ Package pdftex.def Info: ../figures/societa/BS364.pdf  used on input line 273.
 [78
 
  <../figures/societa/BS364.pdf>]
-<../figures/societa/BS575.pdf, id=7977, 1156.32pt x 650.43pt>
+<../figures/societa/BS575.pdf, id=7979, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS575.pdf Graphic file (type pdf)
 <use ../figures/societa/BS575.pdf>
 Package pdftex.def Info: ../figures/societa/BS575.pdf  used on input line 278.
@@ -892,7 +892,7 @@ Package pdftex.def Info: ../figures/societa/BS575.pdf  used on input line 278.
 [79
 
  <../figures/societa/BS575.pdf>]
-<../figures/societa/BS607.pdf, id=8086, 1156.32pt x 650.43pt>
+<../figures/societa/BS607.pdf, id=8088, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS607.pdf Graphic file (type pdf)
 <use ../figures/societa/BS607.pdf>
 Package pdftex.def Info: ../figures/societa/BS607.pdf  used on input line 283.
@@ -900,7 +900,7 @@ Package pdftex.def Info: ../figures/societa/BS607.pdf  used on input line 283.
 [80
 
  <../figures/societa/BS607.pdf>]
-<../figures/societa/BS692.pdf, id=8192, 1156.32pt x 650.43pt>
+<../figures/societa/BS692.pdf, id=8194, 1156.32pt x 650.43pt>
 File: ../figures/societa/BS692.pdf Graphic file (type pdf)
 <use ../figures/societa/BS692.pdf>
 Package pdftex.def Info: ../figures/societa/BS692.pdf  used on input line 288.
@@ -908,7 +908,7 @@ Package pdftex.def Info: ../figures/societa/BS692.pdf  used on input line 288.
 [81
 
  <../figures/societa/BS692.pdf>]
-<../figures/societa/BZ008.pdf, id=8297, 1156.32pt x 650.43pt>
+<../figures/societa/BZ008.pdf, id=8299, 1156.32pt x 650.43pt>
 File: ../figures/societa/BZ008.pdf Graphic file (type pdf)
 <use ../figures/societa/BZ008.pdf>
 Package pdftex.def Info: ../figures/societa/BZ008.pdf  used on input line 293.
@@ -916,7 +916,7 @@ Package pdftex.def Info: ../figures/societa/BZ008.pdf  used on input line 293.
 [82
 
  <../figures/societa/BZ008.pdf>]
-<../figures/societa/BZ011.pdf, id=8402, 1156.32pt x 650.43pt>
+<../figures/societa/BZ011.pdf, id=8404, 1156.32pt x 650.43pt>
 File: ../figures/societa/BZ011.pdf Graphic file (type pdf)
 <use ../figures/societa/BZ011.pdf>
 Package pdftex.def Info: ../figures/societa/BZ011.pdf  used on input line 298.
@@ -924,7 +924,7 @@ Package pdftex.def Info: ../figures/societa/BZ011.pdf  used on input line 298.
 [83
 
  <../figures/societa/BZ011.pdf>]
-<../figures/societa/BZ013.pdf, id=8508, 1156.32pt x 650.43pt>
+<../figures/societa/BZ013.pdf, id=8510, 1156.32pt x 650.43pt>
 File: ../figures/societa/BZ013.pdf Graphic file (type pdf)
 <use ../figures/societa/BZ013.pdf>
 Package pdftex.def Info: ../figures/societa/BZ013.pdf  used on input line 303.
@@ -932,7 +932,7 @@ Package pdftex.def Info: ../figures/societa/BZ013.pdf  used on input line 303.
 [84
 
  <../figures/societa/BZ013.pdf>]
-<../figures/societa/BZ023.pdf, id=8618, 1156.32pt x 650.43pt>
+<../figures/societa/BZ023.pdf, id=8620, 1156.32pt x 650.43pt>
 File: ../figures/societa/BZ023.pdf Graphic file (type pdf)
 <use ../figures/societa/BZ023.pdf>
 Package pdftex.def Info: ../figures/societa/BZ023.pdf  used on input line 308.
@@ -940,7 +940,7 @@ Package pdftex.def Info: ../figures/societa/BZ023.pdf  used on input line 308.
 [85
 
  <../figures/societa/BZ023.pdf>]
-<../figures/societa/BZ066.pdf, id=8727, 1156.32pt x 650.43pt>
+<../figures/societa/BZ066.pdf, id=8729, 1156.32pt x 650.43pt>
 File: ../figures/societa/BZ066.pdf Graphic file (type pdf)
 <use ../figures/societa/BZ066.pdf>
 Package pdftex.def Info: ../figures/societa/BZ066.pdf  used on input line 313.
@@ -948,7 +948,7 @@ Package pdftex.def Info: ../figures/societa/BZ066.pdf  used on input line 313.
 [86
 
  <../figures/societa/BZ066.pdf>]
-<../figures/societa/BZ068.pdf, id=8832, 1156.32pt x 650.43pt>
+<../figures/societa/BZ068.pdf, id=8834, 1156.32pt x 650.43pt>
 File: ../figures/societa/BZ068.pdf Graphic file (type pdf)
 <use ../figures/societa/BZ068.pdf>
 Package pdftex.def Info: ../figures/societa/BZ068.pdf  used on input line 318.
@@ -956,7 +956,7 @@ Package pdftex.def Info: ../figures/societa/BZ068.pdf  used on input line 318.
 [87
 
  <../figures/societa/BZ068.pdf>]
-<../figures/societa/BZ071.pdf, id=8943, 1156.32pt x 650.43pt>
+<../figures/societa/BZ071.pdf, id=8945, 1156.32pt x 650.43pt>
 File: ../figures/societa/BZ071.pdf Graphic file (type pdf)
 <use ../figures/societa/BZ071.pdf>
 Package pdftex.def Info: ../figures/societa/BZ071.pdf  used on input line 323.
@@ -964,7 +964,7 @@ Package pdftex.def Info: ../figures/societa/BZ071.pdf  used on input line 323.
 [88
 
  <../figures/societa/BZ071.pdf>]
-<../figures/societa/CA001.pdf, id=9052, 1156.32pt x 650.43pt>
+<../figures/societa/CA001.pdf, id=9054, 1156.32pt x 650.43pt>
 File: ../figures/societa/CA001.pdf Graphic file (type pdf)
 <use ../figures/societa/CA001.pdf>
 Package pdftex.def Info: ../figures/societa/CA001.pdf  used on input line 328.
@@ -972,7 +972,7 @@ Package pdftex.def Info: ../figures/societa/CA001.pdf  used on input line 328.
 [89
 
  <../figures/societa/CA001.pdf>]
-<../figures/societa/CA002.pdf, id=9155, 1156.32pt x 650.43pt>
+<../figures/societa/CA002.pdf, id=9157, 1156.32pt x 650.43pt>
 File: ../figures/societa/CA002.pdf Graphic file (type pdf)
 <use ../figures/societa/CA002.pdf>
 Package pdftex.def Info: ../figures/societa/CA002.pdf  used on input line 333.
@@ -980,7 +980,7 @@ Package pdftex.def Info: ../figures/societa/CA002.pdf  used on input line 333.
 [90
 
  <../figures/societa/CA002.pdf>]
-<../figures/societa/CA012.pdf, id=9258, 1156.32pt x 650.43pt>
+<../figures/societa/CA012.pdf, id=9260, 1156.32pt x 650.43pt>
 File: ../figures/societa/CA012.pdf Graphic file (type pdf)
 <use ../figures/societa/CA012.pdf>
 Package pdftex.def Info: ../figures/societa/CA012.pdf  used on input line 338.
@@ -988,7 +988,7 @@ Package pdftex.def Info: ../figures/societa/CA012.pdf  used on input line 338.
 [91
 
  <../figures/societa/CA012.pdf>]
-<../figures/societa/CA032.pdf, id=9363, 1156.32pt x 650.43pt>
+<../figures/societa/CA032.pdf, id=9365, 1156.32pt x 650.43pt>
 File: ../figures/societa/CA032.pdf Graphic file (type pdf)
 <use ../figures/societa/CA032.pdf>
 Package pdftex.def Info: ../figures/societa/CA032.pdf  used on input line 343.
@@ -996,7 +996,7 @@ Package pdftex.def Info: ../figures/societa/CA032.pdf  used on input line 343.
 [92
 
  <../figures/societa/CA032.pdf>]
-<../figures/societa/CA036.pdf, id=9470, 1156.32pt x 650.43pt>
+<../figures/societa/CA036.pdf, id=9472, 1156.32pt x 650.43pt>
 File: ../figures/societa/CA036.pdf Graphic file (type pdf)
 <use ../figures/societa/CA036.pdf>
 Package pdftex.def Info: ../figures/societa/CA036.pdf  used on input line 348.
@@ -1004,7 +1004,7 @@ Package pdftex.def Info: ../figures/societa/CA036.pdf  used on input line 348.
 [93
 
  <../figures/societa/CA036.pdf>]
-<../figures/societa/CA198.pdf, id=9579, 1156.32pt x 650.43pt>
+<../figures/societa/CA198.pdf, id=9581, 1156.32pt x 650.43pt>
 File: ../figures/societa/CA198.pdf Graphic file (type pdf)
 <use ../figures/societa/CA198.pdf>
 Package pdftex.def Info: ../figures/societa/CA198.pdf  used on input line 353.
@@ -1012,7 +1012,7 @@ Package pdftex.def Info: ../figures/societa/CA198.pdf  used on input line 353.
 [94
 
  <../figures/societa/CA198.pdf>]
-<../figures/societa/CB005.pdf, id=9685, 1156.32pt x 650.43pt>
+<../figures/societa/CB005.pdf, id=9687, 1156.32pt x 650.43pt>
 File: ../figures/societa/CB005.pdf Graphic file (type pdf)
 <use ../figures/societa/CB005.pdf>
 Package pdftex.def Info: ../figures/societa/CB005.pdf  used on input line 358.
@@ -1020,7 +1020,7 @@ Package pdftex.def Info: ../figures/societa/CB005.pdf  used on input line 358.
 [95
 
  <../figures/societa/CB005.pdf>]
-<../figures/societa/CB006.pdf, id=9790, 1156.32pt x 650.43pt>
+<../figures/societa/CB006.pdf, id=9792, 1156.32pt x 650.43pt>
 File: ../figures/societa/CB006.pdf Graphic file (type pdf)
 <use ../figures/societa/CB006.pdf>
 Package pdftex.def Info: ../figures/societa/CB006.pdf  used on input line 363.
@@ -1028,7 +1028,7 @@ Package pdftex.def Info: ../figures/societa/CB006.pdf  used on input line 363.
 [96
 
  <../figures/societa/CB006.pdf>]
-<../figures/societa/CB061.pdf, id=9898, 1156.32pt x 650.43pt>
+<../figures/societa/CB061.pdf, id=9900, 1156.32pt x 650.43pt>
 File: ../figures/societa/CB061.pdf Graphic file (type pdf)
 <use ../figures/societa/CB061.pdf>
 Package pdftex.def Info: ../figures/societa/CB061.pdf  used on input line 368.
@@ -1036,7 +1036,7 @@ Package pdftex.def Info: ../figures/societa/CB061.pdf  used on input line 368.
 [97
 
  <../figures/societa/CB061.pdf>]
-<../figures/societa/CE035.pdf, id=10006, 1156.32pt x 650.43pt>
+<../figures/societa/CE035.pdf, id=10008, 1156.32pt x 650.43pt>
 File: ../figures/societa/CE035.pdf Graphic file (type pdf)
 <use ../figures/societa/CE035.pdf>
 Package pdftex.def Info: ../figures/societa/CE035.pdf  used on input line 373.
@@ -1044,7 +1044,7 @@ Package pdftex.def Info: ../figures/societa/CE035.pdf  used on input line 373.
 [98
 
  <../figures/societa/CE035.pdf>]
-<../figures/societa/CH172.pdf, id=10102, 1156.32pt x 650.43pt>
+<../figures/societa/CH172.pdf, id=10104, 1156.32pt x 650.43pt>
 File: ../figures/societa/CH172.pdf Graphic file (type pdf)
 <use ../figures/societa/CH172.pdf>
 Package pdftex.def Info: ../figures/societa/CH172.pdf  used on input line 378.
@@ -1052,7 +1052,7 @@ Package pdftex.def Info: ../figures/societa/CH172.pdf  used on input line 378.
 [99
 
  <../figures/societa/CH172.pdf>]
-<../figures/societa/CH183.pdf, id=10210, 1156.32pt x 650.43pt>
+<../figures/societa/CH183.pdf, id=10212, 1156.32pt x 650.43pt>
 File: ../figures/societa/CH183.pdf Graphic file (type pdf)
 <use ../figures/societa/CH183.pdf>
 Package pdftex.def Info: ../figures/societa/CH183.pdf  used on input line 383.
@@ -1060,7 +1060,7 @@ Package pdftex.def Info: ../figures/societa/CH183.pdf  used on input line 383.
 [100
 
  <../figures/societa/CH183.pdf>]
-<../figures/societa/CN001.pdf, id=10318, 1156.32pt x 650.43pt>
+<../figures/societa/CN001.pdf, id=10320, 1156.32pt x 650.43pt>
 File: ../figures/societa/CN001.pdf Graphic file (type pdf)
 <use ../figures/societa/CN001.pdf>
 Package pdftex.def Info: ../figures/societa/CN001.pdf  used on input line 388.
@@ -1068,7 +1068,7 @@ Package pdftex.def Info: ../figures/societa/CN001.pdf  used on input line 388.
 [101
 
  <../figures/societa/CN001.pdf>]
-<../figures/societa/CN005.pdf, id=10425, 1156.32pt x 650.43pt>
+<../figures/societa/CN005.pdf, id=10427, 1156.32pt x 650.43pt>
 File: ../figures/societa/CN005.pdf Graphic file (type pdf)
 <use ../figures/societa/CN005.pdf>
 Package pdftex.def Info: ../figures/societa/CN005.pdf  used on input line 393.
@@ -1076,7 +1076,7 @@ Package pdftex.def Info: ../figures/societa/CN005.pdf  used on input line 393.
 [102
 
  <../figures/societa/CN005.pdf>]
-<../figures/societa/CN008.pdf, id=10539, 1156.32pt x 650.43pt>
+<../figures/societa/CN008.pdf, id=10541, 1156.32pt x 650.43pt>
 File: ../figures/societa/CN008.pdf Graphic file (type pdf)
 <use ../figures/societa/CN008.pdf>
 Package pdftex.def Info: ../figures/societa/CN008.pdf  used on input line 398.
@@ -1084,7 +1084,7 @@ Package pdftex.def Info: ../figures/societa/CN008.pdf  used on input line 398.
 [103
 
  <../figures/societa/CN008.pdf>]
-<../figures/societa/CN020.pdf, id=10644, 1156.32pt x 650.43pt>
+<../figures/societa/CN020.pdf, id=10646, 1156.32pt x 650.43pt>
 File: ../figures/societa/CN020.pdf Graphic file (type pdf)
 <use ../figures/societa/CN020.pdf>
 Package pdftex.def Info: ../figures/societa/CN020.pdf  used on input line 403.
@@ -1092,7 +1092,7 @@ Package pdftex.def Info: ../figures/societa/CN020.pdf  used on input line 403.
 [104
 
  <../figures/societa/CN020.pdf>]
-<../figures/societa/CO011.pdf, id=10753, 1156.32pt x 650.43pt>
+<../figures/societa/CO011.pdf, id=10755, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO011.pdf Graphic file (type pdf)
 <use ../figures/societa/CO011.pdf>
 Package pdftex.def Info: ../figures/societa/CO011.pdf  used on input line 408.
@@ -1100,7 +1100,7 @@ Package pdftex.def Info: ../figures/societa/CO011.pdf  used on input line 408.
 [105
 
  <../figures/societa/CO011.pdf>]
-<../figures/societa/CO015.pdf, id=10858, 1156.32pt x 650.43pt>
+<../figures/societa/CO015.pdf, id=10860, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO015.pdf Graphic file (type pdf)
 <use ../figures/societa/CO015.pdf>
 Package pdftex.def Info: ../figures/societa/CO015.pdf  used on input line 413.
@@ -1108,7 +1108,7 @@ Package pdftex.def Info: ../figures/societa/CO015.pdf  used on input line 413.
 [106
 
  <../figures/societa/CO015.pdf>]
-<../figures/societa/CO017.pdf, id=10965, 1156.32pt x 650.43pt>
+<../figures/societa/CO017.pdf, id=10967, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO017.pdf Graphic file (type pdf)
 <use ../figures/societa/CO017.pdf>
 Package pdftex.def Info: ../figures/societa/CO017.pdf  used on input line 418.
@@ -1116,7 +1116,7 @@ Package pdftex.def Info: ../figures/societa/CO017.pdf  used on input line 418.
 [107
 
  <../figures/societa/CO017.pdf>]
-<../figures/societa/CO023.pdf, id=11070, 1156.32pt x 650.43pt>
+<../figures/societa/CO023.pdf, id=11072, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO023.pdf Graphic file (type pdf)
 <use ../figures/societa/CO023.pdf>
 Package pdftex.def Info: ../figures/societa/CO023.pdf  used on input line 423.
@@ -1124,7 +1124,7 @@ Package pdftex.def Info: ../figures/societa/CO023.pdf  used on input line 423.
 [108
 
  <../figures/societa/CO023.pdf>]
-<../figures/societa/CO056.pdf, id=11176, 1156.32pt x 650.43pt>
+<../figures/societa/CO056.pdf, id=11178, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO056.pdf Graphic file (type pdf)
 <use ../figures/societa/CO056.pdf>
 Package pdftex.def Info: ../figures/societa/CO056.pdf  used on input line 428.
@@ -1132,7 +1132,7 @@ Package pdftex.def Info: ../figures/societa/CO056.pdf  used on input line 428.
 [109
 
  <../figures/societa/CO056.pdf>]
-<../figures/societa/CO208.pdf, id=11282, 1156.32pt x 650.43pt>
+<../figures/societa/CO208.pdf, id=11284, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO208.pdf Graphic file (type pdf)
 <use ../figures/societa/CO208.pdf>
 Package pdftex.def Info: ../figures/societa/CO208.pdf  used on input line 433.
@@ -1140,7 +1140,7 @@ Package pdftex.def Info: ../figures/societa/CO208.pdf  used on input line 433.
 [110
 
  <../figures/societa/CO208.pdf>]
-<../figures/societa/CO294.pdf, id=11392, 1156.32pt x 650.43pt>
+<../figures/societa/CO294.pdf, id=11394, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO294.pdf Graphic file (type pdf)
 <use ../figures/societa/CO294.pdf>
 Package pdftex.def Info: ../figures/societa/CO294.pdf  used on input line 438.
@@ -1148,7 +1148,7 @@ Package pdftex.def Info: ../figures/societa/CO294.pdf  used on input line 438.
 [111
 
  <../figures/societa/CO294.pdf>]
-<../figures/societa/CO487.pdf, id=11499, 1156.32pt x 650.43pt>
+<../figures/societa/CO487.pdf, id=11501, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO487.pdf Graphic file (type pdf)
 <use ../figures/societa/CO487.pdf>
 Package pdftex.def Info: ../figures/societa/CO487.pdf  used on input line 443.
@@ -1156,7 +1156,7 @@ Package pdftex.def Info: ../figures/societa/CO487.pdf  used on input line 443.
 [112
 
  <../figures/societa/CO487.pdf>]
-<../figures/societa/CO546.pdf, id=11601, 1156.32pt x 650.43pt>
+<../figures/societa/CO546.pdf, id=11603, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO546.pdf Graphic file (type pdf)
 <use ../figures/societa/CO546.pdf>
 Package pdftex.def Info: ../figures/societa/CO546.pdf  used on input line 448.
@@ -1164,7 +1164,7 @@ Package pdftex.def Info: ../figures/societa/CO546.pdf  used on input line 448.
 [113
 
  <../figures/societa/CO546.pdf>]
-<../figures/societa/CO744.pdf, id=11711, 1156.32pt x 650.43pt>
+<../figures/societa/CO744.pdf, id=11713, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO744.pdf Graphic file (type pdf)
 <use ../figures/societa/CO744.pdf>
 Package pdftex.def Info: ../figures/societa/CO744.pdf  used on input line 453.
@@ -1172,7 +1172,7 @@ Package pdftex.def Info: ../figures/societa/CO744.pdf  used on input line 453.
 [114
 
  <../figures/societa/CO744.pdf>]
-<../figures/societa/CO920.pdf, id=11816, 1156.32pt x 650.43pt>
+<../figures/societa/CO920.pdf, id=11818, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO920.pdf Graphic file (type pdf)
 <use ../figures/societa/CO920.pdf>
 Package pdftex.def Info: ../figures/societa/CO920.pdf  used on input line 458.
@@ -1180,7 +1180,7 @@ Package pdftex.def Info: ../figures/societa/CO920.pdf  used on input line 458.
 [115
 
  <../figures/societa/CO920.pdf>]
-<../figures/societa/CO976.pdf, id=11920, 1156.32pt x 650.43pt>
+<../figures/societa/CO976.pdf, id=11922, 1156.32pt x 650.43pt>
 File: ../figures/societa/CO976.pdf Graphic file (type pdf)
 <use ../figures/societa/CO976.pdf>
 Package pdftex.def Info: ../figures/societa/CO976.pdf  used on input line 463.
@@ -1188,7 +1188,7 @@ Package pdftex.def Info: ../figures/societa/CO976.pdf  used on input line 463.
 [116
 
  <../figures/societa/CO976.pdf>]
-<../figures/societa/CR041.pdf, id=12026, 1156.32pt x 650.43pt>
+<../figures/societa/CR041.pdf, id=12028, 1156.32pt x 650.43pt>
 File: ../figures/societa/CR041.pdf Graphic file (type pdf)
 <use ../figures/societa/CR041.pdf>
 Package pdftex.def Info: ../figures/societa/CR041.pdf  used on input line 468.
@@ -1196,7 +1196,7 @@ Package pdftex.def Info: ../figures/societa/CR041.pdf  used on input line 468.
 [117
 
  <../figures/societa/CR041.pdf>]
-<../figures/societa/CR150.pdf, id=12136, 1156.32pt x 650.43pt>
+<../figures/societa/CR150.pdf, id=12138, 1156.32pt x 650.43pt>
 File: ../figures/societa/CR150.pdf Graphic file (type pdf)
 <use ../figures/societa/CR150.pdf>
 Package pdftex.def Info: ../figures/societa/CR150.pdf  used on input line 473.
@@ -1204,7 +1204,7 @@ Package pdftex.def Info: ../figures/societa/CR150.pdf  used on input line 473.
 [118
 
  <../figures/societa/CR150.pdf>]
-<../figures/societa/CR810.pdf, id=12247, 1156.32pt x 650.43pt>
+<../figures/societa/CR810.pdf, id=12249, 1156.32pt x 650.43pt>
 File: ../figures/societa/CR810.pdf Graphic file (type pdf)
 <use ../figures/societa/CR810.pdf>
 Package pdftex.def Info: ../figures/societa/CR810.pdf  used on input line 478.
@@ -1212,7 +1212,7 @@ Package pdftex.def Info: ../figures/societa/CR810.pdf  used on input line 478.
 [119
 
  <../figures/societa/CR810.pdf>]
-<../figures/societa/CS361.pdf, id=12355, 1156.32pt x 650.43pt>
+<../figures/societa/CS361.pdf, id=12357, 1156.32pt x 650.43pt>
 File: ../figures/societa/CS361.pdf Graphic file (type pdf)
 <use ../figures/societa/CS361.pdf>
 Package pdftex.def Info: ../figures/societa/CS361.pdf  used on input line 483.
@@ -1220,7 +1220,7 @@ Package pdftex.def Info: ../figures/societa/CS361.pdf  used on input line 483.
 [120
 
  <../figures/societa/CS361.pdf>]
-<../figures/societa/CT361.pdf, id=12461, 1156.32pt x 650.43pt>
+<../figures/societa/CT361.pdf, id=12463, 1156.32pt x 650.43pt>
 File: ../figures/societa/CT361.pdf Graphic file (type pdf)
 <use ../figures/societa/CT361.pdf>
 Package pdftex.def Info: ../figures/societa/CT361.pdf  used on input line 488.
@@ -1228,7 +1228,7 @@ Package pdftex.def Info: ../figures/societa/CT361.pdf  used on input line 488.
 [121
 
  <../figures/societa/CT361.pdf>]
-<../figures/societa/CT734.pdf, id=12568, 1156.32pt x 650.43pt>
+<../figures/societa/CT734.pdf, id=12570, 1156.32pt x 650.43pt>
 File: ../figures/societa/CT734.pdf Graphic file (type pdf)
 <use ../figures/societa/CT734.pdf>
 Package pdftex.def Info: ../figures/societa/CT734.pdf  used on input line 493.
@@ -1236,7 +1236,7 @@ Package pdftex.def Info: ../figures/societa/CT734.pdf  used on input line 493.
 [122
 
  <../figures/societa/CT734.pdf>]
-<../figures/societa/FC038.pdf, id=12670, 1156.32pt x 650.43pt>
+<../figures/societa/FC038.pdf, id=12672, 1156.32pt x 650.43pt>
 File: ../figures/societa/FC038.pdf Graphic file (type pdf)
 <use ../figures/societa/FC038.pdf>
 Package pdftex.def Info: ../figures/societa/FC038.pdf  used on input line 498.
@@ -1244,7 +1244,7 @@ Package pdftex.def Info: ../figures/societa/FC038.pdf  used on input line 498.
 [123
 
  <../figures/societa/FC038.pdf>]
-<../figures/societa/FC049.pdf, id=12776, 1156.32pt x 650.43pt>
+<../figures/societa/FC049.pdf, id=12778, 1156.32pt x 650.43pt>
 File: ../figures/societa/FC049.pdf Graphic file (type pdf)
 <use ../figures/societa/FC049.pdf>
 Package pdftex.def Info: ../figures/societa/FC049.pdf  used on input line 503.
@@ -1252,7 +1252,7 @@ Package pdftex.def Info: ../figures/societa/FC049.pdf  used on input line 503.
 [124
 
  <../figures/societa/FC049.pdf>]
-<../figures/societa/FC542.pdf, id=12881, 1156.32pt x 650.43pt>
+<../figures/societa/FC542.pdf, id=12883, 1156.32pt x 650.43pt>
 File: ../figures/societa/FC542.pdf Graphic file (type pdf)
 <use ../figures/societa/FC542.pdf>
 Package pdftex.def Info: ../figures/societa/FC542.pdf  used on input line 508.
@@ -1260,7 +1260,7 @@ Package pdftex.def Info: ../figures/societa/FC542.pdf  used on input line 508.
 [125
 
  <../figures/societa/FC542.pdf>]
-<../figures/societa/FE025.pdf, id=12988, 1156.32pt x 650.43pt>
+<../figures/societa/FE025.pdf, id=12990, 1156.32pt x 650.43pt>
 File: ../figures/societa/FE025.pdf Graphic file (type pdf)
 <use ../figures/societa/FE025.pdf>
 Package pdftex.def Info: ../figures/societa/FE025.pdf  used on input line 513.
@@ -1268,7 +1268,7 @@ Package pdftex.def Info: ../figures/societa/FE025.pdf  used on input line 513.
 [126
 
  <../figures/societa/FE025.pdf>]
-<../figures/societa/FE026.pdf, id=13094, 1156.32pt x 650.43pt>
+<../figures/societa/FE026.pdf, id=13096, 1156.32pt x 650.43pt>
 File: ../figures/societa/FE026.pdf Graphic file (type pdf)
 <use ../figures/societa/FE026.pdf>
 Package pdftex.def Info: ../figures/societa/FE026.pdf  used on input line 518.
@@ -1276,7 +1276,7 @@ Package pdftex.def Info: ../figures/societa/FE026.pdf  used on input line 518.
 [127
 
  <../figures/societa/FE026.pdf>]
-<../figures/societa/FE378.pdf, id=13199, 1156.32pt x 650.43pt>
+<../figures/societa/FE378.pdf, id=13201, 1156.32pt x 650.43pt>
 File: ../figures/societa/FE378.pdf Graphic file (type pdf)
 <use ../figures/societa/FE378.pdf>
 Package pdftex.def Info: ../figures/societa/FE378.pdf  used on input line 523.
@@ -1284,7 +1284,7 @@ Package pdftex.def Info: ../figures/societa/FE378.pdf  used on input line 523.
 [128
 
  <../figures/societa/FE378.pdf>]
-<../figures/societa/FE596.pdf, id=13303, 1156.32pt x 650.43pt>
+<../figures/societa/FE596.pdf, id=13305, 1156.32pt x 650.43pt>
 File: ../figures/societa/FE596.pdf Graphic file (type pdf)
 <use ../figures/societa/FE596.pdf>
 Package pdftex.def Info: ../figures/societa/FE596.pdf  used on input line 528.
@@ -1292,7 +1292,7 @@ Package pdftex.def Info: ../figures/societa/FE596.pdf  used on input line 528.
 [129
 
  <../figures/societa/FE596.pdf>]
-<../figures/societa/FG202.pdf, id=13411, 1156.32pt x 650.43pt>
+<../figures/societa/FG202.pdf, id=13413, 1156.32pt x 650.43pt>
 File: ../figures/societa/FG202.pdf Graphic file (type pdf)
 <use ../figures/societa/FG202.pdf>
 Package pdftex.def Info: ../figures/societa/FG202.pdf  used on input line 533.
@@ -1300,7 +1300,7 @@ Package pdftex.def Info: ../figures/societa/FG202.pdf  used on input line 533.
 [130
 
  <../figures/societa/FG202.pdf>]
-<../figures/societa/FG210.pdf, id=13517, 1156.32pt x 650.43pt>
+<../figures/societa/FG210.pdf, id=13519, 1156.32pt x 650.43pt>
 File: ../figures/societa/FG210.pdf Graphic file (type pdf)
 <use ../figures/societa/FG210.pdf>
 Package pdftex.def Info: ../figures/societa/FG210.pdf  used on input line 538.
@@ -1308,7 +1308,7 @@ Package pdftex.def Info: ../figures/societa/FG210.pdf  used on input line 538.
 [131
 
  <../figures/societa/FG210.pdf>]
-<../figures/societa/FI001.pdf, id=13624, 1156.32pt x 650.43pt>
+<../figures/societa/FI001.pdf, id=13626, 1156.32pt x 650.43pt>
 File: ../figures/societa/FI001.pdf Graphic file (type pdf)
 <use ../figures/societa/FI001.pdf>
 Package pdftex.def Info: ../figures/societa/FI001.pdf  used on input line 543.
@@ -1316,7 +1316,7 @@ Package pdftex.def Info: ../figures/societa/FI001.pdf  used on input line 543.
 [132
 
  <../figures/societa/FI001.pdf>]
-<../figures/societa/FI002.pdf, id=13730, 1156.32pt x 650.43pt>
+<../figures/societa/FI002.pdf, id=13732, 1156.32pt x 650.43pt>
 File: ../figures/societa/FI002.pdf Graphic file (type pdf)
 <use ../figures/societa/FI002.pdf>
 Package pdftex.def Info: ../figures/societa/FI002.pdf  used on input line 548.
@@ -1324,7 +1324,7 @@ Package pdftex.def Info: ../figures/societa/FI002.pdf  used on input line 548.
 [133
 
  <../figures/societa/FI002.pdf>]
-<../figures/societa/FI005.pdf, id=13840, 1156.32pt x 650.43pt>
+<../figures/societa/FI005.pdf, id=13842, 1156.32pt x 650.43pt>
 File: ../figures/societa/FI005.pdf Graphic file (type pdf)
 <use ../figures/societa/FI005.pdf>
 Package pdftex.def Info: ../figures/societa/FI005.pdf  used on input line 553.
@@ -1332,7 +1332,7 @@ Package pdftex.def Info: ../figures/societa/FI005.pdf  used on input line 553.
 [134
 
  <../figures/societa/FI005.pdf>]
-<../figures/societa/FI007.pdf, id=13938, 1156.32pt x 650.43pt>
+<../figures/societa/FI007.pdf, id=13940, 1156.32pt x 650.43pt>
 File: ../figures/societa/FI007.pdf Graphic file (type pdf)
 <use ../figures/societa/FI007.pdf>
 Package pdftex.def Info: ../figures/societa/FI007.pdf  used on input line 558.
@@ -1340,7 +1340,7 @@ Package pdftex.def Info: ../figures/societa/FI007.pdf  used on input line 558.
 [135
 
  <../figures/societa/FI007.pdf>]
-<../figures/societa/FI009.pdf, id=14045, 1156.32pt x 650.43pt>
+<../figures/societa/FI009.pdf, id=14047, 1156.32pt x 650.43pt>
 File: ../figures/societa/FI009.pdf Graphic file (type pdf)
 <use ../figures/societa/FI009.pdf>
 Package pdftex.def Info: ../figures/societa/FI009.pdf  used on input line 563.
@@ -1348,7 +1348,7 @@ Package pdftex.def Info: ../figures/societa/FI009.pdf  used on input line 563.
 [136
 
  <../figures/societa/FI009.pdf>]
-<../figures/societa/FI018.pdf, id=14151, 1156.32pt x 650.43pt>
+<../figures/societa/FI018.pdf, id=14153, 1156.32pt x 650.43pt>
 File: ../figures/societa/FI018.pdf Graphic file (type pdf)
 <use ../figures/societa/FI018.pdf>
 Package pdftex.def Info: ../figures/societa/FI018.pdf  used on input line 568.
@@ -1356,7 +1356,7 @@ Package pdftex.def Info: ../figures/societa/FI018.pdf  used on input line 568.
 [137
 
  <../figures/societa/FI018.pdf>]
-<../figures/societa/FI023.pdf, id=14253, 1156.32pt x 650.43pt>
+<../figures/societa/FI023.pdf, id=14255, 1156.32pt x 650.43pt>
 File: ../figures/societa/FI023.pdf Graphic file (type pdf)
 <use ../figures/societa/FI023.pdf>
 Package pdftex.def Info: ../figures/societa/FI023.pdf  used on input line 573.
@@ -1364,7 +1364,7 @@ Package pdftex.def Info: ../figures/societa/FI023.pdf  used on input line 573.
 [138
 
  <../figures/societa/FI023.pdf>]
-<../figures/societa/FI025.pdf, id=14352, 1156.32pt x 650.43pt>
+<../figures/societa/FI025.pdf, id=14354, 1156.32pt x 650.43pt>
 File: ../figures/societa/FI025.pdf Graphic file (type pdf)
 <use ../figures/societa/FI025.pdf>
 Package pdftex.def Info: ../figures/societa/FI025.pdf  used on input line 578.
@@ -1372,7 +1372,7 @@ Package pdftex.def Info: ../figures/societa/FI025.pdf  used on input line 578.
 [139
 
  <../figures/societa/FI025.pdf>]
-<../figures/societa/FI029.pdf, id=14455, 1156.32pt x 650.43pt>
+<../figures/societa/FI029.pdf, id=14457, 1156.32pt x 650.43pt>
 File: ../figures/societa/FI029.pdf Graphic file (type pdf)
 <use ../figures/societa/FI029.pdf>
 Package pdftex.def Info: ../figures/societa/FI029.pdf  used on input line 583.
@@ -1380,7 +1380,7 @@ Package pdftex.def Info: ../figures/societa/FI029.pdf  used on input line 583.
 [140
 
  <../figures/societa/FI029.pdf>]
-<../figures/societa/FM003.pdf, id=14560, 1156.32pt x 650.43pt>
+<../figures/societa/FM003.pdf, id=14562, 1156.32pt x 650.43pt>
 File: ../figures/societa/FM003.pdf Graphic file (type pdf)
 <use ../figures/societa/FM003.pdf>
 Package pdftex.def Info: ../figures/societa/FM003.pdf  used on input line 588.
@@ -1388,7 +1388,7 @@ Package pdftex.def Info: ../figures/societa/FM003.pdf  used on input line 588.
 [141
 
  <../figures/societa/FM003.pdf>]
-<../figures/societa/FM050.pdf, id=14665, 1156.32pt x 650.43pt>
+<../figures/societa/FM050.pdf, id=14667, 1156.32pt x 650.43pt>
 File: ../figures/societa/FM050.pdf Graphic file (type pdf)
 <use ../figures/societa/FM050.pdf>
 Package pdftex.def Info: ../figures/societa/FM050.pdf  used on input line 593.
@@ -1396,7 +1396,7 @@ Package pdftex.def Info: ../figures/societa/FM050.pdf  used on input line 593.
 [142
 
  <../figures/societa/FM050.pdf>]
-<../figures/societa/GE002.pdf, id=14766, 1156.32pt x 650.43pt>
+<../figures/societa/GE002.pdf, id=14768, 1156.32pt x 650.43pt>
 File: ../figures/societa/GE002.pdf Graphic file (type pdf)
 <use ../figures/societa/GE002.pdf>
 Package pdftex.def Info: ../figures/societa/GE002.pdf  used on input line 598.
@@ -1404,7 +1404,7 @@ Package pdftex.def Info: ../figures/societa/GE002.pdf  used on input line 598.
 [143
 
  <../figures/societa/GE002.pdf>]
-<../figures/societa/GE012.pdf, id=14871, 1156.32pt x 650.43pt>
+<../figures/societa/GE012.pdf, id=14873, 1156.32pt x 650.43pt>
 File: ../figures/societa/GE012.pdf Graphic file (type pdf)
 <use ../figures/societa/GE012.pdf>
 Package pdftex.def Info: ../figures/societa/GE012.pdf  used on input line 603.
@@ -1412,7 +1412,7 @@ Package pdftex.def Info: ../figures/societa/GE012.pdf  used on input line 603.
 [144
 
  <../figures/societa/GE012.pdf>]
-<../figures/societa/GE016.pdf, id=14976, 1156.32pt x 650.43pt>
+<../figures/societa/GE016.pdf, id=14978, 1156.32pt x 650.43pt>
 File: ../figures/societa/GE016.pdf Graphic file (type pdf)
 <use ../figures/societa/GE016.pdf>
 Package pdftex.def Info: ../figures/societa/GE016.pdf  used on input line 608.
@@ -1420,7 +1420,7 @@ Package pdftex.def Info: ../figures/societa/GE016.pdf  used on input line 608.
 [145
 
  <../figures/societa/GE016.pdf>]
-<../figures/societa/GO047.pdf, id=15088, 1156.32pt x 650.43pt>
+<../figures/societa/GO047.pdf, id=15090, 1156.32pt x 650.43pt>
 File: ../figures/societa/GO047.pdf Graphic file (type pdf)
 <use ../figures/societa/GO047.pdf>
 Package pdftex.def Info: ../figures/societa/GO047.pdf  used on input line 613.
@@ -1428,7 +1428,7 @@ Package pdftex.def Info: ../figures/societa/GO047.pdf  used on input line 613.
 [146
 
  <../figures/societa/GO047.pdf>]
-<../figures/societa/GO050.pdf, id=15194, 1156.32pt x 650.43pt>
+<../figures/societa/GO050.pdf, id=15196, 1156.32pt x 650.43pt>
 File: ../figures/societa/GO050.pdf Graphic file (type pdf)
 <use ../figures/societa/GO050.pdf>
 Package pdftex.def Info: ../figures/societa/GO050.pdf  used on input line 618.
@@ -1436,7 +1436,7 @@ Package pdftex.def Info: ../figures/societa/GO050.pdf  used on input line 618.
 [147
 
  <../figures/societa/GO050.pdf>]
-<../figures/societa/GR065.pdf, id=15298, 1156.32pt x 650.43pt>
+<../figures/societa/GR065.pdf, id=15300, 1156.32pt x 650.43pt>
 File: ../figures/societa/GR065.pdf Graphic file (type pdf)
 <use ../figures/societa/GR065.pdf>
 Package pdftex.def Info: ../figures/societa/GR065.pdf  used on input line 623.
@@ -1444,7 +1444,7 @@ Package pdftex.def Info: ../figures/societa/GR065.pdf  used on input line 623.
 [148
 
  <../figures/societa/GR065.pdf>]
-<../figures/societa/IM029.pdf, id=15406, 1156.32pt x 650.43pt>
+<../figures/societa/IM029.pdf, id=15408, 1156.32pt x 650.43pt>
 File: ../figures/societa/IM029.pdf Graphic file (type pdf)
 <use ../figures/societa/IM029.pdf>
 Package pdftex.def Info: ../figures/societa/IM029.pdf  used on input line 628.
@@ -1452,7 +1452,7 @@ Package pdftex.def Info: ../figures/societa/IM029.pdf  used on input line 628.
 [149
 
  <../figures/societa/IM029.pdf>]
-<../figures/societa/IM038.pdf, id=15512, 1156.32pt x 650.43pt>
+<../figures/societa/IM038.pdf, id=15514, 1156.32pt x 650.43pt>
 File: ../figures/societa/IM038.pdf Graphic file (type pdf)
 <use ../figures/societa/IM038.pdf>
 Package pdftex.def Info: ../figures/societa/IM038.pdf  used on input line 633.
@@ -1460,7 +1460,7 @@ Package pdftex.def Info: ../figures/societa/IM038.pdf  used on input line 633.
 [150
 
  <../figures/societa/IM038.pdf>]
-<../figures/societa/IS010.pdf, id=15624, 1156.32pt x 650.43pt>
+<../figures/societa/IS010.pdf, id=15626, 1156.32pt x 650.43pt>
 File: ../figures/societa/IS010.pdf Graphic file (type pdf)
 <use ../figures/societa/IS010.pdf>
 Package pdftex.def Info: ../figures/societa/IS010.pdf  used on input line 638.
@@ -1468,7 +1468,7 @@ Package pdftex.def Info: ../figures/societa/IS010.pdf  used on input line 638.
 [151
 
  <../figures/societa/IS010.pdf>]
-<../figures/societa/LE658.pdf, id=15728, 1156.32pt x 650.43pt>
+<../figures/societa/LE658.pdf, id=15730, 1156.32pt x 650.43pt>
 File: ../figures/societa/LE658.pdf Graphic file (type pdf)
 <use ../figures/societa/LE658.pdf>
 Package pdftex.def Info: ../figures/societa/LE658.pdf  used on input line 643.
@@ -1476,7 +1476,7 @@ Package pdftex.def Info: ../figures/societa/LE658.pdf  used on input line 643.
 [152
 
  <../figures/societa/LE658.pdf>]
-<../figures/societa/LI035.pdf, id=15830, 1156.32pt x 650.43pt>
+<../figures/societa/LI035.pdf, id=15832, 1156.32pt x 650.43pt>
 File: ../figures/societa/LI035.pdf Graphic file (type pdf)
 <use ../figures/societa/LI035.pdf>
 Package pdftex.def Info: ../figures/societa/LI035.pdf  used on input line 648.
@@ -1484,7 +1484,7 @@ Package pdftex.def Info: ../figures/societa/LI035.pdf  used on input line 648.
 [153
 
  <../figures/societa/LI035.pdf>]
-<../figures/societa/LI036.pdf, id=15939, 1156.32pt x 650.43pt>
+<../figures/societa/LI036.pdf, id=15941, 1156.32pt x 650.43pt>
 File: ../figures/societa/LI036.pdf Graphic file (type pdf)
 <use ../figures/societa/LI036.pdf>
 Package pdftex.def Info: ../figures/societa/LI036.pdf  used on input line 653.
@@ -1492,7 +1492,7 @@ Package pdftex.def Info: ../figures/societa/LI036.pdf  used on input line 653.
 [154
 
  <../figures/societa/LI036.pdf>]
-<../figures/societa/LI038.pdf, id=16044, 1156.32pt x 650.43pt>
+<../figures/societa/LI038.pdf, id=16046, 1156.32pt x 650.43pt>
 File: ../figures/societa/LI038.pdf Graphic file (type pdf)
 <use ../figures/societa/LI038.pdf>
 Package pdftex.def Info: ../figures/societa/LI038.pdf  used on input line 658.
@@ -1500,7 +1500,7 @@ Package pdftex.def Info: ../figures/societa/LI038.pdf  used on input line 658.
 [155
 
  <../figures/societa/LI038.pdf>]
-<../figures/societa/LI332.pdf, id=16151, 1156.32pt x 650.43pt>
+<../figures/societa/LI332.pdf, id=16153, 1156.32pt x 650.43pt>
 File: ../figures/societa/LI332.pdf Graphic file (type pdf)
 <use ../figures/societa/LI332.pdf>
 Package pdftex.def Info: ../figures/societa/LI332.pdf  used on input line 663.
@@ -1508,7 +1508,7 @@ Package pdftex.def Info: ../figures/societa/LI332.pdf  used on input line 663.
 [156
 
  <../figures/societa/LI332.pdf>]
-<../figures/societa/LT275.pdf, id=16258, 1156.32pt x 650.43pt>
+<../figures/societa/LT275.pdf, id=16260, 1156.32pt x 650.43pt>
 File: ../figures/societa/LT275.pdf Graphic file (type pdf)
 <use ../figures/societa/LT275.pdf>
 Package pdftex.def Info: ../figures/societa/LT275.pdf  used on input line 668.
@@ -1516,7 +1516,7 @@ Package pdftex.def Info: ../figures/societa/LT275.pdf  used on input line 668.
 [157
 
  <../figures/societa/LT275.pdf>]
-<../figures/societa/LT302.pdf, id=16363, 1156.32pt x 650.43pt>
+<../figures/societa/LT302.pdf, id=16365, 1156.32pt x 650.43pt>
 File: ../figures/societa/LT302.pdf Graphic file (type pdf)
 <use ../figures/societa/LT302.pdf>
 Package pdftex.def Info: ../figures/societa/LT302.pdf  used on input line 673.
@@ -1524,7 +1524,7 @@ Package pdftex.def Info: ../figures/societa/LT302.pdf  used on input line 673.
 [158
 
  <../figures/societa/LT302.pdf>]
-<../figures/societa/LU100.pdf, id=16468, 1156.32pt x 650.43pt>
+<../figures/societa/LU100.pdf, id=16470, 1156.32pt x 650.43pt>
 File: ../figures/societa/LU100.pdf Graphic file (type pdf)
 <use ../figures/societa/LU100.pdf>
 Package pdftex.def Info: ../figures/societa/LU100.pdf  used on input line 678.
@@ -1532,7 +1532,7 @@ Package pdftex.def Info: ../figures/societa/LU100.pdf  used on input line 678.
 [159
 
  <../figures/societa/LU100.pdf>]
-<../figures/societa/LU104.pdf, id=16573, 1156.32pt x 650.43pt>
+<../figures/societa/LU104.pdf, id=16575, 1156.32pt x 650.43pt>
 File: ../figures/societa/LU104.pdf Graphic file (type pdf)
 <use ../figures/societa/LU104.pdf>
 Package pdftex.def Info: ../figures/societa/LU104.pdf  used on input line 683.
@@ -1540,7 +1540,7 @@ Package pdftex.def Info: ../figures/societa/LU104.pdf  used on input line 683.
 [160
 
  <../figures/societa/LU104.pdf>]
-<../figures/societa/MC004.pdf, id=16680, 1156.32pt x 650.43pt>
+<../figures/societa/MC004.pdf, id=16682, 1156.32pt x 650.43pt>
 File: ../figures/societa/MC004.pdf Graphic file (type pdf)
 <use ../figures/societa/MC004.pdf>
 Package pdftex.def Info: ../figures/societa/MC004.pdf  used on input line 688.
@@ -1548,7 +1548,7 @@ Package pdftex.def Info: ../figures/societa/MC004.pdf  used on input line 688.
 [161
 
  <../figures/societa/MC004.pdf>]
-<../figures/societa/MC007.pdf, id=16785, 1156.32pt x 650.43pt>
+<../figures/societa/MC007.pdf, id=16787, 1156.32pt x 650.43pt>
 File: ../figures/societa/MC007.pdf Graphic file (type pdf)
 <use ../figures/societa/MC007.pdf>
 Package pdftex.def Info: ../figures/societa/MC007.pdf  used on input line 693.
@@ -1556,7 +1556,7 @@ Package pdftex.def Info: ../figures/societa/MC007.pdf  used on input line 693.
 [162
 
  <../figures/societa/MC007.pdf>]
-<../figures/societa/MC008.pdf, id=16892, 1156.32pt x 650.43pt>
+<../figures/societa/MC008.pdf, id=16895, 1156.32pt x 650.43pt>
 File: ../figures/societa/MC008.pdf Graphic file (type pdf)
 <use ../figures/societa/MC008.pdf>
 Package pdftex.def Info: ../figures/societa/MC008.pdf  used on input line 698.
@@ -1564,7 +1564,7 @@ Package pdftex.def Info: ../figures/societa/MC008.pdf  used on input line 698.
 [163
 
  <../figures/societa/MC008.pdf>]
-<../figures/societa/MC011.pdf, id=16993, 1156.32pt x 650.43pt>
+<../figures/societa/MC011.pdf, id=16995, 1156.32pt x 650.43pt>
 File: ../figures/societa/MC011.pdf Graphic file (type pdf)
 <use ../figures/societa/MC011.pdf>
 Package pdftex.def Info: ../figures/societa/MC011.pdf  used on input line 703.
@@ -1572,7 +1572,7 @@ Package pdftex.def Info: ../figures/societa/MC011.pdf  used on input line 703.
 [164
 
  <../figures/societa/MC011.pdf>]
-<../figures/societa/MC042.pdf, id=17097, 1156.32pt x 650.43pt>
+<../figures/societa/MC042.pdf, id=17099, 1156.32pt x 650.43pt>
 File: ../figures/societa/MC042.pdf Graphic file (type pdf)
 <use ../figures/societa/MC042.pdf>
 Package pdftex.def Info: ../figures/societa/MC042.pdf  used on input line 708.
@@ -1580,7 +1580,7 @@ Package pdftex.def Info: ../figures/societa/MC042.pdf  used on input line 708.
 [165
 
  <../figures/societa/MC042.pdf>]
-<../figures/societa/ME112.pdf, id=17205, 1156.32pt x 650.43pt>
+<../figures/societa/ME112.pdf, id=17207, 1156.32pt x 650.43pt>
 File: ../figures/societa/ME112.pdf Graphic file (type pdf)
 <use ../figures/societa/ME112.pdf>
 Package pdftex.def Info: ../figures/societa/ME112.pdf  used on input line 713.
@@ -1588,7 +1588,7 @@ Package pdftex.def Info: ../figures/societa/ME112.pdf  used on input line 713.
 [166
 
  <../figures/societa/ME112.pdf>]
-<../figures/societa/ME740.pdf, id=17315, 1156.32pt x 650.43pt>
+<../figures/societa/ME740.pdf, id=17317, 1156.32pt x 650.43pt>
 File: ../figures/societa/ME740.pdf Graphic file (type pdf)
 <use ../figures/societa/ME740.pdf>
 Package pdftex.def Info: ../figures/societa/ME740.pdf  used on input line 718.
@@ -1596,7 +1596,7 @@ Package pdftex.def Info: ../figures/societa/ME740.pdf  used on input line 718.
 [167
 
  <../figures/societa/ME740.pdf>]
-<../figures/societa/MI008.pdf, id=17422, 1156.32pt x 650.43pt>
+<../figures/societa/MI008.pdf, id=17424, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI008.pdf Graphic file (type pdf)
 <use ../figures/societa/MI008.pdf>
 Package pdftex.def Info: ../figures/societa/MI008.pdf  used on input line 723.
@@ -1604,7 +1604,7 @@ Package pdftex.def Info: ../figures/societa/MI008.pdf  used on input line 723.
 [168
 
  <../figures/societa/MI008.pdf>]
-<../figures/societa/MI065.pdf, id=17520, 1156.32pt x 650.43pt>
+<../figures/societa/MI065.pdf, id=17522, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI065.pdf Graphic file (type pdf)
 <use ../figures/societa/MI065.pdf>
 Package pdftex.def Info: ../figures/societa/MI065.pdf  used on input line 728.
@@ -1612,7 +1612,7 @@ Package pdftex.def Info: ../figures/societa/MI065.pdf  used on input line 728.
 [169
 
  <../figures/societa/MI065.pdf>]
-<../figures/societa/MI066.pdf, id=17625, 1156.32pt x 650.43pt>
+<../figures/societa/MI066.pdf, id=17627, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI066.pdf Graphic file (type pdf)
 <use ../figures/societa/MI066.pdf>
 Package pdftex.def Info: ../figures/societa/MI066.pdf  used on input line 733.
@@ -1620,7 +1620,7 @@ Package pdftex.def Info: ../figures/societa/MI066.pdf  used on input line 733.
 [170
 
  <../figures/societa/MI066.pdf>]
-<../figures/societa/MI068.pdf, id=17733, 1156.32pt x 650.43pt>
+<../figures/societa/MI068.pdf, id=17735, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI068.pdf Graphic file (type pdf)
 <use ../figures/societa/MI068.pdf>
 Package pdftex.def Info: ../figures/societa/MI068.pdf  used on input line 738.
@@ -1628,7 +1628,7 @@ Package pdftex.def Info: ../figures/societa/MI068.pdf  used on input line 738.
 [171
 
  <../figures/societa/MI068.pdf>]
-<../figures/societa/MI077.pdf, id=17841, 1156.32pt x 650.43pt>
+<../figures/societa/MI077.pdf, id=17843, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI077.pdf Graphic file (type pdf)
 <use ../figures/societa/MI077.pdf>
 Package pdftex.def Info: ../figures/societa/MI077.pdf  used on input line 743.
@@ -1636,7 +1636,7 @@ Package pdftex.def Info: ../figures/societa/MI077.pdf  used on input line 743.
 [172
 
  <../figures/societa/MI077.pdf>]
-<../figures/societa/MI080.pdf, id=17947, 1156.32pt x 650.43pt>
+<../figures/societa/MI080.pdf, id=17949, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI080.pdf Graphic file (type pdf)
 <use ../figures/societa/MI080.pdf>
 Package pdftex.def Info: ../figures/societa/MI080.pdf  used on input line 748.
@@ -1644,7 +1644,7 @@ Package pdftex.def Info: ../figures/societa/MI080.pdf  used on input line 748.
 [173
 
  <../figures/societa/MI080.pdf>]
-<../figures/societa/MI087.pdf, id=18056, 1156.32pt x 650.43pt>
+<../figures/societa/MI087.pdf, id=18058, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI087.pdf Graphic file (type pdf)
 <use ../figures/societa/MI087.pdf>
 Package pdftex.def Info: ../figures/societa/MI087.pdf  used on input line 753.
@@ -1652,7 +1652,7 @@ Package pdftex.def Info: ../figures/societa/MI087.pdf  used on input line 753.
 [174
 
  <../figures/societa/MI087.pdf>]
-<../figures/societa/MI089.pdf, id=18160, 1156.32pt x 650.43pt>
+<../figures/societa/MI089.pdf, id=18162, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI089.pdf Graphic file (type pdf)
 <use ../figures/societa/MI089.pdf>
 Package pdftex.def Info: ../figures/societa/MI089.pdf  used on input line 758.
@@ -1660,7 +1660,7 @@ Package pdftex.def Info: ../figures/societa/MI089.pdf  used on input line 758.
 [175
 
  <../figures/societa/MI089.pdf>]
-<../figures/societa/MI093.pdf, id=18269, 1156.32pt x 650.43pt>
+<../figures/societa/MI093.pdf, id=18271, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI093.pdf Graphic file (type pdf)
 <use ../figures/societa/MI093.pdf>
 Package pdftex.def Info: ../figures/societa/MI093.pdf  used on input line 763.
@@ -1668,7 +1668,7 @@ Package pdftex.def Info: ../figures/societa/MI093.pdf  used on input line 763.
 [176
 
  <../figures/societa/MI093.pdf>]
-<../figures/societa/MI158.pdf, id=18378, 1156.32pt x 650.43pt>
+<../figures/societa/MI158.pdf, id=18380, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI158.pdf Graphic file (type pdf)
 <use ../figures/societa/MI158.pdf>
 Package pdftex.def Info: ../figures/societa/MI158.pdf  used on input line 768.
@@ -1676,7 +1676,7 @@ Package pdftex.def Info: ../figures/societa/MI158.pdf  used on input line 768.
 [177
 
  <../figures/societa/MI158.pdf>]
-<../figures/societa/MI160.pdf, id=18479, 1156.32pt x 650.43pt>
+<../figures/societa/MI160.pdf, id=18481, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI160.pdf Graphic file (type pdf)
 <use ../figures/societa/MI160.pdf>
 Package pdftex.def Info: ../figures/societa/MI160.pdf  used on input line 773.
@@ -1684,7 +1684,7 @@ Package pdftex.def Info: ../figures/societa/MI160.pdf  used on input line 773.
 [178
 
  <../figures/societa/MI160.pdf>]
-<../figures/societa/MI161.pdf, id=18584, 1156.32pt x 650.43pt>
+<../figures/societa/MI161.pdf, id=18586, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI161.pdf Graphic file (type pdf)
 <use ../figures/societa/MI161.pdf>
 Package pdftex.def Info: ../figures/societa/MI161.pdf  used on input line 778.
@@ -1692,7 +1692,7 @@ Package pdftex.def Info: ../figures/societa/MI161.pdf  used on input line 778.
 [179
 
  <../figures/societa/MI161.pdf>]
-<../figures/societa/MI214.pdf, id=18690, 1156.32pt x 650.43pt>
+<../figures/societa/MI214.pdf, id=18692, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI214.pdf Graphic file (type pdf)
 <use ../figures/societa/MI214.pdf>
 Package pdftex.def Info: ../figures/societa/MI214.pdf  used on input line 783.
@@ -1700,7 +1700,7 @@ Package pdftex.def Info: ../figures/societa/MI214.pdf  used on input line 783.
 [180
 
  <../figures/societa/MI214.pdf>]
-<../figures/societa/MI218.pdf, id=18799, 1156.32pt x 650.43pt>
+<../figures/societa/MI218.pdf, id=18801, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI218.pdf Graphic file (type pdf)
 <use ../figures/societa/MI218.pdf>
 Package pdftex.def Info: ../figures/societa/MI218.pdf  used on input line 788.
@@ -1708,7 +1708,7 @@ Package pdftex.def Info: ../figures/societa/MI218.pdf  used on input line 788.
 [181
 
  <../figures/societa/MI218.pdf>]
-<../figures/societa/MI221.pdf, id=18906, 1156.32pt x 650.43pt>
+<../figures/societa/MI221.pdf, id=18908, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI221.pdf Graphic file (type pdf)
 <use ../figures/societa/MI221.pdf>
 Package pdftex.def Info: ../figures/societa/MI221.pdf  used on input line 793.
@@ -1716,7 +1716,7 @@ Package pdftex.def Info: ../figures/societa/MI221.pdf  used on input line 793.
 [182
 
  <../figures/societa/MI221.pdf>]
-<../figures/societa/MI242.pdf, id=19010, 1156.32pt x 650.43pt>
+<../figures/societa/MI242.pdf, id=19012, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI242.pdf Graphic file (type pdf)
 <use ../figures/societa/MI242.pdf>
 Package pdftex.def Info: ../figures/societa/MI242.pdf  used on input line 798.
@@ -1724,7 +1724,7 @@ Package pdftex.def Info: ../figures/societa/MI242.pdf  used on input line 798.
 [183
 
  <../figures/societa/MI242.pdf>]
-<../figures/societa/MI244.pdf, id=19116, 1156.32pt x 650.43pt>
+<../figures/societa/MI244.pdf, id=19118, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI244.pdf Graphic file (type pdf)
 <use ../figures/societa/MI244.pdf>
 Package pdftex.def Info: ../figures/societa/MI244.pdf  used on input line 803.
@@ -1732,7 +1732,7 @@ Package pdftex.def Info: ../figures/societa/MI244.pdf  used on input line 803.
 [184
 
  <../figures/societa/MI244.pdf>]
-<../figures/societa/MI265.pdf, id=19221, 1156.32pt x 650.43pt>
+<../figures/societa/MI265.pdf, id=19223, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI265.pdf Graphic file (type pdf)
 <use ../figures/societa/MI265.pdf>
 Package pdftex.def Info: ../figures/societa/MI265.pdf  used on input line 808.
@@ -1740,7 +1740,7 @@ Package pdftex.def Info: ../figures/societa/MI265.pdf  used on input line 808.
 [185
 
  <../figures/societa/MI265.pdf>]
-<../figures/societa/MI330.pdf, id=19324, 1156.32pt x 650.43pt>
+<../figures/societa/MI330.pdf, id=19326, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI330.pdf Graphic file (type pdf)
 <use ../figures/societa/MI330.pdf>
 Package pdftex.def Info: ../figures/societa/MI330.pdf  used on input line 813.
@@ -1748,7 +1748,7 @@ Package pdftex.def Info: ../figures/societa/MI330.pdf  used on input line 813.
 [186
 
  <../figures/societa/MI330.pdf>]
-<../figures/societa/MI352.pdf, id=19429, 1156.32pt x 650.43pt>
+<../figures/societa/MI352.pdf, id=19431, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI352.pdf Graphic file (type pdf)
 <use ../figures/societa/MI352.pdf>
 Package pdftex.def Info: ../figures/societa/MI352.pdf  used on input line 818.
@@ -1756,7 +1756,7 @@ Package pdftex.def Info: ../figures/societa/MI352.pdf  used on input line 818.
 [187
 
  <../figures/societa/MI352.pdf>]
-<../figures/societa/MI710.pdf, id=19535, 1156.32pt x 650.43pt>
+<../figures/societa/MI710.pdf, id=19537, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI710.pdf Graphic file (type pdf)
 <use ../figures/societa/MI710.pdf>
 Package pdftex.def Info: ../figures/societa/MI710.pdf  used on input line 823.
@@ -1764,7 +1764,7 @@ Package pdftex.def Info: ../figures/societa/MI710.pdf  used on input line 823.
 [188
 
  <../figures/societa/MI710.pdf>]
-<../figures/societa/MI770.pdf, id=19642, 1156.32pt x 650.43pt>
+<../figures/societa/MI770.pdf, id=19644, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI770.pdf Graphic file (type pdf)
 <use ../figures/societa/MI770.pdf>
 Package pdftex.def Info: ../figures/societa/MI770.pdf  used on input line 828.
@@ -1772,7 +1772,7 @@ Package pdftex.def Info: ../figures/societa/MI770.pdf  used on input line 828.
 [189
 
  <../figures/societa/MI770.pdf>]
-<../figures/societa/MI774.pdf, id=19746, 1156.32pt x 650.43pt>
+<../figures/societa/MI774.pdf, id=19748, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI774.pdf Graphic file (type pdf)
 <use ../figures/societa/MI774.pdf>
 Package pdftex.def Info: ../figures/societa/MI774.pdf  used on input line 833.
@@ -1780,7 +1780,7 @@ Package pdftex.def Info: ../figures/societa/MI774.pdf  used on input line 833.
 [190
 
  <../figures/societa/MI774.pdf>]
-<../figures/societa/MI798.pdf, id=19848, 1156.32pt x 650.43pt>
+<../figures/societa/MI798.pdf, id=19850, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI798.pdf Graphic file (type pdf)
 <use ../figures/societa/MI798.pdf>
 Package pdftex.def Info: ../figures/societa/MI798.pdf  used on input line 838.
@@ -1788,7 +1788,7 @@ Package pdftex.def Info: ../figures/societa/MI798.pdf  used on input line 838.
 [191
 
  <../figures/societa/MI798.pdf>]
-<../figures/societa/MI820.pdf, id=19952, 1156.32pt x 650.43pt>
+<../figures/societa/MI820.pdf, id=19954, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI820.pdf Graphic file (type pdf)
 <use ../figures/societa/MI820.pdf>
 Package pdftex.def Info: ../figures/societa/MI820.pdf  used on input line 843.
@@ -1796,7 +1796,7 @@ Package pdftex.def Info: ../figures/societa/MI820.pdf  used on input line 843.
 [192
 
  <../figures/societa/MI820.pdf>]
-<../figures/societa/MI844.pdf, id=20058, 1156.32pt x 650.43pt>
+<../figures/societa/MI844.pdf, id=20060, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI844.pdf Graphic file (type pdf)
 <use ../figures/societa/MI844.pdf>
 Package pdftex.def Info: ../figures/societa/MI844.pdf  used on input line 848.
@@ -1804,7 +1804,7 @@ Package pdftex.def Info: ../figures/societa/MI844.pdf  used on input line 848.
 [193
 
  <../figures/societa/MI844.pdf>]
-<../figures/societa/MI922.pdf, id=20164, 1156.32pt x 650.43pt>
+<../figures/societa/MI922.pdf, id=20166, 1156.32pt x 650.43pt>
 File: ../figures/societa/MI922.pdf Graphic file (type pdf)
 <use ../figures/societa/MI922.pdf>
 Package pdftex.def Info: ../figures/societa/MI922.pdf  used on input line 853.
@@ -1812,7 +1812,7 @@ Package pdftex.def Info: ../figures/societa/MI922.pdf  used on input line 853.
 [194
 
  <../figures/societa/MI922.pdf>]
-<../figures/societa/MN043.pdf, id=20267, 1156.32pt x 650.43pt>
+<../figures/societa/MN043.pdf, id=20269, 1156.32pt x 650.43pt>
 File: ../figures/societa/MN043.pdf Graphic file (type pdf)
 <use ../figures/societa/MN043.pdf>
 Package pdftex.def Info: ../figures/societa/MN043.pdf  used on input line 858.
@@ -1820,7 +1820,7 @@ Package pdftex.def Info: ../figures/societa/MN043.pdf  used on input line 858.
 [195
 
  <../figures/societa/MN043.pdf>]
-<../figures/societa/MN406.pdf, id=20379, 1156.32pt x 650.43pt>
+<../figures/societa/MN406.pdf, id=20381, 1156.32pt x 650.43pt>
 File: ../figures/societa/MN406.pdf Graphic file (type pdf)
 <use ../figures/societa/MN406.pdf>
 Package pdftex.def Info: ../figures/societa/MN406.pdf  used on input line 863.
@@ -1828,7 +1828,7 @@ Package pdftex.def Info: ../figures/societa/MN406.pdf  used on input line 863.
 [196
 
  <../figures/societa/MN406.pdf>]
-<../figures/societa/MO052.pdf, id=20485, 1156.32pt x 650.43pt>
+<../figures/societa/MO052.pdf, id=20487, 1156.32pt x 650.43pt>
 File: ../figures/societa/MO052.pdf Graphic file (type pdf)
 <use ../figures/societa/MO052.pdf>
 Package pdftex.def Info: ../figures/societa/MO052.pdf  used on input line 868.
@@ -1836,7 +1836,7 @@ Package pdftex.def Info: ../figures/societa/MO052.pdf  used on input line 868.
 [197
 
  <../figures/societa/MO052.pdf>]
-<../figures/societa/MO057.pdf, id=20596, 1156.32pt x 650.43pt>
+<../figures/societa/MO057.pdf, id=20598, 1156.32pt x 650.43pt>
 File: ../figures/societa/MO057.pdf Graphic file (type pdf)
 <use ../figures/societa/MO057.pdf>
 Package pdftex.def Info: ../figures/societa/MO057.pdf  used on input line 873.
@@ -1844,7 +1844,7 @@ Package pdftex.def Info: ../figures/societa/MO057.pdf  used on input line 873.
 [198
 
  <../figures/societa/MO057.pdf>]
-<../figures/societa/MO060.pdf, id=20708, 1156.32pt x 650.43pt>
+<../figures/societa/MO060.pdf, id=20710, 1156.32pt x 650.43pt>
 File: ../figures/societa/MO060.pdf Graphic file (type pdf)
 <use ../figures/societa/MO060.pdf>
 Package pdftex.def Info: ../figures/societa/MO060.pdf  used on input line 878.
@@ -1852,7 +1852,7 @@ Package pdftex.def Info: ../figures/societa/MO060.pdf  used on input line 878.
 [199
 
  <../figures/societa/MO060.pdf>]
-<../figures/societa/MO497.pdf, id=20812, 1156.32pt x 650.43pt>
+<../figures/societa/MO497.pdf, id=20814, 1156.32pt x 650.43pt>
 File: ../figures/societa/MO497.pdf Graphic file (type pdf)
 <use ../figures/societa/MO497.pdf>
 Package pdftex.def Info: ../figures/societa/MO497.pdf  used on input line 883.
@@ -1860,7 +1860,7 @@ Package pdftex.def Info: ../figures/societa/MO497.pdf  used on input line 883.
 [200
 
  <../figures/societa/MO497.pdf>]
-<../figures/societa/NA064.pdf, id=20915, 1156.32pt x 650.43pt>
+<../figures/societa/NA064.pdf, id=20917, 1156.32pt x 650.43pt>
 File: ../figures/societa/NA064.pdf Graphic file (type pdf)
 <use ../figures/societa/NA064.pdf>
 Package pdftex.def Info: ../figures/societa/NA064.pdf  used on input line 888.
@@ -1868,7 +1868,7 @@ Package pdftex.def Info: ../figures/societa/NA064.pdf  used on input line 888.
 [201
 
  <../figures/societa/NA064.pdf>]
-<../figures/societa/NA965.pdf, id=21023, 1156.32pt x 650.43pt>
+<../figures/societa/NA965.pdf, id=21025, 1156.32pt x 650.43pt>
 File: ../figures/societa/NA965.pdf Graphic file (type pdf)
 <use ../figures/societa/NA965.pdf>
 Package pdftex.def Info: ../figures/societa/NA965.pdf  used on input line 893.
@@ -1876,7 +1876,7 @@ Package pdftex.def Info: ../figures/societa/NA965.pdf  used on input line 893.
 [202
 
  <../figures/societa/NA965.pdf>]
-<../figures/societa/NO001.pdf, id=21129, 1156.32pt x 650.43pt>
+<../figures/societa/NO001.pdf, id=21131, 1156.32pt x 650.43pt>
 File: ../figures/societa/NO001.pdf Graphic file (type pdf)
 <use ../figures/societa/NO001.pdf>
 Package pdftex.def Info: ../figures/societa/NO001.pdf  used on input line 898.
@@ -1884,7 +1884,7 @@ Package pdftex.def Info: ../figures/societa/NO001.pdf  used on input line 898.
 [203
 
  <../figures/societa/NO001.pdf>]
-<../figures/societa/NO004.pdf, id=21236, 1156.32pt x 650.43pt>
+<../figures/societa/NO004.pdf, id=21238, 1156.32pt x 650.43pt>
 File: ../figures/societa/NO004.pdf Graphic file (type pdf)
 <use ../figures/societa/NO004.pdf>
 Package pdftex.def Info: ../figures/societa/NO004.pdf  used on input line 903.
@@ -1892,7 +1892,7 @@ Package pdftex.def Info: ../figures/societa/NO004.pdf  used on input line 903.
 [204
 
  <../figures/societa/NO004.pdf>]
-<../figures/societa/NO020.pdf, id=21341, 1156.32pt x 650.43pt>
+<../figures/societa/NO020.pdf, id=21343, 1156.32pt x 650.43pt>
 File: ../figures/societa/NO020.pdf Graphic file (type pdf)
 <use ../figures/societa/NO020.pdf>
 Package pdftex.def Info: ../figures/societa/NO020.pdf  used on input line 908.
@@ -1900,7 +1900,7 @@ Package pdftex.def Info: ../figures/societa/NO020.pdf  used on input line 908.
 [205
 
  <../figures/societa/NO020.pdf>]
-<../figures/societa/PA001.pdf, id=21448, 1156.32pt x 650.43pt>
+<../figures/societa/PA001.pdf, id=21450, 1156.32pt x 650.43pt>
 File: ../figures/societa/PA001.pdf Graphic file (type pdf)
 <use ../figures/societa/PA001.pdf>
 Package pdftex.def Info: ../figures/societa/PA001.pdf  used on input line 913.
@@ -1908,7 +1908,7 @@ Package pdftex.def Info: ../figures/societa/PA001.pdf  used on input line 913.
 [206
 
  <../figures/societa/PA001.pdf>]
-<../figures/societa/PA749.pdf, id=21554, 1156.32pt x 650.43pt>
+<../figures/societa/PA749.pdf, id=21556, 1156.32pt x 650.43pt>
 File: ../figures/societa/PA749.pdf Graphic file (type pdf)
 <use ../figures/societa/PA749.pdf>
 Package pdftex.def Info: ../figures/societa/PA749.pdf  used on input line 918.
@@ -1916,7 +1916,7 @@ Package pdftex.def Info: ../figures/societa/PA749.pdf  used on input line 918.
 [207
 
  <../figures/societa/PA749.pdf>]
-<../figures/societa/PC084.pdf, id=21661, 1156.32pt x 650.43pt>
+<../figures/societa/PC084.pdf, id=21663, 1156.32pt x 650.43pt>
 File: ../figures/societa/PC084.pdf Graphic file (type pdf)
 <use ../figures/societa/PC084.pdf>
 Package pdftex.def Info: ../figures/societa/PC084.pdf  used on input line 923.
@@ -1924,7 +1924,7 @@ Package pdftex.def Info: ../figures/societa/PC084.pdf  used on input line 923.
 [208
 
  <../figures/societa/PC084.pdf>]
-<../figures/societa/PC461.pdf, id=21766, 1156.32pt x 650.43pt>
+<../figures/societa/PC461.pdf, id=21768, 1156.32pt x 650.43pt>
 File: ../figures/societa/PC461.pdf Graphic file (type pdf)
 <use ../figures/societa/PC461.pdf>
 Package pdftex.def Info: ../figures/societa/PC461.pdf  used on input line 928.
@@ -1932,7 +1932,7 @@ Package pdftex.def Info: ../figures/societa/PC461.pdf  used on input line 928.
 [209
 
  <../figures/societa/PC461.pdf>]
-<../figures/societa/PD131.pdf, id=21876, 1156.32pt x 650.43pt>
+<../figures/societa/PD131.pdf, id=21878, 1156.32pt x 650.43pt>
 File: ../figures/societa/PD131.pdf Graphic file (type pdf)
 <use ../figures/societa/PD131.pdf>
 Package pdftex.def Info: ../figures/societa/PD131.pdf  used on input line 933.
@@ -1940,7 +1940,7 @@ Package pdftex.def Info: ../figures/societa/PD131.pdf  used on input line 933.
 [210
 
  <../figures/societa/PD131.pdf>]
-<../figures/societa/PD137.pdf, id=21985, 1156.32pt x 650.43pt>
+<../figures/societa/PD137.pdf, id=21987, 1156.32pt x 650.43pt>
 File: ../figures/societa/PD137.pdf Graphic file (type pdf)
 <use ../figures/societa/PD137.pdf>
 Package pdftex.def Info: ../figures/societa/PD137.pdf  used on input line 938.
@@ -1948,7 +1948,7 @@ Package pdftex.def Info: ../figures/societa/PD137.pdf  used on input line 938.
 [211
 
  <../figures/societa/PD137.pdf>]
-<../figures/societa/PD140.pdf, id=22088, 1156.32pt x 650.43pt>
+<../figures/societa/PD140.pdf, id=22090, 1156.32pt x 650.43pt>
 File: ../figures/societa/PD140.pdf Graphic file (type pdf)
 <use ../figures/societa/PD140.pdf>
 Package pdftex.def Info: ../figures/societa/PD140.pdf  used on input line 943.
@@ -1956,7 +1956,7 @@ Package pdftex.def Info: ../figures/societa/PD140.pdf  used on input line 943.
 [212
 
  <../figures/societa/PD140.pdf>]
-<../figures/societa/PD141.pdf, id=22193, 1156.32pt x 650.43pt>
+<../figures/societa/PD141.pdf, id=22195, 1156.32pt x 650.43pt>
 File: ../figures/societa/PD141.pdf Graphic file (type pdf)
 <use ../figures/societa/PD141.pdf>
 Package pdftex.def Info: ../figures/societa/PD141.pdf  used on input line 948.
@@ -1964,7 +1964,7 @@ Package pdftex.def Info: ../figures/societa/PD141.pdf  used on input line 948.
 [213
 
  <../figures/societa/PD141.pdf>]
-<../figures/societa/PD143.pdf, id=22300, 1156.32pt x 650.43pt>
+<../figures/societa/PD143.pdf, id=22302, 1156.32pt x 650.43pt>
 File: ../figures/societa/PD143.pdf Graphic file (type pdf)
 <use ../figures/societa/PD143.pdf>
 Package pdftex.def Info: ../figures/societa/PD143.pdf  used on input line 953.
@@ -1972,7 +1972,7 @@ Package pdftex.def Info: ../figures/societa/PD143.pdf  used on input line 953.
 [214
 
  <../figures/societa/PD143.pdf>]
-<../figures/societa/PD146.pdf, id=22404, 1156.32pt x 650.43pt>
+<../figures/societa/PD146.pdf, id=22406, 1156.32pt x 650.43pt>
 File: ../figures/societa/PD146.pdf Graphic file (type pdf)
 <use ../figures/societa/PD146.pdf>
 Package pdftex.def Info: ../figures/societa/PD146.pdf  used on input line 958.
@@ -1980,7 +1980,7 @@ Package pdftex.def Info: ../figures/societa/PD146.pdf  used on input line 958.
 [215
 
  <../figures/societa/PD146.pdf>]
-<../figures/societa/PD161.pdf, id=22512, 1156.32pt x 650.43pt>
+<../figures/societa/PD161.pdf, id=22514, 1156.32pt x 650.43pt>
 File: ../figures/societa/PD161.pdf Graphic file (type pdf)
 <use ../figures/societa/PD161.pdf>
 Package pdftex.def Info: ../figures/societa/PD161.pdf  used on input line 963.
@@ -1988,7 +1988,7 @@ Package pdftex.def Info: ../figures/societa/PD161.pdf  used on input line 963.
 [216
 
  <../figures/societa/PD161.pdf>]
-<../figures/societa/PD197.pdf, id=22619, 1156.32pt x 650.43pt>
+<../figures/societa/PD197.pdf, id=22621, 1156.32pt x 650.43pt>
 File: ../figures/societa/PD197.pdf Graphic file (type pdf)
 <use ../figures/societa/PD197.pdf>
 Package pdftex.def Info: ../figures/societa/PD197.pdf  used on input line 968.
@@ -1996,7 +1996,7 @@ Package pdftex.def Info: ../figures/societa/PD197.pdf  used on input line 968.
 [217
 
  <../figures/societa/PD197.pdf>]
-<../figures/societa/PE001.pdf, id=22725, 1156.32pt x 650.43pt>
+<../figures/societa/PE001.pdf, id=22727, 1156.32pt x 650.43pt>
 File: ../figures/societa/PE001.pdf Graphic file (type pdf)
 <use ../figures/societa/PE001.pdf>
 Package pdftex.def Info: ../figures/societa/PE001.pdf  used on input line 973.
@@ -2004,7 +2004,7 @@ Package pdftex.def Info: ../figures/societa/PE001.pdf  used on input line 973.
 [218
 
  <../figures/societa/PE001.pdf>]
-<../figures/societa/PE175.pdf, id=22831, 1156.32pt x 650.43pt>
+<../figures/societa/PE175.pdf, id=22833, 1156.32pt x 650.43pt>
 File: ../figures/societa/PE175.pdf Graphic file (type pdf)
 <use ../figures/societa/PE175.pdf>
 Package pdftex.def Info: ../figures/societa/PE175.pdf  used on input line 978.
@@ -2012,7 +2012,7 @@ Package pdftex.def Info: ../figures/societa/PE175.pdf  used on input line 978.
 [219
 
  <../figures/societa/PE175.pdf>]
-<../figures/societa/PG018.pdf, id=22935, 1156.32pt x 650.43pt>
+<../figures/societa/PG018.pdf, id=22937, 1156.32pt x 650.43pt>
 File: ../figures/societa/PG018.pdf Graphic file (type pdf)
 <use ../figures/societa/PG018.pdf>
 Package pdftex.def Info: ../figures/societa/PG018.pdf  used on input line 983.
@@ -2020,7 +2020,7 @@ Package pdftex.def Info: ../figures/societa/PG018.pdf  used on input line 983.
 [220
 
  <../figures/societa/PG018.pdf>]
-<../figures/societa/PG070.pdf, id=23042, 1156.32pt x 650.43pt>
+<../figures/societa/PG070.pdf, id=23044, 1156.32pt x 650.43pt>
 File: ../figures/societa/PG070.pdf Graphic file (type pdf)
 <use ../figures/societa/PG070.pdf>
 Package pdftex.def Info: ../figures/societa/PG070.pdf  used on input line 988.
@@ -2028,7 +2028,7 @@ Package pdftex.def Info: ../figures/societa/PG070.pdf  used on input line 988.
 [221
 
  <../figures/societa/PG070.pdf>]
-<../figures/societa/PG089.pdf, id=23150, 1156.32pt x 650.43pt>
+<../figures/societa/PG089.pdf, id=23152, 1156.32pt x 650.43pt>
 File: ../figures/societa/PG089.pdf Graphic file (type pdf)
 <use ../figures/societa/PG089.pdf>
 Package pdftex.def Info: ../figures/societa/PG089.pdf  used on input line 993.
@@ -2036,7 +2036,7 @@ Package pdftex.def Info: ../figures/societa/PG089.pdf  used on input line 993.
 [222
 
  <../figures/societa/PG089.pdf>]
-<../figures/societa/PG109.pdf, id=23263, 1156.32pt x 650.43pt>
+<../figures/societa/PG109.pdf, id=23265, 1156.32pt x 650.43pt>
 File: ../figures/societa/PG109.pdf Graphic file (type pdf)
 <use ../figures/societa/PG109.pdf>
 Package pdftex.def Info: ../figures/societa/PG109.pdf  used on input line 998.
@@ -2044,7 +2044,7 @@ Package pdftex.def Info: ../figures/societa/PG109.pdf  used on input line 998.
 [223
 
  <../figures/societa/PG109.pdf>]
-<../figures/societa/PI071.pdf, id=23357, 1156.32pt x 650.43pt>
+<../figures/societa/PI071.pdf, id=23359, 1156.32pt x 650.43pt>
 File: ../figures/societa/PI071.pdf Graphic file (type pdf)
 <use ../figures/societa/PI071.pdf>
 Package pdftex.def Info: ../figures/societa/PI071.pdf  used on input line 1003.
@@ -2053,7 +2053,7 @@ Package pdftex.def Info: ../figures/societa/PI071.pdf  used on input line 1003.
 [224
 
  <../figures/societa/PI071.pdf>]
-<../figures/societa/PI081.pdf, id=23458, 1156.32pt x 650.43pt>
+<../figures/societa/PI081.pdf, id=23460, 1156.32pt x 650.43pt>
 File: ../figures/societa/PI081.pdf Graphic file (type pdf)
 <use ../figures/societa/PI081.pdf>
 Package pdftex.def Info: ../figures/societa/PI081.pdf  used on input line 1008.
@@ -2062,7 +2062,7 @@ Package pdftex.def Info: ../figures/societa/PI081.pdf  used on input line 1008.
 [225
 
  <../figures/societa/PI081.pdf>]
-<../figures/societa/PI144.pdf, id=23562, 1156.32pt x 650.43pt>
+<../figures/societa/PI144.pdf, id=23564, 1156.32pt x 650.43pt>
 File: ../figures/societa/PI144.pdf Graphic file (type pdf)
 <use ../figures/societa/PI144.pdf>
 Package pdftex.def Info: ../figures/societa/PI144.pdf  used on input line 1013.
@@ -2071,7 +2071,7 @@ Package pdftex.def Info: ../figures/societa/PI144.pdf  used on input line 1013.
 [226
 
  <../figures/societa/PI144.pdf>]
-<../figures/societa/PI473.pdf, id=23668, 1156.32pt x 650.43pt>
+<../figures/societa/PI473.pdf, id=23670, 1156.32pt x 650.43pt>
 File: ../figures/societa/PI473.pdf Graphic file (type pdf)
 <use ../figures/societa/PI473.pdf>
 Package pdftex.def Info: ../figures/societa/PI473.pdf  used on input line 1018.
@@ -2080,7 +2080,7 @@ Package pdftex.def Info: ../figures/societa/PI473.pdf  used on input line 1018.
 [227
 
  <../figures/societa/PI473.pdf>]
-<../figures/societa/PN002.pdf, id=23776, 1156.32pt x 650.43pt>
+<../figures/societa/PN002.pdf, id=23778, 1156.32pt x 650.43pt>
 File: ../figures/societa/PN002.pdf Graphic file (type pdf)
 <use ../figures/societa/PN002.pdf>
 Package pdftex.def Info: ../figures/societa/PN002.pdf  used on input line 1023.
@@ -2089,7 +2089,7 @@ Package pdftex.def Info: ../figures/societa/PN002.pdf  used on input line 1023.
 [228
 
  <../figures/societa/PN002.pdf>]
-<../figures/societa/PN024.pdf, id=23883, 1156.32pt x 650.43pt>
+<../figures/societa/PN024.pdf, id=23885, 1156.32pt x 650.43pt>
 File: ../figures/societa/PN024.pdf Graphic file (type pdf)
 <use ../figures/societa/PN024.pdf>
 Package pdftex.def Info: ../figures/societa/PN024.pdf  used on input line 1028.
@@ -2098,7 +2098,7 @@ Package pdftex.def Info: ../figures/societa/PN024.pdf  used on input line 1028.
 [229
 
  <../figures/societa/PN024.pdf>]
-<../figures/societa/PN025.pdf, id=23992, 1156.32pt x 650.43pt>
+<../figures/societa/PN025.pdf, id=23994, 1156.32pt x 650.43pt>
 File: ../figures/societa/PN025.pdf Graphic file (type pdf)
 <use ../figures/societa/PN025.pdf>
 Package pdftex.def Info: ../figures/societa/PN025.pdf  used on input line 1033.
@@ -2107,7 +2107,7 @@ Package pdftex.def Info: ../figures/societa/PN025.pdf  used on input line 1033.
 [230
 
  <../figures/societa/PN025.pdf>]
-<../figures/societa/PN039.pdf, id=24098, 1156.32pt x 650.43pt>
+<../figures/societa/PN039.pdf, id=24100, 1156.32pt x 650.43pt>
 File: ../figures/societa/PN039.pdf Graphic file (type pdf)
 <use ../figures/societa/PN039.pdf>
 Package pdftex.def Info: ../figures/societa/PN039.pdf  used on input line 1038.
@@ -2116,7 +2116,7 @@ Package pdftex.def Info: ../figures/societa/PN039.pdf  used on input line 1038.
 [231
 
  <../figures/societa/PN039.pdf>]
-<../figures/societa/PN049.pdf, id=24205, 1156.32pt x 650.43pt>
+<../figures/societa/PN049.pdf, id=24207, 1156.32pt x 650.43pt>
 File: ../figures/societa/PN049.pdf Graphic file (type pdf)
 <use ../figures/societa/PN049.pdf>
 Package pdftex.def Info: ../figures/societa/PN049.pdf  used on input line 1043.
@@ -2125,7 +2125,7 @@ Package pdftex.def Info: ../figures/societa/PN049.pdf  used on input line 1043.
 [232
 
  <../figures/societa/PN049.pdf>]
-<../figures/societa/PN088.pdf, id=24307, 1156.32pt x 650.43pt>
+<../figures/societa/PN088.pdf, id=24309, 1156.32pt x 650.43pt>
 File: ../figures/societa/PN088.pdf Graphic file (type pdf)
 <use ../figures/societa/PN088.pdf>
 Package pdftex.def Info: ../figures/societa/PN088.pdf  used on input line 1048.
@@ -2134,7 +2134,7 @@ Package pdftex.def Info: ../figures/societa/PN088.pdf  used on input line 1048.
 [233
 
  <../figures/societa/PN088.pdf>]
-<../figures/societa/PN528.pdf, id=24415, 1156.32pt x 650.43pt>
+<../figures/societa/PN528.pdf, id=24417, 1156.32pt x 650.43pt>
 File: ../figures/societa/PN528.pdf Graphic file (type pdf)
 <use ../figures/societa/PN528.pdf>
 Package pdftex.def Info: ../figures/societa/PN528.pdf  used on input line 1053.
@@ -2143,7 +2143,7 @@ Package pdftex.def Info: ../figures/societa/PN528.pdf  used on input line 1053.
 [234
 
  <../figures/societa/PN528.pdf>]
-<../figures/societa/PO149.pdf, id=24520, 1156.32pt x 650.43pt>
+<../figures/societa/PO149.pdf, id=24522, 1156.32pt x 650.43pt>
 File: ../figures/societa/PO149.pdf Graphic file (type pdf)
 <use ../figures/societa/PO149.pdf>
 Package pdftex.def Info: ../figures/societa/PO149.pdf  used on input line 1058.
@@ -2152,7 +2152,7 @@ Package pdftex.def Info: ../figures/societa/PO149.pdf  used on input line 1058.
 [235
 
  <../figures/societa/PO149.pdf>]
-<../figures/societa/PR068.pdf, id=24626, 1156.32pt x 650.43pt>
+<../figures/societa/PR068.pdf, id=24628, 1156.32pt x 650.43pt>
 File: ../figures/societa/PR068.pdf Graphic file (type pdf)
 <use ../figures/societa/PR068.pdf>
 Package pdftex.def Info: ../figures/societa/PR068.pdf  used on input line 1063.
@@ -2161,7 +2161,7 @@ Package pdftex.def Info: ../figures/societa/PR068.pdf  used on input line 1063.
 [236
 
  <../figures/societa/PR068.pdf>]
-<../figures/societa/PR077.pdf, id=24729, 1156.32pt x 650.43pt>
+<../figures/societa/PR077.pdf, id=24731, 1156.32pt x 650.43pt>
 File: ../figures/societa/PR077.pdf Graphic file (type pdf)
 <use ../figures/societa/PR077.pdf>
 Package pdftex.def Info: ../figures/societa/PR077.pdf  used on input line 1068.
@@ -2170,7 +2170,7 @@ Package pdftex.def Info: ../figures/societa/PR077.pdf  used on input line 1068.
 [237
 
  <../figures/societa/PR077.pdf>]
-<../figures/societa/PR436.pdf, id=24826, 1156.32pt x 650.43pt>
+<../figures/societa/PR436.pdf, id=24828, 1156.32pt x 650.43pt>
 File: ../figures/societa/PR436.pdf Graphic file (type pdf)
 <use ../figures/societa/PR436.pdf>
 Package pdftex.def Info: ../figures/societa/PR436.pdf  used on input line 1073.
@@ -2179,7 +2179,7 @@ Package pdftex.def Info: ../figures/societa/PR436.pdf  used on input line 1073.
 [238
 
  <../figures/societa/PR436.pdf>]
-<../figures/societa/PT115.pdf, id=24934, 1156.32pt x 650.43pt>
+<../figures/societa/PT115.pdf, id=24936, 1156.32pt x 650.43pt>
 File: ../figures/societa/PT115.pdf Graphic file (type pdf)
 <use ../figures/societa/PT115.pdf>
 Package pdftex.def Info: ../figures/societa/PT115.pdf  used on input line 1078.
@@ -2188,7 +2188,7 @@ Package pdftex.def Info: ../figures/societa/PT115.pdf  used on input line 1078.
 [239
 
  <../figures/societa/PT115.pdf>]
-<../figures/societa/PT118.pdf, id=25041, 1156.32pt x 650.43pt>
+<../figures/societa/PT118.pdf, id=25043, 1156.32pt x 650.43pt>
 File: ../figures/societa/PT118.pdf Graphic file (type pdf)
 <use ../figures/societa/PT118.pdf>
 Package pdftex.def Info: ../figures/societa/PT118.pdf  used on input line 1083.
@@ -2197,7 +2197,7 @@ Package pdftex.def Info: ../figures/societa/PT118.pdf  used on input line 1083.
 [240
 
  <../figures/societa/PT118.pdf>]
-<../figures/societa/PU001.pdf, id=25141, 1156.32pt x 650.43pt>
+<../figures/societa/PU001.pdf, id=25143, 1156.32pt x 650.43pt>
 File: ../figures/societa/PU001.pdf Graphic file (type pdf)
 <use ../figures/societa/PU001.pdf>
 Package pdftex.def Info: ../figures/societa/PU001.pdf  used on input line 1088.
@@ -2206,7 +2206,7 @@ Package pdftex.def Info: ../figures/societa/PU001.pdf  used on input line 1088.
 [241
 
  <../figures/societa/PU001.pdf>]
-<../figures/societa/PU027.pdf, id=25248, 1156.32pt x 650.43pt>
+<../figures/societa/PU027.pdf, id=25250, 1156.32pt x 650.43pt>
 File: ../figures/societa/PU027.pdf Graphic file (type pdf)
 <use ../figures/societa/PU027.pdf>
 Package pdftex.def Info: ../figures/societa/PU027.pdf  used on input line 1093.
@@ -2215,7 +2215,7 @@ Package pdftex.def Info: ../figures/societa/PU027.pdf  used on input line 1093.
 [242
 
  <../figures/societa/PU027.pdf>]
-<../figures/societa/PV108.pdf, id=25357, 1156.32pt x 650.43pt>
+<../figures/societa/PV108.pdf, id=25359, 1156.32pt x 650.43pt>
 File: ../figures/societa/PV108.pdf Graphic file (type pdf)
 <use ../figures/societa/PV108.pdf>
 Package pdftex.def Info: ../figures/societa/PV108.pdf  used on input line 1098.
@@ -2224,7 +2224,7 @@ Package pdftex.def Info: ../figures/societa/PV108.pdf  used on input line 1098.
 [243
 
  <../figures/societa/PV108.pdf>]
-<../figures/societa/PV110.pdf, id=25460, 1156.32pt x 650.43pt>
+<../figures/societa/PV110.pdf, id=25462, 1156.32pt x 650.43pt>
 File: ../figures/societa/PV110.pdf Graphic file (type pdf)
 <use ../figures/societa/PV110.pdf>
 Package pdftex.def Info: ../figures/societa/PV110.pdf  used on input line 1103.
@@ -2233,7 +2233,7 @@ Package pdftex.def Info: ../figures/societa/PV110.pdf  used on input line 1103.
 [244
 
  <../figures/societa/PV110.pdf>]
-<../figures/societa/PV245.pdf, id=25566, 1156.32pt x 650.43pt>
+<../figures/societa/PV245.pdf, id=25568, 1156.32pt x 650.43pt>
 File: ../figures/societa/PV245.pdf Graphic file (type pdf)
 <use ../figures/societa/PV245.pdf>
 Package pdftex.def Info: ../figures/societa/PV245.pdf  used on input line 1108.
@@ -2242,7 +2242,7 @@ Package pdftex.def Info: ../figures/societa/PV245.pdf  used on input line 1108.
 [245
 
  <../figures/societa/PV245.pdf>]
-<../figures/societa/PV410.pdf, id=25676, 1156.32pt x 650.43pt>
+<../figures/societa/PV410.pdf, id=25678, 1156.32pt x 650.43pt>
 File: ../figures/societa/PV410.pdf Graphic file (type pdf)
 <use ../figures/societa/PV410.pdf>
 Package pdftex.def Info: ../figures/societa/PV410.pdf  used on input line 1113.
@@ -2251,7 +2251,7 @@ Package pdftex.def Info: ../figures/societa/PV410.pdf  used on input line 1113.
 [246
 
  <../figures/societa/PV410.pdf>]
-<../figures/societa/RA093.pdf, id=25781, 1156.32pt x 650.43pt>
+<../figures/societa/RA093.pdf, id=25783, 1156.32pt x 650.43pt>
 File: ../figures/societa/RA093.pdf Graphic file (type pdf)
 <use ../figures/societa/RA093.pdf>
 Package pdftex.def Info: ../figures/societa/RA093.pdf  used on input line 1118.
@@ -2260,7 +2260,7 @@ Package pdftex.def Info: ../figures/societa/RA093.pdf  used on input line 1118.
 [247
 
  <../figures/societa/RA093.pdf>]
-<../figures/societa/RA094.pdf, id=25886, 1156.32pt x 650.43pt>
+<../figures/societa/RA094.pdf, id=25888, 1156.32pt x 650.43pt>
 File: ../figures/societa/RA094.pdf Graphic file (type pdf)
 <use ../figures/societa/RA094.pdf>
 Package pdftex.def Info: ../figures/societa/RA094.pdf  used on input line 1123.
@@ -2269,7 +2269,7 @@ Package pdftex.def Info: ../figures/societa/RA094.pdf  used on input line 1123.
 [248
 
  <../figures/societa/RA094.pdf>]
-<../figures/societa/RA095.pdf, id=25993, 1156.32pt x 650.43pt>
+<../figures/societa/RA095.pdf, id=25995, 1156.32pt x 650.43pt>
 File: ../figures/societa/RA095.pdf Graphic file (type pdf)
 <use ../figures/societa/RA095.pdf>
 Package pdftex.def Info: ../figures/societa/RA095.pdf  used on input line 1128.
@@ -2278,7 +2278,7 @@ Package pdftex.def Info: ../figures/societa/RA095.pdf  used on input line 1128.
 [249
 
  <../figures/societa/RA095.pdf>]
-<../figures/societa/RE105.pdf, id=26099, 1156.32pt x 650.43pt>
+<../figures/societa/RE105.pdf, id=26101, 1156.32pt x 650.43pt>
 File: ../figures/societa/RE105.pdf Graphic file (type pdf)
 <use ../figures/societa/RE105.pdf>
 Package pdftex.def Info: ../figures/societa/RE105.pdf  used on input line 1133.
@@ -2287,7 +2287,7 @@ Package pdftex.def Info: ../figures/societa/RE105.pdf  used on input line 1133.
 [250
 
  <../figures/societa/RE105.pdf>]
-<../figures/societa/RE106.pdf, id=26209, 1156.32pt x 650.43pt>
+<../figures/societa/RE106.pdf, id=26211, 1156.32pt x 650.43pt>
 File: ../figures/societa/RE106.pdf Graphic file (type pdf)
 <use ../figures/societa/RE106.pdf>
 Package pdftex.def Info: ../figures/societa/RE106.pdf  used on input line 1138.
@@ -2296,7 +2296,7 @@ Package pdftex.def Info: ../figures/societa/RE106.pdf  used on input line 1138.
 [251
 
  <../figures/societa/RE106.pdf>]
-<../figures/societa/RE107.pdf, id=26320, 1156.32pt x 650.43pt>
+<../figures/societa/RE107.pdf, id=26322, 1156.32pt x 650.43pt>
 File: ../figures/societa/RE107.pdf Graphic file (type pdf)
 <use ../figures/societa/RE107.pdf>
 Package pdftex.def Info: ../figures/societa/RE107.pdf  used on input line 1143.
@@ -2305,7 +2305,7 @@ Package pdftex.def Info: ../figures/societa/RE107.pdf  used on input line 1143.
 [252
 
  <../figures/societa/RE107.pdf>]
-<../figures/societa/RE128.pdf, id=26427, 1156.32pt x 650.43pt>
+<../figures/societa/RE128.pdf, id=26429, 1156.32pt x 650.43pt>
 File: ../figures/societa/RE128.pdf Graphic file (type pdf)
 <use ../figures/societa/RE128.pdf>
 Package pdftex.def Info: ../figures/societa/RE128.pdf  used on input line 1148.
@@ -2314,7 +2314,7 @@ Package pdftex.def Info: ../figures/societa/RE128.pdf  used on input line 1148.
 [253
 
  <../figures/societa/RE128.pdf>]
-<../figures/societa/RE346.pdf, id=26533, 1156.32pt x 650.43pt>
+<../figures/societa/RE346.pdf, id=26535, 1156.32pt x 650.43pt>
 File: ../figures/societa/RE346.pdf Graphic file (type pdf)
 <use ../figures/societa/RE346.pdf>
 Package pdftex.def Info: ../figures/societa/RE346.pdf  used on input line 1153.
@@ -2323,7 +2323,7 @@ Package pdftex.def Info: ../figures/societa/RE346.pdf  used on input line 1153.
 [254
 
  <../figures/societa/RE346.pdf>]
-<../figures/societa/RI223.pdf, id=26641, 1156.32pt x 650.43pt>
+<../figures/societa/RI223.pdf, id=26643, 1156.32pt x 650.43pt>
 File: ../figures/societa/RI223.pdf Graphic file (type pdf)
 <use ../figures/societa/RI223.pdf>
 Package pdftex.def Info: ../figures/societa/RI223.pdf  used on input line 1158.
@@ -2332,7 +2332,7 @@ Package pdftex.def Info: ../figures/societa/RI223.pdf  used on input line 1158.
 [255
 
  <../figures/societa/RI223.pdf>]
-<../figures/societa/RM002.pdf, id=26747, 1156.32pt x 650.43pt>
+<../figures/societa/RM002.pdf, id=26749, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM002.pdf Graphic file (type pdf)
 <use ../figures/societa/RM002.pdf>
 Package pdftex.def Info: ../figures/societa/RM002.pdf  used on input line 1163.
@@ -2341,7 +2341,7 @@ Package pdftex.def Info: ../figures/societa/RM002.pdf  used on input line 1163.
 [256
 
  <../figures/societa/RM002.pdf>]
-<../figures/societa/RM005.pdf, id=26852, 1156.32pt x 650.43pt>
+<../figures/societa/RM005.pdf, id=26854, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM005.pdf Graphic file (type pdf)
 <use ../figures/societa/RM005.pdf>
 Package pdftex.def Info: ../figures/societa/RM005.pdf  used on input line 1168.
@@ -2350,7 +2350,7 @@ Package pdftex.def Info: ../figures/societa/RM005.pdf  used on input line 1168.
 [257
 
  <../figures/societa/RM005.pdf>]
-<../figures/societa/RM014.pdf, id=26957, 1156.32pt x 650.43pt>
+<../figures/societa/RM014.pdf, id=26959, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM014.pdf Graphic file (type pdf)
 <use ../figures/societa/RM014.pdf>
 Package pdftex.def Info: ../figures/societa/RM014.pdf  used on input line 1173.
@@ -2359,7 +2359,7 @@ Package pdftex.def Info: ../figures/societa/RM014.pdf  used on input line 1173.
 [258
 
  <../figures/societa/RM014.pdf>]
-<../figures/societa/RM046.pdf, id=27062, 1156.32pt x 650.43pt>
+<../figures/societa/RM046.pdf, id=27064, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM046.pdf Graphic file (type pdf)
 <use ../figures/societa/RM046.pdf>
 Package pdftex.def Info: ../figures/societa/RM046.pdf  used on input line 1178.
@@ -2368,7 +2368,7 @@ Package pdftex.def Info: ../figures/societa/RM046.pdf  used on input line 1178.
 [259
 
  <../figures/societa/RM046.pdf>]
-<../figures/societa/RM050.pdf, id=27170, 1156.32pt x 650.43pt>
+<../figures/societa/RM050.pdf, id=27172, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM050.pdf Graphic file (type pdf)
 <use ../figures/societa/RM050.pdf>
 Package pdftex.def Info: ../figures/societa/RM050.pdf  used on input line 1183.
@@ -2377,7 +2377,7 @@ Package pdftex.def Info: ../figures/societa/RM050.pdf  used on input line 1183.
 [260
 
  <../figures/societa/RM050.pdf>]
-<../figures/societa/RM052.pdf, id=27277, 1156.32pt x 650.43pt>
+<../figures/societa/RM052.pdf, id=27279, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM052.pdf Graphic file (type pdf)
 <use ../figures/societa/RM052.pdf>
 Package pdftex.def Info: ../figures/societa/RM052.pdf  used on input line 1188.
@@ -2386,7 +2386,7 @@ Package pdftex.def Info: ../figures/societa/RM052.pdf  used on input line 1188.
 [261
 
  <../figures/societa/RM052.pdf>]
-<../figures/societa/RM056.pdf, id=27377, 1156.32pt x 650.43pt>
+<../figures/societa/RM056.pdf, id=27379, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM056.pdf Graphic file (type pdf)
 <use ../figures/societa/RM056.pdf>
 Package pdftex.def Info: ../figures/societa/RM056.pdf  used on input line 1193.
@@ -2395,7 +2395,7 @@ Package pdftex.def Info: ../figures/societa/RM056.pdf  used on input line 1193.
 [262
 
  <../figures/societa/RM056.pdf>]
-<../figures/societa/RM057.pdf, id=27478, 1156.32pt x 650.43pt>
+<../figures/societa/RM057.pdf, id=27481, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM057.pdf Graphic file (type pdf)
 <use ../figures/societa/RM057.pdf>
 Package pdftex.def Info: ../figures/societa/RM057.pdf  used on input line 1198.
@@ -2404,7 +2404,7 @@ Package pdftex.def Info: ../figures/societa/RM057.pdf  used on input line 1198.
 [263
 
  <../figures/societa/RM057.pdf>]
-<../figures/societa/RM068.pdf, id=27586, 1156.32pt x 650.43pt>
+<../figures/societa/RM068.pdf, id=27588, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM068.pdf Graphic file (type pdf)
 <use ../figures/societa/RM068.pdf>
 Package pdftex.def Info: ../figures/societa/RM068.pdf  used on input line 1203.
@@ -2413,7 +2413,7 @@ Package pdftex.def Info: ../figures/societa/RM068.pdf  used on input line 1203.
 [264
 
  <../figures/societa/RM068.pdf>]
-<../figures/societa/RM071.pdf, id=27694, 1156.32pt x 650.43pt>
+<../figures/societa/RM071.pdf, id=27696, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM071.pdf Graphic file (type pdf)
 <use ../figures/societa/RM071.pdf>
 Package pdftex.def Info: ../figures/societa/RM071.pdf  used on input line 1208.
@@ -2422,7 +2422,7 @@ Package pdftex.def Info: ../figures/societa/RM071.pdf  used on input line 1208.
 [265
 
  <../figures/societa/RM071.pdf>]
-<../figures/societa/RM113.pdf, id=27798, 1156.32pt x 650.43pt>
+<../figures/societa/RM113.pdf, id=27800, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM113.pdf Graphic file (type pdf)
 <use ../figures/societa/RM113.pdf>
 Package pdftex.def Info: ../figures/societa/RM113.pdf  used on input line 1213.
@@ -2431,7 +2431,7 @@ Package pdftex.def Info: ../figures/societa/RM113.pdf  used on input line 1213.
 [266
 
  <../figures/societa/RM113.pdf>]
-<../figures/societa/RM115.pdf, id=27904, 1156.32pt x 650.43pt>
+<../figures/societa/RM115.pdf, id=27906, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM115.pdf Graphic file (type pdf)
 <use ../figures/societa/RM115.pdf>
 Package pdftex.def Info: ../figures/societa/RM115.pdf  used on input line 1218.
@@ -2440,7 +2440,7 @@ Package pdftex.def Info: ../figures/societa/RM115.pdf  used on input line 1218.
 [267
 
  <../figures/societa/RM115.pdf>]
-<../figures/societa/RM131.pdf, id=28008, 1156.32pt x 650.43pt>
+<../figures/societa/RM131.pdf, id=28010, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM131.pdf Graphic file (type pdf)
 <use ../figures/societa/RM131.pdf>
 Package pdftex.def Info: ../figures/societa/RM131.pdf  used on input line 1223.
@@ -2449,7 +2449,7 @@ Package pdftex.def Info: ../figures/societa/RM131.pdf  used on input line 1223.
 [268
 
  <../figures/societa/RM131.pdf>]
-<../figures/societa/RM161.pdf, id=28116, 1156.32pt x 650.43pt>
+<../figures/societa/RM161.pdf, id=28118, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM161.pdf Graphic file (type pdf)
 <use ../figures/societa/RM161.pdf>
 Package pdftex.def Info: ../figures/societa/RM161.pdf  used on input line 1228.
@@ -2458,7 +2458,7 @@ Package pdftex.def Info: ../figures/societa/RM161.pdf  used on input line 1228.
 [269
 
  <../figures/societa/RM161.pdf>]
-<../figures/societa/RM218.pdf, id=28222, 1156.32pt x 650.43pt>
+<../figures/societa/RM218.pdf, id=28224, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM218.pdf Graphic file (type pdf)
 <use ../figures/societa/RM218.pdf>
 Package pdftex.def Info: ../figures/societa/RM218.pdf  used on input line 1233.
@@ -2467,7 +2467,7 @@ Package pdftex.def Info: ../figures/societa/RM218.pdf  used on input line 1233.
 [270
 
  <../figures/societa/RM218.pdf>]
-<../figures/societa/RM232.pdf, id=28330, 1156.32pt x 650.43pt>
+<../figures/societa/RM232.pdf, id=28332, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM232.pdf Graphic file (type pdf)
 <use ../figures/societa/RM232.pdf>
 Package pdftex.def Info: ../figures/societa/RM232.pdf  used on input line 1238.
@@ -2476,7 +2476,7 @@ Package pdftex.def Info: ../figures/societa/RM232.pdf  used on input line 1238.
 [271
 
  <../figures/societa/RM232.pdf>]
-<../figures/societa/RM243.pdf, id=28435, 1156.32pt x 650.43pt>
+<../figures/societa/RM243.pdf, id=28437, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM243.pdf Graphic file (type pdf)
 <use ../figures/societa/RM243.pdf>
 Package pdftex.def Info: ../figures/societa/RM243.pdf  used on input line 1243.
@@ -2485,7 +2485,7 @@ Package pdftex.def Info: ../figures/societa/RM243.pdf  used on input line 1243.
 [272
 
  <../figures/societa/RM243.pdf>]
-<../figures/societa/RM342.pdf, id=28542, 1156.32pt x 650.43pt>
+<../figures/societa/RM342.pdf, id=28544, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM342.pdf Graphic file (type pdf)
 <use ../figures/societa/RM342.pdf>
 Package pdftex.def Info: ../figures/societa/RM342.pdf  used on input line 1248.
@@ -2494,7 +2494,7 @@ Package pdftex.def Info: ../figures/societa/RM342.pdf  used on input line 1248.
 [273
 
  <../figures/societa/RM342.pdf>]
-<../figures/societa/RM362.pdf, id=28647, 1156.32pt x 650.43pt>
+<../figures/societa/RM362.pdf, id=28649, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM362.pdf Graphic file (type pdf)
 <use ../figures/societa/RM362.pdf>
 Package pdftex.def Info: ../figures/societa/RM362.pdf  used on input line 1253.
@@ -2503,7 +2503,7 @@ Package pdftex.def Info: ../figures/societa/RM362.pdf  used on input line 1253.
 [274
 
  <../figures/societa/RM362.pdf>]
-<../figures/societa/RM363.pdf, id=28755, 1156.32pt x 650.43pt>
+<../figures/societa/RM363.pdf, id=28757, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM363.pdf Graphic file (type pdf)
 <use ../figures/societa/RM363.pdf>
 Package pdftex.def Info: ../figures/societa/RM363.pdf  used on input line 1258.
@@ -2512,7 +2512,7 @@ Package pdftex.def Info: ../figures/societa/RM363.pdf  used on input line 1258.
 [275
 
  <../figures/societa/RM363.pdf>]
-<../figures/societa/RM364.pdf, id=28861, 1156.32pt x 650.43pt>
+<../figures/societa/RM364.pdf, id=28863, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM364.pdf Graphic file (type pdf)
 <use ../figures/societa/RM364.pdf>
 Package pdftex.def Info: ../figures/societa/RM364.pdf  used on input line 1263.
@@ -2521,7 +2521,7 @@ Package pdftex.def Info: ../figures/societa/RM364.pdf  used on input line 1263.
 [276
 
  <../figures/societa/RM364.pdf>]
-<../figures/societa/RM367.pdf, id=28966, 1156.32pt x 650.43pt>
+<../figures/societa/RM367.pdf, id=28968, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM367.pdf Graphic file (type pdf)
 <use ../figures/societa/RM367.pdf>
 Package pdftex.def Info: ../figures/societa/RM367.pdf  used on input line 1268.
@@ -2530,7 +2530,7 @@ Package pdftex.def Info: ../figures/societa/RM367.pdf  used on input line 1268.
 [277
 
  <../figures/societa/RM367.pdf>]
-<../figures/societa/RM404.pdf, id=29071, 1156.32pt x 650.43pt>
+<../figures/societa/RM404.pdf, id=29073, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM404.pdf Graphic file (type pdf)
 <use ../figures/societa/RM404.pdf>
 Package pdftex.def Info: ../figures/societa/RM404.pdf  used on input line 1273.
@@ -2539,7 +2539,7 @@ Package pdftex.def Info: ../figures/societa/RM404.pdf  used on input line 1273.
 [278
 
  <../figures/societa/RM404.pdf>]
-<../figures/societa/RM416.pdf, id=29177, 1156.32pt x 650.43pt>
+<../figures/societa/RM416.pdf, id=29179, 1156.32pt x 650.43pt>
 File: ../figures/societa/RM416.pdf Graphic file (type pdf)
 <use ../figures/societa/RM416.pdf>
 Package pdftex.def Info: ../figures/societa/RM416.pdf  used on input line 1278.
@@ -2548,7 +2548,7 @@ Package pdftex.def Info: ../figures/societa/RM416.pdf  used on input line 1278.
 [279
 
  <../figures/societa/RM416.pdf>]
-<../figures/societa/RN037.pdf, id=29283, 1156.32pt x 650.43pt>
+<../figures/societa/RN037.pdf, id=29285, 1156.32pt x 650.43pt>
 File: ../figures/societa/RN037.pdf Graphic file (type pdf)
 <use ../figures/societa/RN037.pdf>
 Package pdftex.def Info: ../figures/societa/RN037.pdf  used on input line 1283.
@@ -2557,7 +2557,7 @@ Package pdftex.def Info: ../figures/societa/RN037.pdf  used on input line 1283.
 [280
 
  <../figures/societa/RN037.pdf>]
-<../figures/societa/RN273.pdf, id=29392, 1156.32pt x 650.43pt>
+<../figures/societa/RN273.pdf, id=29394, 1156.32pt x 650.43pt>
 File: ../figures/societa/RN273.pdf Graphic file (type pdf)
 <use ../figures/societa/RN273.pdf>
 Package pdftex.def Info: ../figures/societa/RN273.pdf  used on input line 1288.
@@ -2566,7 +2566,7 @@ Package pdftex.def Info: ../figures/societa/RN273.pdf  used on input line 1288.
 [281
 
  <../figures/societa/RN273.pdf>]
-<../figures/societa/RN471.pdf, id=29501, 1156.32pt x 650.43pt>
+<../figures/societa/RN471.pdf, id=29503, 1156.32pt x 650.43pt>
 File: ../figures/societa/RN471.pdf Graphic file (type pdf)
 <use ../figures/societa/RN471.pdf>
 Package pdftex.def Info: ../figures/societa/RN471.pdf  used on input line 1293.
@@ -2575,7 +2575,7 @@ Package pdftex.def Info: ../figures/societa/RN471.pdf  used on input line 1293.
 [282
 
  <../figures/societa/RN471.pdf>]
-<../figures/societa/RO313.pdf, id=29608, 1156.32pt x 650.43pt>
+<../figures/societa/RO313.pdf, id=29610, 1156.32pt x 650.43pt>
 File: ../figures/societa/RO313.pdf Graphic file (type pdf)
 <use ../figures/societa/RO313.pdf>
 Package pdftex.def Info: ../figures/societa/RO313.pdf  used on input line 1298.
@@ -2584,7 +2584,7 @@ Package pdftex.def Info: ../figures/societa/RO313.pdf  used on input line 1298.
 [283
 
  <../figures/societa/RO313.pdf>]
-<../figures/societa/RS010.pdf, id=29715, 1156.32pt x 650.43pt>
+<../figures/societa/RS010.pdf, id=29717, 1156.32pt x 650.43pt>
 File: ../figures/societa/RS010.pdf Graphic file (type pdf)
 <use ../figures/societa/RS010.pdf>
 Package pdftex.def Info: ../figures/societa/RS010.pdf  used on input line 1303.
@@ -2593,7 +2593,7 @@ Package pdftex.def Info: ../figures/societa/RS010.pdf  used on input line 1303.
 [284
 
  <../figures/societa/RS010.pdf>]
-<../figures/societa/RS050.pdf, id=29822, 1156.32pt x 650.43pt>
+<../figures/societa/RS050.pdf, id=29824, 1156.32pt x 650.43pt>
 File: ../figures/societa/RS050.pdf Graphic file (type pdf)
 <use ../figures/societa/RS050.pdf>
 Package pdftex.def Info: ../figures/societa/RS050.pdf  used on input line 1308.
@@ -2602,7 +2602,7 @@ Package pdftex.def Info: ../figures/societa/RS050.pdf  used on input line 1308.
 [285
 
  <../figures/societa/RS050.pdf>]
-<../figures/societa/RS067.pdf, id=29929, 1156.32pt x 650.43pt>
+<../figures/societa/RS067.pdf, id=29931, 1156.32pt x 650.43pt>
 File: ../figures/societa/RS067.pdf Graphic file (type pdf)
 <use ../figures/societa/RS067.pdf>
 Package pdftex.def Info: ../figures/societa/RS067.pdf  used on input line 1313.
@@ -2611,7 +2611,7 @@ Package pdftex.def Info: ../figures/societa/RS067.pdf  used on input line 1313.
 [286
 
  <../figures/societa/RS067.pdf>]
-<../figures/societa/RS082.pdf, id=30038, 1156.32pt x 650.43pt>
+<../figures/societa/RS082.pdf, id=30040, 1156.32pt x 650.43pt>
 File: ../figures/societa/RS082.pdf Graphic file (type pdf)
 <use ../figures/societa/RS082.pdf>
 Package pdftex.def Info: ../figures/societa/RS082.pdf  used on input line 1318.
@@ -2620,7 +2620,7 @@ Package pdftex.def Info: ../figures/societa/RS082.pdf  used on input line 1318.
 [287
 
  <../figures/societa/RS082.pdf>]
-<../figures/societa/RS521.pdf, id=30146, 1156.32pt x 650.43pt>
+<../figures/societa/RS521.pdf, id=30148, 1156.32pt x 650.43pt>
 File: ../figures/societa/RS521.pdf Graphic file (type pdf)
 <use ../figures/societa/RS521.pdf>
 Package pdftex.def Info: ../figures/societa/RS521.pdf  used on input line 1323.
@@ -2629,7 +2629,7 @@ Package pdftex.def Info: ../figures/societa/RS521.pdf  used on input line 1323.
 [288
 
  <../figures/societa/RS521.pdf>]
-<../figures/societa/SA126.pdf, id=30254, 1156.32pt x 650.43pt>
+<../figures/societa/SA126.pdf, id=30256, 1156.32pt x 650.43pt>
 File: ../figures/societa/SA126.pdf Graphic file (type pdf)
 <use ../figures/societa/SA126.pdf>
 Package pdftex.def Info: ../figures/societa/SA126.pdf  used on input line 1328.
@@ -2638,7 +2638,7 @@ Package pdftex.def Info: ../figures/societa/SA126.pdf  used on input line 1328.
 [289
 
  <../figures/societa/SA126.pdf>]
-<../figures/societa/SA127.pdf, id=30360, 1156.32pt x 650.43pt>
+<../figures/societa/SA127.pdf, id=30362, 1156.32pt x 650.43pt>
 File: ../figures/societa/SA127.pdf Graphic file (type pdf)
 <use ../figures/societa/SA127.pdf>
 Package pdftex.def Info: ../figures/societa/SA127.pdf  used on input line 1333.
@@ -2647,7 +2647,7 @@ Package pdftex.def Info: ../figures/societa/SA127.pdf  used on input line 1333.
 [290
 
  <../figures/societa/SA127.pdf>]
-<../figures/societa/SA128.pdf, id=30466, 1156.32pt x 650.43pt>
+<../figures/societa/SA128.pdf, id=30468, 1156.32pt x 650.43pt>
 File: ../figures/societa/SA128.pdf Graphic file (type pdf)
 <use ../figures/societa/SA128.pdf>
 Package pdftex.def Info: ../figures/societa/SA128.pdf  used on input line 1338.
@@ -2656,7 +2656,7 @@ Package pdftex.def Info: ../figures/societa/SA128.pdf  used on input line 1338.
 [291
 
  <../figures/societa/SA128.pdf>]
-<../figures/societa/SA645.pdf, id=30572, 1156.32pt x 650.43pt>
+<../figures/societa/SA645.pdf, id=30574, 1156.32pt x 650.43pt>
 File: ../figures/societa/SA645.pdf Graphic file (type pdf)
 <use ../figures/societa/SA645.pdf>
 Package pdftex.def Info: ../figures/societa/SA645.pdf  used on input line 1343.
@@ -2665,7 +2665,7 @@ Package pdftex.def Info: ../figures/societa/SA645.pdf  used on input line 1343.
 [292
 
  <../figures/societa/SA645.pdf>]
-<../figures/societa/SI043.pdf, id=30673, 1156.32pt x 650.43pt>
+<../figures/societa/SI043.pdf, id=30675, 1156.32pt x 650.43pt>
 File: ../figures/societa/SI043.pdf Graphic file (type pdf)
 <use ../figures/societa/SI043.pdf>
 Package pdftex.def Info: ../figures/societa/SI043.pdf  used on input line 1348.
@@ -2674,7 +2674,7 @@ Package pdftex.def Info: ../figures/societa/SI043.pdf  used on input line 1348.
 [293
 
  <../figures/societa/SI043.pdf>]
-<../figures/societa/SI361.pdf, id=30778, 1156.32pt x 650.43pt>
+<../figures/societa/SI361.pdf, id=30780, 1156.32pt x 650.43pt>
 File: ../figures/societa/SI361.pdf Graphic file (type pdf)
 <use ../figures/societa/SI361.pdf>
 Package pdftex.def Info: ../figures/societa/SI361.pdf  used on input line 1353.
@@ -2683,7 +2683,7 @@ Package pdftex.def Info: ../figures/societa/SI361.pdf  used on input line 1353.
 [294
 
  <../figures/societa/SI361.pdf>]
-<../figures/societa/SM278.pdf, id=30881, 1156.32pt x 650.43pt>
+<../figures/societa/SM278.pdf, id=30883, 1156.32pt x 650.43pt>
 File: ../figures/societa/SM278.pdf Graphic file (type pdf)
 <use ../figures/societa/SM278.pdf>
 Package pdftex.def Info: ../figures/societa/SM278.pdf  used on input line 1358.
@@ -2692,7 +2692,7 @@ Package pdftex.def Info: ../figures/societa/SM278.pdf  used on input line 1358.
 [295
 
  <../figures/societa/SM278.pdf>]
-<../figures/societa/SP042.pdf, id=30989, 1156.32pt x 650.43pt>
+<../figures/societa/SP042.pdf, id=30991, 1156.32pt x 650.43pt>
 File: ../figures/societa/SP042.pdf Graphic file (type pdf)
 <use ../figures/societa/SP042.pdf>
 Package pdftex.def Info: ../figures/societa/SP042.pdf  used on input line 1363.
@@ -2701,7 +2701,7 @@ Package pdftex.def Info: ../figures/societa/SP042.pdf  used on input line 1363.
 [296
 
  <../figures/societa/SP042.pdf>]
-<../figures/societa/SP573.pdf, id=31096, 1156.32pt x 650.43pt>
+<../figures/societa/SP573.pdf, id=31098, 1156.32pt x 650.43pt>
 File: ../figures/societa/SP573.pdf Graphic file (type pdf)
 <use ../figures/societa/SP573.pdf>
 Package pdftex.def Info: ../figures/societa/SP573.pdf  used on input line 1368.
@@ -2710,7 +2710,7 @@ Package pdftex.def Info: ../figures/societa/SP573.pdf  used on input line 1368.
 [297
 
  <../figures/societa/SP573.pdf>]
-<../figures/societa/SR128.pdf, id=31205, 1156.32pt x 650.43pt>
+<../figures/societa/SR128.pdf, id=31207, 1156.32pt x 650.43pt>
 File: ../figures/societa/SR128.pdf Graphic file (type pdf)
 <use ../figures/societa/SR128.pdf>
 Package pdftex.def Info: ../figures/societa/SR128.pdf  used on input line 1373.
@@ -2719,7 +2719,7 @@ Package pdftex.def Info: ../figures/societa/SR128.pdf  used on input line 1373.
 [298
 
  <../figures/societa/SR128.pdf>]
-<../figures/societa/SR130.pdf, id=31312, 1156.32pt x 650.43pt>
+<../figures/societa/SR130.pdf, id=31314, 1156.32pt x 650.43pt>
 File: ../figures/societa/SR130.pdf Graphic file (type pdf)
 <use ../figures/societa/SR130.pdf>
 Package pdftex.def Info: ../figures/societa/SR130.pdf  used on input line 1378.
@@ -2728,7 +2728,7 @@ Package pdftex.def Info: ../figures/societa/SR130.pdf  used on input line 1378.
 [299
 
  <../figures/societa/SR130.pdf>]
-<../figures/societa/SR248.pdf, id=31418, 1156.32pt x 650.43pt>
+<../figures/societa/SR248.pdf, id=31420, 1156.32pt x 650.43pt>
 File: ../figures/societa/SR248.pdf Graphic file (type pdf)
 <use ../figures/societa/SR248.pdf>
 Package pdftex.def Info: ../figures/societa/SR248.pdf  used on input line 1383.
@@ -2737,7 +2737,7 @@ Package pdftex.def Info: ../figures/societa/SR248.pdf  used on input line 1383.
 [300
 
  <../figures/societa/SR248.pdf>]
-<../figures/societa/SS220.pdf, id=31523, 1156.32pt x 650.43pt>
+<../figures/societa/SS220.pdf, id=31525, 1156.32pt x 650.43pt>
 File: ../figures/societa/SS220.pdf Graphic file (type pdf)
 <use ../figures/societa/SS220.pdf>
 Package pdftex.def Info: ../figures/societa/SS220.pdf  used on input line 1388.
@@ -2746,7 +2746,7 @@ Package pdftex.def Info: ../figures/societa/SS220.pdf  used on input line 1388.
 [301
 
  <../figures/societa/SS220.pdf>]
-<../figures/societa/SS228.pdf, id=31627, 1156.32pt x 650.43pt>
+<../figures/societa/SS228.pdf, id=31629, 1156.32pt x 650.43pt>
 File: ../figures/societa/SS228.pdf Graphic file (type pdf)
 <use ../figures/societa/SS228.pdf>
 Package pdftex.def Info: ../figures/societa/SS228.pdf  used on input line 1393.
@@ -2755,7 +2755,7 @@ Package pdftex.def Info: ../figures/societa/SS228.pdf  used on input line 1393.
 [302
 
  <../figures/societa/SS228.pdf>]
-<../figures/societa/SS284.pdf, id=31727, 1156.32pt x 650.43pt>
+<../figures/societa/SS284.pdf, id=31729, 1156.32pt x 650.43pt>
 File: ../figures/societa/SS284.pdf Graphic file (type pdf)
 <use ../figures/societa/SS284.pdf>
 Package pdftex.def Info: ../figures/societa/SS284.pdf  used on input line 1398.
@@ -2764,7 +2764,7 @@ Package pdftex.def Info: ../figures/societa/SS284.pdf  used on input line 1398.
 [303
 
  <../figures/societa/SS284.pdf>]
-<../figures/societa/SV019.pdf, id=31835, 1156.32pt x 650.43pt>
+<../figures/societa/SV019.pdf, id=31837, 1156.32pt x 650.43pt>
 File: ../figures/societa/SV019.pdf Graphic file (type pdf)
 <use ../figures/societa/SV019.pdf>
 Package pdftex.def Info: ../figures/societa/SV019.pdf  used on input line 1403.
@@ -2773,7 +2773,7 @@ Package pdftex.def Info: ../figures/societa/SV019.pdf  used on input line 1403.
 [304
 
  <../figures/societa/SV019.pdf>]
-<../figures/societa/SV022.pdf, id=31938, 1156.32pt x 650.43pt>
+<../figures/societa/SV022.pdf, id=31940, 1156.32pt x 650.43pt>
 File: ../figures/societa/SV022.pdf Graphic file (type pdf)
 <use ../figures/societa/SV022.pdf>
 Package pdftex.def Info: ../figures/societa/SV022.pdf  used on input line 1408.
@@ -2782,7 +2782,7 @@ Package pdftex.def Info: ../figures/societa/SV022.pdf  used on input line 1408.
 [305
 
  <../figures/societa/SV022.pdf>]
-<../figures/societa/SV026.pdf, id=32037, 1156.32pt x 650.43pt>
+<../figures/societa/SV026.pdf, id=32039, 1156.32pt x 650.43pt>
 File: ../figures/societa/SV026.pdf Graphic file (type pdf)
 <use ../figures/societa/SV026.pdf>
 Package pdftex.def Info: ../figures/societa/SV026.pdf  used on input line 1413.
@@ -2791,7 +2791,7 @@ Package pdftex.def Info: ../figures/societa/SV026.pdf  used on input line 1413.
 [306
 
  <../figures/societa/SV026.pdf>]
-<../figures/societa/SV070.pdf, id=32145, 1156.32pt x 650.43pt>
+<../figures/societa/SV070.pdf, id=32147, 1156.32pt x 650.43pt>
 File: ../figures/societa/SV070.pdf Graphic file (type pdf)
 <use ../figures/societa/SV070.pdf>
 Package pdftex.def Info: ../figures/societa/SV070.pdf  used on input line 1418.
@@ -2800,7 +2800,7 @@ Package pdftex.def Info: ../figures/societa/SV070.pdf  used on input line 1418.
 [307
 
  <../figures/societa/SV070.pdf>]
-<../figures/societa/TA408.pdf, id=32249, 1156.32pt x 650.43pt>
+<../figures/societa/TA408.pdf, id=32251, 1156.32pt x 650.43pt>
 File: ../figures/societa/TA408.pdf Graphic file (type pdf)
 <use ../figures/societa/TA408.pdf>
 Package pdftex.def Info: ../figures/societa/TA408.pdf  used on input line 1423.
@@ -2809,7 +2809,7 @@ Package pdftex.def Info: ../figures/societa/TA408.pdf  used on input line 1423.
 [308
 
  <../figures/societa/TA408.pdf>]
-<../figures/societa/TE138.pdf, id=32354, 1156.32pt x 650.43pt>
+<../figures/societa/TE138.pdf, id=32356, 1156.32pt x 650.43pt>
 File: ../figures/societa/TE138.pdf Graphic file (type pdf)
 <use ../figures/societa/TE138.pdf>
 Package pdftex.def Info: ../figures/societa/TE138.pdf  used on input line 1428.
@@ -2818,7 +2818,7 @@ Package pdftex.def Info: ../figures/societa/TE138.pdf  used on input line 1428.
 [309
 
  <../figures/societa/TE138.pdf>]
-<../figures/societa/TN101.pdf, id=32462, 1156.32pt x 650.43pt>
+<../figures/societa/TN101.pdf, id=32464, 1156.32pt x 650.43pt>
 File: ../figures/societa/TN101.pdf Graphic file (type pdf)
 <use ../figures/societa/TN101.pdf>
 Package pdftex.def Info: ../figures/societa/TN101.pdf  used on input line 1433.
@@ -2827,7 +2827,7 @@ Package pdftex.def Info: ../figures/societa/TN101.pdf  used on input line 1433.
 [310
 
  <../figures/societa/TN101.pdf>]
-<../figures/societa/TN102.pdf, id=32566, 1156.32pt x 650.43pt>
+<../figures/societa/TN102.pdf, id=32568, 1156.32pt x 650.43pt>
 File: ../figures/societa/TN102.pdf Graphic file (type pdf)
 <use ../figures/societa/TN102.pdf>
 Package pdftex.def Info: ../figures/societa/TN102.pdf  used on input line 1438.
@@ -2836,7 +2836,7 @@ Package pdftex.def Info: ../figures/societa/TN102.pdf  used on input line 1438.
 [311
 
  <../figures/societa/TN102.pdf>]
-<../figures/societa/TN104.pdf, id=32672, 1156.32pt x 650.43pt>
+<../figures/societa/TN104.pdf, id=32674, 1156.32pt x 650.43pt>
 File: ../figures/societa/TN104.pdf Graphic file (type pdf)
 <use ../figures/societa/TN104.pdf>
 Package pdftex.def Info: ../figures/societa/TN104.pdf  used on input line 1443.
@@ -2845,7 +2845,7 @@ Package pdftex.def Info: ../figures/societa/TN104.pdf  used on input line 1443.
 [312
 
  <../figures/societa/TN104.pdf>]
-<../figures/societa/TN109.pdf, id=32780, 1156.32pt x 650.43pt>
+<../figures/societa/TN109.pdf, id=32782, 1156.32pt x 650.43pt>
 File: ../figures/societa/TN109.pdf Graphic file (type pdf)
 <use ../figures/societa/TN109.pdf>
 Package pdftex.def Info: ../figures/societa/TN109.pdf  used on input line 1448.
@@ -2854,7 +2854,7 @@ Package pdftex.def Info: ../figures/societa/TN109.pdf  used on input line 1448.
 [313
 
  <../figures/societa/TN109.pdf>]
-<../figures/societa/TN131.pdf, id=32888, 1156.32pt x 650.43pt>
+<../figures/societa/TN131.pdf, id=32890, 1156.32pt x 650.43pt>
 File: ../figures/societa/TN131.pdf Graphic file (type pdf)
 <use ../figures/societa/TN131.pdf>
 Package pdftex.def Info: ../figures/societa/TN131.pdf  used on input line 1453.
@@ -2863,7 +2863,7 @@ Package pdftex.def Info: ../figures/societa/TN131.pdf  used on input line 1453.
 [314
 
  <../figures/societa/TN131.pdf>]
-<../figures/societa/TN135.pdf, id=32994, 1156.32pt x 650.43pt>
+<../figures/societa/TN135.pdf, id=32996, 1156.32pt x 650.43pt>
 File: ../figures/societa/TN135.pdf Graphic file (type pdf)
 <use ../figures/societa/TN135.pdf>
 Package pdftex.def Info: ../figures/societa/TN135.pdf  used on input line 1458.
@@ -2872,7 +2872,7 @@ Package pdftex.def Info: ../figures/societa/TN135.pdf  used on input line 1458.
 [315
 
  <../figures/societa/TN135.pdf>]
-<../figures/societa/TN500.pdf, id=33101, 1156.32pt x 650.43pt>
+<../figures/societa/TN500.pdf, id=33103, 1156.32pt x 650.43pt>
 File: ../figures/societa/TN500.pdf Graphic file (type pdf)
 <use ../figures/societa/TN500.pdf>
 Package pdftex.def Info: ../figures/societa/TN500.pdf  used on input line 1463.
@@ -2881,7 +2881,7 @@ Package pdftex.def Info: ../figures/societa/TN500.pdf  used on input line 1463.
 [316
 
  <../figures/societa/TN500.pdf>]
-<../figures/societa/TN524.pdf, id=33207, 1156.32pt x 650.43pt>
+<../figures/societa/TN524.pdf, id=33209, 1156.32pt x 650.43pt>
 File: ../figures/societa/TN524.pdf Graphic file (type pdf)
 <use ../figures/societa/TN524.pdf>
 Package pdftex.def Info: ../figures/societa/TN524.pdf  used on input line 1468.
@@ -2890,7 +2890,7 @@ Package pdftex.def Info: ../figures/societa/TN524.pdf  used on input line 1468.
 [317
 
  <../figures/societa/TN524.pdf>]
-<../figures/societa/TN527.pdf, id=33314, 1156.32pt x 650.43pt>
+<../figures/societa/TN527.pdf, id=33316, 1156.32pt x 650.43pt>
 File: ../figures/societa/TN527.pdf Graphic file (type pdf)
 <use ../figures/societa/TN527.pdf>
 Package pdftex.def Info: ../figures/societa/TN527.pdf  used on input line 1473.
@@ -2899,7 +2899,7 @@ Package pdftex.def Info: ../figures/societa/TN527.pdf  used on input line 1473.
 [318
 
  <../figures/societa/TN527.pdf>]
-<../figures/societa/TO001.pdf, id=33419, 1156.32pt x 650.43pt>
+<../figures/societa/TO001.pdf, id=33421, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO001.pdf Graphic file (type pdf)
 <use ../figures/societa/TO001.pdf>
 Package pdftex.def Info: ../figures/societa/TO001.pdf  used on input line 1478.
@@ -2908,7 +2908,7 @@ Package pdftex.def Info: ../figures/societa/TO001.pdf  used on input line 1478.
 [319
 
  <../figures/societa/TO001.pdf>]
-<../figures/societa/TO002.pdf, id=33526, 1156.32pt x 650.43pt>
+<../figures/societa/TO002.pdf, id=33528, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO002.pdf Graphic file (type pdf)
 <use ../figures/societa/TO002.pdf>
 Package pdftex.def Info: ../figures/societa/TO002.pdf  used on input line 1483.
@@ -2917,7 +2917,7 @@ Package pdftex.def Info: ../figures/societa/TO002.pdf  used on input line 1483.
 [320
 
  <../figures/societa/TO002.pdf>]
-<../figures/societa/TO015.pdf, id=33627, 1156.32pt x 650.43pt>
+<../figures/societa/TO015.pdf, id=33629, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO015.pdf Graphic file (type pdf)
 <use ../figures/societa/TO015.pdf>
 Package pdftex.def Info: ../figures/societa/TO015.pdf  used on input line 1488.
@@ -2926,7 +2926,7 @@ Package pdftex.def Info: ../figures/societa/TO015.pdf  used on input line 1488.
 [321
 
  <../figures/societa/TO015.pdf>]
-<../figures/societa/TO016.pdf, id=33730, 1156.32pt x 650.43pt>
+<../figures/societa/TO016.pdf, id=33732, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO016.pdf Graphic file (type pdf)
 <use ../figures/societa/TO016.pdf>
 Package pdftex.def Info: ../figures/societa/TO016.pdf  used on input line 1493.
@@ -2935,7 +2935,7 @@ Package pdftex.def Info: ../figures/societa/TO016.pdf  used on input line 1493.
 [322
 
  <../figures/societa/TO016.pdf>]
-<../figures/societa/TO036.pdf, id=33837, 1156.32pt x 650.43pt>
+<../figures/societa/TO036.pdf, id=33839, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO036.pdf Graphic file (type pdf)
 <use ../figures/societa/TO036.pdf>
 Package pdftex.def Info: ../figures/societa/TO036.pdf  used on input line 1498.
@@ -2944,7 +2944,7 @@ Package pdftex.def Info: ../figures/societa/TO036.pdf  used on input line 1498.
 [323
 
  <../figures/societa/TO036.pdf>]
-<../figures/societa/TO037.pdf, id=33941, 1156.32pt x 650.43pt>
+<../figures/societa/TO037.pdf, id=33943, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO037.pdf Graphic file (type pdf)
 <use ../figures/societa/TO037.pdf>
 Package pdftex.def Info: ../figures/societa/TO037.pdf  used on input line 1503.
@@ -2953,7 +2953,7 @@ Package pdftex.def Info: ../figures/societa/TO037.pdf  used on input line 1503.
 [324
 
  <../figures/societa/TO037.pdf>]
-<../figures/societa/TO047.pdf, id=34038, 1156.32pt x 650.43pt>
+<../figures/societa/TO047.pdf, id=34040, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO047.pdf Graphic file (type pdf)
 <use ../figures/societa/TO047.pdf>
 Package pdftex.def Info: ../figures/societa/TO047.pdf  used on input line 1508.
@@ -2962,7 +2962,7 @@ Package pdftex.def Info: ../figures/societa/TO047.pdf  used on input line 1508.
 [325
 
  <../figures/societa/TO047.pdf>]
-<../figures/societa/TO076.pdf, id=34144, 1156.32pt x 650.43pt>
+<../figures/societa/TO076.pdf, id=34146, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO076.pdf Graphic file (type pdf)
 <use ../figures/societa/TO076.pdf>
 Package pdftex.def Info: ../figures/societa/TO076.pdf  used on input line 1513.
@@ -2971,7 +2971,7 @@ Package pdftex.def Info: ../figures/societa/TO076.pdf  used on input line 1513.
 [326
 
  <../figures/societa/TO076.pdf>]
-<../figures/societa/TO164.pdf, id=34253, 1156.32pt x 650.43pt>
+<../figures/societa/TO164.pdf, id=34255, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO164.pdf Graphic file (type pdf)
 <use ../figures/societa/TO164.pdf>
 Package pdftex.def Info: ../figures/societa/TO164.pdf  used on input line 1518.
@@ -2980,7 +2980,7 @@ Package pdftex.def Info: ../figures/societa/TO164.pdf  used on input line 1518.
 [327
 
  <../figures/societa/TO164.pdf>]
-<../figures/societa/TO226.pdf, id=34363, 1156.32pt x 650.43pt>
+<../figures/societa/TO226.pdf, id=34365, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO226.pdf Graphic file (type pdf)
 <use ../figures/societa/TO226.pdf>
 Package pdftex.def Info: ../figures/societa/TO226.pdf  used on input line 1523.
@@ -2989,7 +2989,7 @@ Package pdftex.def Info: ../figures/societa/TO226.pdf  used on input line 1523.
 [328
 
  <../figures/societa/TO226.pdf>]
-<../figures/societa/TO247.pdf, id=34468, 1156.32pt x 650.43pt>
+<../figures/societa/TO247.pdf, id=34470, 1156.32pt x 650.43pt>
 File: ../figures/societa/TO247.pdf Graphic file (type pdf)
 <use ../figures/societa/TO247.pdf>
 Package pdftex.def Info: ../figures/societa/TO247.pdf  used on input line 1528.
@@ -2998,7 +2998,7 @@ Package pdftex.def Info: ../figures/societa/TO247.pdf  used on input line 1528.
 [329
 
  <../figures/societa/TO247.pdf>]
-<../figures/societa/TR024.pdf, id=34568, 1156.32pt x 650.43pt>
+<../figures/societa/TR024.pdf, id=34570, 1156.32pt x 650.43pt>
 File: ../figures/societa/TR024.pdf Graphic file (type pdf)
 <use ../figures/societa/TR024.pdf>
 Package pdftex.def Info: ../figures/societa/TR024.pdf  used on input line 1533.
@@ -3007,7 +3007,7 @@ Package pdftex.def Info: ../figures/societa/TR024.pdf  used on input line 1533.
 [330
 
  <../figures/societa/TR024.pdf>]
-<../figures/societa/TR040.pdf, id=34675, 1156.32pt x 650.43pt>
+<../figures/societa/TR040.pdf, id=34677, 1156.32pt x 650.43pt>
 File: ../figures/societa/TR040.pdf Graphic file (type pdf)
 <use ../figures/societa/TR040.pdf>
 Package pdftex.def Info: ../figures/societa/TR040.pdf  used on input line 1538.
@@ -3016,7 +3016,7 @@ Package pdftex.def Info: ../figures/societa/TR040.pdf  used on input line 1538.
 [331
 
  <../figures/societa/TR040.pdf>]
-<../figures/societa/TS044.pdf, id=34782, 1156.32pt x 650.43pt>
+<../figures/societa/TS044.pdf, id=34784, 1156.32pt x 650.43pt>
 File: ../figures/societa/TS044.pdf Graphic file (type pdf)
 <use ../figures/societa/TS044.pdf>
 Package pdftex.def Info: ../figures/societa/TS044.pdf  used on input line 1543.
@@ -3025,7 +3025,7 @@ Package pdftex.def Info: ../figures/societa/TS044.pdf  used on input line 1543.
 [332
 
  <../figures/societa/TS044.pdf>]
-<../figures/societa/TS099.pdf, id=34884, 1156.32pt x 650.43pt>
+<../figures/societa/TS099.pdf, id=34886, 1156.32pt x 650.43pt>
 File: ../figures/societa/TS099.pdf Graphic file (type pdf)
 <use ../figures/societa/TS099.pdf>
 Package pdftex.def Info: ../figures/societa/TS099.pdf  used on input line 1548.
@@ -3034,7 +3034,7 @@ Package pdftex.def Info: ../figures/societa/TS099.pdf  used on input line 1548.
 [333
 
  <../figures/societa/TS099.pdf>]
-<../figures/societa/TS100.pdf, id=34990, 1156.32pt x 650.43pt>
+<../figures/societa/TS100.pdf, id=34992, 1156.32pt x 650.43pt>
 File: ../figures/societa/TS100.pdf Graphic file (type pdf)
 <use ../figures/societa/TS100.pdf>
 Package pdftex.def Info: ../figures/societa/TS100.pdf  used on input line 1553.
@@ -3043,7 +3043,7 @@ Package pdftex.def Info: ../figures/societa/TS100.pdf  used on input line 1553.
 [334
 
  <../figures/societa/TS100.pdf>]
-<../figures/societa/TS536.pdf, id=35091, 1156.32pt x 650.43pt>
+<../figures/societa/TS536.pdf, id=35093, 1156.32pt x 650.43pt>
 File: ../figures/societa/TS536.pdf Graphic file (type pdf)
 <use ../figures/societa/TS536.pdf>
 Package pdftex.def Info: ../figures/societa/TS536.pdf  used on input line 1558.
@@ -3052,7 +3052,7 @@ Package pdftex.def Info: ../figures/societa/TS536.pdf  used on input line 1558.
 [335
 
  <../figures/societa/TS536.pdf>]
-<../figures/societa/TV335.pdf, id=35195, 1156.32pt x 650.43pt>
+<../figures/societa/TV335.pdf, id=35197, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV335.pdf Graphic file (type pdf)
 <use ../figures/societa/TV335.pdf>
 Package pdftex.def Info: ../figures/societa/TV335.pdf  used on input line 1563.
@@ -3061,7 +3061,7 @@ Package pdftex.def Info: ../figures/societa/TV335.pdf  used on input line 1563.
 [336
 
  <../figures/societa/TV335.pdf>]
-<../figures/societa/TV339.pdf, id=35301, 1156.32pt x 650.43pt>
+<../figures/societa/TV339.pdf, id=35303, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV339.pdf Graphic file (type pdf)
 <use ../figures/societa/TV339.pdf>
 Package pdftex.def Info: ../figures/societa/TV339.pdf  used on input line 1568.
@@ -3070,7 +3070,7 @@ Package pdftex.def Info: ../figures/societa/TV339.pdf  used on input line 1568.
 [337
 
  <../figures/societa/TV339.pdf>]
-<../figures/societa/TV340.pdf, id=35406, 1156.32pt x 650.43pt>
+<../figures/societa/TV340.pdf, id=35408, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV340.pdf Graphic file (type pdf)
 <use ../figures/societa/TV340.pdf>
 Package pdftex.def Info: ../figures/societa/TV340.pdf  used on input line 1573.
@@ -3079,7 +3079,7 @@ Package pdftex.def Info: ../figures/societa/TV340.pdf  used on input line 1573.
 [338
 
  <../figures/societa/TV340.pdf>]
-<../figures/societa/TV341.pdf, id=35511, 1156.32pt x 650.43pt>
+<../figures/societa/TV341.pdf, id=35513, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV341.pdf Graphic file (type pdf)
 <use ../figures/societa/TV341.pdf>
 Package pdftex.def Info: ../figures/societa/TV341.pdf  used on input line 1578.
@@ -3088,7 +3088,7 @@ Package pdftex.def Info: ../figures/societa/TV341.pdf  used on input line 1578.
 [339
 
  <../figures/societa/TV341.pdf>]
-<../figures/societa/TV342.pdf, id=35618, 1156.32pt x 650.43pt>
+<../figures/societa/TV342.pdf, id=35620, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV342.pdf Graphic file (type pdf)
 <use ../figures/societa/TV342.pdf>
 Package pdftex.def Info: ../figures/societa/TV342.pdf  used on input line 1583.
@@ -3097,7 +3097,7 @@ Package pdftex.def Info: ../figures/societa/TV342.pdf  used on input line 1583.
 [340
 
  <../figures/societa/TV342.pdf>]
-<../figures/societa/TV349.pdf, id=35723, 1156.32pt x 650.43pt>
+<../figures/societa/TV349.pdf, id=35725, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV349.pdf Graphic file (type pdf)
 <use ../figures/societa/TV349.pdf>
 Package pdftex.def Info: ../figures/societa/TV349.pdf  used on input line 1588.
@@ -3106,7 +3106,7 @@ Package pdftex.def Info: ../figures/societa/TV349.pdf  used on input line 1588.
 [341
 
  <../figures/societa/TV349.pdf>]
-<../figures/societa/TV352.pdf, id=35829, 1156.32pt x 650.43pt>
+<../figures/societa/TV352.pdf, id=35831, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV352.pdf Graphic file (type pdf)
 <use ../figures/societa/TV352.pdf>
 Package pdftex.def Info: ../figures/societa/TV352.pdf  used on input line 1593.
@@ -3115,7 +3115,7 @@ Package pdftex.def Info: ../figures/societa/TV352.pdf  used on input line 1593.
 [342
 
  <../figures/societa/TV352.pdf>]
-<../figures/societa/TV354.pdf, id=35939, 1156.32pt x 650.43pt>
+<../figures/societa/TV354.pdf, id=35941, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV354.pdf Graphic file (type pdf)
 <use ../figures/societa/TV354.pdf>
 Package pdftex.def Info: ../figures/societa/TV354.pdf  used on input line 1598.
@@ -3124,7 +3124,7 @@ Package pdftex.def Info: ../figures/societa/TV354.pdf  used on input line 1598.
 [343
 
  <../figures/societa/TV354.pdf>]
-<../figures/societa/TV359.pdf, id=36043, 1156.32pt x 650.43pt>
+<../figures/societa/TV359.pdf, id=36045, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV359.pdf Graphic file (type pdf)
 <use ../figures/societa/TV359.pdf>
 Package pdftex.def Info: ../figures/societa/TV359.pdf  used on input line 1603.
@@ -3133,7 +3133,7 @@ Package pdftex.def Info: ../figures/societa/TV359.pdf  used on input line 1603.
 [344
 
  <../figures/societa/TV359.pdf>]
-<../figures/societa/TV360.pdf, id=36152, 1156.32pt x 650.43pt>
+<../figures/societa/TV360.pdf, id=36154, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV360.pdf Graphic file (type pdf)
 <use ../figures/societa/TV360.pdf>
 Package pdftex.def Info: ../figures/societa/TV360.pdf  used on input line 1608.
@@ -3142,7 +3142,7 @@ Package pdftex.def Info: ../figures/societa/TV360.pdf  used on input line 1608.
 [345
 
  <../figures/societa/TV360.pdf>]
-<../figures/societa/TV398.pdf, id=36260, 1156.32pt x 650.43pt>
+<../figures/societa/TV398.pdf, id=36262, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV398.pdf Graphic file (type pdf)
 <use ../figures/societa/TV398.pdf>
 Package pdftex.def Info: ../figures/societa/TV398.pdf  used on input line 1613.
@@ -3151,7 +3151,7 @@ Package pdftex.def Info: ../figures/societa/TV398.pdf  used on input line 1613.
 [346
 
  <../figures/societa/TV398.pdf>]
-<../figures/societa/TV406.pdf, id=36363, 1156.32pt x 650.43pt>
+<../figures/societa/TV406.pdf, id=36365, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV406.pdf Graphic file (type pdf)
 <use ../figures/societa/TV406.pdf>
 Package pdftex.def Info: ../figures/societa/TV406.pdf  used on input line 1618.
@@ -3160,7 +3160,7 @@ Package pdftex.def Info: ../figures/societa/TV406.pdf  used on input line 1618.
 [347
 
  <../figures/societa/TV406.pdf>]
-<../figures/societa/TV409.pdf, id=36472, 1156.32pt x 650.43pt>
+<../figures/societa/TV409.pdf, id=36474, 1156.32pt x 650.43pt>
 File: ../figures/societa/TV409.pdf Graphic file (type pdf)
 <use ../figures/societa/TV409.pdf>
 Package pdftex.def Info: ../figures/societa/TV409.pdf  used on input line 1623.
@@ -3169,7 +3169,7 @@ Package pdftex.def Info: ../figures/societa/TV409.pdf  used on input line 1623.
 [348
 
  <../figures/societa/TV409.pdf>]
-<../figures/societa/UD018.pdf, id=36580, 1156.32pt x 650.43pt>
+<../figures/societa/UD018.pdf, id=36582, 1156.32pt x 650.43pt>
 File: ../figures/societa/UD018.pdf Graphic file (type pdf)
 <use ../figures/societa/UD018.pdf>
 Package pdftex.def Info: ../figures/societa/UD018.pdf  used on input line 1628.
@@ -3178,7 +3178,7 @@ Package pdftex.def Info: ../figures/societa/UD018.pdf  used on input line 1628.
 [349
 
  <../figures/societa/UD018.pdf>]
-<../figures/societa/UD026.pdf, id=36691, 1156.32pt x 650.43pt>
+<../figures/societa/UD026.pdf, id=36693, 1156.32pt x 650.43pt>
 File: ../figures/societa/UD026.pdf Graphic file (type pdf)
 <use ../figures/societa/UD026.pdf>
 Package pdftex.def Info: ../figures/societa/UD026.pdf  used on input line 1633.
@@ -3187,7 +3187,7 @@ Package pdftex.def Info: ../figures/societa/UD026.pdf  used on input line 1633.
 [350
 
  <../figures/societa/UD026.pdf>]
-<../figures/societa/UD030.pdf, id=36791, 1156.32pt x 650.43pt>
+<../figures/societa/UD030.pdf, id=36793, 1156.32pt x 650.43pt>
 File: ../figures/societa/UD030.pdf Graphic file (type pdf)
 <use ../figures/societa/UD030.pdf>
 Package pdftex.def Info: ../figures/societa/UD030.pdf  used on input line 1638.
@@ -3196,7 +3196,7 @@ Package pdftex.def Info: ../figures/societa/UD030.pdf  used on input line 1638.
 [351
 
  <../figures/societa/UD030.pdf>]
-<../figures/societa/UD110.pdf, id=36900, 1156.32pt x 650.43pt>
+<../figures/societa/UD110.pdf, id=36902, 1156.32pt x 650.43pt>
 File: ../figures/societa/UD110.pdf Graphic file (type pdf)
 <use ../figures/societa/UD110.pdf>
 Package pdftex.def Info: ../figures/societa/UD110.pdf  used on input line 1643.
@@ -3205,7 +3205,7 @@ Package pdftex.def Info: ../figures/societa/UD110.pdf  used on input line 1643.
 [352
 
  <../figures/societa/UD110.pdf>]
-<../figures/societa/UD121.pdf, id=37003, 1156.32pt x 650.43pt>
+<../figures/societa/UD121.pdf, id=37005, 1156.32pt x 650.43pt>
 File: ../figures/societa/UD121.pdf Graphic file (type pdf)
 <use ../figures/societa/UD121.pdf>
 Package pdftex.def Info: ../figures/societa/UD121.pdf  used on input line 1648.
@@ -3214,7 +3214,7 @@ Package pdftex.def Info: ../figures/societa/UD121.pdf  used on input line 1648.
 [353
 
  <../figures/societa/UD121.pdf>]
-<../figures/societa/UD503.pdf, id=37113, 1156.32pt x 650.43pt>
+<../figures/societa/UD503.pdf, id=37115, 1156.32pt x 650.43pt>
 File: ../figures/societa/UD503.pdf Graphic file (type pdf)
 <use ../figures/societa/UD503.pdf>
 Package pdftex.def Info: ../figures/societa/UD503.pdf  used on input line 1653.
@@ -3223,7 +3223,7 @@ Package pdftex.def Info: ../figures/societa/UD503.pdf  used on input line 1653.
 [354
 
  <../figures/societa/UD503.pdf>]
-<../figures/societa/VA050.pdf, id=37224, 1156.32pt x 650.43pt>
+<../figures/societa/VA050.pdf, id=37226, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA050.pdf Graphic file (type pdf)
 <use ../figures/societa/VA050.pdf>
 Package pdftex.def Info: ../figures/societa/VA050.pdf  used on input line 1658.
@@ -3232,7 +3232,7 @@ Package pdftex.def Info: ../figures/societa/VA050.pdf  used on input line 1658.
 [355
 
  <../figures/societa/VA050.pdf>]
-<../figures/societa/VA117.pdf, id=37328, 1156.32pt x 650.43pt>
+<../figures/societa/VA117.pdf, id=37330, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA117.pdf Graphic file (type pdf)
 <use ../figures/societa/VA117.pdf>
 Package pdftex.def Info: ../figures/societa/VA117.pdf  used on input line 1663.
@@ -3241,7 +3241,7 @@ Package pdftex.def Info: ../figures/societa/VA117.pdf  used on input line 1663.
 [356
 
  <../figures/societa/VA117.pdf>]
-<../figures/societa/VA119.pdf, id=37427, 1156.32pt x 650.43pt>
+<../figures/societa/VA119.pdf, id=37429, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA119.pdf Graphic file (type pdf)
 <use ../figures/societa/VA119.pdf>
 Package pdftex.def Info: ../figures/societa/VA119.pdf  used on input line 1668.
@@ -3250,7 +3250,7 @@ Package pdftex.def Info: ../figures/societa/VA119.pdf  used on input line 1668.
 [357
 
  <../figures/societa/VA119.pdf>]
-<../figures/societa/VA121.pdf, id=37533, 1156.32pt x 650.43pt>
+<../figures/societa/VA121.pdf, id=37535, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA121.pdf Graphic file (type pdf)
 <use ../figures/societa/VA121.pdf>
 Package pdftex.def Info: ../figures/societa/VA121.pdf  used on input line 1673.
@@ -3259,7 +3259,7 @@ Package pdftex.def Info: ../figures/societa/VA121.pdf  used on input line 1673.
 [358
 
  <../figures/societa/VA121.pdf>]
-<../figures/societa/VA123.pdf, id=37639, 1156.32pt x 650.43pt>
+<../figures/societa/VA123.pdf, id=37641, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA123.pdf Graphic file (type pdf)
 <use ../figures/societa/VA123.pdf>
 Package pdftex.def Info: ../figures/societa/VA123.pdf  used on input line 1678.
@@ -3268,7 +3268,7 @@ Package pdftex.def Info: ../figures/societa/VA123.pdf  used on input line 1678.
 [359
 
  <../figures/societa/VA123.pdf>]
-<../figures/societa/VA129.pdf, id=37746, 1156.32pt x 650.43pt>
+<../figures/societa/VA129.pdf, id=37748, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA129.pdf Graphic file (type pdf)
 <use ../figures/societa/VA129.pdf>
 Package pdftex.def Info: ../figures/societa/VA129.pdf  used on input line 1683.
@@ -3277,7 +3277,7 @@ Package pdftex.def Info: ../figures/societa/VA129.pdf  used on input line 1683.
 [360
 
  <../figures/societa/VA129.pdf>]
-<../figures/societa/VA130.pdf, id=37850, 1156.32pt x 650.43pt>
+<../figures/societa/VA130.pdf, id=37852, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA130.pdf Graphic file (type pdf)
 <use ../figures/societa/VA130.pdf>
 Package pdftex.def Info: ../figures/societa/VA130.pdf  used on input line 1688.
@@ -3286,7 +3286,7 @@ Package pdftex.def Info: ../figures/societa/VA130.pdf  used on input line 1688.
 [361
 
  <../figures/societa/VA130.pdf>]
-<../figures/societa/VA133.pdf, id=37954, 1156.32pt x 650.43pt>
+<../figures/societa/VA133.pdf, id=37956, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA133.pdf Graphic file (type pdf)
 <use ../figures/societa/VA133.pdf>
 Package pdftex.def Info: ../figures/societa/VA133.pdf  used on input line 1693.
@@ -3295,7 +3295,7 @@ Package pdftex.def Info: ../figures/societa/VA133.pdf  used on input line 1693.
 [362
 
  <../figures/societa/VA133.pdf>]
-<../figures/societa/VA394.pdf, id=38050, 1156.32pt x 650.43pt>
+<../figures/societa/VA394.pdf, id=38053, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA394.pdf Graphic file (type pdf)
 <use ../figures/societa/VA394.pdf>
 Package pdftex.def Info: ../figures/societa/VA394.pdf  used on input line 1698.
@@ -3304,7 +3304,7 @@ Package pdftex.def Info: ../figures/societa/VA394.pdf  used on input line 1698.
 [363
 
  <../figures/societa/VA394.pdf>]
-<../figures/societa/VA476.pdf, id=38156, 1156.32pt x 650.43pt>
+<../figures/societa/VA476.pdf, id=38158, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA476.pdf Graphic file (type pdf)
 <use ../figures/societa/VA476.pdf>
 Package pdftex.def Info: ../figures/societa/VA476.pdf  used on input line 1703.
@@ -3313,7 +3313,7 @@ Package pdftex.def Info: ../figures/societa/VA476.pdf  used on input line 1703.
 [364
 
  <../figures/societa/VA476.pdf>]
-<../figures/societa/VA550.pdf, id=38259, 1156.32pt x 650.43pt>
+<../figures/societa/VA550.pdf, id=38261, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA550.pdf Graphic file (type pdf)
 <use ../figures/societa/VA550.pdf>
 Package pdftex.def Info: ../figures/societa/VA550.pdf  used on input line 1708.
@@ -3322,7 +3322,7 @@ Package pdftex.def Info: ../figures/societa/VA550.pdf  used on input line 1708.
 [365
 
  <../figures/societa/VA550.pdf>]
-<../figures/societa/VA731.pdf, id=38362, 1156.32pt x 650.43pt>
+<../figures/societa/VA731.pdf, id=38364, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA731.pdf Graphic file (type pdf)
 <use ../figures/societa/VA731.pdf>
 Package pdftex.def Info: ../figures/societa/VA731.pdf  used on input line 1713.
@@ -3331,7 +3331,7 @@ Package pdftex.def Info: ../figures/societa/VA731.pdf  used on input line 1713.
 [366
 
  <../figures/societa/VA731.pdf>]
-<../figures/societa/VA918.pdf, id=38467, 1156.32pt x 650.43pt>
+<../figures/societa/VA918.pdf, id=38469, 1156.32pt x 650.43pt>
 File: ../figures/societa/VA918.pdf Graphic file (type pdf)
 <use ../figures/societa/VA918.pdf>
 Package pdftex.def Info: ../figures/societa/VA918.pdf  used on input line 1718.
@@ -3340,7 +3340,7 @@ Package pdftex.def Info: ../figures/societa/VA918.pdf  used on input line 1718.
 [367
 
  <../figures/societa/VA918.pdf>]
-<../figures/societa/VC002.pdf, id=38572, 1156.32pt x 650.43pt>
+<../figures/societa/VC002.pdf, id=38574, 1156.32pt x 650.43pt>
 File: ../figures/societa/VC002.pdf Graphic file (type pdf)
 <use ../figures/societa/VC002.pdf>
 Package pdftex.def Info: ../figures/societa/VC002.pdf  used on input line 1723.
@@ -3349,7 +3349,7 @@ Package pdftex.def Info: ../figures/societa/VC002.pdf  used on input line 1723.
 [368
 
  <../figures/societa/VC002.pdf>]
-<../figures/societa/VC019.pdf, id=38678, 1156.32pt x 650.43pt>
+<../figures/societa/VC019.pdf, id=38680, 1156.32pt x 650.43pt>
 File: ../figures/societa/VC019.pdf Graphic file (type pdf)
 <use ../figures/societa/VC019.pdf>
 Package pdftex.def Info: ../figures/societa/VC019.pdf  used on input line 1728.
@@ -3358,7 +3358,7 @@ Package pdftex.def Info: ../figures/societa/VC019.pdf  used on input line 1728.
 [369
 
  <../figures/societa/VC019.pdf>]
-<../figures/societa/VC020.pdf, id=38789, 1156.32pt x 650.43pt>
+<../figures/societa/VC020.pdf, id=38791, 1156.32pt x 650.43pt>
 File: ../figures/societa/VC020.pdf Graphic file (type pdf)
 <use ../figures/societa/VC020.pdf>
 Package pdftex.def Info: ../figures/societa/VC020.pdf  used on input line 1733.
@@ -3367,7 +3367,7 @@ Package pdftex.def Info: ../figures/societa/VC020.pdf  used on input line 1733.
 [370
 
  <../figures/societa/VC020.pdf>]
-<../figures/societa/VC073.pdf, id=38898, 1156.32pt x 650.43pt>
+<../figures/societa/VC073.pdf, id=38900, 1156.32pt x 650.43pt>
 File: ../figures/societa/VC073.pdf Graphic file (type pdf)
 <use ../figures/societa/VC073.pdf>
 Package pdftex.def Info: ../figures/societa/VC073.pdf  used on input line 1738.
@@ -3376,7 +3376,7 @@ Package pdftex.def Info: ../figures/societa/VC073.pdf  used on input line 1738.
 [371
 
  <../figures/societa/VC073.pdf>]
-<../figures/societa/VE464.pdf, id=38996, 1156.32pt x 650.43pt>
+<../figures/societa/VE464.pdf, id=38998, 1156.32pt x 650.43pt>
 File: ../figures/societa/VE464.pdf Graphic file (type pdf)
 <use ../figures/societa/VE464.pdf>
 Package pdftex.def Info: ../figures/societa/VE464.pdf  used on input line 1743.
@@ -3385,7 +3385,7 @@ Package pdftex.def Info: ../figures/societa/VE464.pdf  used on input line 1743.
 [372
 
  <../figures/societa/VE464.pdf>]
-<../figures/societa/VE471.pdf, id=39103, 1156.32pt x 650.43pt>
+<../figures/societa/VE471.pdf, id=39105, 1156.32pt x 650.43pt>
 File: ../figures/societa/VE471.pdf Graphic file (type pdf)
 <use ../figures/societa/VE471.pdf>
 Package pdftex.def Info: ../figures/societa/VE471.pdf  used on input line 1748.
@@ -3394,7 +3394,7 @@ Package pdftex.def Info: ../figures/societa/VE471.pdf  used on input line 1748.
 [373
 
  <../figures/societa/VE471.pdf>]
-<../figures/societa/VE472.pdf, id=39211, 1156.32pt x 650.43pt>
+<../figures/societa/VE472.pdf, id=39213, 1156.32pt x 650.43pt>
 File: ../figures/societa/VE472.pdf Graphic file (type pdf)
 <use ../figures/societa/VE472.pdf>
 Package pdftex.def Info: ../figures/societa/VE472.pdf  used on input line 1753.
@@ -3403,7 +3403,7 @@ Package pdftex.def Info: ../figures/societa/VE472.pdf  used on input line 1753.
 [374
 
  <../figures/societa/VE472.pdf>]
-<../figures/societa/VE473.pdf, id=39319, 1156.32pt x 650.43pt>
+<../figures/societa/VE473.pdf, id=39321, 1156.32pt x 650.43pt>
 File: ../figures/societa/VE473.pdf Graphic file (type pdf)
 <use ../figures/societa/VE473.pdf>
 Package pdftex.def Info: ../figures/societa/VE473.pdf  used on input line 1758.
@@ -3412,7 +3412,7 @@ Package pdftex.def Info: ../figures/societa/VE473.pdf  used on input line 1758.
 [375
 
  <../figures/societa/VE473.pdf>]
-<../figures/societa/VE474.pdf, id=39425, 1156.32pt x 650.43pt>
+<../figures/societa/VE474.pdf, id=39427, 1156.32pt x 650.43pt>
 File: ../figures/societa/VE474.pdf Graphic file (type pdf)
 <use ../figures/societa/VE474.pdf>
 Package pdftex.def Info: ../figures/societa/VE474.pdf  used on input line 1763.
@@ -3421,7 +3421,7 @@ Package pdftex.def Info: ../figures/societa/VE474.pdf  used on input line 1763.
 [376
 
  <../figures/societa/VE474.pdf>]
-<../figures/societa/VE528.pdf, id=39534, 1156.32pt x 650.43pt>
+<../figures/societa/VE528.pdf, id=39536, 1156.32pt x 650.43pt>
 File: ../figures/societa/VE528.pdf Graphic file (type pdf)
 <use ../figures/societa/VE528.pdf>
 Package pdftex.def Info: ../figures/societa/VE528.pdf  used on input line 1768.
@@ -3430,7 +3430,7 @@ Package pdftex.def Info: ../figures/societa/VE528.pdf  used on input line 1768.
 [377
 
  <../figures/societa/VE528.pdf>]
-<../figures/societa/VE539.pdf, id=39643, 1156.32pt x 650.43pt>
+<../figures/societa/VE539.pdf, id=39645, 1156.32pt x 650.43pt>
 File: ../figures/societa/VE539.pdf Graphic file (type pdf)
 <use ../figures/societa/VE539.pdf>
 Package pdftex.def Info: ../figures/societa/VE539.pdf  used on input line 1773.
@@ -3439,7 +3439,7 @@ Package pdftex.def Info: ../figures/societa/VE539.pdf  used on input line 1773.
 [378
 
  <../figures/societa/VE539.pdf>]
-<../figures/societa/VE542.pdf, id=39750, 1156.32pt x 650.43pt>
+<../figures/societa/VE542.pdf, id=39752, 1156.32pt x 650.43pt>
 File: ../figures/societa/VE542.pdf Graphic file (type pdf)
 <use ../figures/societa/VE542.pdf>
 Package pdftex.def Info: ../figures/societa/VE542.pdf  used on input line 1778.
@@ -3448,7 +3448,7 @@ Package pdftex.def Info: ../figures/societa/VE542.pdf  used on input line 1778.
 [379
 
  <../figures/societa/VE542.pdf>]
-<../figures/societa/VI614.pdf, id=39858, 1156.32pt x 650.43pt>
+<../figures/societa/VI614.pdf, id=39860, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI614.pdf Graphic file (type pdf)
 <use ../figures/societa/VI614.pdf>
 Package pdftex.def Info: ../figures/societa/VI614.pdf  used on input line 1783.
@@ -3457,7 +3457,7 @@ Package pdftex.def Info: ../figures/societa/VI614.pdf  used on input line 1783.
 [380
 
  <../figures/societa/VI614.pdf>]
-<../figures/societa/VI616.pdf, id=39971, 1156.32pt x 650.43pt>
+<../figures/societa/VI616.pdf, id=39973, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI616.pdf Graphic file (type pdf)
 <use ../figures/societa/VI616.pdf>
 Package pdftex.def Info: ../figures/societa/VI616.pdf  used on input line 1788.
@@ -3466,7 +3466,7 @@ Package pdftex.def Info: ../figures/societa/VI616.pdf  used on input line 1788.
 [381
 
  <../figures/societa/VI616.pdf>]
-<../figures/societa/VI617.pdf, id=40070, 1156.32pt x 650.43pt>
+<../figures/societa/VI617.pdf, id=40072, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI617.pdf Graphic file (type pdf)
 <use ../figures/societa/VI617.pdf>
 Package pdftex.def Info: ../figures/societa/VI617.pdf  used on input line 1793.
@@ -3475,7 +3475,7 @@ Package pdftex.def Info: ../figures/societa/VI617.pdf  used on input line 1793.
 [382
 
  <../figures/societa/VI617.pdf>]
-<../figures/societa/VI619.pdf, id=40175, 1156.32pt x 650.43pt>
+<../figures/societa/VI619.pdf, id=40177, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI619.pdf Graphic file (type pdf)
 <use ../figures/societa/VI619.pdf>
 Package pdftex.def Info: ../figures/societa/VI619.pdf  used on input line 1798.
@@ -3484,7 +3484,7 @@ Package pdftex.def Info: ../figures/societa/VI619.pdf  used on input line 1798.
 [383
 
  <../figures/societa/VI619.pdf>]
-<../figures/societa/VI621.pdf, id=40283, 1156.32pt x 650.43pt>
+<../figures/societa/VI621.pdf, id=40285, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI621.pdf Graphic file (type pdf)
 <use ../figures/societa/VI621.pdf>
 Package pdftex.def Info: ../figures/societa/VI621.pdf  used on input line 1803.
@@ -3493,7 +3493,7 @@ Package pdftex.def Info: ../figures/societa/VI621.pdf  used on input line 1803.
 [384
 
  <../figures/societa/VI621.pdf>]
-<../figures/societa/VI622.pdf, id=40388, 1156.32pt x 650.43pt>
+<../figures/societa/VI622.pdf, id=40390, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI622.pdf Graphic file (type pdf)
 <use ../figures/societa/VI622.pdf>
 Package pdftex.def Info: ../figures/societa/VI622.pdf  used on input line 1808.
@@ -3502,7 +3502,7 @@ Package pdftex.def Info: ../figures/societa/VI622.pdf  used on input line 1808.
 [385
 
  <../figures/societa/VI622.pdf>]
-<../figures/societa/VI623.pdf, id=40489, 1156.32pt x 650.43pt>
+<../figures/societa/VI623.pdf, id=40491, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI623.pdf Graphic file (type pdf)
 <use ../figures/societa/VI623.pdf>
 Package pdftex.def Info: ../figures/societa/VI623.pdf  used on input line 1813.
@@ -3511,7 +3511,7 @@ Package pdftex.def Info: ../figures/societa/VI623.pdf  used on input line 1813.
 [386
 
  <../figures/societa/VI623.pdf>]
-<../figures/societa/VI624.pdf, id=40597, 1156.32pt x 650.43pt>
+<../figures/societa/VI624.pdf, id=40599, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI624.pdf Graphic file (type pdf)
 <use ../figures/societa/VI624.pdf>
 Package pdftex.def Info: ../figures/societa/VI624.pdf  used on input line 1818.
@@ -3520,7 +3520,7 @@ Package pdftex.def Info: ../figures/societa/VI624.pdf  used on input line 1818.
 [387
 
  <../figures/societa/VI624.pdf>]
-<../figures/societa/VI626.pdf, id=40701, 1156.32pt x 650.43pt>
+<../figures/societa/VI626.pdf, id=40703, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI626.pdf Graphic file (type pdf)
 <use ../figures/societa/VI626.pdf>
 Package pdftex.def Info: ../figures/societa/VI626.pdf  used on input line 1823.
@@ -3529,7 +3529,7 @@ Package pdftex.def Info: ../figures/societa/VI626.pdf  used on input line 1823.
 [388
 
  <../figures/societa/VI626.pdf>]
-<../figures/societa/VI632.pdf, id=40801, 1156.32pt x 650.43pt>
+<../figures/societa/VI632.pdf, id=40803, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI632.pdf Graphic file (type pdf)
 <use ../figures/societa/VI632.pdf>
 Package pdftex.def Info: ../figures/societa/VI632.pdf  used on input line 1828.
@@ -3538,7 +3538,7 @@ Package pdftex.def Info: ../figures/societa/VI632.pdf  used on input line 1828.
 [389
 
  <../figures/societa/VI632.pdf>]
-<../figures/societa/VI644.pdf, id=40910, 1156.32pt x 650.43pt>
+<../figures/societa/VI644.pdf, id=40912, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI644.pdf Graphic file (type pdf)
 <use ../figures/societa/VI644.pdf>
 Package pdftex.def Info: ../figures/societa/VI644.pdf  used on input line 1833.
@@ -3547,7 +3547,7 @@ Package pdftex.def Info: ../figures/societa/VI644.pdf  used on input line 1833.
 [390
 
  <../figures/societa/VI644.pdf>]
-<../figures/societa/VI656.pdf, id=41012, 1156.32pt x 650.43pt>
+<../figures/societa/VI656.pdf, id=41014, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI656.pdf Graphic file (type pdf)
 <use ../figures/societa/VI656.pdf>
 Package pdftex.def Info: ../figures/societa/VI656.pdf  used on input line 1838.
@@ -3556,7 +3556,7 @@ Package pdftex.def Info: ../figures/societa/VI656.pdf  used on input line 1838.
 [391
 
  <../figures/societa/VI656.pdf>]
-<../figures/societa/VI686.pdf, id=41111, 1156.32pt x 650.43pt>
+<../figures/societa/VI686.pdf, id=41113, 1156.32pt x 650.43pt>
 File: ../figures/societa/VI686.pdf Graphic file (type pdf)
 <use ../figures/societa/VI686.pdf>
 Package pdftex.def Info: ../figures/societa/VI686.pdf  used on input line 1843.
@@ -3565,7 +3565,7 @@ Package pdftex.def Info: ../figures/societa/VI686.pdf  used on input line 1843.
 [392
 
  <../figures/societa/VI686.pdf>]
-<../figures/societa/VR761.pdf, id=41206, 1156.32pt x 650.43pt>
+<../figures/societa/VR761.pdf, id=41208, 1156.32pt x 650.43pt>
 File: ../figures/societa/VR761.pdf Graphic file (type pdf)
 <use ../figures/societa/VR761.pdf>
 Package pdftex.def Info: ../figures/societa/VR761.pdf  used on input line 1848.
@@ -3574,7 +3574,7 @@ Package pdftex.def Info: ../figures/societa/VR761.pdf  used on input line 1848.
 [393
 
  <../figures/societa/VR761.pdf>]
-<../figures/societa/VR762.pdf, id=41313, 1156.32pt x 650.43pt>
+<../figures/societa/VR762.pdf, id=41315, 1156.32pt x 650.43pt>
 File: ../figures/societa/VR762.pdf Graphic file (type pdf)
 <use ../figures/societa/VR762.pdf>
 Package pdftex.def Info: ../figures/societa/VR762.pdf  used on input line 1853.
@@ -3583,7 +3583,7 @@ Package pdftex.def Info: ../figures/societa/VR762.pdf  used on input line 1853.
 [394
 
  <../figures/societa/VR762.pdf>]
-<../figures/societa/VR769.pdf, id=41422, 1156.32pt x 650.43pt>
+<../figures/societa/VR769.pdf, id=41424, 1156.32pt x 650.43pt>
 File: ../figures/societa/VR769.pdf Graphic file (type pdf)
 <use ../figures/societa/VR769.pdf>
 Package pdftex.def Info: ../figures/societa/VR769.pdf  used on input line 1858.
@@ -3592,7 +3592,7 @@ Package pdftex.def Info: ../figures/societa/VR769.pdf  used on input line 1858.
 [395
 
  <../figures/societa/VR769.pdf>]
-<../figures/societa/VR775.pdf, id=41531, 1156.32pt x 650.43pt>
+<../figures/societa/VR775.pdf, id=41533, 1156.32pt x 650.43pt>
 File: ../figures/societa/VR775.pdf Graphic file (type pdf)
 <use ../figures/societa/VR775.pdf>
 Package pdftex.def Info: ../figures/societa/VR775.pdf  used on input line 1863.
@@ -3601,7 +3601,7 @@ Package pdftex.def Info: ../figures/societa/VR775.pdf  used on input line 1863.
 [396
 
  <../figures/societa/VR775.pdf>]
-<../figures/societa/VR777.pdf, id=41637, 1156.32pt x 650.43pt>
+<../figures/societa/VR777.pdf, id=41639, 1156.32pt x 650.43pt>
 File: ../figures/societa/VR777.pdf Graphic file (type pdf)
 <use ../figures/societa/VR777.pdf>
 Package pdftex.def Info: ../figures/societa/VR777.pdf  used on input line 1868.
@@ -3610,7 +3610,7 @@ Package pdftex.def Info: ../figures/societa/VR777.pdf  used on input line 1868.
 [397
 
  <../figures/societa/VR777.pdf>]
-<../figures/societa/VR781.pdf, id=41742, 1156.32pt x 650.43pt>
+<../figures/societa/VR781.pdf, id=41744, 1156.32pt x 650.43pt>
 File: ../figures/societa/VR781.pdf Graphic file (type pdf)
 <use ../figures/societa/VR781.pdf>
 Package pdftex.def Info: ../figures/societa/VR781.pdf  used on input line 1873.
@@ -3619,7 +3619,7 @@ Package pdftex.def Info: ../figures/societa/VR781.pdf  used on input line 1873.
 [398
 
  <../figures/societa/VR781.pdf>]
-<../figures/societa/VR784.pdf, id=41851, 1156.32pt x 650.43pt>
+<../figures/societa/VR784.pdf, id=41853, 1156.32pt x 650.43pt>
 File: ../figures/societa/VR784.pdf Graphic file (type pdf)
 <use ../figures/societa/VR784.pdf>
 Package pdftex.def Info: ../figures/societa/VR784.pdf  used on input line 1878.
@@ -3628,7 +3628,7 @@ Package pdftex.def Info: ../figures/societa/VR784.pdf  used on input line 1878.
 [399
 
  <../figures/societa/VR784.pdf>]
-<../figures/societa/VR825.pdf, id=41961, 1156.32pt x 650.43pt>
+<../figures/societa/VR825.pdf, id=41963, 1156.32pt x 650.43pt>
 File: ../figures/societa/VR825.pdf Graphic file (type pdf)
 <use ../figures/societa/VR825.pdf>
 Package pdftex.def Info: ../figures/societa/VR825.pdf  used on input line 1883.
@@ -3637,7 +3637,7 @@ Package pdftex.def Info: ../figures/societa/VR825.pdf  used on input line 1883.
 [400
 
  <../figures/societa/VR825.pdf>]
-<../figures/societa/VR846.pdf, id=42068, 1156.32pt x 650.43pt>
+<../figures/societa/VR846.pdf, id=42070, 1156.32pt x 650.43pt>
 File: ../figures/societa/VR846.pdf Graphic file (type pdf)
 <use ../figures/societa/VR846.pdf>
 Package pdftex.def Info: ../figures/societa/VR846.pdf  used on input line 1888.
@@ -3646,7 +3646,7 @@ Package pdftex.def Info: ../figures/societa/VR846.pdf  used on input line 1888.
 [401
 
  <../figures/societa/VR846.pdf>]
-<../figures/societa/VT207.pdf, id=42174, 1156.32pt x 650.43pt>
+<../figures/societa/VT207.pdf, id=42176, 1156.32pt x 650.43pt>
 File: ../figures/societa/VT207.pdf Graphic file (type pdf)
 <use ../figures/societa/VT207.pdf>
 Package pdftex.def Info: ../figures/societa/VT207.pdf  used on input line 1893.
@@ -3663,11 +3663,11 @@ Package rerunfilecheck Info: File `societa_250.out' has not changed.
 (rerunfilecheck)             Checksum: 8E92E43DA71E993533C6E0A0FF787006;75631.
  ) 
 Here is how much of TeX's memory you used:
- 15349 strings out of 467363
- 295483 string characters out of 5419001
- 626281 words of memory out of 6000000
- 43515 multiletter control sequences out of 15000+600000
- 634352 words of font info for 64 fonts, out of 8000000 for 9000
+ 15352 strings out of 467363
+ 295510 string characters out of 5419001
+ 625281 words of memory out of 6000000
+ 43517 multiletter control sequences out of 15000+600000
+ 634697 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,297b,636s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -3685,12 +3685,13 @@ r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on societa_250.pdf (403 pages, 12118156 bytes).
+/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt9.pfb>
+Output written on societa_250.pdf (403 pages, 12133194 bytes).
 PDF statistics:
- 42538 PDF objects out of 45951 (max. 8388607)
- 8359 compressed objects within 84 object streams
+ 42544 PDF objects out of 45951 (max. 8388607)
+ 8363 compressed objects within 84 object streams
  786 named destinations out of 1000 (max. 500000)
  4949 words of extra memory for PDF output out of 10000 (max. 10000000)
 
