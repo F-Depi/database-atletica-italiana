@@ -26,7 +26,7 @@ def ottieni_dati(COD, area="società", filtro=''):
          sigla provincia se area = provincia (es. BL)
          sigle regione se area = regione (es. VEN)
     """
-    OPZIONI_VALIDE = ["società", "provincia", "regione"]
+    OPZIONI_VALIDE = ["società", "provincia", "regione", "italia"]
     
     conn = get_db_engine().connect()
 
@@ -102,6 +102,24 @@ def ottieni_dati(COD, area="società", filtro=''):
           AND LEFT(r.categoria, 1) != 'E'
           {filtro}
         GROUP BY r.categoria, r.sesso, r.year, r.ambiente
+        """
+
+    elif area == "italia":
+        QUERY = f"""
+            SELECT
+                categoria,
+                sesso,
+                EXTRACT(YEAR FROM data)::int AS year,
+                ambiente,
+                COUNT(*) AS n
+            FROM results
+              WHERE LEFT(categoria, 1) != 'E'
+              {filtro}
+            GROUP BY
+                categoria,
+                sesso,
+                EXTRACT(YEAR FROM data),
+                ambiente;
         """
 
     else:
@@ -271,42 +289,45 @@ def ottieni_dati_con_predizioni(COD, area, mese_giorno):
     return totale, anni, coeff
 
 
-
-
-""" Province """
-province = pd.read_csv("liste/lista_province.csv", dtype="str", keep_default_na=False)
-for ii, row in province.iterrows():
-    COD = row["COD"]
-    print(f"{ii+1}/{len(province)} ({COD})")
-
-    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "provincia", '09-08')
-    if len(anni) == 0: 
-        continue
-
-    genera_grafico(f"{row["Provincia"]} ({COD})", totale, anni, coeff, fname=f"province/{COD}")
+""" Italia """
+totale, anni, coeff = ottieni_dati_con_predizioni(None, "italia", '09-08')
+genera_grafico("Italia", totale, anni, coeff, fname="Italia")
 
 
 """ Regioni """
-regioni = pd.read_csv("liste/lista_regioni.csv", dtype="str", keep_default_na=False)
-for ii, row in regioni.iterrows():
-    COD = row["COD"]
-    print(f"{ii + 1}/{len(regioni)} ({COD})")
-
-    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "regione", '09-08')
-    if len(anni) == 0: 
-        continue
-
-    genera_grafico(row["Regione"], totale, anni, coeff, fname=f"regioni/{COD}")
-
-
+#regioni = pd.read_csv("liste/lista_regioni.csv", dtype="str", keep_default_na=False)
+#for ii, row in regioni.iterrows():
+#    COD = row["COD"]
+#    print(f"{ii + 1}/{len(regioni)} ({COD})")
+#
+#    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "regione", '09-08')
+#    if len(anni) == 0: 
+#        continue
+#
+#    genera_grafico(row["Regione"], totale, anni, coeff, fname=f"regioni/{COD}")
+#
+#
+""" Province """
+#province = pd.read_csv("liste/lista_province.csv", dtype="str", keep_default_na=False)
+#for ii, row in province.iterrows():
+#    COD = row["COD"]
+#    print(f"{ii+1}/{len(province)} ({COD})")
+#
+#    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "provincia", '09-08')
+#    if len(anni) == 0: 
+#        continue
+#
+#    genera_grafico(f"{row["Provincia"]} ({COD})", totale, anni, coeff, fname=f"province/{COD}")
+#
+#
 """ Società """
-societa = pd.read_csv("liste/lista_societa_250.csv", dtype="str", keep_default_na=False)
-for ii, row in societa.iterrows():
-    COD = row["COD"]
-    print(f"{ii + 1}/{len(societa)} ({COD})")
-
-    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "società", '09-08')
-    if len(anni) == 0: 
-        continue
-
-    genera_grafico(f"{COD}: {row["Società"]}", totale, anni, coeff, fname=f"societa/{COD}")
+#societa = pd.read_csv("liste/lista_societa_250.csv", dtype="str", keep_default_na=False)
+#for ii, row in societa.iterrows():
+#    COD = row["COD"]
+#    print(f"{ii + 1}/{len(societa)} ({COD})")
+#
+#    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "società", '09-08')
+#    if len(anni) == 0: 
+#        continue
+#
+#    genera_grafico(f"{COD}: {row["Società"]}", totale, anni, coeff, fname=f"societa/{COD}")
