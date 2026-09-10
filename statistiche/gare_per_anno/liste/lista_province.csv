@@ -1,111 +1,111 @@
 COD,Provincia,Regione
-AG,Agrigento,Sicilia
-AL,Alessandria,Piemonte
-AN,Ancona,Marche
-AO,Aosta,Valle d'Aosta
-AQ,L'Aquila,Abruzzo
-AR,Arezzo,Toscana
-AP,Ascoli-Piceno,Marche
-AT,Asti,Piemonte
-AV,Avellino,Campania
-BA,Bari,Puglia
-BT,Barletta-Andria-Trani,Puglia
-BL,Belluno,Veneto
-BN,Benevento,Campania
-BG,Bergamo,Lombardia
-BI,Biella,Piemonte
-BO,Bologna,Emilia Romagna
-BZ,Bolzano,Trentino Alto Adige
-BS,Brescia,Lombardia
-BR,Brindisi,Puglia
-CA,Cagliari,Sardegna
-CL,Caltanissetta,Sicilia
-CB,Campobasso,Molise
-CI,Carbonia Iglesias (soppressa dal 2016),Sardegna
-CE,Caserta,Campania
-CT,Catania,Sicilia
-CZ,Catanzaro,Calabria
-CH,Chieti,Abruzzo
-CO,Como,Lombardia
-CS,Cosenza,Calabria
-CR,Cremona,Lombardia
-KR,Crotone,Calabria
-CN,Cuneo,Piemonte
-EN,Enna,Sicilia
-FM,Fermo,Marche
-FE,Ferrara,Emilia Romagna
-FI,Firenze,Toscana
-FG,Foggia,Puglia
-FC,Forli-Cesena,Emilia Romagna
-FR,Frosinone,Lazio
-GE,Genova,Liguria
-GO,Gorizia,Friuli Venezia Giulia
-GR,Grosseto,Toscana
-IM,Imperia,Liguria
-IS,Isernia,Molise
-SP,La-Spezia,Liguria
-LT,Latina,Lazio
-LE,Lecce,Puglia
-LC,Lecco,Lombardia
-LI,Livorno,Toscana
-LO,Lodi,Lombardia
-LU,Lucca,Toscana
-MC,Macerata,Marche
-MN,Mantova,Lombardia
-MS,Massa-Carrara,Toscana
-MT,Matera,Basilicata
-VS,Medio Campidano (soppressa dal 2016),Sardegna
-ME,Messina,Sicilia
-MI,Milano,Lombardia
-MO,Modena,Emilia Romagna
-MB,Monza-Brianza,Lombardia
-NA,Napoli,Campania
-NO,Novara,Piemonte
-NU,Nuoro,Sardegna
-OG,Ogliastra (soppressa dal 2016),Sardegna
-OT,Olbia Tempio (soppressa dal 2016),Sardegna
-OR,Oristano,Sardegna
-PD,Padova,Veneto
-PA,Palermo,Sicilia
-PR,Parma,Emilia Romagna
-PV,Pavia,Lombardia
-PG,Perugia,Umbria
-PU,Pesaro-Urbino,Marche
-PE,Pescara,Abruzzo
-PC,Piacenza,Emilia Romagna
-PI,Pisa,Toscana
-PT,Pistoia,Toscana
-PN,Pordenone,Friuli Venezia Giulia
-PZ,Potenza,Basilicata
-PO,Prato,Toscana
-RG,Ragusa,Sicilia
-RA,Ravenna,Emilia Romagna
-RC,Reggio-Calabria,Calabria
-RE,Reggio-Emilia,Emilia Romagna
-RI,Rieti,Lazio
-RN,Rimini,Emilia Romagna
-RM,Roma,Lazio
-RO,Rovigo,Veneto
-SA,Salerno,Campania
-SS,Sassari,Sardegna
-SV,Savona,Liguria
-SI,Siena,Toscana
-SR,Siracusa,Sicilia
-SO,Sondrio,Lombardia
-TA,Taranto,Puglia
-TE,Teramo,Abruzzo
-TR,Terni,Umbria
-TO,Torino,Piemonte
-TP,Trapani,Sicilia
-TN,Trento,Trentino Alto Adige
-TV,Treviso,Veneto
-TS,Trieste,Friuli Venezia Giulia
-UD,Udine,Friuli Venezia Giulia
-VA,Varese,Lombardia
-VE,Venezia,Veneto
-VB,Verbania,Piemonte
-VC,Vercelli,Piemonte
-VR,Verona,Veneto
-VV,Vibo-Valentia,Calabria
-VI,Vicenza,Veneto
-VT,Viterbo,Lazio
+AG,Agrigento,SIC
+AL,Alessandria,PIE
+AN,Ancona,MAR
+AO,Aosta,VAO
+AQ,L'Aquila,ABR
+AR,Arezzo,TOS
+AP,Ascoli-Piceno,MAR
+AT,Asti,PIE
+AV,Avellino,CAM
+BA,Bari,PUG
+BT,Barletta-Andria-Trani,PUG
+BL,Belluno,VEN
+BN,Benevento,CAM
+BG,Bergamo,LOM
+BI,Biella,PIE
+BO,Bologna,EMI
+BZ,Bolzano,BZ
+BS,Brescia,LOM
+BR,Brindisi,PUG
+CA,Cagliari,SAR
+CL,Caltanissetta,SIC
+CB,Campobasso,MOL
+CI,Carbonia Iglesias (soppressa dal 2016),SAR
+CE,Caserta,CAM
+CT,Catania,SIC
+CZ,Catanzaro,CAL
+CH,Chieti,ABR
+CO,Como,LOM
+CS,Cosenza,CAL
+CR,Cremona,LOM
+KR,Crotone,CAL
+CN,Cuneo,PIE
+EN,Enna,SIC
+FM,Fermo,MAR
+FE,Ferrara,EMI
+FI,Firenze,TOS
+FG,Foggia,PUG
+FC,Forli-Cesena,EMI
+FR,Frosinone,LAZ
+GE,Genova,LIG
+GO,Gorizia,FVG
+GR,Grosseto,TOS
+IM,Imperia,LIG
+IS,Isernia,MOL
+SP,La-Spezia,LIG
+LT,Latina,LAZ
+LE,Lecce,PUG
+LC,Lecco,LOM
+LI,Livorno,TOS
+LO,Lodi,LOM
+LU,Lucca,TOS
+MC,Macerata,MAR
+MN,Mantova,LOM
+MS,Massa-Carrara,TOS
+MT,Matera,BAS
+VS,Medio Campidano (soppressa dal 2016),SAR
+ME,Messina,SIC
+MI,Milano,LOM
+MO,Modena,EMI
+MB,Monza-Brianza,LOM
+NA,Napoli,CAM
+NO,Novara,PIE
+NU,Nuoro,SAR
+OG,Ogliastra (soppressa dal 2016),SAR
+OT,Olbia Tempio (soppressa dal 2016),SAR
+OR,Oristano,SAR
+PD,Padova,VEN
+PA,Palermo,SIC
+PR,Parma,EMI
+PV,Pavia,LOM
+PG,Perugia,UMB
+PU,Pesaro-Urbino,MAR
+PE,Pescara,ABR
+PC,Piacenza,EMI
+PI,Pisa,TOS
+PT,Pistoia,TOS
+PN,Pordenone,FVG
+PZ,Potenza,BAS
+PO,Prato,TOS
+RG,Ragusa,SIC
+RA,Ravenna,EMI
+RC,Reggio-CAL,CAL
+RE,Reggio-Emilia,EMI
+RI,Rieti,LAZ
+RN,Rimini,EMI
+RM,Roma,LAZ
+RO,Rovigo,VEN
+SA,Salerno,CAM
+SS,Sassari,SAR
+SV,Savona,LIG
+SI,Siena,TOS
+SR,Siracusa,SIC
+SO,Sondrio,LOM
+TA,Taranto,PUG
+TE,Teramo,ABR
+TR,Terni,UMB
+TO,Torino,PIE
+TP,Trapani,SIC
+TN,Trento,TN
+TV,Treviso,VEN
+TS,Trieste,FVG
+UD,Udine,FVG
+VA,Varese,LOM
+VE,Venezia,VEN
+VB,Verbania,PIE
+VC,Vercelli,PIE
+VR,Verona,VEN
+VV,Vibo-Valentia,CAL
+VI,Vicenza,VEN
+VT,Viterbo,LAZ

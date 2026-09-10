@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import os
 
 LATEX_SPECIAL_CHARS = {
     "&": r"\&",
@@ -22,12 +23,19 @@ def escape_latex(text):
     return pattern.sub(lambda m: LATEX_SPECIAL_CHARS[m.group()], text)
 
 
-societa = pd.read_csv("liste/lista_societa_250.csv", dtype="str", keep_default_na=False)
+LIM = "_250"
+societa = pd.read_csv(f"liste/lista_societa{LIM}.csv", dtype="str", keep_default_na=False)
+report = f"report_societa{LIM}/figure.tex"
 
-with open("report_societa/figure.tex", "w") as f:
+with open(report, "w") as f:
     for ii, row in societa.iterrows():
         COD = escape_latex(row["COD"])
         nome = escape_latex(row["Società"])
+        pdf_regione = os.path.join("figures/societa", f"{COD}.pdf")
+        if not os.path.exists(pdf_regione):
+            print(f"[ATTENZIONE] Grafico mancante per ({COD}): {nome}")
+            continue
+
         TEMPLATE = r"""\clearpage\section{%s: %s}
 \begin{figure}[h!]
     \includegraphics[width=\textwidth]{../figures/societa/%s.pdf}

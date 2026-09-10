@@ -1,0 +1,5 @@
+SELECT società, cod_società, COUNT(*) AS num_results
+FROM results
+WHERE EXTRACT(YEAR FROM data) = 2026
+GROUP BY società, cod_società
+HAVING COUNT(*) > 250;

@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import sys
 import os
+from datetime import date
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "script"))
 from my_functions import *
 
@@ -17,6 +18,19 @@ plt.rc('axes', labelsize=MEDIUM_SIZE)     # fontsize of the x and y labels
 plt.rc('xtick', labelsize=SMALL_SIZE)     # fontsize of the tick labels
 plt.rc('ytick', labelsize=SMALL_SIZE)     # fontsize of the tick labels
 plt.rc('legend', fontsize=MEDIUM_SIZE)    # legend fontsize
+
+anno_oggi = date.today().year
+
+def add_signature(fig, text="Federico De Paoli · fdp.federico@proton.me"):
+    fig.text(
+        0.99, 0.01,          # x, y in coordinate della figura (0-1), angolo in basso a destra
+        text,
+        ha="right", va="bottom",
+        fontsize=6,
+        color="gray",
+        alpha=0.5,
+        style="italic",
+    )
 
 
 def ottieni_dati(COD, area="società", filtro=''):
@@ -197,6 +211,13 @@ def genera_grafico(title, totale, anni, coeff, fname=''):
         n = totale[k]["n"].array
 
         # Andamento
+        if anni[-1] < anno_oggi: # non c'è bisogno della stima
+            ax_left.plot(years, n,
+                         marker=m[i],c=c[i], label=k.title(),
+                         markersize=7 if last else 5,
+                         linewidth=3 if last else 1.5)
+            continue
+
         ax_left.plot(years[:-1], n[:-1],
                      marker=m[i],c=c[i], label=k.title(),
                      markersize=7 if last else 5,
@@ -236,6 +257,10 @@ def genera_grafico(title, totale, anni, coeff, fname=''):
         n = totale[cat]["n"].array
 
         # Andamento
+        if anni[-1] < anno_oggi or len(years) == 1: # non c'è bisogno della stima
+            ax_right.plot(years, n, marker=m[i], markersize=5,
+                          linewidth=1.5, c=c[i], label=dict_cat[cat])
+            continue
         ax_right.plot(years[:-1], n[:-1], marker=m[i], markersize=5,
                       linewidth=1.5, c=c[i], label=dict_cat[cat])
 
@@ -256,6 +281,7 @@ def genera_grafico(title, totale, anni, coeff, fname=''):
     ax_right.legend(loc="upper left")
 
     plt.tight_layout()
+    add_signature(fig)
     if fname != '':
         plt.savefig(f"figures/{fname}.pdf", format="pdf")
     else:
@@ -266,32 +292,33 @@ def genera_grafico(title, totale, anni, coeff, fname=''):
 def ottieni_dati_con_predizioni(COD, area, mese_giorno):
 
     totale, anni = ottieni_dati(COD, area)
-    if len(anni) == 0:
-        return totale, anni, 0
+    if len(anni) <= 1 or anni[-1] < anno_oggi:
+        return totale, anni, {}
+
     filtro = f"AND TO_CHAR(data, 'MM-DD') < '{mese_giorno}'"
     if area == "regione":
         filtro = filtro.replace("data", "r.data")
     totale_red, _ = ottieni_dati(COD, area, filtro=filtro)
 
     coeff = {}
-    avg_numb = 3 if len(anni) >= 3 else len(anni)
+    avg_numb = 3 if len(anni) >= 3 + 1 else len(anni) - 1
     for key in totale:
         if key not in totale_red \
-        or (totale[key].iloc[-avg_numb:] < 5).any().any():
+        or (totale_red[key].iloc[-avg_numb-1:-1] < 5).any().any():
             coeff[key] = 1
             continue
 
         merged = totale[key][["year", "n"]].merge(
         totale_red[key][["year", "n"]], on="year", suffixes=("", "_red")
         )
-        coeff[key] = (merged["n"] / merged["n_red"]).iloc[-avg_numb:].mean()
+        coeff[key] = (merged["n"] / merged["n_red"]).iloc[-avg_numb-1:-1].mean()
 
     return totale, anni, coeff
 
 
 """ Italia """
-totale, anni, coeff = ottieni_dati_con_predizioni(None, "italia", '09-08')
-genera_grafico("Italia", totale, anni, coeff, fname="Italia")
+#totale, anni, coeff = ottieni_dati_con_predizioni(None, "italia", '09-08')
+#genera_grafico("Italia", totale, anni, coeff, fname="Italia")
 
 
 """ Regioni """
@@ -303,10 +330,11 @@ genera_grafico("Italia", totale, anni, coeff, fname="Italia")
 #    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "regione", '09-08')
 #    if len(anni) == 0: 
 #        continue
+#    print(f", {max(coeff.values())}")
 #
 #    genera_grafico(row["Regione"], totale, anni, coeff, fname=f"regioni/{COD}")
-#
-#
+
+
 """ Province """
 #province = pd.read_csv("liste/lista_province.csv", dtype="str", keep_default_na=False)
 #for ii, row in province.iterrows():
@@ -316,18 +344,20 @@ genera_grafico("Italia", totale, anni, coeff, fname="Italia")
 #    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "provincia", '09-08')
 #    if len(anni) == 0: 
 #        continue
+#    print(f", {max(coeff.values())}")
 #
 #    genera_grafico(f"{row["Provincia"]} ({COD})", totale, anni, coeff, fname=f"province/{COD}")
-#
-#
+
+
 """ Società """
 #societa = pd.read_csv("liste/lista_societa_250.csv", dtype="str", keep_default_na=False)
 #for ii, row in societa.iterrows():
 #    COD = row["COD"]
-#    print(f"{ii + 1}/{len(societa)} ({COD})")
+#    print(f"{ii + 1}/{len(societa)} ({COD})", end='')
 #
 #    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "società", '09-08')
 #    if len(anni) == 0: 
 #        continue
+#    print(f", {max(coeff.values())}")
 #
 #    genera_grafico(f"{COD}: {row["Società"]}", totale, anni, coeff, fname=f"societa/{COD}")
