@@ -1,3 +1,5 @@
+from turtle import update
+
 import pandas as pd
 from my_functions import *
 
@@ -219,6 +221,12 @@ if updated_something:
     conn.execute(text(refresh_sql))
 
     print("✅ atleti table refreshed successfully.")
+
+"""
+Update materialized view of societa, used to speedup the serach in the website
+"""
+if updated_something:
+    conn.execute(text("REFRESH MATERIALIZED VIEW societa;"))
 
 
 conn.close()
