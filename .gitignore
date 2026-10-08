@@ -3,4 +3,5 @@ script/test.py
 .venv/
 venv/
 status.txt
+log.txt
 statistiche/gare_per_anno/report_societa/societa.pdf
