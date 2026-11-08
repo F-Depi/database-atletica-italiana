@@ -77,16 +77,13 @@ di rinoscere correttamente la categoria.
 
 
 ## Cose da fare
- - Aggiungere i risultati della categoria ragazzi (compaiono nei ranking solo
- specificando la regione quindi non sono stati scaricati);
- - fare un po' di statistiche per verificare se ci sono altri errori nei dati
- che non sono stati corretti;
- - creare un calcolatore automatico di punti Fidal e World Athletics e
+ [ ] creare un calcolatore automatico di punti Fidal e World Athletics e
  aggiungere i punteggi a ogni risultato;
- - creare un calcolatore automatico per l'indennità di preparazione;
- - convertire il database da tanti file csv a un database SQL;
- - aggiungere i risultati degli atleti italiani all'estero (la Fidal non lo fa);
- - aggiungere le corse su strada;
+ [ ] creare un calcolatore automatico per l'indennità di preparazione;
+ [ ] aggiungere le corse su strada;
+ [ ] Passare all'utilizzo del link con tutte le discipline (questo permette di 
+ includere facilmente anche le corse su strada)
+
 
 
 _Buone Statistiche!_
