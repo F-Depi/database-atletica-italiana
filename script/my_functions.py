@@ -1,13 +1,14 @@
-import json
 import math
-import os
 import re
+import sys
+import time
+from datetime import date
 
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from config import DB_CONFIG
-from sqlalchemy import create_engine, text
+from sqlalchemy import create_engine
 
 
 def get_sqlalchemy_connection_string():
@@ -19,6 +20,25 @@ def get_db_engine():
     """Create and return SQLAlchemy engine."""
     connection_string = get_sqlalchemy_connection_string()
     return create_engine(connection_string)
+
+
+_session = requests.Session()
+
+def fetch_page(url, f_log, tentativi=5, timeout=(10, 60)):
+    """GET con timeout e retry con backoff esponenziale."""
+    for n in range(1, tentativi + 1):
+        try:
+            page = _session.get(url, timeout=timeout)
+            if page.status_code in (429, 500, 502, 503, 504):
+                raise requests.HTTPError(f"status {page.status_code}")
+            return page
+        except requests.RequestException as e:
+            if n == tentativi:
+                raise
+            attesa = 5 * 2 ** (n - 1)  # 5, 10, 20, 40 s
+            print(f"Tentativo {n}/{tentativi} fallito ({e.__class__.__name__}), "
+                  f"riprovo tra {attesa}s", file=f_log)
+            time.sleep(attesa)
 
 
 ## Scarica una pagina e mette i dati in un DataFrame del tipo
@@ -50,7 +70,7 @@ def get_data_FIDAL(
     print(url_FIDAL, file=f_log)
 
     # Scarico la pagina
-    page = requests.get(url_FIDAL)
+    page = fetch_page(url_FIDAL, f_log)
     soup = BeautifulSoup(page.content, "html.parser")
 
     # Rimuovo la riga con i nomi delle colonne
@@ -87,16 +107,14 @@ def get_data_FIDAL(
     )  # pyright: ignore
 
     for i, row in enumerate(data_row):
-        j = 0
         # Inserimento di tempo, vento, atleta, anno, società, posizione, luogo, data
-        for cell in row.find_all("td"):
+        for j, cell in enumerate(row.find_all("td")):
             cell = cell.text.strip()
             if j == 3:
                 cell = check_anno(cell, i, f_log)
             if j == 7:
                 cell = check_data(cell, anno, i, f_log)
             df_data.iat[i, j] = cell
-            j += 1
 
         # Inserimento di link_atleta, link_società, categoria, prestazione, cronometraggio (dati derivati)
         data_a = row.find_all("a")
@@ -167,6 +185,7 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
             del df["vento"]
         else:
             df["vento"] = df["vento"].apply(conversione_vento, args=(f_log,))
+            df["vento"] = pd.to_numeric(df["vento"], errors="coerce").astype("float64")
         df = df.rename(columns={"tempo": "prestazione"})
         return df
 
@@ -198,6 +217,7 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
             del df["vento"]
         else:
             df["vento"] = df["vento"].apply(conversione_vento, args=(f_log,))
+            df["vento"] = pd.to_numeric(df["vento"], errors="coerce").astype("float64")
         return df
 
     print(
@@ -210,27 +230,27 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
 ## Questa funzione aggiunge il 1900 o 2000 all'anno.
 ## NOTA: I più vecchi atleti nel database fidal sono del 1926, quindi questa funzione si romperà nel 2032 con l'arrivo
 ## degli E6 nati nel 2026. Let's go
-def check_anno(cell, i, f_log) -> str:
+def check_anno(cell, i, f_log) -> int | None:
     if cell == "":
         print("Anno non disponibile in riga", i, file=f_log)
-        return cell
+        return None
     else:
         anno = int(cell)
         if anno > 25:
-            return str(1900 + anno)
+            return 1900 + anno
         else:
-            return str(2000 + anno)
+            return 2000 + anno
 
 
 ## Alla Fidal non piace scrivere la data in formato standard, quindi la scrivono in modo strano e senza l'anno.
 ## Questa funzione la mette in formato standard.
-def check_data(cell, anno, i, f_log) -> str:
+def check_data(cell, anno, i, f_log) -> date | None:
     if cell == "":
         print("Data non disponibile in riga", i, file=f_log)
-        return cell
-    else:
-        data = cell.split("/")
-        return anno + "-" + data[1] + "-" + data[0]
+        return None
+
+    data = cell.split("/")
+    return date(int(anno), int(data[1]), int(data[0]))
 
 
 ## Calcola l'età dell'atleta per assegnare la categoria
@@ -239,7 +259,7 @@ def assegna_categoria(anno_atleta, data_prestazione, sesso, categoria, f_log) ->
         return categoria
     if data_prestazione == "":
         return categoria
-    eta = int(data_prestazione[:4]) - int(anno_atleta)
+    eta = data_prestazione.year - int(anno_atleta)
     if eta < 5:
         print("Atleta troppo giovane, età:", eta, file=f_log)
         return ""
@@ -281,7 +301,7 @@ def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
             hh_mm_SS = tempo.split(":")
             if len(hh_mm_SS) == 2:
                 mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1]) + 0.24
-                return mm_SS, "m"
+                return round(mm_SS, 2), "m"
             elif len(hh_mm_SS) == 3:
                 hh_mm_SS = (
                     int(hh_mm_SS[0]) * 3600
@@ -289,7 +309,7 @@ def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
                     + int(hh_mm_SS[2])
                     + 0.24
                 )
-                return hh_mm_SS, "m"
+                return round(hh_mm_SS, 2), "m"
             else:
                 print("Questo tempo ha troppi ':': " + tempo, file=f_log)
 
@@ -304,7 +324,7 @@ def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
             )
             hh_mm_SS = tempo.split(".")
             mm_SS = int(hh_mm_SS[0]) * 60 + int(hh_mm_SS[1]) + int(hh_mm_SS[2]) / 100
-            return mm_SS, "x"
+            return round(mm_SS, 2), "x"
 
         if tempo.count(".") > 2:
             print("Questo tempo ha più di 2 punti decimali: " + tempo, file=f_log)
@@ -326,9 +346,9 @@ def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
 
         # Conversione da possibile tempo manuale a tempo elettrico (+0.24 secondi)
         if len(tempo.split(".")[-1]) == 1:
-            return hh_mm_in_seconds + float(tempo) + 0.24, "m"
+            return round(hh_mm_in_seconds + float(tempo) + 0.24, 2), "m"
         elif len(tempo.split(".")[-1]) == 2:
-            return hh_mm_in_seconds + float(tempo), "e"
+            return round(hh_mm_in_seconds + float(tempo), 2), "e"
         elif len(tempo.split(".")[-1]) == 3:
             print(
                 "Questo tempo ha più di due cifre dopo il punto decimale: " + tempo,
@@ -336,14 +356,13 @@ def conversione_manuale_elettrico(tempo, f_log) -> tuple[float, str]:
             )
             # la fidal arrotonda i millesimi per super eccesso, quindi 10.231 diventa 10.24. Solo 10.230 rimane 10.23
             tempo = math.ceil(float(tempo) * 100) / 100
-            return hh_mm_in_seconds + tempo, "e"
+            return round(hh_mm_in_seconds + tempo, 2), "e"
         else:
             print("Questo tempo ha più di 3 cifre decimali: " + tempo, file=f_log)
             return -1, "x"
-    except:
+    except Exception as e: # noqa: BLE001
         print(
-            "C'è stato un errore nella conversione del tempo in float alla fine: "
-            + tempo,
+            f"Errore imprevisto nella conversione del tempo {tempo!r}: {e}",
             file=f_log,
         )
         return -1, "x"
@@ -357,14 +376,14 @@ def conversione_misure_FIDAL(misura, f_log) -> float:
         return -1
 
 
-def conversione_vento(vento, f_log) -> str | None:
-    if pd.isnull(vento):
+def conversione_vento(vento, f_log) -> float | None:
+    if pd.isna(vento) or vento == "":
         return None
-    if vento == "":
-        return None
-    vento = vento.replace(",", ".")
+
+    vento = str(vento).replace(",", ".")
+
     try:
-        return f"{float(vento):.1f}"
+        return round(float(vento), 1)
     except ValueError:
         print(f"ERRORE: Vento strano: {vento}", file=f_log)
         return None
@@ -380,52 +399,7 @@ def ultimo_aggiornamento_FIDAL() -> str:
         data = data.split("-")
         return data[2] + "-" + data[1] + "-" + data[0]
     else:
-        exit("Nessuna data trovata")
-
-
-def ultimo_aggiornamento_database() -> str | None:
-    with get_db_engine().connect() as conn:
-        query = text("""
-            SELECT ultimo_aggiornamento::date
-            FROM discipline
-            ORDER BY ultimo_aggiornamento ASC
-            LIMIT 1
-        """)
-
-        result = conn.execute(query).scalar()
-        if result is not None:
-            return result.strftime("%Y-%m-%d")
-        else:
-            return None
-
-
-## Permette di aprire un file del database di csv con pandas
-def get_file_database(ambiente, gara) -> pd.DataFrame:
-
-    if ambiente == "I":
-        foldername = "../database-atletica-csv/indoor/"
-    elif ambiente == "P":
-        foldername = "../database-atletica-csv/outdoor/"
-    else:
-        print("\nGli ambienti possibili sono: 'I', 'P', 'S'\n")
-        exit()
-
-    filename = ""
-    for subfolder in os.listdir(foldername):
-        if subfolder[-3:] == "csv":
-            continue
-        for file in os.listdir(foldername + subfolder):
-            if file[:-15] == gara:
-                filename = foldername + subfolder + "/" + file
-                break
-    if filename == "":
-        print("\nGara " + gara + " non trovata\n")
-        exit()
-
-    col_dtype = json.load(open("script/colonne_dtype.json"))
-    df = pd.read_csv(filename, dtype=col_dtype)
-
-    return df
+        sys.exit("Nessuna data trovata")
 
 
 ## Scarica la data di nascita dato il link al profilo di un atleta
@@ -457,26 +431,6 @@ def get_data_nascita_FIDAL(link_atleta, anno) -> str:
     return ""
 
 
-## Tiene solo il risultato migliore per ogni atleta
-def best_by_atleta(df, tipo=["tempo", "misura"]):
-    # df:   data frame con tutte le colonne specificate nel readme. E'
-    #       importante che ci sia una colonna 'prestazione' e una 'link_atleta'.
-    #       Si usa 'link_atleta' invece che solamente il nome perche' il link
-    #       contine un univoco che semplifica la gestione degli omonimi.
-    # tipo: specifica se la prestazione è un tempo o una misura, per tenere la
-    #       più bassa o alta rispettivamente. Default tempo.
-
-    ascend = True
-    if tipo == "misura":
-        ascend = False
-
-    df = df.sort_values(by=["link_atleta", "prestazione"], ascending=[True, ascend])
-    df = df.drop_duplicates(subset=["link_atleta"], keep="first")
-    df = df.sort_values(by="prestazione", ascending=ascend)
-
-    return df
-
-
 def check_errori(df, disciplina, f_log):
 
     log_file = "errori/errori_new.csv"
@@ -487,19 +441,3 @@ def check_errori(df, disciplina, f_log):
             print(f"Trovati {len(df_typo)} errori in cronometraggio", file=f_log)
             df_typo.insert(0, "gara", disciplina)
             df_typo.to_csv(log_file, sep=",", mode="a", index=False, header=False)
-
-    if "vento" in df.columns:
-        indexes = []
-        for i, row in df.iterrows():
-            if row["vento"] == "":
-                df.loc[i, "vento"] = None
-            if row["vento"] is None:
-                continue
-            try:
-                _ = float(row["vento"])
-            except ValueError:
-                indexes.append(i)
-        df_err = df.iloc[indexes]
-        if not df_err.empty:
-            df_err.insert(0, "gara", disciplina)
-            df_err.to_csv(log_file, sep=",", mode="a", index=False, header=False)

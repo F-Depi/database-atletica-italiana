@@ -1,4 +1,8 @@
+import logging
+
 import pandas as pd
+from sqlalchemy import text
+
 from my_functions import *
 
 """
@@ -13,196 +17,205 @@ Aggiorno a chunk di 1 anno intero perché:
     - alcuni risultati potrebbero essere stati fatti riconoscere a posteriori
       (es. prestazioni ottenute all'estero)
 
-NOTA: vengono aggiornate solo le gare che hanno un file di risultati già
-presente nel database.
+Log:
+    - status.log        -> avanzamento (INFO/WARNING)
+    - error.log         -> errori con traceback
+    - visited_links.log -> link visitati (scritto da my_functions via f_log)
 """
 
 tieni_correzioni_manuali = False
 force_update = False
+last_server_update = ultimo_aggiornamento_FIDAL()
 
-with open("log.txt", "w") as f_log, \
-     open("status.txt", "w") as f_status, \
-     get_db_engine().connect() as conn:
+DEDUP_COLS = [
+    "atleta", "anno", "categoria", "società", "posizione",
+    "luogo", "data", "link_atleta", "link_società",
+]
 
-    df_discipline = pd.read_sql("SELECT * FROM discipline", conn)
-    result = conn.execute(text("SELECT * FROM regioni_province"))
-    dict_reg_prov = {row.regione: row.province for row in result}
+REFRESH_ATLETI_SQL = [
+    "TRUNCATE atleti",
+    """
+    INSERT INTO atleti
+    WITH latest_info AS (
+        SELECT
+            link_atleta, atleta, categoria, società, anno,
+            ROW_NUMBER() OVER (PARTITION BY link_atleta ORDER BY data DESC) AS rn
+        FROM results
+    )
+    SELECT link_atleta, atleta, categoria, società, anno
+    FROM latest_info
+    WHERE rn = 1
+    """,
+]
+
+log = logging.getLogger("aggiornamento")
 
 
-    last_server_update = ultimo_aggiornamento_FIDAL()
-    print("Last server update:\t" + last_server_update, file=f_status)
+def setup_logging():
+    """status.log: messaggi sotto ERROR. error.log: solo errori (con traceback)."""
+    log.setLevel(logging.INFO)
+    log.handlers.clear()
 
-    last_database_update = ultimo_aggiornamento_database()
-    if last_database_update:
-        print("Last database update:\t" + last_database_update, file=f_status)
-    f_status.flush()
+    status = logging.FileHandler("status.log", mode="w", encoding="utf-8")
+    status.setLevel(logging.INFO)
+    status.addFilter(lambda r: r.levelno < logging.ERROR)
+    status.setFormatter(logging.Formatter("%(message)s"))
+
+    error = logging.FileHandler("error.log", mode="w", encoding="utf-8")
+    error.setLevel(logging.ERROR)
+    error.setFormatter(logging.Formatter("%(asctime)s %(message)s"))
+
+    log.addHandler(status)
+    log.addHandler(error)
 
 
-    updated_something = False
+def scarica_dati(codice, ambiente, years, regioni, f_log):
+    """Scarica tutte le graduatorie (nazionali e regionali) per gli anni dati."""
+    frames = []
+    for year in years:
+        for cat in ["C", "X"]:
+            for sesso in ["M", "F"]:
+                frames.append(get_data_FIDAL(
+                    str(year), ambiente, sesso, cat, codice,
+                    "1", "2", "0", "2", "0", "", f_log,
+                ))
 
-    ## Diamo il via alla giungla di nesting
-    for i, row in df_discipline.iterrows():
-        disciplina = row["disciplina"]
+        # Le graduatorie ragazzi esistono solo regionalmente
+        for sesso in ["M", "F"]:
+            for reg in regioni:
+                frames.append(get_data_FIDAL(
+                    str(year), ambiente, sesso, "R", codice,
+                    "1", "2", reg, "2", "0", "", f_log,
+                ))
+
+    return pd.concat(frames) if frames else pd.DataFrame()
 
 
-        ult_agg = row["ultimo_aggiornamento"].strftime("%Y-%m-%d")
-        if ult_agg >= last_server_update and not force_update:
-            print(f"{disciplina} è già aggiornata", file=f_status)
-            f_status.flush()
-            continue
+def unisci_correzioni_manuali(df_new, conn, where_clause, params):
+    """
+    Aggiunge i risultati nuovi tenendo le correzioni manuali già nel DB.
+    Deduplico senza guardare il tempo (che è quello con l'errore) tenendo la
+    prima copia, ovvero la versione già corretta nel mio DB.
+    """
+    df_old = pd.read_sql(text(f"SELECT * FROM results {where_clause}"), conn, params=params)
+    df = pd.concat([df_old, df_new]).drop_duplicates(subset=DEDUP_COLS, keep="first")
+    return df.reset_index(drop=True)
 
-        for ambiente in ["I", "P"]:
-            print(f"Aggiorno {disciplina} {ambiente}", file=f_status)
-            f_status.flush()
-            updated_something = True
 
-            # L'aggiornamento verrà fatto scaricando tutti i dati dell'anno in corso
-            # (e di quelli mancanti)
-            years = range(int(ult_agg[:4]), int(last_server_update[:4]) + 1)
+def pulisci(df, disciplina, ambiente, f_log):
+    """Controlli, filtri e colonne derivate prima del salvataggio."""
+    check_errori(df, disciplina, f_log)
 
-            codice = row["codice"]
+    if "cronometraggio" in df.columns:
+        df = df[df["cronometraggio"] != "x"]
+    df = df[df["prestazione"] > 0]
+    df = df.drop(columns=["id"], errors="ignore")
 
-            df_new = pd.DataFrame()
-            for year in years:
-                for cat in ["C", "X"]:
-                    for sesso in ["M", "F"]:
-                        df = get_data_FIDAL(str(year), ambiente, sesso, cat, codice,
-                            "1", "2", "0", "2", "0", "", f_log,)
-                        df_new = pd.concat([df_new, df])
+    df = df.copy()
+    df["disciplina"] = disciplina
+    df["ambiente"] = ambiente
+    df["sesso"] = df["categoria"].str[1]
+    df["cod_società"] = df["link_società"].str[-5:]
+    return df
 
-                # Le graduatorie ragazzi esistono solo regionalmente
-                cat = "R"
-                for sesso in ["M", "F"]:
-                    for reg in dict_reg_prov:
-                        df = get_data_FIDAL(str(year), ambiente, sesso, cat, codice,
-                            "1", "2", reg, "2", "0", "", f_log,)
-                        df_new = pd.concat([df_new, df])
 
-            if df_new.empty:
-                print(f"Nessun dato trovato per {disciplina} {ambiente}", file=f_status)
-                f_status.flush()
+def aggiorna_ambiente(conn, riga, ambiente, regioni, f_log):
+    """Aggiorna una singola coppia disciplina/ambiente."""
+    disciplina = riga["disciplina"]
+    ult_agg = riga["ultimo_aggiornamento"].strftime("%Y-%m-%d")
+    years = range(int(ult_agg[:4]), int(last_server_update[:4]) + 1)
+
+    log.info("Aggiorno %s %s", disciplina, ambiente)
+
+    df_new = scarica_dati(riga["codice"], ambiente, years, regioni, f_log)
+    if df_new.empty:
+        log.info("Nessun dato trovato per %s %s", disciplina, ambiente)
+        return
+
+    df_new = format_data_FIDAL(df_new, disciplina, ambiente, f_log).drop_duplicates()
+
+    where_clause = """WHERE disciplina = :disciplina
+                      AND data >= :data_inizio
+                      AND ambiente = :ambiente"""
+    params = {
+        "disciplina": disciplina,
+        "data_inizio": f"{years[0]}-01-01",
+        "ambiente": ambiente,
+    }
+
+    # Altrimenti ignoro i risultati già presenti perché li ho appena riscaricati
+    # più aggiornati (utile se la FIDAL corregge errori a posteriori)
+    if tieni_correzioni_manuali:
+        df = unisci_correzioni_manuali(df_new, conn, where_clause, params)
+    else:
+        df = df_new
+
+    df = pulisci(df, disciplina, ambiente, f_log)
+
+    conn.execute(text(f"DELETE FROM results {where_clause}"), params)
+    df.to_sql("results", conn, if_exists="append", index=False,
+              method="multi", chunksize=1000)
+    conn.commit()
+
+
+def aggiorna_disciplina(conn, riga, regioni, f_log):
+    for ambiente in ["I", "P"]:
+        aggiorna_ambiente(conn, riga, ambiente, regioni, f_log)
+
+    conn.execute(
+        text("UPDATE discipline SET ultimo_aggiornamento = CURRENT_TIMESTAMP "
+             "WHERE disciplina = :d"),
+        {"d": riga["disciplina"]},
+    )
+    conn.commit()
+
+
+def refresh_tabelle_derivate(conn):
+    for stmt in REFRESH_ATLETI_SQL:
+        conn.execute(text(stmt))
+    conn.commit()
+    log.info("✅ atleti table refreshed successfully.")
+
+    # Vista materializzata usata per velocizzare la ricerca sul sito
+    conn.execute(text("REFRESH MATERIALIZED VIEW societa"))
+    conn.commit()
+
+
+def main():
+    setup_logging()
+
+    with open("visited_links.log", "w", buffering=1) as f_log, \
+         get_db_engine().connect() as conn:
+
+        df_discipline = pd.read_sql("SELECT * FROM discipline", conn)
+        regioni = {row.regione: row.province
+                   for row in conn.execute(text("SELECT * FROM regioni_province"))}
+
+        updated_something = False
+
+        for _, riga in df_discipline.iterrows():
+            disciplina = riga["disciplina"]
+            ult_agg = riga["ultimo_aggiornamento"].strftime("%Y-%m-%d")
+
+            if ult_agg >= last_server_update and not force_update:
+                log.info("%s è già aggiornata", disciplina)
                 continue
 
-            # Formattazione dei dati
-            df_new = format_data_FIDAL(df_new, disciplina, ambiente, f_log)
-            df_new = df_new.drop_duplicates()
+            updated_something = True
+            try:
+                aggiorna_disciplina(conn, riga, regioni, f_log)
+            except Exception:
+                conn.rollback()  # altrimenti la transazione resta abortita
+                log.exception("======== Error during the update of %s ==========", disciplina)
+                log.warning("There was an error, go look at error.log")
 
-            # Carico il vecchio database
-            where_clause = f"""WHERE disciplina = '{disciplina}'
-                               AND data >= '{years[0]}-01-01'
-                               AND ambiente = '{ambiente}'"""
+            log.info("-" * 90)
 
-            if tieni_correzioni_manuali:
-                # L'obbiettivo è aggiungere i risultati nuovi, sapendo che abbiamo in
-                # df_new anche risultati già presenti nel DB. L'attenzione particolare
-                # sta nel fatto che ci sono risultati errati che nel DB ho corretto ma
-                # che continuo a riscaricare errati. Voglio quindi deduplicare senza
-                # guardare il tempo (che è quello che ha l'errore) tenendo la prima
-                # copia, ovvero la versione già corretta nel mio DB.
-                query1 = text(f"SELECT * FROM results {where_clause}")
-                df_old = pd.read_sql(query1, conn)
-                df = pd.concat([df_old, df_new])
-                df = df.drop_duplicates(
-                    subset=[
-                        "atleta",
-                        "anno",
-                        "categoria",
-                        "società",
-                        "posizione",
-                        "luogo",
-                        "data",
-                        "link_atleta",
-                        "link_società",
-                    ],
-                    keep="first",
-                )
-                df = df.reset_index(drop=True)
+        if updated_something:
+            refresh_tabelle_derivate(conn)
 
-            else:
-                # Ignoro i risultati che ci sono già perchè li ho appena riscaricati
-                # più aggiornati. Ogni tanto mi tocca farlo se ci sono errori grossi
-                # della fidal che passano inosservati dai miei filtri e che loro si
-                # preoccupano di correggere dopo un po'
-                df = df_new
-
-            # Controllo automatico di (alcuni) possibili errori
-            check_errori(df, disciplina, f_log)
-
-            if "cronometraggio" in df.columns:
-                df = df[df["cronometraggio"] != "x"]
-            df = df[df["prestazione"] > 0]
-
-            if "id" in df.columns:
-                df = df.drop(columns=["id"])
-
-            df["disciplina"] = disciplina
-            df["ambiente"] = ambiente
-            df["sesso"] = df["categoria"].str[1]
-            df["cod_società"] = df["link_società"].str[-5:]
-
-            conn.execute(text(f"DELETE FROM results {where_clause}"))
-            df.to_sql(
-                "results",
-                conn,
-                if_exists="append",
-                index=False,
-                method="multi",
-                chunksize=1000,
-            )
-
-            conn.commit()
-
-        conn.execute(
-            text(f"""UPDATE discipline
-                          SET ultimo_aggiornamento = CURRENT_TIMESTAMP
-                          WHERE disciplina = '{disciplina}'""")
-        )
-        conn.commit()
-
-        print("-" * 90, file=f_status)
-        f_status.flush()
+        log.info("updated_something: %s", updated_something)
 
 
-    """
-    Update atleti table
-    Refreshes the 'atleti' table in the database by truncating and reinserting
-    the latest data per athlete from the 'results' table.
-    """
-    if updated_something:
-        refresh_sql = """
-            TRUNCATE atleti;
-
-            INSERT INTO atleti
-            WITH latest_info AS (
-                SELECT
-                    link_atleta,
-                    atleta,
-                    categoria,
-                    società,
-                    anno,
-                    ROW_NUMBER() OVER (PARTITION BY link_atleta ORDER BY data DESC) AS rn
-                FROM results
-            )
-            SELECT
-                link_atleta,
-                atleta,
-                categoria,
-                società,
-                anno
-            FROM latest_info
-            WHERE rn = 1;
-        """
-
-        conn.execute(text(refresh_sql))
-
-        print("✅ atleti table refreshed successfully.")
-
-    """
-    Update materialized view of società, used to speedup the serach in the website
-    """
-    if updated_something:
-        conn.execute(text("REFRESH MATERIALIZED VIEW societa;"))
-
-
-    print(updated_something, file=f_status)
-    f_status.flush()
+if __name__ == "__main__":
+    main()
