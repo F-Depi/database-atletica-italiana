@@ -1,13 +1,14 @@
-import re
-import pandas as pd
-import matplotlib.pyplot as plt
-import sys
 import os
+import re
+import sys
 from datetime import date
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "script"))
-from my_functions import *
+import matplotlib.pyplot as plt
+import pandas as pd
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "script"))
+
+from my_functions import *
 
 SMALL_SIZE = 14
 MEDIUM_SIZE = 15
@@ -37,7 +38,7 @@ def add_signature(fig, text="Federico De Paoli · fdp.federico@proton.me"):
     )
 
 
-def ottieni_dati(COD, area="società", filtro=""):
+def ottieni_dati(conn, COD, area="società", filtro=""):
     """
     Query il DB per gli atleti di una società e plotta anno vs numero di gare.
     COD: codice società se area = società (es. BL012)
@@ -45,8 +46,6 @@ def ottieni_dati(COD, area="società", filtro=""):
          sigle regione se area = regione (es. VEN)
     """
     OPZIONI_VALIDE = ["società", "provincia", "regione", "italia"]
-
-    conn = get_db_engine().connect()
 
     if area == "società":
         QUERY = f"""
@@ -216,7 +215,7 @@ def genera_grafico(title, totale, anni, coeff, fname=""):
         n = totale[k]["n"].array
 
         # Andamento
-        if anni[-1] < anno_oggi:  # non c'è bisogno della stima
+        if anni[-1] < anno_oggi or len(years) == 1:  # non c'è bisogno della stima
             ax_left.plot(
                 years,
                 n,
@@ -346,16 +345,16 @@ def genera_grafico(title, totale, anni, coeff, fname=""):
     plt.close()
 
 
-def ottieni_dati_con_predizioni(COD, area, mese_giorno):
+def ottieni_dati_con_predizioni(conn, COD, area, mese_giorno):
 
-    totale, anni = ottieni_dati(COD, area)
+    totale, anni = ottieni_dati(conn, COD, area)
     if len(anni) <= 1 or anni[-1] < anno_oggi:
         return totale, anni, {}
 
     filtro = f"AND TO_CHAR(data, 'MM-DD') < '{mese_giorno}'"
     if area == "regione":
         filtro = filtro.replace("data", "r.data")
-    totale_red, _ = ottieni_dati(COD, area, filtro=filtro)
+    totale_red, _ = ottieni_dati(conn, COD, area, filtro=filtro)
 
     coeff = {}
     avg_numb = 3 if len(anni) >= 3 + 1 else len(anni) - 1
@@ -375,48 +374,54 @@ def ottieni_dati_con_predizioni(COD, area, mese_giorno):
     return totale, anni, coeff
 
 
+mese_giorno = date.today().strftime("%m-%d")
+conn = get_db_engine().connect()
+
+
 """ Italia """
-# totale, anni, coeff = ottieni_dati_con_predizioni(None, "italia", '09-08')
-# genera_grafico("Italia", totale, anni, coeff, fname="Italia")
+totale, anni, coeff = ottieni_dati_con_predizioni(conn, None, "italia", mese_giorno)
+genera_grafico("Italia", totale, anni, coeff, fname="Italia")
 
 
 """ Regioni """
-# regioni = pd.read_csv("liste/lista_regioni.csv", dtype="str", keep_default_na=False)
-# for ii, row in regioni.iterrows():
-#    COD = row["COD"]
-#    print(f"{ii + 1}/{len(regioni)} ({COD})")
-#
-#    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "regione", '09-08')
-#    if len(anni) == 0:
-#        continue
-#    print(f", {max(coeff.values())}")
-#
-#    genera_grafico(row["Regione"], totale, anni, coeff, fname=f"regioni/{COD}")
+regioni = pd.read_csv("liste/lista_regioni.csv", dtype="str", keep_default_na=False)
+for ii, row in regioni.iterrows():
+   COD = row["COD"]
+   print(f"{ii + 1}/{len(regioni)} ({COD})")
+
+   totale, anni, coeff = ottieni_dati_con_predizioni(conn, COD, "regione", mese_giorno)
+   if len(anni) == 0:
+       continue
+   print(f", {max(coeff.values()) if coeff else '-'}")
+
+   genera_grafico(row["Regione"], totale, anni, coeff, fname=f"regioni/{COD}")
 
 
 """ Province """
-# province = pd.read_csv("liste/lista_province.csv", dtype="str", keep_default_na=False)
-# for ii, row in province.iterrows():
-#    COD = row["COD"]
-#    print(f"{ii+1}/{len(province)} ({COD})")
-#
-#    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "provincia", '09-08')
-#    if len(anni) == 0:
-#        continue
-#    print(f", {max(coeff.values())}")
-#
-#    genera_grafico(f"{row["Provincia"]} ({COD})", totale, anni, coeff, fname=f"province/{COD}")
+province = pd.read_csv("liste/lista_province.csv", dtype="str", keep_default_na=False)
+for ii, row in province.iterrows():
+   COD = row["COD"]
+   print(f"{ii+1}/{len(province)} ({COD})")
+
+   totale, anni, coeff = ottieni_dati_con_predizioni(conn, COD, "provincia", mese_giorno)
+   if len(anni) == 0:
+       continue
+   print(f", {max(coeff.values()) if coeff else '-'}")
+
+   genera_grafico(f"{row["Provincia"]} ({COD})", totale, anni, coeff, fname=f"province/{COD}")
 
 
 """ Società """
-# societa = pd.read_csv("liste/lista_societa_250.csv", dtype="str", keep_default_na=False)
-# for ii, row in societa.iterrows():
-#    COD = row["COD"]
-#    print(f"{ii + 1}/{len(societa)} ({COD})", end='')
-#
-#    totale, anni, coeff = ottieni_dati_con_predizioni(COD, "società", '09-08')
-#    if len(anni) == 0:
-#        continue
-#    print(f", {max(coeff.values())}")
-#
-#    genera_grafico(f"{COD}: {row["Società"]}", totale, anni, coeff, fname=f"societa/{COD}")
+societa = pd.read_csv("liste/lista_societa.csv", dtype="str", keep_default_na=False)
+for ii, row in societa.iterrows():
+   COD = row["COD"]
+   print(f"{ii + 1}/{len(societa)} ({COD})", end='')
+
+   totale, anni, coeff = ottieni_dati_con_predizioni(conn, COD, "società", mese_giorno)
+   if len(anni) == 0:
+       continue
+   print(f", {max(coeff.values()) if coeff else '-'}")
+
+   genera_grafico(f"{COD}: {row["Società"]}", totale, anni, coeff, fname=f"societa/{COD}")
+
+conn.close()
