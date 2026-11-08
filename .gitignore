@@ -4,6 +4,5 @@ script/test.py
 script/foo.py
 .venv/
 foo
-status.txt
-log.txt
+*.log
 statistiche/gare_per_anno/report_societa/societa.pdf
