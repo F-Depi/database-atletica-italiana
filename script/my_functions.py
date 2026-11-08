@@ -1,12 +1,13 @@
+import json
+import math
+import os
+import re
+
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
-import math
-import json
-import re
-import os
-from sqlalchemy import create_engine, text
 from config import DB_CONFIG
+from sqlalchemy import create_engine, text
 
 
 def get_sqlalchemy_connection_string():
@@ -207,7 +208,7 @@ def format_data_FIDAL(df, gara, ambiente, f_log) -> pd.DataFrame:
 
 ## Alla Fidal non piace scrive l'anno con 4 cifre, quindi scrivono solo le ultime due.
 ## Questa funzione aggiunge il 1900 o 2000 all'anno.
-## NOTA: I più vecchi atleti nel database fidal sono del 1926, quindi questa funzione si romperà nel 1932 con l'arrivo
+## NOTA: I più vecchi atleti nel database fidal sono del 1926, quindi questa funzione si romperà nel 2032 con l'arrivo
 ## degli E6 nati nel 2026. Let's go
 def check_anno(cell, i, f_log) -> str:
     if cell == "":
