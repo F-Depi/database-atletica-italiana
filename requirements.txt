@@ -1,0 +1,8 @@
+bs4
+dotenv
+matplotlib
+numpy
+pandas
+psycopg[binary]
+requests
+sqlalchemy
